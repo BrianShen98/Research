@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+
+for file in ./sentence-completed/*.instenv
+do
+    sed -i "/^Obj\|^Env/!d"  $file
+    sed -i "s/^Env: //g" $file
+done

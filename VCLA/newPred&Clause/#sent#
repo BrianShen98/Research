@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo > sent.txt
+for i in {0..468}
+do
+    echo "File $i" >> sent.txt
+    sed /^start/d ./sentence-completed/$i.clauses | sed />> sent.txt
+done

@@ -1,0 +1,8 @@
+#!/usr/bin/bash
+
+#delete everything except object list and propositions
+for file in ./sentence-completed/*.instenv
+do
+    sed -i "/^Obj\|^Env/!d"  $file
+    sed -i "s/^Env: //g" $file
+done
