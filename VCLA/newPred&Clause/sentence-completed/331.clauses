@@ -1,0 +1,25 @@
+entire sentence: , Pick up bowl
+dump   the bowl in trash
+close the right fridge door   , , 
+
+<start clause>
+start env: 0
+end env: -1
+sent: Pick up bowl
+dump  
+clause dscr: Pick [   bowl dump | relation: Null ]
+words: Pick bowl dump
+verb: Pick
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 2
+end env: 1
+sent:  the bowl in trash
+close the right fridge door  
+clause dscr: close [   bowl |   trash |   fridge door | relation: (3, 3){ bowl x  trash -> in}{ bowl x  fridge door -> in} ]
+words: close bowl trash fridge door in in
+verb: close
+arg mapping: 
+<end clause>

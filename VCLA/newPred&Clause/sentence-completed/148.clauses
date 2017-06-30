@@ -1,0 +1,21 @@
+entire sentence: , Turn off the tv   ,  Put snacks and books on the table   
+
+<start clause>
+start env: 0
+end env: 1
+sent: Turn off the tv  
+clause dscr: Turn [   tv | relation: Null ]
+words: Turn tv
+verb: Turn
+arg mapping: (tv,Tv_1)
+<end clause>
+
+<start clause>
+start env: 10
+end env: 9
+sent:  . Put snacks and books on the table  
+clause dscr: Put [   snacks |   books |   table | relation: (3, 3){ snacks x  books -> and}{ snacks x  table -> on}{ books x  table -> on} ]
+words: Put snacks books table and on on
+verb: Put
+arg mapping: 
+<end clause>

@@ -1,0 +1,2414 @@
+
+File 0
+sent: Take pot on counter  
+sent:  and fill it with water from the sink  
+sent:  . Place the pot on a burner on the stove  
+sent:  . Turn on the burner  
+sent:  and let the water boil  
+sent:  open the lid of the ramen cup  
+sent:  and pour boiling water in until it reaches the top of the container  
+File 1
+sent: Fill the mug with water from the sink  
+sent:  and put it into the microwave oven  
+sent:  . Turn on the oven  
+File 2
+sent: Put the game into the Xbox,  
+sent:  connect xbox to television  
+sent:  . Turn on the television  
+sent:  . Move the couch so that it's in front of the Xbox  
+File 3
+sent: If anything is disposable and used, put it in the trash bag  
+sent: If it is not disposable and on the floor 
+sent: If a not disposable item contains only disposable objects , dump them into the trash bag , 
+sent:  and treat the object  
+sent:  like it was on the floor  
+sent:  .  Remove the trash bag from the scenario  
+File 4
+sent: Put the book on the table  
+sent:  .
+sent:  .
+File 5
+sent: Turn on the music  
+sent:  . Place beer and chips onto the table  
+sent:  . Pour chips into the bowl . Move all furniture to the sides of the room  
+File 6
+sent: Grab the ramen on the table  
+sent:  . Go to the sink,  
+sent:  fill the ramen cup with water  
+sent:  . Put into the microwave and microwave for 3 minutes 
+sent:   Put into the microwave and microwave for 3 minutes .  .
+File 7
+sent: Boil some water  
+sent:  and make some coffee  
+sent:  . Find a white bowl  
+sent:  . Take ice cream out of the freezer  
+sent:  . Put coffee into the white bowl,  
+sent:  then put two scoops of ice cream  
+sent:  over that . Finally, take the syrup on the counter  
+sent:  and drizzle it over the ice cream  
+File 8
+sent: grasp the pot  
+sent:  . Toggle the sink  
+sent:  and fill the pot  
+sent:  . Place pot on front left stove  
+sent:  . Toggle front left stove  
+File 9
+sent: Grab plates and cups  
+sent:  and bring  
+sent:  to sink  
+sent:  . Put ice cream in freezer  
+File 10
+sent:  some drink and food being  
+File 11
+sent: Pick up the game  
+sent:  and put it in the xbox  
+sent:  . Take the bag of chips and the bowl  
+sent:  and place them on the coffee table  
+sent:  . Move the couch closer to the television  
+File 12
+sent: Dispose of trash .
+File 13
+sent: Fill the pot with water in the sink the boil it on the stove  
+File 14
+sent: Turn TV  
+sent:  on with remote and find movie (Lincoln) 
+sent:  on with remote and find movie (Lincoln) . Take bag of chips  
+sent:  and place on table  
+sent:  . Take pillow from shelf and place on a sofa  
+sent:  . Throw away beer and soda,  
+sent:  and place Book of Records on shelf  
+File 15
+sent: Take boiled egg from fridge  
+sent:  and throw out shell  
+sent:  . Put on plate  
+sent:  . Take plate along with the mug with coffee in it to hungry person  
+File 16
+sent: Turn off the TV  
+sent:  .
+sent:  . Also, put the beer, the coke and the bowl on the shelf  
+sent:  .
+sent:  and if you find any put them on the table  
+File 17
+sent: grasp far cry and xbox  
+sent:  . drop near tv  
+sent:  . grasp bowl and place on table . move couch near tv  
+File 18
+sent: Turn on the music  
+sent:  . Bring us chips and coke  
+sent:  . Bring us the controller  
+File 19
+sent: put xbox and xboxController into the TV  
+sent:  stand . Throw the trash bag into the garbage bin  
+File 20
+sent: Put the pillows on the couch  
+sent:  . Turn on the TV  
+sent:  and change it to a channel with a movie  
+sent:  . Take beer  
+sent:  and put it on the table in front of the couch  
+File 21
+sent: Grab the ramen on the table  
+sent:  . Go to the sink,  
+sent:  fill the ramen cup with water  
+sent:  . Put into the microwave and microwave for 3 minutes 
+sent:   Put into the microwave and microwave for 3 minutes .  .
+File 22
+sent: Fill pot with water  
+sent:  . Put pot on stove  
+sent:  . Turn stove  
+File 23
+sent: Place the ice cream in the freezer  
+sent:  . Place all syrup bottles in the fridge  
+sent:  . Take all pots, cups, plates, and silverware  
+sent:  and put them in the sink  
+File 24
+sent: Make some coffee  
+sent:  . Make some eggs on the stove  
+sent:  and then put them on a plate  
+sent:  and serve the eggs and coffee  
+File 25
+sent: Turn on xbox  
+sent:  . Take Far Cry Game CD  
+sent:  and put in xbox  
+sent:  by pressig  
+sent:  eject to open drive  
+sent:  . Throw out beer, coke, and sketchy stuff in bowl  
+sent:  . Take pillows from shelf  
+sent:  and distribute among couches  
+File 26
+sent: Open freezer,  
+sent:  remove icecream,  
+sent:  close freezer  
+sent:  . Get spoon and plate,  
+sent:  open ice cream,  
+sent:  scoop  
+sent:  and place on plate,  
+sent:  close ice cream,  
+sent:  replace in fridge  
+sent:  . Get mug with coffee  
+sent:  and pour over ice cream  
+sent:  . Place mug in sink . Get chocolate syrup  
+sent:  and pump over ice cream  
+File 27
+sent: Take the pot that already has some water in it  
+sent:  . Put it on one of the burners,  
+sent:  and turn it  
+File 28
+sent: Put the used dishes and cups in the sink  
+sent:  and place all the items neatly on the counter and place all the items neatly on the counter  
+File 29
+sent: Pick up the game  
+sent:  and put it in the xbox  
+sent:  . Take the bag of chips and the bowl  
+sent:  and place them on the coffee table  
+sent:  . Move the couch closer to the television  
+File 30
+sent: grasp soda, grasp chips, grasp beer . drop in trash can . grasp trash bag  
+File 31
+sent: Put all the school books on the table  
+sent:  . Turn off the tv  
+sent:  and pour some chips and drinks  
+File 32
+sent: Turn the TV  
+sent:  on and change the channel to one with music  
+sent:  . Get food  
+sent:  and put it on the coffee table  
+sent:  . Pick up the controller on the floor and place on the table  
+sent:  . Throw out the bottle  
+File 33
+sent: gather ingredients (egg from fridge, ramen from counter) microwave water in cup,  
+sent:  or boil water in pot  
+sent:  (process described in previous scenario)  
+sent:  . Pour boiling water in ramen cup  
+sent:  and removing soup base  
+sent:  . pour soup base  
+sent:  and add  
+sent:  to ramen and throw shell in trash  
+File 34
+sent: Take  
+sent:  coffee pot pour into the mug  
+sent:  . Take  
+sent:  spoon from counter scoop the ice cream  
+sent:  . Put ice cream to the mug  
+sent:  . Pour syrup to the mug  
+File 35
+sent: Take coffee from the container  
+sent:  . Pour coffee to the mug  
+sent:  . Take  
+sent:  the spoon scoop the ice cream  
+sent:  . Put the ice cream in the mug  
+sent:  . Pour syrup on the ice cream  
+File 36
+sent: Grasp the pot  
+sent:  and walk to the sink  
+sent:  . Toggle the tap  
+sent:  to fill the pot  
+sent:  . Put the pot on the stove  
+sent:  . Turn on the burner  
+sent:  . Turn off the burner  
+File 37
+sent:  and put them in the sink one at a time  
+File 38
+sent: Take  
+sent:  . Fill it with water from the sink  
+sent:  . Put it on the already lit  
+File 39
+sent: Prepare drinks and food  
+sent:  .Serve the people  
+File 40
+sent: Put the dishes in the sink,  
+sent:  put all perishable foods in the refrigerator,  
+sent:  and put the pots and utensils in the sink  
+File 41
+sent: Take the game  
+sent:  and put it in the xbox,  
+sent:  turn on the TV  
+sent:  and arrange the couches around the TV  
+File 42
+sent: Turn off the TV,  
+sent:  put all the pillows back on the top shelf,  
+sent:  empty the contents of the bowl,  
+sent:  throw out empty bottles and cans,  
+sent:  and take out the trash  
+File 43
+sent: Open fridge and freezer  
+sent:  and pick a drink  
+sent:  . Remove boiled egg  
+sent:  . Pour said drink in a long cup or mug  
+sent:  . Bring cup, plate, and possibly salt to whomever is eating, with plate  
+File 44
+sent: grasp cd put in xbox  
+sent:  . grasp bag of chips  
+sent:  . grasp trash  
+File 45
+sent: clear all tables and the floor  
+sent:  and put the contents on the shelves  
+sent:  .  Take any drinks  
+sent:  and put them on the coffee table  
+sent:  .  Take the chip bowl  
+sent:  and place it near the drinks  
+sent:  . Open the chips,  
+sent:  and pour them into the chip bowl until it  
+sent:  is full . Place the bag near the bowl  
+sent:  .  Change the TV channel until a dance music themed station  
+sent:  .  Turn the volume  
+sent:  to full .  Move all chairs and tables to the edge of the room  
+sent:  .  Make sure the chairs are rotated so that they face the room's center  
+File 46
+sent: Place the Xbox and Xbox controller  
+sent:  underneath the television console . Place  
+sent:  all of the couches on one side of the wall, preferably facing the television  
+sent:  . Place all of the beer and bags of chips on the white counter  
+sent:  . Place the garbage bin near the white counter  
+sent:  . Place the trash bag inside the garbage bin  
+sent:  . Turn on the television  
+sent:  to channel  
+sent:  3 and increase the volume  
+sent:  . Place  
+sent:  the coke can on the counter along with the beer and chips  
+File 47
+sent: Turn off the TV  
+sent:  . Grasp the brown book to the table in front of the couch  
+File 48
+sent: take the coffee  
+File 49
+sent: Make coffee  
+sent:  .  Take a bowl, ice cream scoop,  
+sent:  and ice cream .  Use  
+sent:  to add ice cream to the bowl  
+sent:  twice .  Slowly pour the finished coffee into the bowl  
+sent:  .  Get the syrup  
+sent:  and squirt two tablespoons on top  
+sent:  .  serve with a spoon  
+File 50
+sent: Take the mug in the microwave  
+sent:  and go to the sink  
+sent:  and add water to it  
+sent: After there is water in the mug 
+File 51
+sent: Put away the chocolate syrup  
+sent:  . Place the glassware and mugs into the sink  
+sent:  . Put the pots away 
+File 52
+sent: Pick up Long Cup2  
+sent:  and carry it to the tap  
+sent:  . Fill Long Cup2 with water  
+sent:  . 
+sent:  . Place in Microwave and heat  
+sent:  . Place food on plate  
+File 53
+sent: Dump the coffee in the mug in the sink,  
+sent:  put all perishable items in the refrigerator,  
+sent:  put all the dishes, utensils, and pots in the sink  
+File 54
+sent: Put the game into the xbox  
+sent:  . Get the food on the table  
+sent:  and rearrange them to the original place  
+File 55
+sent: Grab the game cd  
+sent:  . Place the cd in the xobx  
+sent:  . Prepare us food  
+sent:  and bring the coke  
+sent:  . Take the pillow from the shelf  
+sent:  and put it to the couch  
+File 56
+sent: Place both books on the center table  
+sent:  . Hold the trash bag in one hand  
+sent:  and place the plate inside the bag  
+sent:  . Place the empty coke can, beer, and bag of chips into the trash bag. 
+sent:  Arrange the couches  
+sent:  in the correct locations in the living room  
+sent:  . Pick up Guiness book from the floor and place on desk  
+sent:  . turn off the lamp  
+sent:  . Place the three pillows on the couches  
+File 57
+sent: Put everything on the table onto the shelves  
+sent:  . Place chip bag in garbage  
+sent:  bag . Take out garbage  
+File 58
+sent: Open the gameCD with TV  
+sent:  . Put xbox and its controller in the shelf under the TV  
+sent:  and throw the container into the trash bag  
+sent:  . Put pillows onto the coaches,  
+sent:  one for each . Arrange coaches around the big table . Put books on the study desk  
+File 59
+sent: Put the pot on the stove and boil the water  
+sent:  place in the cup with instant ramen  
+sent:  . Wait a few minutes  
+sent:  for it to cook  
+File 60
+sent: Bring pot to sink  
+sent:  . Fill pot with water  
+sent:  . Put pot on stove  
+sent:  . Turn stove  
+File 61
+sent: Get out drink and food for me from the fridge  
+sent:  them to me by putting them in plates  
+File 62
+sent: Put the game into the Xbox,  
+sent:  connect xbox to television  
+sent:  . Turn on the television  
+sent:  . Move the couch so that it's in front of the Xbox  
+File 63
+sent: Put the beer and coke into the garbage bag  
+sent:  . Empty the contents of the bowl into the garbage bag  
+sent:  . Put the garbage bag into the garbage bin 
+sent:   Put the garbage bag into the garbage bin . Turn off the TV  
+File 64
+sent: Put the movie in the Xbox  
+sent:  and turn the television input to Xbox  
+sent:  . Put bag of chips on table  
+sent:  . Put pillows on couch  
+File 65
+sent: Take the mug  
+sent:  and add coffee  
+sent:  . Place a scoop of icecream from the freezer and syrup into it  
+File 66
+sent: Clean all the plate. Then put Syrup into the fridge. All the cups and glass should be near to the kettle. After cleaning the plates, put them near the kettle too.
+File 67
+sent: Take a cup  
+sent:  and fill it with water from the sink  
+sent:  . Make ramen  
+sent:  and put it in a plate  
+sent:  . Take both items  
+sent:  and serve  
+sent:  them to whomever  
+File 68
+sent: Open the gameCD with TV  
+sent:  . Put xbox and its controller on the table in front of the coaches  
+sent:  and throw the container into the trash bag  
+sent:  . Arrange coaches around the big table . Put pillows onto the coaches,  
+File 69
+sent: grasp soda, grasp chips, grasp beer . drop in trash can . grasp trash bag  
+File 70
+sent: Take Book  
+sent:  off .Throw out open beer and coke  
+sent:  . Chips are good .  .
+File 71
+sent: Turn the TV  
+sent:  on and change the channel to one with music  
+sent:  . Get food  
+sent:  and put it on the coffee table  
+sent:  . Pick up the controller on the floor and place on the table  
+sent:  . Throw out the bottle  
+File 72
+sent: take the coffee  
+File 73
+sent: Put the pot in the sink, fill it up and boil the water on the stove  
+File 74
+sent: Boil the water  
+File 75
+sent: Take the dishes  
+sent:  and place them on top  
+sent:  of each other . Stack the cups  
+sent:  . Put the bottles away in the appropriate cabinets  
+File 76
+sent: Make some coffee  
+sent:  . Make some eggs on the stove  
+sent:  and then put them on a plate  
+sent:  and serve the eggs and coffee  
+File 77
+sent: Keep all books together on the shelf  
+sent:  . Make sure the tv  
+sent:  is off . Put the chips on the coffee table  
+File 78
+sent: Put the pillows on the couch,  
+sent:  play some music on the xbox through the tv  
+sent:  . Clean the floor up . Put some food on the table  
+sent:  . Make sure all the books are on the shelf  
+File 79
+sent: Take the ramen  
+sent:  and add it to the pot  
+sent:  . put the pot in the sink  
+sent:  and turn on the tap until the pot is ten percent  
+sent:  full . Then, put the pot on the stove  
+sent:  and turn on the stove for two minutes  
+File 80
+sent: Take the ice cream out of the freezer  
+sent:  and put several scoops into the cup with the coffee in it  
+sent:  . Pour chocolate and vanilla syrup on top  
+File 81
+sent: place glass1, long cup2, long cup1, mug and canada dry on the table against the wall .  Put the spoon and plate into the sink  
+File 82
+sent: Pick up the mug  
+sent:  and fill it with water from the refrigerator  
+sent:  . Take out food from the refrigerator,  
+sent:  place it on a plate  
+sent:  and then heat it in the microwave  
+sent:  . Place the mug and plate on the table  
+File 83
+sent: get out the ramen  
+sent:  and then cook it  
+File 84
+sent: Put the game in the xbox  
+sent:  and turn it  
+sent:  on . Connect the xbox to the tv,  
+sent:  and turn  
+sent:  both on . Put the chips in the bowl  
+sent:  and put it on the table  
+sent:  . Bring all the drinks in the room  
+sent:  and put them on the table  
+sent:  . Put all pillows on the couch  
+File 85
+sent: Set up the xbox and tv  
+sent:  and turn  
+sent:  both on . Put the movie  
+sent:  in . Put the chips on the table  
+sent:  and dump the bowl  
+sent:  . Put the pillows on the couch  
+File 86
+sent: grasp the pot,  
+sent:  put it in the sink  
+sent:  . open the faucet  
+sent:  . grasp the pot  
+sent:  and put it on the left stove  
+sent:  . turn on the left stove  
+File 87
+sent: Put the brown book on the coffee table  
+sent:  . Turn off TV  
+sent:  . Pour the bag of chip into the bowl  
+sent:  and place it on the coffee table  
+File 88
+sent: Turn on the television  
+sent:  to channel  
+sent:  three .
+sent:  . Put beer_1 under the table  
+sent:  .
+sent:  . Move all the sofas or chairs next to the wall  
+File 89
+sent: Prepare the drink  
+sent:  by pouring the drink in the yellow bottle into an empty cup on the table  
+sent:  . Prepare the food  
+sent:  and take  
+File 90
+sent: Put everything on the table onto the shelves  
+sent:  . Place chip bag in garbage  
+sent:  bag . Take out garbage  
+File 91
+sent: Organize the chairs so that they face the TV  
+sent:  . Put the pillows on the chairs  
+sent:  . Put the chips in the bowl  
+sent:  . Turn  
+sent:  to channel 3 on the TV  
+File 92
+sent: Get  
+sent:  the water pour into bowl  
+sent:  . Place bowl on the stove . Boil water  
+File 93
+sent: Take out the books  
+sent:  for me and turn off the tv  
+sent:  . Prepare some coffee for me with milk and sugar  
+File 94
+sent: Grasp the vanilla syrup bottle  
+sent:  . Open the fridge door  
+sent:  and place the bottle inside the fridge  
+sent:  . Close the fridge door  
+sent:  . Carry Glass1, long cup1, Mug, Long Cup2, pot, and spoon near the sink . Empty the contents of the mug into the sink  
+sent:  and clean the sink with the running water  
+sent:  . Place the instant ramen, ramen,  
+sent:  and salt bottle into their designated pantries  
+File 95
+sent: Prepare  
+sent:  the coffee using hot water  
+sent:  . Place two scoops of ice cream into the mug . Take the coffee  
+sent:  and pour the coffee over the ice cream in the mug  
+sent:  . Drizzle with syrup  
+File 96
+sent: Prepare ramen and place in the mug  
+sent:  . Place the mug next to the plate on the kitchen table  
+sent:  .
+File 97
+sent: Get the far cry game CD on the shelf and insert it into the xbox. xbox is right in front of the TV so there is no need to change its place. Food is already served on the table. No need to arrange couch.
+File 98
+sent:  controller on the table . Pour all the chips into the bowl  
+sent:  and put the bowl on the table  
+sent:  . Move drinks and food to the middle of the table  
+sent:  . Put the pillow on the coach  
+File 99
+sent: Prepare  
+sent:  the coffee using hot water  
+sent:  . Place two scoops of ice cream into the mug . Take the coffee  
+sent:  and pour the coffee over the ice cream in the mug  
+sent:  . Drizzle with syrup  
+File 100
+sent: Throw out chips, coke and beer  
+sent:  . Take brown book and place on shelf with CD  
+sent:  . Take xbox game controller  
+sent:  and put with xbox  
+sent:  . Take pillows from shelf  
+sent:  and put on couches  
+sent:  . Take bowl from floor and place in kitchen  
+sent:  . Throw out the trash  
+File 101
+sent: Set up the TV and the Xbox  
+sent:  . Put the movie into the xbox  
+sent:  . Place a pillow on each couch  
+File 102
+sent: Bring books to the room . If the television is on, turn it  
+sent:  off . Pour the rest of the chips into the bowl,  
+sent:  then throw away the bag  
+File 103
+sent: Fill the mug with water from the sink  
+sent:  and put it into the microwave oven  
+sent:  . Turn on the oven  
+File 104
+sent: Bring the pot to the sink  
+sent:  and fill it up with water  
+sent:  . Bring the pot to the stove  
+sent:  and turn on the stove  
+sent:  . Turn off the stove  
+File 105
+sent: Take all silverware, plates, cups, and pots  
+sent:  and place them in the sink  
+sent:  . Empty the contents of the cups and pot  
+sent:  . Place the syrup bottles in the refrigerator  
+sent:  . Put the ramen in the cabinet  
+File 106
+sent: Grab a cup,  
+sent:  and fill the cup with milk  
+sent:  .  Next grab a bowl .  Fill the bowl with cereal  
+sent:  .  Slowly add milk to the same bowl  
+sent:  . Put the cup and bowl next to each other, along with a spoon  
+File 107
+sent: grasp far cry and xbox  
+sent:  . drop near tv  
+sent:  . grasp bowl and place on table . move couch near tv  
+File 108
+sent: grasp the coffee mug  
+sent:  and put it near the fridge  
+sent:  . Open the freezer  
+sent:  and put a spoon of ice cream in the mug  
+sent:  . Pour some syrup on top of the ice cream from vanilla syrup bottle 
+sent:   Pour some syrup on top of the ice cream from vanilla syrup bottle .  .
+File 109
+sent: Pour the pot  
+sent:  and wash it in the sink  
+sent:  .Fill the pot with water from the sink and boil it on the stove  
+File 110
+sent: grasp plate  
+sent:  plate1 and plate2 together and place the cups  
+File 111
+sent: Put the game in the  xbox  
+sent:  . Turn the television input to Xbox  
+sent:  . Put bag of chips and coke on table  
+sent:  . Move couch in front of television  
+File 112
+sent: Boil some water  
+sent:  and make some coffee  
+sent:  . Find a white bowl  
+sent:  . Take ice cream out of the freezer  
+sent:  . Put coffee into the white bowl,  
+sent:  then put two scoops of ice cream  
+sent:  over that . Finally, take the syrup on the counter  
+sent:  and drizzle it over the ice cream  
+File 113
+sent: Put  
+sent:  all the school books on the table turn off the tv  
+sent:  and get chips and soda on the table  
+File 114
+sent: Throw out chips, coke and beer  
+sent:  . Take brown book and place on shelf with CD  
+sent:  . Take xbox game controller  
+sent:  and put with xbox  
+sent:  . Take pillows from shelf  
+sent:  and put on couches  
+sent:  . Take bowl from floor and place in kitchen  
+sent:  . Throw out the trash  
+File 115
+sent: Take the CD  
+sent:  and put it in the xbox  
+sent:  . Place the bowl and the chips on the table in front of the couch  
+File 116
+sent: Put some water into the kettle and then use the stove to heat the kettle.
+File 117
+sent: place glass1, long cup2, long cup1, mug and canada dry on the table against the wall .  Put the spoon and plate into the sink  
+File 118
+sent: grab the beer, coke and bowl  
+sent:  and place them on the coffee table  
+sent:  . Grab pillows  
+sent:  and put them on the couch  
+File 119
+sent: Make breakfast  
+sent:  . Pour the drink into a long cup  
+sent:  . Serve the food in the plate  
+File 120
+sent: clear the table  
+sent:  .  Bring all non-alcoholic drinks to the table  
+sent:  .  Bring the bowl to the table  
+sent:  . Open the chips  
+sent:  and pour them into the bowl  
+sent:  .  Bring all books to the table  
+sent:  . Turn off the TV  
+sent:  .  Bring all chairs around the table  
+File 121
+sent: Take out the coffee  
+sent:  . Take out the ice cream and syrup on the table  
+File 122
+sent: Put the game in the xbox,  
+sent:  turn on the TV,  
+sent:  arrange the couches around the TV,  
+sent:  take the chips  
+sent:  and pour its content in the bowl,  
+sent:  take the bowl  
+sent:  and place it on the table by the couches  
+File 123
+sent: Put  
+sent:  all books required for our study night on the table  
+sent:  . Turn off the TV  
+sent:  . Put enough food for us on the table  
+File 124
+sent: Take out the coffee  
+sent:  . Take out the ice cream and syrup on the table  
+File 125
+sent: Set up the Xbox with the TV  
+sent:  and put the music CD into the XBox  
+sent:  . Put all books and other CDs on the shelve  
+File 126
+sent: Use the kettle to boil water. You can get water by using the tab. Use stove to heat the kettle.
+File 127
+sent: gather ingredients (egg from fridge, ramen from counter) microwave water in cup,  
+sent:  or boil water in pot  
+sent:  (process described in previous scenario)  
+sent:  . Pour boiling water in ramen cup  
+sent:  and removing soup base  
+sent:  . pour soup base  
+sent:  and add  
+sent:  to ramen and throw shell in trash  
+File 128
+sent: Bring pot to sink and fill with water  
+sent:  . Put pot on stove  
+sent:  . Turn on stove  
+File 129
+sent: Get the egg from the fridge  
+sent:  and put it on the plate  
+File 130
+sent: Put the game in the xbox  
+sent:  and turn it  
+sent:  on . Connect the xbox to the tv,  
+sent:  and turn  
+sent:  both on . Put the chips in the bowl  
+sent:  and put it on the table  
+sent:  . Bring all the drinks in the room  
+sent:  and put them on the table  
+sent:  . Put all pillows on the couch  
+File 131
+sent: Grasp the vanilla syrup bottle  
+sent:  . Open the fridge door  
+sent:  and place the bottle inside the fridge  
+sent:  . Close the fridge door  
+sent:  . Carry Glass1, long cup1, Mug, Long Cup2, pot, and spoon near the sink . Empty the contents of the mug into the sink  
+sent:  and clean the sink with the running water  
+sent:  . Place the instant ramen, ramen,  
+sent:  and salt bottle into their designated pantries  
+File 132
+sent: -take coffee-ice cream-milk-syrup .
+File 133
+sent: Put the cd's next to the tv,  
+sent:  trash any open food  
+sent:  and place all the controllers and remotes on the table  
+sent:  and pick up the pillows  
+File 134
+sent: Take the pot  
+sent:  and fill it with water  
+sent:  . Put it in the microwave  
+sent:  and start the microwave  
+File 135
+sent:  and put them in the sink one at a time  
+File 136
+sent: get the bag of chips and bowl on the table  
+File 137
+sent: Place ramen and instant ramen into pot and cook on top of the stove Place ramen and instant ramen into pot and cook on top of the stove  
+sent:  . Put the chocolate and vanilla syrup bottle into the fridge  
+sent:  and close the fridge door  
+sent:  . Pour the drink into the long glass  
+sent:  and serve ramen on the plate  
+File 138
+sent: Put the game into the Xbox,  
+sent:  connect xbox to television  
+sent:  . Turn on the television  
+sent:  . Move the couch so that it's in front of the Xbox  
+File 139
+sent: Throw out the bottle, can and chips  
+sent:  . Pick up the xbox and controller  
+sent:  and place on coffee table  
+sent:  . Stack the books neatly on the shelf  
+File 140
+sent: Turn on TV  
+sent:  . Turn  
+sent:  to channel  
+sent:  3 . Bring chips in bowl and place on coffee table . Bring pillows from shelf and place on couches .  .
+File 141
+sent: Put all the school books on the table  
+sent:  . Turn off the tv  
+sent:  and pour some chips and drinks  
+File 142
+sent: Turn on the TV  
+sent:  and set to the music channel  
+sent:  . Turn up the volume  
+sent:  . Grasp the chips to the table in front of the couch  
+sent:  . Arrange the couch to the corner  
+sent:  to give more empty space in the middle of the room  
+File 143
+sent: Collect the plates, utensils, and cups  
+sent:  and put them in the sink  
+sent:  . Take the mug from the microwave  
+sent:  and empty its contents into the sink  
+sent:  and put it in the sink  
+File 144
+sent: Prepare the drink  
+sent:  by pouring the drink in the yellow bottle into an empty cup on the table  
+sent:  . Prepare the food  
+sent:  and take  
+File 145
+sent: Turn on the TV and XBOX  
+sent:  and connect  
+sent:  them .  Open the disk tray of the XBOX  
+sent:  and remove the video game disk from its case  
+sent:  . Place the disk in the disk tray and close the tray  Place the disk in the disk tray and close  
+sent:  the tray . Place the case on the table  
+sent:  . Place a large bowl on the table  
+sent:  .  Open the bag of chips  
+sent:  and pour them into the bowl until it  
+sent:  . Remove anything from the table  
+sent:  that does not contain food  
+sent:  . Place every XBOX controller on the table  
+sent:  . Rotate the couches so that the backs face directly away from the TV  
+File 146
+sent: Put the chip bag, cock and bear into the garbage bin. Put the xboxcontroller near TV remote. Take the garbageBag out of the room.
+File 147
+sent: Turn off the TV  
+sent:  .
+sent:  . Also, put the beer, the coke and the bowl on the shelf  
+sent:  .
+sent:  and if you find any put them on the table  
+File 148
+sent: Turn off the tv  
+sent:  . Put snacks and books on the table  
+File 149
+sent: turn on TV and XBOX  
+sent:  .  Remove CD from case  
+sent:  and insert it into disk tray of XBOX  
+sent:  .  Turn the TV volume  
+sent:  up to full .  Remove all non-food and drink items  
+sent:  and put them on shelves  
+sent:  .  Bring all drinks to the coffee table  
+sent:  . Bring the bowl to the coffee table  
+sent:  .  Open the chips  
+sent:  and pour them into the bowl until it  
+sent:  is full . Move all chairs and tables so that they're against the walls  
+File 150
+sent: Get instant ramen cup  
+sent:  . Fill up with water from the sink to the right amount  
+sent:  . Put in microwave,  
+sent:  and cook  
+File 151
+sent: Grab plates and cups  
+sent:  and bring  
+sent:  to sink  
+sent:  . Put ice cream in freezer  
+File 152
+sent: grasp soda, 
+sent:  grasp beer 
+sent: . grasp trash bag  
+File 153
+sent: Put all the pillows on the couch  
+sent:  and then turn on the TV  
+sent:  . Put the beer on the table in front of the couch  
+File 154
+sent: Turn on the TV  
+sent:  and set to the music channel  
+sent:  . Turn up the volume  
+sent:  . Grasp the chips to the table in front of the couch  
+sent:  . Arrange the couch to the corner  
+sent:  to give more empty space in the middle of the room  
+File 155
+sent: Dave, take some coffee and then mix in ice cream and syrup.
+File 156
+sent: Take the ramen  
+sent:  and add it to the pot  
+sent:  . put the pot in the sink  
+sent:  and turn on the tap until the pot is ten percent  
+sent:  full . Then, put the pot on the stove  
+sent:  and turn on the stove for two minutes  
+File 157
+sent: Boil the water  
+File 158
+sent: gather ingredients (egg from fridge, ramen from counter) microwave water in cup,  
+sent:  or boil water in pot  
+sent:  (process described in previous scenario)  
+sent:  . Pour boiling water in ramen cup  
+sent:  and removing soup base  
+sent:  . pour soup base  
+sent:  and add  
+sent:  to ramen and throw shell in trash  
+File 159
+sent: Cook me hot ramen  
+File 160
+sent: Take the ramen  
+sent:  and add it to the pot  
+sent:  . put the pot in the sink  
+sent:  and turn on the tap until the pot is ten percent  
+sent:  full . Then, put the pot on the stove  
+sent:  and turn on the stove for two minutes  
+File 161
+sent: Take the icecream out of the freezer  
+sent:  and put several scoops in the cup with the coffee in it  
+sent:  . Put chocolate and vanilla syrup on top  
+File 162
+sent: Take  
+sent:  pot,  
+sent:  fill with water,  
+sent:  and turn burner  
+sent:  on, wait until water boils  
+File 163
+sent: Take dishes out of the dishwasher  
+sent:  . Put  
+File 164
+sent: Place the pot in the sink  
+sent:  and turn on tap until the pot  
+sent:  is 80 percent full then turn off the tap  
+sent:  . Place the pot on the stove  
+sent:  . Turn on the stove until the water temperature is 100 degrees  
+File 165
+sent: Take the ramen  
+sent:  and remove the top,  
+sent:  and fill the cup with water  
+sent:  . Place the ramen in the microwave and heat  
+File 166
+sent: Cook me hot ramen  
+File 167
+sent:  and then add just a bit of syrup  
+File 168
+sent: Boil the water  
+File 169
+sent: clean the kitchen  
+sent:  and make sure the dishes  
+sent:  are empty before you put them in the dishwasher  
+File 170
+sent: Prepare the drink  
+sent:  by pouring the drink in the yellow bottle into an empty cup on the table  
+sent:  . Prepare the food  
+sent:  and take  
+File 171
+sent: Turn on xbox  
+sent:  . Take Far Cry Game CD  
+sent:  and put in xbox  
+sent:  by pressig  
+sent:  eject to open drive  
+sent:  . Throw out beer, coke, and sketchy stuff in bowl  
+sent:  . Take pillows from shelf  
+sent:  and distribute among couches  
+File 172
+sent: Put the xbox and the xbox  
+sent:  controllet on the shelf . Put the bag of chips  
+sent:  to trash bin  
+File 173
+sent: pick the beer bottle from the floor  
+sent:  and throw it in the dustbin  
+sent:  . also discard the content in the bowl  
+File 174
+sent: Get some movies  
+sent:  to choose from
+File 175
+sent: move the mug close to the chocolate syrup  
+sent:  . Take a spoon of ice cream from the freezer,  
+sent:  and put it on top of the coffee  
+sent:  . Pour some chocolate syrup  
+File 176
+sent: Fill pot with water  
+sent:  . Put pot on stove  
+sent:  . Turn stove  
+File 177
+sent: take mug form microwave  
+sent:  and pour its contents in the sink  
+sent:  . Do the same to the cup and glass  
+sent:  . Finally put everything in the cupboard  
+File 178
+sent: Select xBox game
+File 179
+sent: Turn off the TV  
+sent:  . Place anything related to the xbox in the cabinet under the TV  
+sent:  . Dump the bowl into the trash  
+sent:  and take the bowl  
+sent:  and place it in the sink in the kitchen  
+sent:  . Place all cans, bottles, and garbage in the trash  
+sent:  . Take the trash bag  
+File 180
+sent: grab the beer, coke and bowl  
+sent:  and place them on the coffee table  
+sent:  . Grab pillows  
+sent:  and put them on the couch  
+File 181
+sent: Take the book off the shelf  
+sent:  and place it on the table  
+sent:  . Turn off the TV  
+sent:  . Place bowl of food on the table .
+File 182
+sent: take mug form microwave  
+sent:  and pour its contents in the sink  
+sent:  . Do the same to the cup and glass  
+sent:  . Finally put everything in the cupboard  
+File 183
+sent: Connect the Xbox to the TV  
+sent:  . Turn on the TV and Xbox  
+sent:  . Find the Far Cry Game xbox  
+sent:  . Put  
+sent:  . Arrange the couch  
+File 184
+sent: give me a cup of tea  
+File 185
+sent: cook and put the food on the bed  
+sent:  .Put the pillows in good order  
+sent:  .put on a DVD player  
+sent:  .Set up a movie threater  
+File 186
+sent: Make  
+sent:  off, take the chips  
+sent:  and pour its contents in the bowl,  
+sent:  and arrange the needed books on the table  
+File 187
+sent: Turn on the TV  
+sent:  and turn the volume to the max  
+sent:  . Put the garbage bag into the garbage can 
+sent:   Put the garbage bag into the garbage can .
+File 188
+sent: grasp the ramen  
+sent:  . grasp the pot and place on back right stove  
+sent:  . place the ramen in the pot  
+File 189
+sent: move the mug close to the chocolate syrup  
+sent:  . Take a spoon of ice cream from the freezer,  
+sent:  and put it on top of the coffee  
+sent:  . Pour some chocolate syrup  
+File 190
+sent: Take out the coffee  
+sent:  . Take out the ice cream and syrup on the table  
+File 191
+sent: grasp instant noodle  
+sent:  . put water  
+sent:  in pot  
+sent:  . put pot on stove  
+sent:  . put hot water in instant noodle  
+File 192
+sent: take pot over to the sink,  
+sent:  turn on the tap, and fill with water turn on the tap,  
+sent:  and fill with water  
+sent:  . Turn off the water  
+sent:  . Take pot over to stove,  
+sent:  place on any burner, and turn on the fire for that burner place on any burner,  
+sent:  and turn on the fire for that burner  
+sent:  . Wait  
+sent:  turn off fire  
+File 193
+sent: clean the kitchen  
+sent:  and make sure the dishes  
+sent:  are empty before you put them in the dishwasher  
+File 194
+sent: Place the ice cream in the freezer  
+sent:  . Place all syrup bottles in the fridge  
+sent:  . Take all pots, cups, plates, and silverware  
+sent:  and put them in the sink  
+File 195
+sent: Gather all the cups, plates, mugs, pots, and utensils  
+sent:  and put them in the sink one at a time  
+sent:  . Gather the mustard and chocolate syrup  
+sent:  and put it in the fridge  
+File 196
+sent: Put  
+sent:  all used dishes into the sink  
+sent:  . Put away water, ramen, and flavors in the cupboard  
+File 197
+sent: Put all the bowls, cups, pots, and utensils in the sink  
+sent:  . Put perishable items in the refrigerator  
+File 198
+sent: Prepare the drink  
+sent:  by pouring the drink in the yellow bottle into an empty cup on the table  
+sent:  . Prepare the food  
+sent:  and take  
+File 199
+sent: Fill the pot with water,  
+sent:  put it on the stove,  
+sent:  and turn on the stove  
+sent:  put in the instant ramen  
+sent:  . Fill a glass with water from the sink  
+sent:  . 
+File 200
+sent: Pick up the game  
+sent:  and put it in the xbox  
+sent:  . Take the bag of chips and the bowl  
+sent:  and place them on the coffee table  
+sent:  . Move the couch closer to the television  
+File 201
+sent: Turn on xbox  
+sent:  . Take Far Cry Game CD  
+sent:  and put in xbox  
+sent:  by pressig  
+sent:  eject to open drive  
+sent:  . Throw out beer, coke, and sketchy stuff in bowl  
+sent:  . Take pillows from shelf  
+sent:  and distribute among couches  
+File 202
+sent: Dave, place the Xbox controller on the table,  
+sent:  put the Cola can and the bottle into the trash 
+sent:  put the Cola can and the bottle into the trash .
+File 203
+sent: Turn on TV  
+sent:  . Bring us coke and the beer  
+sent:  . Place the pillows on the couch  
+File 204
+sent: get the ramen  
+sent:  and cook it  
+File 205
+sent: Pick up the coffee, put a little bit of ice cream and syrup  
+File 206
+sent: Fill the pot with water from the sink and boil it on the stove  
+File 207
+sent: Put the utensils, cups, pots, plates into the sink  
+sent:  . Put the frozen foods into the freezer  
+sent:  .
+File 208
+sent: Turn on xbox  
+sent:  . Take Far Cry Game CD  
+sent:  and put in xbox  
+sent:  by pressig  
+sent:  eject to open drive  
+sent:  . Throw out beer, coke, and sketchy stuff in bowl  
+sent:  . Take pillows from shelf  
+sent:  and distribute among couches  
+File 209
+sent: Put all books of the shelf  
+sent:  . Put the garbage bag in the garbage bin 
+sent:   Put the garbage bag in the garbage bin .
+File 210
+sent: put chairs in front of TV  
+sent:  .  Put DVD in player  
+sent:  .  Put pillows on chairs  
+sent:  .  Put table between chairs and TV  
+sent:  .  Put food and drinks on table  
+File 211
+sent: Turn off the TV  
+sent:  .
+sent:  . Also, put the beer, the coke and the bowl on the shelf  
+sent:  .
+sent:  and if you find any put them on the table  
+File 212
+sent: Grab CD  
+sent:  . Turn music  
+sent:  . Dispose garbage bag  
+sent:  . Arrange books on table  
+sent:  . Arrange pillows on couch  
+sent:  . Throw away beer and coke  
+File 213
+sent: Take the pot on the counter  
+sent:  and fill it with water  
+sent:  . Boil it  
+File 214
+sent: Get some water in the cups  
+sent:  and pour it in the pan  
+sent:  . boil it for 5 minutes .
+File 215
+sent: Pour the pot's contents into the trash  
+sent:  and place all glasses and mugs into the sink  
+File 216
+sent: Take the boiled egg out of the fridge,  
+sent:  place it on the plate  
+sent:  . Fill the cup with energy drink until halfway  
+sent:  full, and then serve both the egg and the cup  
+sent:  . Also, bring the salt shaker  
+File 217
+sent: Dave, place the Xbox controller on the table,  
+sent:  put the Cola can and the bottle into the trash 
+sent:  put the Cola can and the bottle into the trash .
+File 218
+sent:  to channel  
+sent:  5 . Fill the bowl with chips  
+sent:  and bring it to the coffee table  
+sent:  . Take the pillow from the shelf  
+sent:  and bring it to the couch  
+File 219
+sent: Get some movies  
+sent:  to choose from
+File 220
+sent: place  
+sent:  all the school books on the table turn off the tv  
+sent:  and put chips and soda on the table
+File 221
+sent: Put the pot in the sink  
+sent:  and then fill it up with water  
+sent:  . Put the pot on the stove  
+sent:  and then turn on the stove  
+sent:  . Get the ramen  
+sent:  and put it in pot  
+File 222
+sent: Turn off right back burner  
+sent:  . Take ice cream from freezer  
+sent:  and scoop with spoon  
+sent:  and put in mug with coffee  
+sent:  . Replace ice cream in freezer  
+sent:  . Take vanilla syrup  
+sent:  and pour over ice cream  
+File 223
+sent: Take the pot that already has some water in it  
+sent:  . Put it on one of the burners,  
+sent:  and turn it  
+File 224
+sent: get out the ramen  
+sent:  and then cook it  
+File 225
+sent: Pick up the mug of coffee  
+sent:  and pour it on a plate  
+sent:  . Open the refrigerator  
+sent:  and scoop some ice cream onto the plate  
+sent:  . Take the syrup bottle  
+sent:  and squeeze some on the plate  
+File 226
+sent: take the kettle to the sink  
+sent:  and fill it with water  
+sent:  . then place it on the stove  
+File 227
+sent: Take glass out of cupboard  
+sent:  . Put orange juice in to the glass  
+sent:  . Take bowl out of cupboard . Add corn flakes  
+sent:  . Pour milk into bowl  
+sent:  . Put glass and bowl on tray  
+sent:  . Take tray to user  
+File 228
+sent: Open the gameCD with TV  
+sent:  . Put xbox and its controller on the table in front of the coaches  
+sent:  and throw the container into the trash bag  
+sent:  . Arrange coaches around the big table . Put pillows onto the coaches,  
+File 229
+sent: grasp the ramen  
+sent:  . grasp the pot and place on back right stove  
+sent:  . place the ramen in the pot  
+File 230
+sent: Take the mug in the microwave  
+sent:  and go to the sink  
+sent:  and add water to it  
+sent: After there is water in the mug 
+File 231
+sent: Pick up Long Cup2  
+sent:  and carry it to the tap  
+sent:  . Fill Long Cup2 with water  
+sent:  . 
+sent:  . Place in Microwave and heat  
+sent:  . Place food on plate  
+File 232
+sent: Cook me hot ramen  
+File 233
+sent: Turn off right back burner  
+sent:  . Take ice cream from freezer  
+sent:  and scoop with spoon  
+sent:  and put in mug with coffee  
+sent:  . Replace ice cream in freezer  
+sent:  . Take vanilla syrup  
+sent:  and pour over ice cream  
+File 234
+sent: Add a scoop of icecream  
+sent:  . Take the same mug  
+sent:  and add three squeezes of syrup to it  
+File 235
+sent: Fill the pot with water up to tow thirds and boil it on the stove for 10 minutes  
+File 236
+sent: Gather all the cups, plates, mugs, pots, and utensils  
+sent:  and put them in the sink one at a time  
+sent:  . Gather the mustard and chocolate syrup  
+sent:  and put it in the fridge  
+File 237
+sent: Take the ramen  
+sent:  and add it to the pot  
+sent:  . put the pot in the sink  
+sent:  and turn on the tap until the pot is ten percent  
+sent:  full . Then, put the pot on the stove  
+sent:  and turn on the stove for two minutes  
+File 238
+sent: Open refrigerator  
+sent:  . Grab food and drink  
+sent:  . Grab cups and plates  
+File 239
+sent: Plug the xbox into the TV  
+sent:  . Turn on the Xbox and the TV  
+sent:  . Put the bowl of chips and bag of chips on the table 
+sent:   Put the bowl of chips and bag of chips on the table . Put the xbox controller on table  
+File 240
+sent: pick the beer bottle from the floor  
+sent:  and throw it in the dustbin  
+sent:  . also discard the content in the bowl  
+File 241
+sent: First find a food  
+sent:  and make it  
+sent:  bring the food within sight of the television  
+sent:  . Next, insert the movie media into a playback device  
+sent:  . Ensure that the device  
+sent:  and properly configured  
+sent:  to show video on the screen  
+sent:  . Start the video  
+sent:  . Lastly, gather and arrange pillows around self  
+File 242
+sent: Put  
+sent:  all the school books on the table turn off the tv  
+sent:  and get chips and soda on the table  
+File 243
+sent:  to take care of the trash  
+File 244
+sent: move the mug close to the chocolate syrup  
+sent:  . Take a spoon of ice cream from the freezer,  
+sent:  and put it on top of the coffee  
+sent:  . Pour some chocolate syrup  
+File 245
+sent: fill the pot with water then boil the water in the pot on the stove 
+sent:  fill the pot with water then boil the water in the pot on the stove .
+File 246
+sent: Stare at the empty dished  
+sent:  .Arrange all the things  
+File 247
+sent: Make some coffee  
+sent:  . Cook some eggs on the stove  
+sent:  and then bring it  
+File 248
+sent: Plug the xbox into the TV  
+sent:  . Turn on the Xbox and the TV  
+sent:  . Put the bowl of chips and bag of chips on the table 
+sent:   Put the bowl of chips and bag of chips on the table . Put the xbox controller on table  
+File 249
+sent: Place both books on the center table  
+sent:  . Hold the trash bag in one hand  
+sent:  and place the plate inside the bag  
+sent:  . Place the empty coke can, beer, and bag of chips into the trash  
+sent:  bag . Arrange the couches  
+sent:  in the correct locations in the living room  
+sent:  . Pick up Guiness book from the floor and place on desk  
+sent:  . turn off the lamp  
+sent:  . Place the three pillows on the couches  
+File 250
+sent: grab the beer, coke and bowl  
+sent:  and place them on the coffee table  
+sent:  . Grab pillows  
+sent:  and put them on the couch  
+File 251
+sent: Turn off the TV  
+sent:  . Grasp the brown book to the table in front of the couch  
+File 252
+sent: Set up the Xbox with the TV  
+sent:  and put the music CD into the XBox  
+sent:  . Put all books and other CDs on the shelve  
+File 253
+sent: Turn off right back burner  
+sent:  . Take ice cream from freezer  
+sent:  and scoop with spoon  
+sent:  and put in mug with coffee  
+sent:  . Replace ice cream in freezer  
+sent:  . Take vanilla syrup  
+sent:  and pour over ice cream  
+File 254
+sent: Put some water into the kettle  
+sent:  and then use the stove  
+sent:  to heat the kettle  
+File 255
+sent: Place pot on top of the stove  
+sent:  and turn the stove  
+sent:  on . wait for the water to boil  
+sent:  . Get the ramen  
+sent:  and empty contents into hot water into the pot  
+sent:  . Cook  
+File 256
+sent: -take coffee-ice cream-milk-syrup .
+File 257
+sent: grasp the pot,  
+sent:  put it in the sink  
+sent:  . open the faucet  
+sent:  . grasp the pot  
+sent:  and put it on the left stove  
+sent:  . turn on the left stove  
+File 258
+sent: Take the dishes  
+sent:  and place them on top  
+sent:  of each other . Stack the cups  
+sent:  . Put the bottles away in the appropriate cabinets  
+File 259
+sent: Cook the ramen in the pot with water  
+sent:  . Serve the food on the plates  
+sent:  and pour a drink into the long cups  
+File 260
+sent: Place the TV remote on the center table  
+sent:  . Bring the xBox and Xbox controllers  
+sent:  in front of the television . Plug in the Xbox to the television  
+sent:  and activate all game controllers  
+sent:  . Place the controllers on the center table  
+sent:  . Place the bowl of food, beer, and coke on the center table  
+sent:  . Fix the pillows on the couch  
+sent:  . Put the garbage bag inside the garbage bin and place the bin near the two seater couch  Put the garbage bag inside the garbage bin and place the bin near the two seater  
+File 261
+sent: Put all books of the shelf  
+sent:  . Put the garbage bag in the garbage bin 
+sent:   Put the garbage bag in the garbage bin .
+File 262
+sent: grasp instant noodle  
+sent:  . put water  
+sent:  in pot  
+sent:  . put pot on stove  
+sent:  . put hot water in instant noodle  
+File 263
+sent: Put the pot in the sink  
+sent:  and fill it up three quarters of the way with water  
+sent:  . Bring the pot onto the stove  
+sent:  and turn the stove  
+sent:  turn the stove  
+File 264
+sent: Take the ramen  
+sent:  and add it to the pot  
+sent:  . put the pot in the sink  
+sent:  and turn on the tap until the pot is ten percent  
+sent:  full . Then, put the pot on the stove  
+sent:  and turn on the stove for two minutes  
+File 265
+sent: Put the glasses and mugs into the sink  
+File 266
+sent: Take the mug of coffee  
+sent:  and add ice cream to it  
+sent:  . Then, add chocolate syrup to the mug  
+File 267
+sent: open fridge and have energydrink
+File 268
+sent: Get cups and drinks out
+sent:  Get cups and drinks out
+File 269
+sent: take pot over to the sink,  
+sent:  turn on the tap, and fill with water turn on the tap,  
+sent:  and fill with water  
+sent:  . Turn off the water  
+sent:  . Take pot over to stove,  
+sent:  place on any burner, and turn on the fire for that burner place on any burner,  
+sent:  and turn on the fire for that burner  
+sent:  . Wait  
+sent:  turn off fire  
+File 270
+sent: Bring plates and cups to sink  
+sent:  . Put ice cream in refrigerator  
+sent:  . Put ramen in cabinet  
+File 271
+sent: get out the ramen  
+sent:  and then cook it  
+File 272
+sent: Pick up the coffee, put a little bit of ice cream and syrup  
+File 273
+sent: Put some water into the kettle  
+sent:  and use the stove  
+sent:  to heat the kettle  
+File 274
+sent: If any of the pots or dishes have food on or in them, dump  
+sent:  them out in the garbage can, then put them in the sink  
+sent:  . The syrups can go into the fridge,  
+sent:  and the instant ramen should go back into a cabinet  
+File 275
+sent: Connect the Xbox to the TV  
+sent:  . Turn on the TV and Xbox  
+sent:  . Find the Far Cry Game xbox  
+sent:  . Put  
+sent:  . Arrange the couch  
+File 276
+sent: Set up the TV and the Xbox  
+sent:  . Put the movie into the xbox  
+sent:  . Place a pillow on each couch  
+File 277
+sent: Take out the books  
+sent:  for me and turn off the tv  
+sent:  . Prepare some coffee for me with milk and sugar  
+File 278
+sent: Open the gameCD with TV  
+sent:  . Put xbox and its controller in the shelf under the TV  
+sent:  and throw the container into the trash bag  
+sent:  . Put pillows onto the coaches,  
+sent:  one for each . Arrange coaches around the big table . Put books on the study desk  
+File 279
+sent: Boil water
+sent:  and cook  
+sent:  of flavoring packet  
+File 280
+sent: Go grab the coffee, ice cream, and syrup .
+File 281
+sent: Take  
+sent:  pot,  
+sent:  fill with water,  
+sent:  and turn burner  
+sent:  on, wait until water boils  
+File 282
+sent: If any of the pots or dishes have food on or in them, dump  
+sent:  them out in the garbage can, then put them in the sink  
+sent:  . The syrups can go into the fridge,  
+sent:  and the instant ramen should go back into a cabinet  
+File 283
+sent: Collect all plates, cups, mugs, pot, and silverware  
+sent:  and place them in the sink  
+sent:  . Empty all cups, mugs, and the pot into the sink  
+sent:  . Take the syrup bottles  
+sent:  and place them in the refrigerator  
+sent:  . Take the ramen  
+sent:  and place it in the cabinet  
+File 284
+sent: Make some coffee  
+sent:  . Cook some eggs on the stove  
+sent:  and then bring it  
+File 285
+sent: grasp far cry and xbox  
+sent:  . drop near tv  
+sent:  . grasp bowl and place on table . move couch near tv  
+File 286
+sent:  to channel  
+sent:  5 . Fill the bowl with chips  
+sent:  and bring it to the coffee table  
+sent:  . Take the pillow from the shelf  
+sent:  and bring it to the couch  
+File 287
+sent: Put all the school books on the table  
+sent:  . Turn off the tv  
+sent:  and pour some chips and drinks  
+File 288
+sent: Fill the pot with water from the sink  
+sent:  . Boil the pot on the stove  
+File 289
+sent: grasp the pot,  
+sent:  put it in the sink  
+sent:  . open the faucet  
+sent:  . grasp the pot  
+sent:  and put it on the left stove  
+sent:  . turn on the left stove  
+File 290
+sent: Bring plates and cups to sink  
+sent:  . Put ice cream in refrigerator  
+sent:  . Put ramen in cabinet  
+File 291
+sent: Arrange the couch in front of the tv  
+sent:  . Put some snacks and drinks on the table  
+sent:  . Make  
+sent:  sure the xbox and the tv are connected  
+sent:  . Place the controllers on the table  
+sent:  . Check the dvd boxes  
+sent:  if the right dvd is in the right box, and place all boxes on the table  
+File 292
+sent: Put all the pillows on the couch  
+sent:  and then turn on the TV  
+sent:  . Put the beer on the table in front of the couch  
+File 293
+sent: Turn off the television  
+sent:  . Place the food into the trash bag  
+sent:  and place trash bag into the bin  
+sent:  . Place the pillows on the couch  
+sent:  . Put the xbox and controllers  
+File 294
+sent: Place both CD's and both books (brown and Guiness) on top of the shelf in the corner of the room . Bring bag of chips and place on the center coffee table . Place all couches on the side of one wall  
+sent:  . Put the garbage bag inside the bin  
+sent:  and place near the wall and near the counter  
+sent:  . Put one of the CD's  
+sent:  into the Xbox console and place the Xbox console near the television and turn on the power into the Xbox console and place  
+sent:  the Xbox console near the television and turn on the power  
+sent:  . Music can play  
+File 295
+sent: Fill the pot with water from the sink  
+sent:  . Boil the pot on the stove  
+File 296
+sent: Boil water
+sent:  and cook  
+sent:  of flavoring packet  
+File 297
+sent: Boil some water  
+sent:  and make some coffee  
+sent:  . Find a white bowl  
+sent:  . Take ice cream out of the freezer  
+sent:  . Put coffee into the white bowl,  
+sent:  then put two scoops of ice cream  
+sent:  over that . Finally, take the syrup on the counter  
+sent:  and drizzle it over the ice cream  
+File 298
+sent: Take  
+sent:  pot,  
+sent:  fill with water,  
+sent:  and turn burner  
+sent:  on, wait until water boils  
+File 299
+sent:  and bring to the sink  
+sent:  . Empty the contents of the glass  
+sent:  and mug into the sink  
+sent:  and rinse the dishes  
+sent:  Syrup Bottle, and open the fridge door  
+sent:  . Place the bottles inside the fridge  
+sent:  and close the fridge door  
+sent:  . Place the instant ramen  
+File 300
+sent: Pick up the mug  
+sent:  and fill it with water from the refrigerator  
+sent:  . Take out food from the refrigerator,  
+sent:  place it on a plate  
+sent:  and then heat it in the microwave  
+sent:  . Place the mug and plate on the table  
+File 301
+sent: j want to play tennis on pc  
+File 302
+sent: Throw out chips, coke and beer  
+sent:  . Take brown book and place on shelf with CD  
+sent:  . Take xbox game controller  
+sent:  and put with xbox  
+sent:  . Take pillows from shelf  
+sent:  and put on couches  
+sent:  . Take bowl from floor and place in kitchen  
+sent:  . Throw out the trash  
+File 303
+sent: Bring all the textbooks
+sent:  Bring all the textbooks
+File 304
+sent: Turn on TV  
+sent:  and make sure the volume is up for music  
+sent:  . Pour the chips into the bowl and place on coffee table  
+sent:  . Take the xbox off the floor and place on shelf  
+File 305
+sent: Put coffee in the tall glass  
+sent:  . Take out the ice cream and using a spoon, scoop some into the cup  
+sent:  . Take the chocolate syrup  
+sent:  and drizzle some on top  
+File 306
+sent: Fill the pot with water up to tow thirds and boil it on the stove for 10 minutes  
+File 307
+sent: clean the kitchen  
+sent:  and make sure the dishes  
+sent:  are empty before you put them in the dishwasher  
+File 308
+sent: Make Breakfast  
+File 309
+sent: Plug the xbox into the TV  
+sent:  . Turn on the Xbox and the TV  
+sent:  . Put the bowl of chips and bag of chips on the table 
+sent:   Put the bowl of chips and bag of chips on the table . Put the xbox controller on table  
+File 310
+sent: get the books  
+sent:  and close the tv  
+sent:  and prepare food  
+File 311
+sent: Put the pillows on the couch,  
+sent:  play some music on the xbox through the tv  
+sent:  . Clean the floor up . Put some food on the table  
+sent:  . Make sure all the books are on the shelf  
+File 312
+sent: Put the pot in the sink  
+sent:  and then fill it up with water  
+sent:  . Put the pot on the stove  
+sent:  and then turn on the stove  
+sent:  . Get the ramen  
+sent:  and put it in pot  
+File 313
+sent: Take out the coffee  
+sent:  . Take out the ice cream and syrup on the table  
+File 314
+sent: Fill the pot with water in the sink the boil it on the stove  
+File 315
+sent: Put  
+sent:  all used dishes into the sink  
+sent:  . Put away water, ramen, and flavors in the cupboard  
+File 316
+sent: Can not find drink in this scenario  
+File 317
+sent: Turn on the TV and XBOX  
+sent:  and connect  
+sent:  them .  Open the disk tray of the XBOX  
+sent:  and remove the video game disk from its case  
+sent:  . Place the disk in the disk tray and close the tray  Place the disk in the disk tray and close  
+sent:  the tray . Place the case on the table  
+sent:  . Place a large bowl on the table  
+sent:  .  Open the bag of chips  
+sent:  and pour them into the bowl until it  
+sent:  . Remove anything from the table  
+sent:  that does not contain food  
+sent:  . Place every XBOX controller on the table  
+sent:  . Rotate the couches so that the backs face directly away from the TV  
+File 318
+sent: first collect everything  
+sent:  that comes to waste and trash it  
+sent:  . Then clean the surfaces  
+sent:  and tidy up the room  
+File 319
+sent: Put a movie into the x box and bring some food to the table. Set some pillows on the couch too.
+File 320
+sent: Take all bottles, cans, and trash  
+sent:  and put them in the trash can  
+sent:  . Put everything  
+sent:  . Dump the bowl into the trash  
+sent:  and take the bowl to the kitchen  
+sent:  . Take the trash bag  
+sent:  outside . Put all textbooks on the center table  
+File 321
+sent: turn on TV and XBOX  
+sent:  .  Remove CD from case  
+sent:  and insert it into disk tray of XBOX  
+sent:  .  Turn the TV volume  
+sent:  up to full .  Remove all non-food and drink items  
+sent:  and put them on shelves  
+sent:  .  Bring all drinks to the coffee table  
+sent:  . Bring the bowl to the coffee table  
+sent:  .  Open the chips  
+sent:  and pour them into the bowl until it  
+sent:  is full . Move all chairs and tables so that they're against the walls  
+File 322
+sent: Fill the long cup with ramen  
+sent:  . Read the instructions on the ramen container  
+sent:  to find out the necessary amount of water and microwaving time  
+sent:  . Add the water to the long cup and microwave  
+File 323
+sent: Take the mug out of the microwave  
+sent:  and pour it in the bigger plate  
+sent:  . Take the ice cream out of the freezer  
+sent:  and scoop some onto the same plate  
+sent:  . Pick up the bottle of syrup  
+sent:  and squeeze some onto the bigger plate  
+File 324
+sent: Fill the kettle with water  
+sent:  and put it on the stove burner  
+sent:  . Turn the burner  
+sent:  turn the burner  
+File 325
+sent: Take the dishes  
+sent:  and stack  
+sent:  neatly . Put the bottles in the appropriate cabinet  
+File 326
+sent: Put the pot of water onto the stove  
+sent:  and turn the stove  
+sent:  on . Get ramen and empty contents into pot  
+sent:  . Cook  
+sent:  . Serve on the plates  
+File 327
+sent: Cook the ramen in the pot with water  
+sent:  . Serve the food on the plates  
+sent:  and pour a drink into the long cups  
+File 328
+sent: Dave, take some coffee  
+File 329
+sent: Let  
+sent:  us play video game  
+sent:  . Get the xbox and controller  
+sent:  . We can have bear or coke while playing  
+sent:  . Move the couch  
+sent:  to face the TV  
+sent:  so that we can sit on the couch  
+sent:  to play  
+File 330
+sent: Take the cup  
+sent:  and pour water in it  
+sent:  . Then put it in the microwave  
+sent:  and heat it  
+File 331
+sent: Pick up bowl
+sent:  the bowl in trash
+File 332
+sent: Get coke and boiled egg out of the fridge  
+sent:  . Serve it  
+File 333
+sent: Put the game in the xbox  
+sent:  .
+sent:  .
+sent:  .
+File 334
+sent: Put cs to game box  
+sent:  . Bring is bag of chips and the coke . Put pillows on the couch  
+File 335
+sent: Go to the game system  
+sent:  and go to the xbox,  
+sent:  get the food  
+sent:  and arrange couch  
+File 336
+sent: Put the xbox in front of the TV  
+sent:  and hook up the wires  
+sent:  and plug it into an outlet  
+sent:  . Plug the controller into the xbox  
+sent:  and put it on the table in front of the couch  
+sent:  of the TV to display the xbox  
+File 337
+sent: Get the pillows  
+sent:  and move them onto the couches  
+sent:  . Then turn on the TV  
+sent:  and put a movie inside the xbox  
+sent:  . Move the xbox remote to the table in front of the couches  
+File 338
+sent: Collect all books from the room  
+sent:  and place them on the coffee table  
+sent:  . Turn off the TV  
+sent:  and put away the xbox  
+sent:  . Place chips in the bowl  
+sent:  and put it on the coffee table  
+File 339
+sent: Put all books of the shelf  
+sent:  . Put the garbage bag in the garbage bin 
+sent:   Put the garbage bag in the garbage bin .
+File 340
+sent: Pick up trash bag
+sent:  up trash bag
+sent:  down coke
+File 341
+sent: Set up the TV  
+sent:  with the Xbox turned  
+sent:  on . Put a music CD into the Xbox  
+sent:  and play  
+sent:  . Put the bowl with chips on the table  
+sent:  . Put all drinks and foods on the table  
+sent:  . Put the garbage bag into the garbage bin 
+sent:   Put the garbage bag into the garbage bin . Put all books and CDs on the group on shelves  
+File 342
+sent: Pick up one movie  
+sent:  for me and play it  
+sent:  . Get out chips form fridge  
+sent:  . Get pillows  
+File 343
+sent: Pick up the beer bottle off the ground,  
+sent:  throw it  
+sent:  away . Turn off the television  
+sent:  . Move the two seats away from the desk  
+File 344
+sent: Turn on the music  
+sent:  . Move all furniture to the sides of the room  
+sent:  . Put the food on the table  
+File 345
+sent: Take the kettle  
+sent:  and move it to the stove  
+sent:  . Take the ramen  
+sent:  and put it inside the kettle  
+sent:  . Turn on the stove  
+File 346
+sent: Pick up coffee mug  
+sent:  .
+sent:  .
+sent:  .
+sent:  .
+File 347
+sent: Take  
+sent:  pot,  
+sent:  fill it with water from the sink,  
+sent:  and put in on the burner  
+sent:  . Turn the burner  
+sent:  on, and wait until the water  
+File 348
+sent: Boil water  
+sent:  . Add egg  
+sent:  and wait 12 minutes  
+sent:  . Remove egg from water and place on plate  
+sent:  . Make coffee  
+sent:  and pour coffee into mug  
+sent:  . Place Spoon, coffee, and plate together on table  
+File 349
+sent: Find the movie,  
+sent:  open the case  
+sent:  .  Open the XBOX disk tray  
+sent:  .  Put the DVD in the tray  
+sent:  and close it  
+sent:  .  Turn on the TV  
+sent:  .  Clear all non-food or drink items from the coffee table  
+sent:  .  Bring all drink items to the coffee table  
+sent:  .  Bring the bowl to the coffee table  
+sent:  .  Open the bag of chips  
+sent:  and pour the contents into the bowl until it's  
+sent:  full .  Divide the pillows up evenly among the chairs  
+File 350
+sent: Turn off the television  
+sent:  . Place the food into the trash bag  
+sent:  and place trash bag into the bin  
+sent:  . Place the pillows on the couch  
+sent:  . Put the xbox and controllers  
+File 351
+sent: Fill the pot with water  
+sent:  and put it on the stove  
+sent:  . Boil the water  
+sent:  . Put the instant ramen in the pot  
+sent:  . Cook for 3 minutes  
+sent:  . Wait  
+File 352
+sent: Add coffee to the mug  
+sent:  and microwave it for 120 seconds  
+sent:  .  Using a spoon add two cups of ice cream carefully to the mug  
+sent:  .  Add one squirt of each chocolate and vanilla syrup to the mug  
+File 353
+sent: grasp the mug  
+sent:  . grasp the spoon  
+sent:  . place the mug on the table  
+sent:  and scoop ice cream into the mug  
+sent:  . then grasp syrup  
+sent:  and squeeze the bottle  
+File 354
+sent: Fill the kettle with water,  
+sent:  place it on the stove,  
+sent:  then turn on the burner  
+sent:  turn the burner  
+File 355
+sent: empty mug, cup and glass in the sink,  
+sent:  and then place them in cupboards  
+File 356
+sent: Mix syrup and water to make a drink  
+sent:  . You can get water  
+sent:  by rotating the tab near sink  
+sent:  . Use kettle to boil water  
+sent:  and mix heated water with instantRamen  
+File 357
+sent: Open the cup of instant ramen  
+sent:  halfway and fill it up with water from the sink  
+sent:  . Flatten the cover  
+sent:  and put the instant ramen into the microwave  
+sent:  and cook it  
+File 358
+sent: Get the game  
+sent:  and put it into the xbox  
+sent:  . Hook the xbox up to the TV  
+sent:  and turn it  
+sent:  on . Pour the chips into the bowl,  
+sent:  then take the bowl over to the table  
+sent:  . Finally, put the pillow on the couch  
+File 359
+sent: pick the beer bottle from the floor  
+sent:  and throw it in the dustbin  
+sent:  . also discard the content in the bowl  
+File 360
+sent: Put all the cds on the table in front of the couch  
+sent:  . Pour some chips  
+sent:  . Put soda on the table  
+sent:  . Put the pillows on the couch  
+sent:  turn the tv  
+sent:  on and put the xbox controller on the table  
+File 361
+sent: Make  
+sent:  off, take the chips  
+sent:  and pour its contents in the bowl,  
+sent:  and arrange the needed books on the table  
+File 362
+sent: Get  
+File 363
+sent: Open freezer door  
+sent:  and grab ice cream  
+sent:  . Grab spoon  
+sent:  and use it  
+sent:  to put ice cream in coffee mug  
+sent:  . Grab chocolate syrup bottle  
+sent:  and add to coffee  
+File 364
+sent: Take the pot,  
+sent:  place it under the sink  
+sent:  and fill it with water  
+sent:  . Put the pot on the stove  
+sent:  and turn on its respective burner  
+sent:  . Keep it on until the water comes to a boil  
+File 365
+sent: Put all of the dishes into the sink  
+sent:  and wash  
+sent:  them . Then, stack the dishes  
+sent:  near the sink to dry  
+sent:  . Next, do the same with the silverware,  
+sent:  stacking them next to the dishes  
+sent:  . Follow  
+sent:  that by washing the cups/mugs/glasses/kettle, and put them near the other items to dry that by washing the cups/mugs/glasses/kettle, and put them near the other items  
+sent:  to dry  
+sent:  . Then, pick up the other items on the counter (salt, syrup, etc), and place them near the fridge on the counter  
+File 366
+sent: Make some coffee  
+sent:  . Make an egg on the stove  
+sent:  and then bring it  
+File 367
+sent: Place the TV remote on the center table  
+sent:  . Bring the xBox and Xbox controllers  
+sent:  in front of the television . Plug in the Xbox to the television  
+sent:  and activate all game controllers  
+sent:  . Place the controllers on the center table  
+sent:  . Place the bowl of food, beer, and coke on the center table  
+sent:  . Fix the pillows on the couch  
+sent:  . Put the garbage bag inside the garbage bin and place the bin near the two seater couch  Put the garbage bag inside the garbage bin and place the bin near the two seater  
+File 368
+sent: Look  
+sent:  to see where things  
+sent:  are dirty . Look  
+sent:  to see where things are out of place,  
+sent:  which need washing  
+sent:  or putting  
+sent:  away . Vacuum the carpet,  
+sent:  straighten any cushions,  
+sent:  pick up litter  
+File 369
+sent: Put books on the table in front of the coaches .Turn off the TV  
+sent:  . Put food and drinks on the table  
+File 370
+sent: Get music and food ready for the party  
+sent:  . Clear the middle of the room  
+File 371
+sent: what i can do  
+File 372
+sent: Put coffee in the tall glass  
+sent:  . Take out the ice cream and using a spoon, scoop some into the cup  
+sent:  . Take the chocolate syrup  
+sent:  and drizzle some on top  
+File 373
+sent: First, you have to fill the kettle with water  
+sent:  . Then, you put the kettle in the microwave and turn it  
+sent:  on . Finally, wait  
+sent:  and remove it from the microwave  
+File 374
+sent: First you have to pick up all the dishes  
+sent:  and put them in the sink  
+sent:  . Then, wash the dishes  
+sent:  . Finally, collect them all into a neat stack  
+sent:  . Then, you have to collect the silverware  
+sent:  and put it next to the dishes  
+sent:  . Finally, collect the cups  
+sent:  and put them next to the silverware  
+sent:  . Lastly, collect the other items  
+sent:  and put them in their place (the ramen and the syrup)  
+File 375
+sent: Open refrigerator  
+sent:  . Grab food and drink  
+sent:  . Grab cups and plates  
+File 376
+sent: Turn on Television  
+sent:  . 
+sent:  .
+sent:  .
+sent:  .
+sent:  .
+sent:  .
+sent:  .
+sent:  .
+sent:  .
+sent:  .
+sent:  .
+sent:  .
+File 377
+sent: Put xbox controller and game CD on the shelf  
+sent:  . And remember  
+sent:  to take care of the bear bottle and coke can  
+File 378
+sent: Throw out beer and coke  
+sent:  . Throw out trash bag  
+sent:  and stand them up . Put Book of records on shelf with other books 
+sent:   Put Book of records on shelf with other books .  .
+File 379
+sent: Move pillows from the shelf  
+sent:  and put them on the couch  
+sent:  . Move the CD to the television  
+sent:  . Eat the bag of chips  
+File 380
+sent: Turn on the kettle  
+sent:  . Pick up the instant ramen  
+sent:  . Put it inside a pot  
+sent:  . Pour the water from the kettle  
+File 381
+sent: Get the ice cream and the syrup from the counter  
+sent:  and put it on the plate  
+sent:  . Then get the mug with coffee in it  
+sent:  and also place it by the plate with the ice cream and syrup  
+File 382
+sent: Fill cup with water and boil in the microwave  
+File 383
+sent: Gather all used cups and glasses and place into the sink  
+sent:  . Gather  
+sent:  and arrange Ramen, vanilla syrup, and chocolate syrup on the counter 
+sent:  and arrange Ramen, vanilla syrup, and chocolate syrup on the counter . Wipe the counter with a cloth  
+sent:  . Wipe fridge door .
+File 384
+sent: Fill cup with cereal  
+sent:  . Then, take the syrup  
+sent:  and squeeze over the cereal  
+File 385
+sent: Arrange pillows over the couch  
+sent:  . Turn on xbox  
+sent:  and serve coca-cola  
+File 386
+sent: Put xboxcontroller  
+sent:  Take trash bag outside of the room .
+File 387
+sent: Turn on tv
+sent:  the pillow on the couch
+sent:  and bowl
+File 388
+sent: Place pot on top of the stove  
+sent:  and turn the stove  
+sent:  on . wait for the water to boil  
+sent:  . Get the ramen  
+sent:  and empty contents into hot water into the pot  
+sent:  . Cook  
+File 389
+sent: Move the books to the table  
+sent:  . Turn off the television  
+sent:  . Move the bowl to the table  
+File 390
+sent: turn on the music,  
+sent:  put food on the table,  
+sent:  clean up the room  
+File 391
+sent: Get the mug  
+sent:  and heat up coffee in the microwave  
+sent:  . Get the ice cream out of the fridge  
+sent:  . Scoop ice cream into a bowl  
+sent:  . Pour coffee into the bowl  
+sent:  . Add syrup to the bowl  
+sent:  . Put ice cream back into the fridge  
+File 392
+sent: Take your coffee  
+sent:  . Grab the ice cream  
+sent:  and put it inside the coffee  
+sent:  . Put the ice cream  
+sent:  back and take the syrup  
+sent:  . Pour the syrup inside the coffee  
+sent:  and put the syrup  
+File 393
+sent: Fill the pot with water from the sink  
+sent:  . Boil the pot on the stove  
+File 394
+sent: get out ramen in the fridge  
+sent:  and then put it on the plate  
+sent:  . Add sauce  
+sent:  and then mix it  
+File 395
+sent: put coffee in cup open the freezer and put ice cream in it then add  
+File 396
+sent: Turn stove  
+sent:  and bring  
+sent:  to sink  
+sent:  . Fill pot with water  
+sent:  . Put pot on stove  
+File 397
+sent: Get out the ramen from the fridge  
+sent:  and then cook it in the pan  
+File 398
+sent: Get a pot  
+sent:  and fill it with water from the faucet  
+sent:  .  Place the pot on a burner of the stove  
+sent:  and turn it  
+sent: After the ramen is added , 
+sent:  wait a few more minutes  
+sent:  and then pour the contents of the pot slowly into a bowl  
+sent:  . Serve with a fork  
+File 399
+sent: Take the coffee  
+sent:  . Pour it to the mug  
+sent:  . Put ice cream and the syrup to the mug  
+File 400
+sent: Put the pot on the stove  
+sent: Turn on the stove until the water is 100 degrees  
+sent:  celcius . Turn off the stove  
+File 401
+sent: Get all the plates, cups, and spoons on the counters  
+sent:  and put them in the sink  
+sent:  . Take the mug from the microwave  
+sent:  and pour its contents into the sink  
+sent:  and then place it in the sink  
+File 402
+sent: Pick up the glass  
+sent:  and fill it with water,  
+sent:  then set it down on the counter  
+sent:  . Fill the kettle with water  
+sent:  and place it on the stove  
+sent:  . Boil the water,  
+sent:  then put the ramen in the pot  
+sent:  pour the ramen out onto the plate  
+sent:  . Place the plate near the glass  
+sent:  . Finally, get some silverware  
+sent:  and put it next to the plate  
+File 403
+sent: Find the game disk  
+sent:  and put it into the xbox  
+sent:  . Hook the xbox up to the TV  
+sent:  and make sure the TV is on the proper channel  
+sent:  .  Put the bowl of chips  
+sent:  on the table near the couch facing the TV  
+sent:  . Finally, put the xbox controller  
+sent:  on the couch facing the TV  
+File 404
+sent: Grasp pot to the sink  
+sent:  . Toggle tap  
+sent:  to fill the pot with water  
+sent:  . Grasp pot to the stove  
+sent:  . Toggle the burner  
+sent:  . Then grasp the instant ramen,  
+sent:  open it  
+sent:  and add seasoning  
+sent:  pour the hot water to the cup of ramen  
+File 405
+sent: Take the icecream out of the freezer  
+sent:  and put several scoops in the cup with the coffee in it  
+sent:  . Put chocolate and vanilla syrup on top  
+File 406
+sent: Make  
+sent:  coffee
+File 407
+sent: Put all dirty dishes into the sink, cups, plates, forks, the pot  
+sent:  and all . Put ramen into the refrigerator  
+sent:  . Put flavors in the cupboard  
+File 408
+sent: Get drinks ready for everyone
+File 409
+sent: Find the videogame  
+sent:  and put it inside the Xbox  
+sent:  . Set up the Xbox with the TV  
+sent:  . Put the drinks on the table with the bag of chips  
+sent:  .
+File 410
+sent: Pick up trash
+sent:  up trash
+sent:  up remote 1
+sent:  up cd
+sent:  up cd
+File 411
+sent: Turn on the TV  
+sent:  and scroll down to the movie channel  
+sent:  .
+sent:  .
+File 412
+sent: Pick  
+sent:  . Move  
+sent:  to counter  
+sent:  . Pick up food  
+sent:  . Bring it to Desk  
+sent:  . Open books  
+File 413
+sent: prepare the ice cream  
+File 414
+sent: Pick up kettle
+sent:  down kettle on the burner
+sent:  down kettle on the burner
+File 415
+sent: pick up empty dishes and pickup and put away things pick up empty dishes and pickup and put away things  
+File 416
+sent: Put egg on plate  
+sent:  . Bring me plate with egg on it  
+sent:  . Bring me a coke  
+File 417
+sent: Pick  
+sent:  up xbox
+sent:  down xbox
+sent:  and dip
+sent:  up pillows
+sent:  up pillows
+File 418
+sent: Put pillows on couch  
+sent:  . Put beer and chips in trash  
+File 419
+sent: make the room  
+sent:  really cozy and place pillows and blankets in front of the tv and on the couch  
+sent:  . give us a selection of romantic comedy  
+sent:  and prepare  
+sent:  some healthy snacks please  
+File 420
+sent: Fill up the bowl with chips  
+sent:  and put it on the table  
+sent:  . If the bag of chips is empty throw away the bag in the garbage bag 
+sent:   If the bag of chips is empty throw away the bag in the garbage bag . Put the garbage bag into the garbage bin 
+sent:   Put the garbage bag into the garbage bin .  .
+File 421
+sent: Grab CD  
+sent:  . Turn music  
+sent:  . Arrange pillow on couch  
+sent:  . Dispose garbage bag  
+sent:  . Arrange books on table  
+File 422
+sent: put pot in the sink  
+sent:  and toggle the tap until the pot is 80 percent  
+sent:  full . Then put the pot on the stove  
+sent:  and turn on the stove  
+sent:  . turn on the stove until water temperature is 100 degrees  
+sent:  celcius .
+sent:  and turn on for four minutes  
+sent:  . Then turn off the microwave  
+sent:  and remove the mug  
+File 423
+sent: Put the empty cup and the dish to the sink  
+File 424
+sent: Prepare the Ramen in a long cup and microwave  
+sent:  . Fill the mug with water  
+sent:  . Bring it  
+File 425
+sent: Get the far cry game CD on the shelf  
+sent:  and insert it into the xbox  
+sent:  . xbox is right in front of the TV so there is no need to change its place  
+sent:  . No need to arrange couch  
+File 426
+sent: arrange things and take out trash waste then sit on the chair  
+File 427
+sent: Turn on the television  
+sent:  and put on a movie  
+sent:  . Pour the chips into a bowl  
+sent:  and put the bowl on the coffee table  
+sent:  . Move all available pillows onto the couches  
+File 428
+sent: Go get me a bowl of chicken ramen .
+File 429
+sent: Take the mug out of the microwave  
+sent:  and pour it on the plate  
+sent:  . Take ice cream out of the freezer  
+sent:  and scoop some onto the plate  
+sent:  . Pick up the bottle of syrup  
+sent:  and squeeze some on the plate  
+File 430
+sent: Fill the pot with water from tap  
+sent:  . Place it on the stove  
+sent:  . Turn the stove  
+sent:  on . Wait for water to boil  
+File 431
+File 432
+sent: Get a cup  
+sent:  .  Open the fridge  
+sent:  and remove milk  
+sent:  . Close the fridge  
+sent:  .  Slowly add milk to the cup  
+sent:  until is is 7/8 full .  Get a bowl  
+sent:  .  Add cereal to the bowl until it  
+sent:  is full .  Slowly add milk to the cereal in the bowl  
+sent:  .  Serve with a spoon  
+File 433
+sent: get xbox from the shelf  
+sent:  and place it on the table  
+File 434
+sent:  . Put pillows onto the coaches  
+sent:  . Put books on the shelf  
+sent:  . Dump the bowl in the trash bag  
+sent:  . Throw beer, coke and chips into the trash bag  
+sent:  . Dispose the trash bag  
+File 435
+sent: Put a movie into the x box  
+sent:  and bring some food to the table  
+sent:  . Set some pillows on the couch  
+File 436
+sent: Turn off the tv  
+sent:  . Bring us the book and the bag of chips  
+File 437
+sent: Turn on TV  
+sent:  and make sure the volume is up for music  
+sent:  . Pour the chips into the bowl and place on coffee table  
+sent:  . Take the xbox off the floor and place on shelf  
+File 438
+sent: Pick up ramen
+sent:  in microwave
+File 439
+sent: Take coffee,  
+sent:  eat the ice cream  
+sent:  and use syrup for ice cream  
+File 440
+sent: Place the pot in the sink  
+sent:  and turn on tap until the pot  
+sent:  is 80 percent full then turn off the tap  
+sent:  . Place the pot on the stove  
+sent:  . Turn on the stove until the water temperature is 100 degrees  
+File 441
+sent: Pour water in the cup and boil in the microwave  
+File 442
+sent: Stare at the empty dished  
+sent:  .Arrange all the things  
+File 443
+sent: Pour me some orange juice  
+sent:  . Make pankcakes  
+sent:  . I'll take a plate  
+File 444
+sent: Place game in xbox  
+sent:  .
+sent:  .
+sent:  .
+File 445
+sent: Put everything on the floor to the tables  
+File 446
+sent: First find the Shrek 2 movie  
+sent:  and put it into the xbox  
+sent:  . Next, the television has to be  
+sent:  . Turn the xbox  
+sent:  on to begin the movie  
+sent:  by pouring the chips into the bowl  
+sent:  . Finally, grab the pillows from the shelf  
+sent:  and arrange them on the chairs  
+File 447
+sent: Take the book off the shelf  
+sent:  and place it on the table  
+sent:  . Turn off the TV  
+sent:  . Place bowl of food on the table .
+File 448
+sent: Put all ramen in the kettle  
+sent:  . Add four cups of water  
+sent:  and put in the stove for 10 min  
+File 449
+sent: Open the freezer,  
+sent:  grab the ice cream  
+sent:  inside . Prepare a mug with coffee,  
+sent:  then pour the coffee into the white bowl on the counter  
+sent:  . Put two scoops of ice cream into this white bowl,  
+sent:  then put vanilla and chocolate syrup over it  
+File 450
+sent: Fill kettle with water  
+sent:  up instantRamen1 . Pour instantRamen1 in mug . Pour water in kettle into mug  
+File 451
+sent: Take out coffee, ice cream and syrup  
+sent:  the together and pour it in a empty cup  
+File 452
+sent: Find kettle  
+sent:  . Fill kettle 2/3 full with water  
+sent:  . Place kettle on any stove burner  
+sent:  . Turn stove burner with kettle on it  
+sent:  on . Wait until water boils  
+File 453
+sent: Empty the contents of the mug  
+sent:  and put the dirty dishes and utensils inside the sink  
+File 454
+sent: I am Hungry , I will make some breakfast  
+sent:  . Do you also want something?
+sent:  make a Tea .
+File 455
+sent: place xbox games and food on a table in front of the couch  
+sent:  . turn on the tv  
+sent:  and learn  
+sent:  how to play  
+File 456
+sent: Put the Xbox and controller inside the cupboard under the TV  
+sent:  . Place all edibles on the table  
+sent:  . Put all CDs and books on the shelves  
+sent:  . Put the pillows on the shelves  
+sent:  as well . Put the trash bag in the trash pin 
+sent:   Put the trash bag in the trash pin .
+File 457
+sent: Turn on the TV  
+sent:  and set to the movie channel  
+sent:  . Arrange pillow1,pillow2,pillow3 on the couch . Grasp coke1 and beer1 to the table in front of the couch .
+File 458
+sent: Place the Xbox and Xbox controllers  
+sent:  . Place the books on the table  
+sent:  .Put the remote near the television  
+sent:  . Throw away the beer  
+sent:  . Bring the bowl and bag of chips to the center table  
+sent:  and empty contents of chip bag into the bowl  
+File 459
+sent: Put chips in a bowl  
+sent:  and put music  
+File 460
+sent: Fill the ramen container  
+sent:  and place the container into the microwave  
+File 461
+sent: Take ice cream from freezer  
+sent:  and scoop with spoon into the mug with coffee in it  
+sent:  . Replace ice cream in freezer  
+sent:  . Take vanilla syrup  
+sent:  and pour over icecream  
+File 462
+sent: Pour the pot  
+sent:  and wash it in the sink  
+sent:  . Fill the pot with water up to two thirds  
+sent:  . Heat it on the stove for 10 minutes  
+File 463
+sent: Put the mug in the sink  
+File 464
+sent: Take a scoop of ice cream  
+sent:  and put it on the plate  
+sent:  . Take the plate next to the mug  
+sent:  . Put a spoon  
+File 465
+sent:  put the Far Cry game inside the Xbox,  
+sent:  turn on the TV and the Xbox,  
+sent:  and put out Coke cans  
+sent:  and open the chips bag  
+File 466
+sent: Turn of TV  
+sent:  and select movie in Neflix  
+sent:  . Put popcorn bag in the microwave for 3 min  
+File 467
+sent: Turn off the TV and the XBOX  
+sent:  .  Remove beer from the coffee table  
+sent:  . Bring all books to the coffee table  
+sent:  .  Bring the bowl of chips to the coffee table  
+sent:  .  Open the bag of chips,  
+sent:  and pour the contents into the bowl until it  
+sent:  is full .  Move all chairs around the coffee table  
+File 468
+sent: turn on the music  
+sent:  .give me some food  

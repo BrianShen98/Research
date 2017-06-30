@@ -1,0 +1,25 @@
+entire sentence: , Get cups and drinks out. Make food for breakfast. Serve food for everyone  Get cups and drinks out. Make food for breakfast. Serve food for everyone , 
+
+<start clause>
+start env: 18
+end env: 17
+sent: Get cups and drinks out. Make food for breakfast. Serve food for everyone 
+clause dscr: Get [   cups |   drinks | relation: (2, 2){ cups x  drinks -> and}]
+clause dscr: Make [ food | breakfast | relation: (2 ,2){ food x  breakfast -> for}]
+clause dscr: Serve [ food | everyone | relation: (2 ,2){ food x  everyone -> for}]
+words: Get cups drinks and Make food breakfast for Serve food everyone for
+verb: Get Make Serve
+arg mapping: (cups,LongCup_1) (cups,LongCup_2) (drinks,EnergyDrink_1)
+<end clause>
+
+<start clause>
+start env: 18
+end env: 17
+sent: Get cups and drinks out. Make food for breakfast. Serve food for everyone 
+clause dscr: Get [   cups |   drinks | relation: (2, 2){ cups x  drinks -> and}]
+clause dscr: Make [ food | breakfast | relation: (2 ,2){ food x  breakfast -> for}]
+clause dscr: Serve [ food | everyone | relation: (2 ,2){ food x  everyone -> for}]
+words: Get cups drinks and Make food breakfast for Serve food everyone for
+verb: Get Make Serve
+arg mapping: (cups,LongCup_1) (cups,LongCup_2) (drinks,EnergyDrink_1)
+<end clause>

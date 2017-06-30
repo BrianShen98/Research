@@ -1,0 +1,74 @@
+entire sentence: ,  Place all couches on the side of one wall   ,  Put the garbage bag inside the bin   and place near the wall and near the counter   , ,  Put one of the CD's   into the Xbox console and place the Xbox console near the television and turn on the power into the Xbox console and place   the Xbox console near the television and turn on the power   , , , , , ,  Music can play   from there 
+
+<start clause>
+start env: 14
+end env: 13
+sent: Place both CD's and both books (brown and Guiness) on top of the shelf in the corner of the room . Bring bag of chips and place on the center coffee table . Place all couches on the side of one wall
+clause dscr: Place [  CD |   books |  shelf |  room | relation: (4, 4){ CD x  books -> and}{ CD x  shelf -> on}{ CD x  room -> on }{ books x  shelf -> on}{ books x  room -> on }{ shelf x  room -> in}]
+clause dscr: Bring [ bag | chips | relation: (2, 2){ bag x chips -> of }]
+clause dscr: place [ center coffee table | relation: Null ]
+clause dscr: Place [ couches | wall | relation: (2, 2){ couches x wal -> on the side of }]
+words: Place CD books shelf room and on on on on in Bring bag chips of place center coffee table Place couches wall on the side of
+verb: Place Bring place Place
+arg mapping: (CD,Cd_2) (CD,Cd_1) (books,Book_1) (books,Book_2) (shelf,Shelf_1) (shelf,Shelf_2) (bag,BagOfChips_1) (bag,GarbageBag_1) (chips,BagOfChips_1) (center coffee table,CoffeeTable_1) (center coffee table,TvTable_1) (center coffee table,SnackTable_1) (couches,Loveseat_1) (couches,Loveseat_2)
+<end clause>
+
+<start clause>
+start env: 14
+end env: 17
+sent:  . Put the garbage bag inside the bin  
+clause dscr: Put [   garbage |   bag |   bin | relation: (3, 3){ garbage x  bag -> inside}{ garbage x  bin -> inside}{ bag x  bin -> inside} ]
+words: Put garbage bag bin inside inside inside
+verb: Put
+arg mapping: (garbage,GarbageBag_1) (garbage,GarbageBin_1) (bag,BagOfChips_1) (bag,GarbageBag_1) (bin,GarbageBin_1)
+<end clause>
+
+<start clause>
+start env: 18
+end env: 17
+sent:  and place near the wall and near the counter  
+clause dscr: place [   wall |   counter | relation: (2, 2){ wall x  counter -> and} ]
+words: place wall counter and
+verb: place
+arg mapping: (counter,TvTable_1)
+<end clause>
+
+<start clause>
+start env: 18
+end env: 22
+sent:  . Put one of the CD's into the Xbox console
+clause dscr: Put [  CD | Xbox console | relation: (2, 2){ CD x Xbox console  -> into } ]
+words: Put CD Xbox console into
+verb: Put
+arg mapping: (CD,Cd_2) (CD,Cd_1) (Xbox console,Xbox_1)
+<end clause>
+
+<start clause>
+start env: 23
+end env: 23
+sent:   and place the Xbox console near the television and turn on the power into the Xbox console and place  
+clause dscr: place [   Xbox console |   television | relation: (2, 2){ Xbox console x  television -> near} ]
+words: place Xbox console television near
+verb: place
+arg mapping: (Xbox console,Xbox_1) (television,Tv_1)
+<end clause>
+
+<start clause>
+start env: 23
+end env: 22
+sent:  the Xbox console near the television and turn on the power  
+clause dscr: console [   Xbox |   television | relation: (2, 2){ Xbox x  television -> near} ]
+words: console Xbox television near
+verb: console
+arg mapping: (Xbox,Xbox_1) (television,Tv_1)
+<end clause>
+
+<start clause>
+start env: 23
+end env: 22
+sent:  . Music can play  
+clause dscr: play [   Music | relation: Null ]
+words: play Music
+verb: play
+arg mapping: 
+<end clause>

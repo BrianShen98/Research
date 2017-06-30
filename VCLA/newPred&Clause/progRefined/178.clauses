@@ -1,0 +1,14 @@
+entire sentence: , Select xBox game. Turn on xBox. Take food from kitchen counter to game room table. Place couch 4 feet in front of television 
+
+<start clause>
+start env: 12
+end env: 11
+sent: Select xBox game. Turn on xBox. Take food from kitchen counter to game room table. Place couch 4 feet in front of television .
+clause dscr: Select [ xBox game | relation: Null ]
+clause dscr: Turn [ xBox | relation: Null ]
+clause dscr: Take [   food |   kitchen counter |   game room table | relation: (3, 3){ food x  kitchen counter -> from}{ food x  game room table -> to}{ kitchen counter x  game room table -> to }]
+clause dscr: Place [ couch | television | relation: (2 ,2){ couch x television -> in front of }]
+words: Select xBox game Turn xBox Take food kitchen counter game room table from to to Place couch television in front of
+verb: Select Turn Take Place
+arg mapping: (xBox game,Xbox_1) (xBox,Xbox_1) (game room table,CoffeeTable_1) (game room table,TvTable_1) (game room table,SnackTable_1) (couch,Loveseat_1) (couch,Loveseat_2) (television,Tv_1)
+<end clause>

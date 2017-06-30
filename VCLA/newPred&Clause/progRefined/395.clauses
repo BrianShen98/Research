@@ -1,0 +1,13 @@
+entire sentence: , put coffee in cup, open the freezer and put ice cream in it then add   chocolate syrup , 
+
+<start clause>
+start env: 11
+end env: 10
+sent: put coffee in cup, open the freezer and put ice cream in it then add
+clause dscr: put [ coffee | cup | relation: (2, 2){coffee x cup -> in }]
+clause dscr: open [  freezer | relation: Null ]
+clause dscr: put [ ice cream | it | relation: (2, 2){ice cream x it -> in} ]
+words: put coffee cup in open freezer put ice cream it in
+verb: put open put
+arg mapping: (coffee,Mug_1) (cup,LongCup_1) (cup,LongCup_2) (freezer,Fridge) (ice cream,IceCream_1) (it,Fridge)
+<end clause>

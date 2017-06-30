@@ -1,0 +1,11 @@
+entire sentence: , Cook me hot ramen   
+
+<start clause>
+start env: 11
+end env: 10
+sent: Cook me hot ramen  
+clause dscr: Cook [   ramen | relation: Null ]
+words: Cook ramen
+verb: Cook
+arg mapping: 
+<end clause>

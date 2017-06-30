@@ -1,0 +1,12 @@
+entire sentence: , Get the far cry game CD on the shelf and insert it into the xbox, ,  xbox is right in front of the TV so there is no need to change its place,  No need to arrange couch, 
+
+<start clause>
+start env: 0
+end env: 4
+sent: Get the far cry game CD on the shelf and insert it into the xbox. xbox is right in front of the TV so there is no need to change its place. Food is already served on the table. No need to arrange couch.
+clause dscr: Get [   game CD |   shelf | relation: (2, 2){ game CD x  shelf -> on}]
+clause dscr: insert [ it | xbox | relation: (2, 2){ it x xbox -> into}]
+words: Get game CD shelf on insert it xbox into
+verb: Get insert
+arg mapping: (game CD,Cd_2) (game CD,Cd_1) (shelf,Shelf_1) (shelf,Shelf_2) (xbox,Xbox_1)
+<end clause>

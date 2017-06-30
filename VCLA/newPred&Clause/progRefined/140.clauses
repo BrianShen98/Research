@@ -1,0 +1,44 @@
+entire sentence: , Turn on TV   ,  Turn   to channel   3 , 
+
+<start clause>
+start env: 0
+end env: 1
+sent: Turn on TV  
+clause dscr: Turn [   TV | relation: Null ]
+words: Turn TV
+verb: Turn
+arg mapping: (TV,Tv_1)
+<end clause>
+
+<start clause>
+start env: 2
+end env: 3
+sent:  . Turn  
+clause dscr: Turn [ relation: Null ]
+words: Turn
+verb: Turn
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 12
+end env: 11
+sent:  to channel  
+clause dscr: channel [ relation: Null ]
+words: channel
+verb: channel
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 12
+end env: 11
+sent:  3 . Bring chips in bowl and place on coffee table . Bring pillows from shelf and place on couches .  .
+clause dscr: Bring [   chips |   bowl | relation: (2, 2){ chips x  bowl -> in}]
+clause dscr: place [ coffee table | relation: Null ]
+clause dscr: Bring [ pillows | shelf | relation: (2, 2){ pillows x shelf -> from }]
+clause dscr: place [ couches | relation: Null ]
+words: Bring chips bowl in place coffee table Bring pillows shelf from place couches
+verb: Bring place Bring place
+arg mapping: (chips,BagOfChips_1) (bowl,GarbageBag_1) (bowl,GarbageBin_1) (coffee table,CoffeeTable_1) (pillows,Pillow_1) (pillows,Pillow_2) (pillows,Pillow_3) (pillows,Pillow_4) (shelf,Shelf_1) (shelf,Shelf_2) (couches,Loveseat_1)
+<end clause>

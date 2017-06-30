@@ -1,0 +1,21 @@
+entire sentence: , get xbox from the shelf   and place it on the table   , 
+
+<start clause>
+start env: 0
+end env: 1
+sent: get xbox from the shelf  
+clause dscr: get [   xbox |   shelf | relation: (2, 2){ xbox x  shelf -> from} ]
+words: get xbox shelf from
+verb: get
+arg mapping: (xbox,Xbox_1) (shelf,Shelf_1) (shelf,Shelf_2)
+<end clause>
+
+<start clause>
+start env: 3
+end env: 2
+sent:  and place it on the table  
+clause dscr: place [   it |   table | relation: (2, 2){ it x  table -> on} ]
+words: place it table on
+verb: place
+arg mapping: 
+<end clause>

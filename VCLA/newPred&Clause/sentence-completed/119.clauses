@@ -1,0 +1,31 @@
+entire sentence: , Make breakfast   ,  Pour the drink into a long cup   ,  Serve the food in the plate   
+
+<start clause>
+start env: 9
+end env: 8
+sent: Make breakfast  
+clause dscr: Make [   breakfast | relation: Null ]
+words: Make breakfast
+verb: Make
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 9
+end env: 8
+sent:  . Pour the drink into a long cup  
+clause dscr: Pour [   drink |   cup | relation: (2, 2){ drink x  cup -> into} ]
+words: Pour drink cup into
+verb: Pour
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 9
+end env: 8
+sent:  . Serve the food in the plate  
+clause dscr: Serve [   food |   plate | relation: (2, 2){ food x  plate -> in} ]
+words: Serve food plate in
+verb: Serve
+arg mapping: 
+<end clause>

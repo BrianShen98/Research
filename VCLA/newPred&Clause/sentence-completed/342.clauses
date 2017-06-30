@@ -1,0 +1,41 @@
+entire sentence: , Pick up one movie   for me and play it   , ,  Get out chips form fridge   ,  Get pillows   for me 
+
+<start clause>
+start env: 0
+end env: -1
+sent: Pick up one movie  
+clause dscr: Pick [   movie | relation: Null ]
+words: Pick movie
+verb: Pick
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 0
+end env: 14
+sent:  for me and play it  
+clause dscr: play [   it | relation: Null ]
+words: play it
+verb: play
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 15
+end env: 14
+sent:  . Get out chips form fridge  
+clause dscr: Get [   chips form fridge | relation: Null ]
+words: Get chips form fridge
+verb: Get
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 16
+end env: 15
+sent:  . Get pillows  
+clause dscr: Get [   pillows | relation: Null ]
+words: Get pillows
+verb: Get
+arg mapping: 
+<end clause>

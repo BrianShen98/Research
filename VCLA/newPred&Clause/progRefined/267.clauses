@@ -1,0 +1,15 @@
+entire sentence: , open fridge and have energydrink. empty instantramen 1 and longglass water into mug. put mug in microwave for 2 minutes. serve cooked instantramen from mug in Plate , , 
+
+<start clause>
+start env: 23
+end env: 22
+sent: open fridge and have energydrink. empty instantramen 1 and longglass water into mug. put mug in microwave for 2 minutes. serve cooked instantramen from mug in Plate
+clause dscr: open [   fridge | relation: Null]
+clause dscr: have [ energydrink | relation: Null ]
+clause dscr: empty [ instantramen 1 | water | mug | relation: (3 ,3){ instantramen 1 x water -> and }{ instantramen 1 x mug -> into }{ water x mug -> into }]
+clause dscr: put [ mug | microwave | relation: (2 ,2){mug x microwave -> in }]
+clause dscr: serve [instantramen | mug | Plate | relation: (3 ,3){ instantramen x mug -> from}{instantramen x Plate -> in}{ mug x Plate -> in }]
+words: open fridge have energydrink empty instantramen 1 water mug and into into put mug microwave in serve instantramen mug Plate from in in
+verb: open have empty put serve
+arg mapping: (fridge,Fridge) (energydrink,EnergyDrink_1) (instantramen 1, InstantRamen_1) (water,Mug_1) (water,LongCup_1) (mug,Mug_1) (mug,Mug_1) (microwave,Microwave) (instantramen,InstantRamen_1) (mug,Mug_1) (Plate,Plate_1) (Plate,Plate_2)
+<end clause>

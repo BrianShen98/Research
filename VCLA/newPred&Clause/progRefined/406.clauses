@@ -1,0 +1,20 @@
+entire sentence: , Make   coffee. Add ice cream and syrup   to the coffee , 
+<start clause>
+start env: 18
+end env: 17
+sent: Make coffee
+clause dscr: Make [ coffee | relation: Null ]
+words: Make coffee
+verb: Make
+arg mapping: (coffee,Mug_1)  
+<end clause>
+
+<start clause>
+start env: 34
+end env: 33
+sent: Add ice cream and syrup to the coffee
+clause dscr: Add [ ice cream |   syrup | coffee | relation: (3, 3){ ice cream x  syrup -> and}{ ice cream x coffee -> to}{ syrup x coffee -> to } ]
+words: Add ice cream syrup coffee and to to
+verb: Add
+arg mapping: (ice cream,IceCream_1) (syrup,Syrup_1) (syrup,Syrup_2) (coffee,Mug_1)
+<end clause>

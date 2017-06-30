@@ -1,0 +1,52 @@
+entire sentence: , Prepare   the coffee using hot water   , ,  Take the coffee   and pour the coffee over the ice cream in the mug   , ,  Drizzle with syrup   
+
+<start clause>
+start env: 0
+end env: -1
+sent: Prepare  
+clause dscr: Prepare [ relation: Null ]
+words: Prepare
+verb: Prepare
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 21
+end env: 20
+sent:  the coffee using hot water  
+clause dscr: using [   coffee water | relation: Null ]
+words: using coffee water
+verb: using
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 15
+end env: 28
+sent:  . Place two scoops of ice cream into the mug . 
+clause dscr: Place [  ice cream |   mug | relation: (2, 2){ ice cream x  mug -> into} ]
+words: Place ice cream mug into
+verb: Place
+arg mapping: (ice cream,IceCream_1) (mug,Mug_1)
+<end clause>
+
+<start clause>
+start env: 29
+end env: 33
+sent: Take the coffee and pour the coffee over the ice cream in the mug
+clause dscr: Take [ coffee | relation: Null ]
+clause dscr: pour [   coffee |   ice cream |  mug | relation: (3, 3){ coffee x  ice cream -> over}{ coffee x  mug -> over}{ ice cream x  mug -> in} ]
+words: Take coffee pour coffee ice cream mug over over in
+verb: Take pour
+arg mapping: (coffee,Mug_1) (coffee,Mug_1) (ice cream,IceCream_1) (mug,Mug_1)
+<end clause>
+
+<start clause>
+start env: 34
+end env: 36
+sent:  . Drizzle with syrup  
+clause dscr: Drizzle [   syrup | relation: Null ]
+words: Drizzle syrup
+verb: Drizzle
+arg mapping: (syrup,Syrup_1) (syrup,Syrup_2)
+<end clause>

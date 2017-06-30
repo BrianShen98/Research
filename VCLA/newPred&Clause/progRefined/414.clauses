@@ -1,0 +1,33 @@
+entire sentence: , Pick up kettle, put   down kettle on the burner, turn on burner  down kettle on the burner, turn on burner , 
+
+<start clause>
+start env: 0
+end env: 1
+sent: Pick up kettle  
+clause dscr: Pick [   kettle | relation: Null ]
+words: Pick kettle
+verb: Pick
+arg mapping: (kettle,Kettle)
+<end clause>
+
+<start clause>
+start env: 2
+end env: 5
+sent: put down kettle on the burner, turn on burner 
+clause dscr: put [ kettle | burner | relation: (2, 2){ kettle x  burner -> on} ]
+clause dscr: turn [  burner | relation: Null ]
+words: put kettle burner on turn burner
+verb: put turn
+arg mapping: (kettle,Kettle)
+<end clause>
+
+<start clause>
+start env: 4
+end env: 3
+sent: put down kettle on the burner, turn on burner .
+clause dscr: put [ kettle | burner | relation: (2, 2){ kettle x  burner -> on} ]
+clause dscr: turn [  burner | relation: Null ]
+words: put kettle burner on turn burner
+verb: put turn
+arg mapping: (kettle,Kettle)
+<end clause>

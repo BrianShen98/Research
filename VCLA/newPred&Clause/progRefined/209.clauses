@@ -1,0 +1,31 @@
+entire sentence: , Put all books of the shelf   ,  Put the garbage bag in the garbage bin   Put the garbage bag in the garbage bin , , Place the CD on the shelf   
+
+<start clause>
+start env: 0
+end env: 6
+sent: Put all books of the shelf  
+clause dscr: Put [   books |   shelf | relation: (2, 2){ books x  shelf -> of} ]
+words: Put books shelf of
+verb: Put
+arg mapping: (books,Book_1) (books,Book_2) (shelf,Shelf_1) (shelf,Shelf_2)
+<end clause>
+
+<start clause>
+start env: 4
+end env: 3
+sent:  . Put the garbage bag in the garbage bin 
+clause dscr: Put [   garbage bag |   garbage bin | relation: (2, 2){ garbage bag  x  garbage bin -> in } ]
+words: Put garbage bag garbage bin in
+verb: Put
+arg mapping: (garbage bag,GarbageBag_1) (garbage bin,GarbageBin_1)
+<end clause>
+
+<start clause>
+start env: 7
+end env: 9
+sent:   Put the garbage bag in the garbage bin .Place the CD on the shelf  
+clause dscr: Place [ CD | shelf | relation: (2 ,2){ CD x shelf -> on } ]
+words: Place CD shelf on
+verb: Place
+arg mapping: (CD,Cd_2) (CD,Cd_1) (shelf,Shelf_1) (shelf,Shelf_2)
+<end clause>

@@ -1,0 +1,12 @@
+entire sentence: ,   Put the spoon and plate into the sink   
+
+<start clause>
+start env: 13
+end env: 12
+sent: place glass1, long cup2, long cup1, mug and canada dry on the table against the wall .  Put the spoon and plate into the sink  
+clause dscr: place [ glass1 | cup2 | cup1 | mug | canada dry | table | relation: (6, 6){ glass1 x  cup2 -> ,}{ glass1 x  cup1 -> ,}{ glass1 x  mug -> ,}{ glass1 x  canada dry -> ,}{ glass1 x table -> on }{ cup2 x  cup1 -> ,}{ cup2 x  mug -> ,}{ cup2 x  canada dry -> ,}{ cup2 x table -> on }{ cup1 x  mug -> ,}{ cup1 x  canada dry -> ,}{ cup1 x table -> on }{ mug x  canada dry -> and}{ mug x table -> on }{ canada dry x table -> on } ]
+clause dscr: Put [ spoon |   plate |   sink | relation: (3, 3){ spoon x  plate -> and}{ spoon x  sink -> into}{ plate x  sink -> into} ]
+words: place glass1 cup2 cup1 mug canada dry table , , , , on , , , on , , on and on on Put spoon plate sink and into into
+verb: place Put
+arg mapping: (glass1,Glass_1) (cup2,LongCup_1) (cup2,LongCup_2) (cup1,LongCup_1) (cup1,LongCup_2) (mug,Mug_1) (canada dry,CanadaDry_1) (spoon,Spoon_1) (plate,Plate_1) (plate,Plate_2) (sink,Sink)
+<end clause>

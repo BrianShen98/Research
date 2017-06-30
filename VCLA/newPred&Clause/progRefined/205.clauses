@@ -1,0 +1,12 @@
+entire sentence: , Pick up the coffee, put a little bit of ice cream and syrup   in it  in it , 
+
+<start clause>
+start env: 0
+end env: 16
+sent: Pick up the coffee, put a little bit of ice cream and syrup in it 
+clause dscr: Pick [   coffee | relation: Null ]
+clause dscr: put [ ice cream | syrup | it | relation: (3, 3){ice cream x syrup -> and }{ice cream x it -> in }{syrup x it -> in } ]
+words: Pick coffee put ice cream syrup it and in in
+verb: Pick put
+arg mapping: (coffee,Mug_1) (ice cream,IceCream_1) (syrup,Syrup_1) (syrup,Syrup_2)
+<end clause>

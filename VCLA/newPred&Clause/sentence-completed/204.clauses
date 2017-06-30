@@ -1,0 +1,21 @@
+entire sentence: , get the ramen   and cook it   , 
+
+<start clause>
+start env: 0
+end env: 1
+sent: get the ramen  
+clause dscr: get [   ramen | relation: Null ]
+words: get ramen
+verb: get
+arg mapping: (ramen,Ramen_1)
+<end clause>
+
+<start clause>
+start env: 10
+end env: 9
+sent:  and cook it  
+clause dscr: cook [   it | relation: Null ]
+words: cook it
+verb: cook
+arg mapping: 
+<end clause>

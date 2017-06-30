@@ -1,0 +1,31 @@
+entire sentence: , Put the xbox and the xbox   controllet on the shelf ,  Put the bag of chips   to trash bin   , 
+
+<start clause>
+start env: 0
+end env: 6
+sent: Put the xbox and the xbox controllet on the shelf 
+clause dscr: Put [   xbox | xbox controllet |  shelf | relation: (3, 3){ xbox x  xbox controllet -> and}{xbox x shelf -> on}{ xbox controllet x shelf -> on } ]
+words: Put xbox xbox controllet shelf and on on
+verb: Put
+arg mapping: (xbox,Xbox_1) (xbox controllet,XboxController_1) (shelf,Loveseat_1)
+<end clause>
+
+<start clause>
+start env: 7
+end env: 8
+sent:  . Put the bag of chips  
+clause dscr: Put [   bag |  chips | relation: (2, 2){ bag x  chips -> of} ]
+words: Put bag chips of
+verb: Put
+arg mapping: (bag,BagOfChips_1) (bag,GarbageBag_1) (chips,BagOfChips_1)
+<end clause>
+
+<start clause>
+start env: 8
+end env: 7
+sent:  to trash bin  
+clause dscr: trash [   bin | relation: Null ]
+words: trash bin
+verb: trash
+arg mapping: (bin,GarbageBin_1)
+<end clause>

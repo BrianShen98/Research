@@ -1,0 +1,33 @@
+entire sentence: , grasp far cry and xbox   ,  drop near tv   ,  grasp bowl and place on table , ,  move couch near tv   
+
+<start clause>
+start env: 0
+end env: 7
+sent: grasp far cry and xbox  
+clause dscr: grasp [   cry |   xbox | relation: (2, 2){ cry x  xbox -> and} ]
+words: grasp cry xbox and
+verb: grasp
+arg mapping: (xbox,Xbox_1)
+<end clause>
+
+<start clause>
+start env: 8
+end env: 9
+sent:  . drop near tv  
+clause dscr: drop [   tv | relation: Null ]
+words: drop tv
+verb: drop
+arg mapping: (tv,Tv_1)
+<end clause>
+
+<start clause>
+start env: 12
+end env: 11
+sent:  . grasp bowl and place on table . move couch near tv  
+clause dscr: grasp [ bowl | relation: Null ]
+clause dscr: place [ table | relation: Null ]
+clause dscr: move [ couch | tv | relation: (2, 2){ couch x tv -> near }]
+words: grasp bowl place table move couch tv near
+verb: grasp place move
+arg mapping: (bowl,Bowl_1) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1) (couch,Loveseat_1) (tv,Tv_1)
+<end clause>

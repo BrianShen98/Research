@@ -1,0 +1,11 @@
+entire sentence: , pick up empty dishes and pickup and put away things pick up empty dishes and pickup and put away things   , , , 
+
+<start clause>
+start env: 17
+end env: 16
+sent: pick up empty dishes and pickup and put away things pick up empty dishes and pickup and put away things  
+clause dscr: pick [   dishes |   pickup | relation: (2, 2){ dishes x  pickup -> and} ]
+words: pick dishes pickup and
+verb: pick
+arg mapping: 
+<end clause>
