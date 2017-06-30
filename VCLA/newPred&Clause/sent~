@@ -1,7 +1,0 @@
-#!/bin/bash
-
-echo > sent.txt
-for i in {0..468}
-do
-    sed /^sent:/!d ./sentence-completed/$i.clauses >> sent.txt
-done
