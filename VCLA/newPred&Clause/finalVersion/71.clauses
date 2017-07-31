@@ -1,0 +1,62 @@
+entire sentence: , Turn the TV   on and change the channel to one with music   , ,  Get food   and put it on the coffee table   , ,  Pick up the controller on the floor and place on the table   ,  Throw out the bottle   
+
+<start clause>
+start env: 0
+end env: 1
+sent: Turn the TV  
+[('verb', 'Turn'), ('obj1', 'TV'), ('rel12', 'Null')]
+words: Turn TV
+verb: Turn
+arg mapping: (TV,Tv_1)
+<end clause>
+
+<start clause>
+start env: 2
+end env: 2
+sent:  on and change the channel to one with music  
+[('verb', 'change'), ('obj1', 'channel'), ('obj2', 'music'), ('rel12', 'to')]
+words: change channel music to
+verb: change
+arg mapping: (channel,Tv_1ChannelUpButton) (channel,Tv_1ChannelDownButton) (channel,Tv_1Remote_1ChannelUpButton) (channel,Tv_1Remote_1ChannelDownButton)
+<end clause>
+
+<start clause>
+start env: 3
+end env: 2
+sent:  . Get food  
+[('verb', 'Get'), ('obj1', 'food'), ('rel12', 'Null')]
+words: Get food
+verb: Get
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 3
+end env: 2
+sent:  and put it on the coffee table  
+[('verb', 'put'), ('obj1', 'it'), ('obj2', 'coffee table'), ('rel12', 'on')]
+words: put it coffee table on
+verb: put
+arg mapping: (it,Tv_1) (it,Tv_1PowerButton) (it,Tv_1ChannelDownButton) (coffee table,CoffeeTable_1)
+<end clause>
+
+<start clause>
+start env: 3
+end env: 6
+sent:  . Pick up the controller on the floor and place on the table  
+[('verb', 'Pick'), ('obj1', 'controller'), ('obj2', 'floor'), ('rel12', 'on')]
+[('verb', 'place'), ('obj1', 'table'), ('rel12', 'Null')]
+words: Pick controller floor on place table
+verb: Pick place
+arg mapping: (controller,XboxController_1) (floor,Bowl_1) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1)
+<end clause>
+
+<start clause>
+start env: 7
+end env: 10
+sent:  . Throw out the bottle  
+[('verb', 'Throw'), ('obj1', 'bottle'), ('rel12', 'Null')]
+words: Throw bottle
+verb: Throw
+arg mapping: (bottle,Bowl_1)
+<end clause>

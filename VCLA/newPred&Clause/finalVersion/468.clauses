@@ -1,0 +1,21 @@
+entire sentence: , turn on the music   , give me some food   
+
+<start clause>
+start env: 0
+end env: 2
+sent: turn on the music  
+[('verb', 'turn'), ('obj1', 'music'), ('rel12', 'Null')]
+words: turn music
+verb: turn
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 2
+end env: 1
+sent:  .give me some food  
+[('verb', 'give'), ('obj1', 'food'), ('rel12', 'Null')]
+words: give food
+verb: give
+arg mapping: 
+<end clause>

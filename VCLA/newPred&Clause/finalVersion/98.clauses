@@ -1,0 +1,41 @@
+entire sentence: ,  Put xbox and xbox   controller on the table ,  Pour all the chips into the bowl   and put the bowl on the table   , ,  Move drinks and food to the middle of the table   ,  Put the pillow on the coach   
+
+<start clause>
+start env: 13
+end env: 16
+sent:  controller on the table . Pour all the chips into the bowl  
+[('verb', 'Pour'), ('obj1', 'controller'), ('obj2', 'table'), ('obj3', 'chips'), ('obj4', 'bowl'), ('rel12', 'on'), ('rel13', 'on'), ('rel14', 'on'), ('rel23', 'into'), ('rel24', 'into'), ('rel34', 'into')]
+words: Pour controller table chips bowl on on on into into into
+verb: Pour
+arg mapping: (controller,XboxController_1) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1) (chips,BagOfChips_1) (bowl,Bowl_1)
+<end clause>
+
+<start clause>
+start env: 17
+end env: 17
+sent:  and put the bowl on the table  
+[('verb', 'put'), ('obj1', 'bowl'), ('obj2', 'table'), ('rel12', 'on')]
+words: put bowl table on
+verb: put
+arg mapping: (bowl,Bowl_1) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1)
+<end clause>
+
+<start clause>
+start env: 18
+end env: 17
+sent:  . Move drinks and food to the middle of the table  
+[('verb', 'Move'), ('obj1', 'drinks'), ('obj2', 'food'), ('obj3', 'middle'), ('obj4', 'table'), ('rel12', 'and'), ('rel13', 'to'), ('rel14', 'to'), ('rel23', 'to'), ('rel24', 'to'), ('rel34', 'of')]
+words: Move drinks food middle table and to to to to of
+verb: Move
+arg mapping: (drinks,CoffeeTable_1) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1)
+<end clause>
+
+<start clause>
+start env: 18
+end env: 27
+sent:  . Put the pillow on the coach  
+[('verb', 'Put'), ('obj1', 'pillow'), ('obj2', 'coach'), ('rel12', 'on')]
+words: Put pillow coach on
+verb: Put
+arg mapping: (pillow,Pillow_1) (pillow,Pillow_2) (pillow,Pillow_3)
+<end clause>

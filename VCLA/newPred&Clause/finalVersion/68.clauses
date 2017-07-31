@@ -1,0 +1,42 @@
+entire sentence: , Open the gameCD with TV   ,  Put xbox and its controller on the table in front of the coaches   ,  Pour chips into the bowl   and throw the container into the trash bag   , ,  Put pillows onto the coaches,   one for each 
+
+<start clause>
+start env: 0
+end env: -1
+sent: Open the gameCD with TV  
+[('verb', 'Open'), ('obj1', 'gameCD'), ('obj2', 'TV'), ('rel12', 'with')]
+words: Open gameCD TV with
+verb: Open
+arg mapping: (gameCD,Cd_2) (gameCD,Cd_1) (TV,Tv_1)
+<end clause>
+
+<start clause>
+start env: 0
+end env: 1
+sent:  . Put xbox and its controller on the table in front of the coaches  
+[('verb', 'Put'), ('obj1', 'xbox'), ('obj2', 'controller'), ('obj3', 'table'), ('obj4', 'front'), ('obj5', 'coaches'), ('rel12', 'and'), ('rel13', 'on'), ('rel14', 'on'), ('rel15', 'on'), ('rel23', 'on'), ('rel24', 'on'), ('rel25', 'on'), ('rel34', 'in'), ('rel35', 'in'), ('rel45', 'of')]
+words: Put xbox controller table front coaches and on on on on on on in in of
+verb: Put
+arg mapping: (xbox,Xbox_1) (controller,XboxController_1) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1)
+<end clause>
+
+<start clause>
+start env: 0
+end env: -1
+sent:  and throw the container into the trash bag  
+[('verb', 'throw'), ('obj1', 'container'), ('obj2', 'trash bag'), ('rel12', 'into')]
+words: throw container trash bag into
+verb: throw
+arg mapping: (container,Bowl_1) (trash bag,BagOfChips_1) (trash bag,GarbageBag_1)
+<end clause>
+
+<start clause>
+start env: 0
+end env: -1
+sent:  . Arrange coaches around the big table . Put pillows onto the coaches,
+[('verb', 'Arrange'), ('obj1', 'coaches'), ('obj2', 'table'), ('rel12', 'around')]
+[('verb', 'Put'), ('obj1', 'pillows'), ('obj2', 'coaches'), ('rel12', 'onto')]
+words: Arrange coaches table around Put pillows coaches onto
+verb: Arrange Put
+arg mapping: (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1) (pillows,Pillow_1) (pillows,Pillow_2) (pillows,Pillow_3)
+<end clause>

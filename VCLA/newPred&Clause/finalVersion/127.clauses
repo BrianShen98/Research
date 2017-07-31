@@ -1,0 +1,81 @@
+entire sentence: , gather ingredients (egg from fridge, ramen from counter) microwave water in cup,   or boil water in pot   (process described in previous scenario)   , ,  Pour boiling water in ramen cup   after opening the cup   and removing soup base   , , ,  pour soup base   ,  Peel egg   and add   to ramen and throw shell in trash   , , , 
+
+<start clause>
+start env: 26
+end env: 25
+sent: gather ingredients (egg from fridge, ramen from counter) microwave water in cup,  
+[('verb', 'microwave'), ('obj1', 'ingredients egg'), ('obj2', 'water'), ('obj3', 'cup'), ('rel12', 'in'), ('rel13', 'in'), ('rel23', 'in')]
+words: microwave ingredients egg water cup in in in
+verb: microwave
+arg mapping: (ingredients egg,BoiledEgg_1) (cup,LongCup_1) (cup,LongCup_2)
+<end clause>
+
+<start clause>
+start env: 26
+end env: 25
+sent:  or boil water in pot  
+[('verb', 'pot'), ('obj1', 'boil'), ('obj2', 'water'), ('rel12', 'in')]
+words: pot boil water in
+verb: pot
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 26
+end env: 25
+sent:  (process described in previous scenario)  
+[('verb', 'described'), ('obj1', 'process'), ('obj2', 'scenario'), ('rel12', 'in')]
+words: described process scenario in
+verb: described
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 26
+end env: 25
+sent:  . Pour boiling water in ramen cup  
+[('verb', 'Pour'), ('obj1', 'water'), ('obj2', 'ramen cup'), ('rel12', 'in')]
+words: Pour water ramen cup in
+verb: Pour
+arg mapping: (ramen cup,Ramen_1) (ramen cup,LongCup_1) (ramen cup,LongCup_2) (ramen cup,InstantRamen_1)
+<end clause>
+
+<start clause>
+start env: 26
+end env: 25
+sent:  and removing soup base  
+[('verb', 'removing'), ('obj1', 'soup'), ('rel12', 'Null')]
+words: removing soup
+verb: removing
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 26
+end env: 25
+sent:  . pour soup base  
+[('verb', 'pour'), ('obj1', 'soup base'), ('rel12', 'Null')]
+words: pour soup base
+verb: pour
+arg mapping: (soup base,Plate_1) (soup base,Plate_2)
+<end clause>
+
+<start clause>
+start env: 26
+end env: 25
+sent:  and add  
+[('verb', 'add'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: add
+verb: add
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 26
+end env: 25
+sent:  to ramen and throw shell in trash  
+[('verb', 'throw'), ('obj1', 'shell'), ('obj2', 'trash'), ('rel12', 'in')]
+words: throw shell trash in
+verb: throw
+arg mapping: (trash,Glass_1)
+<end clause>

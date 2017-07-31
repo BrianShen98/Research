@@ -1,0 +1,74 @@
+entire sentence: ,  Place all couches on the side of one wall   ,  Put the garbage bag inside the bin   and place near the wall and near the counter   , ,  Put one of the CD's   into the Xbox console and place the Xbox console near the television and turn on the power into the Xbox console and place   the Xbox console near the television and turn on the power   , , , , , ,  Music can play   from there 
+
+<start clause>
+start env: 14
+end env: 13
+sent: Place both CD's and both books (brown and Guiness) on top of the shelf in the corner of the room . Bring bag of chips and place on the center coffee table . Place all couches on the side of one wall
+[('verb', 'Place'), ('obj1', 'CD'), ('obj2', 'books'), ('obj3', 'shelf'), ('obj4', 'room'), ('rel12', 'and'), ('rel13', 'on'), ('rel14', 'on'), ('rel23', 'on'), ('rel24', 'on'), ('rel34', 'in')]
+[('verb', 'Bring'), ('obj1', 'bag'), ('obj2', 'chips'), ('rel12', 'of')]
+[('verb', 'place'), ('obj1', 'center coffee table'), ('rel12', 'Null')]
+[('verb', 'Place'), ('obj1', 'couches'), ('obj2', 'wall'), ('rel12', 'on the side of')]
+words: Place CD books shelf room and on on on on in Bring bag chips of place center coffee table Place couches wall on the side of
+verb: Place Bring place Place
+arg mapping: (CD,Cd_2) (CD,Cd_1) (books,Book_1) (books,Book_2) (shelf,Shelf_1) (shelf,Shelf_2) (bag,BagOfChips_1) (bag,GarbageBag_1) (chips,BagOfChips_1) (center coffee table,CoffeeTable_1) (center coffee table,TvTable_1) (center coffee table,SnackTable_1) (couches,Loveseat_1) (couches,Loveseat_2)
+<end clause>
+
+<start clause>
+start env: 14
+end env: 17
+sent:  . Put the garbage bag inside the bin  
+[('verb', 'Put'), ('obj1', 'garbage'), ('obj2', 'bag'), ('obj3', 'bin'), ('rel12', 'inside'), ('rel13', 'inside'), ('rel23', 'inside')]
+words: Put garbage bag bin inside inside inside
+verb: Put
+arg mapping: (garbage,GarbageBag_1) (garbage,GarbageBin_1) (bag,BagOfChips_1) (bag,GarbageBag_1) (bin,GarbageBin_1)
+<end clause>
+
+<start clause>
+start env: 18
+end env: 17
+sent:  and place near the wall and near the counter  
+[('verb', 'place'), ('obj1', 'wall'), ('obj2', 'counter'), ('rel12', 'and')]
+words: place wall counter and
+verb: place
+arg mapping: (counter,TvTable_1)
+<end clause>
+
+<start clause>
+start env: 18
+end env: 22
+sent:  . Put one of the CD's into the Xbox console
+[('verb', 'Put'), ('obj1', 'CD'), ('obj2', 'Xbox console'), ('rel12', 'into')]
+words: Put CD Xbox console into
+verb: Put
+arg mapping: (CD,Cd_2) (CD,Cd_1) (Xbox console,Xbox_1)
+<end clause>
+
+<start clause>
+start env: 23
+end env: 23
+sent:   and place the Xbox console near the television and turn on the power into the Xbox console and place  
+[('verb', 'place'), ('obj1', 'Xbox console'), ('obj2', 'television'), ('rel12', 'near')]
+words: place Xbox console television near
+verb: place
+arg mapping: (Xbox console,Xbox_1) (television,Tv_1)
+<end clause>
+
+<start clause>
+start env: 23
+end env: 22
+sent:  the Xbox console near the television and turn on the power  
+[('verb', 'console'), ('obj1', 'Xbox'), ('obj2', 'television'), ('rel12', 'near')]
+words: console Xbox television near
+verb: console
+arg mapping: (Xbox,Xbox_1) (television,Tv_1)
+<end clause>
+
+<start clause>
+start env: 23
+end env: 22
+sent:  . Music can play  
+[('verb', 'play'), ('obj1', 'Music'), ('rel12', 'Null')]
+words: play Music
+verb: play
+arg mapping: 
+<end clause>

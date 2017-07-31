@@ -1,0 +1,21 @@
+entire sentence: , Turn off the TV   ,  Grasp the brown book to the table in front of the couch   
+
+<start clause>
+start env: 0
+end env: 1
+sent: Turn off the TV  
+[('verb', 'Turn'), ('obj1', 'TV'), ('rel12', 'Null')]
+words: Turn TV
+verb: Turn
+arg mapping: (TV,Tv_1)
+<end clause>
+
+<start clause>
+start env: 2
+end env: 3
+sent:  . Grasp the brown book to the table in front of the couch  
+[('verb', 'Grasp'), ('obj1', 'book'), ('obj2', 'table'), ('obj3', 'front'), ('obj4', 'couch'), ('rel12', 'to'), ('rel13', 'to'), ('rel14', 'to'), ('rel23', 'in'), ('rel24', 'in'), ('rel34', 'of')]
+words: Grasp book table front couch to to to in in of
+verb: Grasp
+arg mapping: (book,Book_1) (book,Book_2) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1) (couch,Loveseat_1)
+<end clause>

@@ -1,0 +1,21 @@
+#! /usr/bin/python
+
+import string, sys
+
+def findBad():
+    for i in range(469):
+        with open("./progRefined/{}.clauses".format(i),"r") as inFile:
+            for line in inFile:
+                if "sent:" in line and "clause dscr:" not in next(inFile):
+                    print("File {}\n{}".format(i,line))
+
+
+            
+                    
+                    
+
+def main():
+    findBad();
+
+if __name__ == "__main__":
+    main();

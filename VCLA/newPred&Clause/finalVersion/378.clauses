@@ -1,0 +1,41 @@
+entire sentence: , Throw out beer and coke   ,  Throw out trash bag   ,  Fluff pillows on couch   and stand them up , ,  Put Book of records on shelf with other books   Put Book of records on shelf with other books , 
+
+<start clause>
+start env: 0
+end env: 7
+sent: Throw out beer and coke  
+[('verb', 'Throw'), ('obj1', 'beer'), ('obj2', 'coke'), ('rel12', 'and')]
+words: Throw beer coke and
+verb: Throw
+arg mapping: (beer,Beer_1) (coke,Coke_1)
+<end clause>
+
+<start clause>
+start env: 8
+end env: 7
+sent:  . Throw out trash bag  
+[('verb', 'Throw'), ('obj1', 'trash bag'), ('rel12', 'Null')]
+words: Throw trash bag
+verb: Throw
+arg mapping: (trash bag,BagOfChips_1) (trash bag,GarbageBag_1)
+<end clause>
+
+<start clause>
+start env: 11
+end env: 10
+sent:  and stand them up . Put Book of records on shelf with other books 
+[('verb', 'stand'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: stand
+verb: stand
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 18
+end env: 17
+sent:   Put Book of records on shelf with other books .  .
+[('verb', 'Put'), ('obj1', 'Book'), ('obj2', 'records'), ('obj3', 'shelf'), ('obj4', 'books'), ('rel12', 'of'), ('rel13', 'of'), ('rel14', 'of'), ('rel23', 'on'), ('rel24', 'on'), ('rel34', 'with')]
+words: Put Book records shelf books of of of on on with
+verb: Put
+arg mapping: (Book,Book_1) (Book,Book_2) (records,Book_1) (records,Book_2) (shelf,Shelf_1) (shelf,Shelf_2) (books,Book_1) (books,Book_2)
+<end clause>

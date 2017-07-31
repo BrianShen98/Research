@@ -1,0 +1,41 @@
+entire sentence: , Make some coffee   ,  Make some eggs on the stove   and then put them on a plate   and serve the eggs and coffee   to me , , 
+
+<start clause>
+start env: 0
+end env: 10
+sent: Make some coffee  
+[('verb', 'Make'), ('obj1', 'coffee'), ('rel12', 'Null')]
+words: Make coffee
+verb: Make
+arg mapping: (coffee,Mug_1)
+<end clause>
+
+<start clause>
+start env: 17
+end env: 16
+sent:  . Make some eggs on the stove  
+[('verb', 'Make'), ('obj1', 'eggs'), ('obj2', 'stove'), ('rel12', 'on')]
+words: Make eggs stove on
+verb: Make
+arg mapping: (eggs,BoiledEgg_1) (stove,Stove)
+<end clause>
+
+<start clause>
+start env: 16
+end env: 15
+sent:  and then put them on a plate  
+[('verb', 'put'), ('obj1', 'plate'), ('rel12', 'Null')]
+words: put plate
+verb: put
+arg mapping: (plate,Plate_1) (plate,Plate_2)
+<end clause>
+
+<start clause>
+start env: 16
+end env: 15
+sent:  and serve the eggs and coffee  
+[('verb', 'serve'), ('obj1', 'eggs'), ('obj2', 'coffee'), ('rel12', 'and')]
+words: serve eggs coffee and
+verb: serve
+arg mapping: (eggs,BoiledEgg_1) (coffee,Mug_1)
+<end clause>

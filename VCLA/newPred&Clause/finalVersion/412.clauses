@@ -1,0 +1,61 @@
+entire sentence: , Pick   up remote ,  Close TV   ,  Move   to counter   , ,  Pick up food   ,  Bring it to Desk   ,  Open books   
+
+<start clause>
+start env: 0
+end env: 1
+sent: Pick  
+[('verb', 'Pick'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: Pick
+verb: Pick
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 5
+end env: 5
+sent:  . Move  
+[('verb', 'Move'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: Move
+verb: Move
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 3
+end env: 2
+sent:  to counter  
+[('verb', 'counter'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: counter
+verb: counter
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 3
+end env: 2
+sent:  . Pick up food  
+[('verb', 'Pick'), ('obj1', 'food'), ('rel12', 'Null')]
+words: Pick food
+verb: Pick
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 5
+end env: 4
+sent:  . Bring it to Desk  
+[('verb', 'Bring'), ('obj1', 'it'), ('obj2', 'Desk'), ('rel12', 'to')]
+words: Bring it Desk to
+verb: Bring
+arg mapping: (it,Tv_1Remote_1) (it,Tv_1Remote_1PowerButton)
+<end clause>
+
+<start clause>
+start env: 7
+end env: 8
+sent:  . Open books  
+[('verb', 'Open'), ('obj1', 'books'), ('rel12', 'Null')]
+words: Open books
+verb: Open
+arg mapping: (books,Book_1) (books,Book_2)
+<end clause>

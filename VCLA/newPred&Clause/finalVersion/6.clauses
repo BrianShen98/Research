@@ -1,0 +1,51 @@
+entire sentence: , Grab the ramen on the table   ,  Go to the sink,   fill the ramen cup with water   up to the indicated line   , ,  Put into the microwave and microwave for 3 minutes  
+
+<start clause>
+start env: 0
+end env: 1
+sent: Grab the ramen on the table  
+[('verb', 'Grab'), ('obj1', 'ramen'), ('obj2', 'table'), ('rel12', 'on')]
+words: Grab ramen table on
+verb: Grab
+arg mapping: (ramen,Ramen_1) (table,Counter_1) (table,Counter1_1)
+<end clause>
+
+<start clause>
+start env: 2
+end env: 2
+sent:  . Go to the sink,  
+[('verb', 'Go'), ('obj1', 'sink'), ('rel12', 'Null')]
+words: Go sink
+verb: Go
+arg mapping: (sink,Sink)
+<end clause>
+
+<start clause>
+start env: 2
+end env: 8
+sent:  fill the ramen cup with water  
+[('verb', 'fill'), ('obj1', 'ramen'), ('obj2', 'cup'), ('obj3', 'water'), ('rel12', 'with'), ('rel13', 'with'), ('rel23', 'with')]
+words: fill ramen cup water with with with
+verb: fill
+arg mapping: (ramen,Ramen_1) (cup,LongCup_1) (cup,LongCup_2)
+<end clause>
+
+<start clause>
+start env: 9
+end env: 11
+sent:  . Put into the microwave 
+[('verb', 'Put'), ('obj1', 'microwave'), ('rel12', 'Null')]
+words: Put microwave 
+verb: Put
+arg mapping: (microwave,Microwave)
+<end clause>
+
+<start clause>
+start env: 12
+end env: 14
+sent:   and microwave for 3 minutes 
+[('verb', 'microwave'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: microwave
+verb: microwave
+arg mapping: 
+<end clause>

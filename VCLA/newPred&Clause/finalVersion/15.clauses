@@ -1,0 +1,41 @@
+entire sentence: , Take boiled egg from fridge   ,  Peel   and throw out shell   , ,  Put on plate   ,  Take plate along with the mug with coffee in it to hungry person   
+
+<start clause>
+start env: 0
+end env: 4
+sent: Take boiled egg from fridge  
+[('verb', 'Take'), ('obj1', 'egg'), ('obj2', 'fridge'), ('rel12', 'from')]
+words: Take egg fridge from
+verb: Take
+arg mapping: (egg,BoiledEgg_1) (fridge,Fridge)
+<end clause>
+
+<start clause>
+start env: 5
+end env: 4
+sent:  and throw out shell  
+[('verb', 'throw'), ('obj1', 'shell'), ('rel12', 'Null')]
+words: throw shell
+verb: throw
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 5
+end env: 4
+sent:  . Put on plate  
+[('verb', 'Put'), ('obj1', 'plate'), ('rel12', 'Null')]
+words: Put plate
+verb: Put
+arg mapping: (plate,Plate_1) (plate,Plate_2)
+<end clause>
+
+<start clause>
+start env: 6
+end env: 10
+sent:  . Take plate along with the mug with coffee in it to hungry person  
+[('verb', 'Take'), ('obj1', 'plate'), ('obj2', 'mug'), ('obj3', 'coffee'), ('obj4', 'it'), ('obj5', 'person'), ('rel12', 'along'), ('rel13', 'along'), ('rel14', 'along'), ('rel15', 'along'), ('rel23', 'with'), ('rel24', 'with'), ('rel25', 'with'), ('rel34', 'in'), ('rel35', 'in'), ('rel45', 'to')]
+words: Take plate mug coffee it person along along along along with with with in in to
+verb: Take
+arg mapping: (plate,Plate_1) (plate,Plate_2) (mug,Mug_1) (coffee,Mug_1) (coffee,LongCup_1) (it,Fridge) (it,FridgeLeftDoor) (it,FridgeRightDoor) (it,BoiledEgg_1) (person,Counter_1)
+<end clause>

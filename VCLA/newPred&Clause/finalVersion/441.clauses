@@ -1,0 +1,12 @@
+entire sentence: , Pour water in the cup and boil in the microwave   
+
+<start clause>
+start env: 0
+end env: 13
+sent: Pour water in the cup and boil in the microwave  
+[('verb', 'Pour'), ('obj1', 'water'), ('obj2', 'cup'), ('rel12', 'in')]
+[('verb', 'boil'), ('obj1', 'microwave'), ('rel12', 'Null')]
+words: Pour water cup in boil microwave
+verb: Pour boil
+arg mapping: (water,LongCup_1) (cup,LongCup_1) (cup,LongCup_2) (microwave,Microwave)
+<end clause>

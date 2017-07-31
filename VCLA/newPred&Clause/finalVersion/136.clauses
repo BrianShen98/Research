@@ -1,0 +1,11 @@
+entire sentence: , get the bag of chips and bowl on the table   
+
+<start clause>
+start env: 0
+end env: 6
+sent: get the bag of chips and bowl on the table  
+[('verb', 'get'), ('obj1', 'bag'), ('obj2', 'chips'), ('obj3', 'bowl'), ('obj4', 'table'), ('rel12', 'of'), ('rel13', 'of'), ('rel14', 'of'), ('rel23', 'and'), ('rel24', 'on'), ('rel34', 'on')]
+words: get bag chips bowl table of of of and on on
+verb: get
+arg mapping: (bag,BagOfChips_1) (bag,GarbageBag_1) (chips,BagOfChips_1) (bowl,Bowl_1) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1)
+<end clause>

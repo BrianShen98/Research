@@ -1,0 +1,52 @@
+entire sentence: , Gather all used cups and glasses and place into the sink   ,  Gather   and arrange Ramen, vanilla syrup, and chocolate syrup on the counter  and arrange Ramen, vanilla syrup, and chocolate syrup on the counter , , ,  Wipe the counter with a cloth   ,  Wipe fridge door 
+
+<start clause>
+start env: 0
+end env: 16
+sent: Gather all used cups and glasses and place into the sink  
+[('verb', 'Gather'), ('obj1', 'cups'), ('obj2', 'glasses'), ('rel12', 'and')]
+[('verb', 'place'), ('obj1', 'sink'), ('rel12', 'Null')]
+words: Gather cups glasses and place sink
+verb: Gather place
+arg mapping: (cups,LongCup_1) (cups,LongCup_2) (glasses,Glass_1) (sink,Sink)
+<end clause>
+
+<start clause>
+start env: 17
+end env: 16
+sent:  . Gather  
+[('verb', 'Gather'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: Gather
+verb: Gather
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 17
+end env: 22
+sent:  and arrange Ramen, vanilla syrup, and chocolate syrup on the counter 
+[('verb', 'arrange'), ('obj1', 'Ramen'), ('obj2', 'vanilla syrup'), ('obj3', 'chocolate syrup'), ('obj4', 'counter'), ('rel12', ','), ('rel13', ','), ('rel14', 'on'), ('rel23', ','), ('rel24', 'on'), ('rel34', 'on')]
+words: arrange Ramen vanilla syrup chocolate syrup counter , , on , on on
+verb: arrange
+arg mapping: (Ramen,Ramen_1) (vanilla syrup,Syrup_1) (vanilla syrup,Syrup_2) (chocolate syrup,Syrup_1) (chocolate syrup,Syrup_2) (counter,Counter_1) (counter,Counter1_1)
+<end clause>
+
+<start clause>
+start env: 22
+end env: 21
+sent:  Wipe the counter with a cloth  
+[('verb', 'Wipe'), ('obj1', 'counter'), ('obj2', 'cloth'), ('rel12', 'with')]
+words: Wipe counter cloth with
+verb: Wipe
+arg mapping: (counter,Counter_1) (counter,Counter1_1)
+<end clause>
+
+<start clause>
+start env: 22
+end env: 21
+sent:  . Wipe fridge door .
+[('verb', 'Wipe'), ('obj1', 'fridge door'), ('rel12', 'Null')]
+words: Wipe fridge door
+verb: Wipe
+arg mapping: (fridge door,MicrowaveDoor) (fridge door,FridgeLeftDoor) (fridge door,FridgeRightDoor) (fridge door,Fridge) (fridge door,FridgeButton)
+<end clause>

@@ -1,0 +1,11 @@
+entire sentence: , Get   ramen cooked   
+
+<start clause>
+start env: 0
+end env: 1
+sent: Get  
+[('verb', 'Get'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: Get
+verb: Get
+arg mapping: 
+<end clause>

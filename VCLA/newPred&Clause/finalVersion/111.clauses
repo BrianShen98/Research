@@ -1,0 +1,41 @@
+entire sentence: , Put the game in the  xbox   ,  Turn the television input to Xbox   ,  Put bag of chips and coke on table   ,  Move couch in front of television   
+
+<start clause>
+start env: 0
+end env: 4
+sent: Put the game in the  xbox  
+[('verb', 'Put'), ('obj1', 'game'), ('obj2', 'xbox'), ('rel12', 'in')]
+words: Put game xbox in
+verb: Put
+arg mapping: (xbox,Xbox_1)
+<end clause>
+
+<start clause>
+start env: 5
+end env: 8
+sent:  . Turn the television input to Xbox  
+[('verb', 'Turn'), ('obj1', 'television'), ('obj2', 'input'), ('obj3', 'Xbox'), ('rel12', 'to'), ('rel13', 'to'), ('rel23', 'to')]
+words: Turn television input Xbox to to to
+verb: Turn
+arg mapping: (television,Tv_1) (Xbox,Xbox_1)
+<end clause>
+
+<start clause>
+start env: 9
+end env: 17
+sent:  . Put bag of chips and coke on table  
+[('verb', 'Put'), ('obj1', 'bag'), ('obj2', 'chips'), ('obj3', 'coke'), ('obj4', 'table'), ('rel12', 'of'), ('rel13', 'of'), ('rel14', 'of'), ('rel23', 'and'), ('rel24', 'on'), ('rel34', 'on')]
+words: Put bag chips coke table of of of and on on
+verb: Put
+arg mapping: (bag,BagOfChips_1) (bag,GarbageBag_1) (chips,BagOfChips_1) (coke,Coke_1) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1)
+<end clause>
+
+<start clause>
+start env: 17
+end env: 16
+sent:  . Move couch in front of television  
+[('verb', 'Move'), ('obj1', 'couch'), ('obj2', 'front'), ('obj3', 'television'), ('rel12', 'in'), ('rel13', 'in'), ('rel23', 'of')]
+words: Move couch front television in in of
+verb: Move
+arg mapping: (couch,Loveseat_1) (television,Tv_1)
+<end clause>

@@ -1,0 +1,12 @@
+entire sentence: , Dave, take some coffee and then mix in ice cream and syrup, 
+
+<start clause>
+start env: 0
+end env: -1
+sent: Dave, take some coffee and then mix in ice cream and syrup.
+[('verb', 'take'), ('obj1', 'coffee'), ('rel12', 'Null')]
+[('verb', 'mix'), ('obj1', 'ice cream'), ('obj2', 'syrup'), ('rel12', 'and')]
+words: take coffee mix ice cream syrup and
+verb: take mix
+arg mapping: (coffee,Mug_1) (ice cream,IceCream_1) (syrup,Syrup_1) (syrup,Syrup_2)
+<end clause>

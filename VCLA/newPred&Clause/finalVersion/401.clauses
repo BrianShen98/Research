@@ -1,0 +1,51 @@
+entire sentence: , Get all the plates, cups, and spoons on the counters   and put them in the sink   , ,  Take the mug from the microwave   and pour its contents into the sink   and then place it in the sink   , , 
+
+<start clause>
+start env: 0
+end env: 3
+sent: Get all the plates, cups, and spoons on the counters  
+[('verb', 'Get'), ('obj1', 'plates'), ('obj2', 'cups'), ('obj3', 'spoons'), ('obj4', 'counters'), ('rel12', ','), ('rel13', ','), ('rel14', ','), ('rel23', ','), ('rel24', ','), ('rel34', 'on')]
+words: Get plates cups spoons counters , , , , , on
+verb: Get
+arg mapping: (plates,Plate_1) (plates,Plate_2) (cups,LongCup_1) (cups,LongCup_2) (spoons,Spoon_1) (counters,Counter_1) (counters,Counter1_1)
+<end clause>
+
+<start clause>
+start env: 0
+end env: 15
+sent:  and put them in the sink  
+[('verb', 'put'), ('obj1', 'sink'), ('rel12', 'Null')]
+words: put sink
+verb: put
+arg mapping: (sink,Sink)
+<end clause>
+
+<start clause>
+start env: 16
+end env: 19
+sent:  . Take the mug from the microwave  
+[('verb', 'Take'), ('obj1', 'mug'), ('obj2', 'microwave'), ('rel12', 'from')]
+words: Take mug microwave from
+verb: Take
+arg mapping: (mug,Mug_1) (microwave,Microwave)
+<end clause>
+
+<start clause>
+start env: 21
+end env: 31
+sent:  and pour its contents into the sink  
+[('verb', 'pour'), ('obj1', 'contents'), ('obj2', 'sink'), ('rel12', 'into')]
+words: pour contents sink into
+verb: pour
+arg mapping: (sink,Sink)
+<end clause>
+
+<start clause>
+start env: 32
+end env: 32
+sent:  and then place it in the sink  
+[('verb', 'place'), ('obj1', 'it'), ('obj2', 'sink'), ('rel12', 'in')]
+words: place it sink in
+verb: place
+arg mapping: (it,Sink) (it,Mug_1) (it,Fork_1) (sink,Sink)
+<end clause>

@@ -1,0 +1,21 @@
+entire sentence: , put xbox and xboxController into the TV   stand ,  Throw the trash bag into the garbage bin   
+
+<start clause>
+start env: 0
+end env: 3
+sent: put xbox and xboxController into the TV  
+[('verb', 'put'), ('obj1', 'xbox'), ('obj2', 'xboxController'), ('obj3', 'TV'), ('rel12', 'and'), ('rel13', 'into'), ('rel23', 'into')]
+words: put xbox xboxController TV and into into
+verb: put
+arg mapping: (xbox,Xbox_1) (xboxController,XboxController_1) (TV,Tv_1)
+<end clause>
+
+<start clause>
+start env: 6
+end env: 5
+sent:  stand . Throw the trash bag into the garbage bin  
+[('verb', 'Throw'), ('obj1', 'trash bag'), ('obj2', 'garbage bin'), ('rel12', 'into')]
+words: Throw trash bag garbage bin into
+verb: Throw
+arg mapping: (trash bag,BagOfChips_1) (trash bag,GarbageBag_1) (garbage bin,GarbageBin_1)
+<end clause>

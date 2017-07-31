@@ -1,0 +1,31 @@
+entire sentence: , Put some water into the kettle   and then use the stove   to heat the kettle   , , 
+
+<start clause>
+start env: 0
+end env: 7
+sent: Put some water into the kettle  
+[('verb', 'Put'), ('obj1', 'water'), ('obj2', 'kettle'), ('rel12', 'into')]
+words: Put water kettle into
+verb: Put
+arg mapping: (kettle,Kettle)
+<end clause>
+
+<start clause>
+start env: 8
+end env: 16
+sent:  and then use the stove  
+[('verb', 'use'), ('obj1', 'stove'), ('rel12', 'Null')]
+words: use stove
+verb: use
+arg mapping: (stove,Stove)
+<end clause>
+
+<start clause>
+start env: 16
+end env: 15
+sent:  to heat the kettle  
+[('verb', 'heat'), ('obj1', 'kettle'), ('rel12', 'Null')]
+words: heat kettle
+verb: heat
+arg mapping: (kettle,Kettle)
+<end clause>

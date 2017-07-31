@@ -1,0 +1,23 @@
+entire sentence: , Pick up ramen, fill with water from fridge, place ramen   in microwave, turn the microwave on , 
+
+<start clause>
+start env: 7
+end env: 8
+sent: Pick up ramen, fill with water from fridge
+[('verb', 'Pick'), ('obj1', 'ramen'), ('rel12', 'Null')]
+[('verb', 'fill'), ('obj1', 'water'), ('obj2', 'fridge'), ('rel12', 'from')]
+words: Pick ramen fill water fridge from
+verb: Pick fill
+arg mapping: (ramen,Ramen_1) (fridge,Fridge)
+<end clause>
+
+<start clause>
+start env: 8
+end env: 7
+sent:  place ramen in microwave, turn the microwave on .
+[('verb', 'place'), ('obj1', 'ramen'), ('obj2', 'microwave'), ('rel12', 'in')]
+[('verb', 'turn'), ('obj1', 'microwave'), ('rel12', 'Null')]
+words: place ramen microwave in turn microwave
+verb: place turn
+arg mapping: (ramen,Ramen_1) (microwave,Microwave) (microwave,Microwave)
+<end clause>

@@ -1,0 +1,51 @@
+entire sentence: ,  Put pillows onto the coaches   ,  Put books on the shelf   ,  Dump the bowl in the trash bag   ,  Throw beer, coke and chips into the trash bag   ,  Dispose the trash bag   
+
+<start clause>
+start env: 10
+end env: 21
+sent:  . Put pillows onto the coaches  
+[('verb', 'Put'), ('obj1', 'pillows'), ('obj2', 'coaches'), ('rel12', 'onto')]
+words: Put pillows coaches onto
+verb: Put
+arg mapping: (pillows,Pillow_1) (pillows,Pillow_2) (pillows,Pillow_3) (pillows,Pillow_4)
+<end clause>
+
+<start clause>
+start env: 22
+end env: 24
+sent:  . Put books on the shelf  
+[('verb', 'Put'), ('obj1', 'books'), ('obj2', 'shelf'), ('rel12', 'on')]
+words: Put books shelf on
+verb: Put
+arg mapping: (books,Book_1) (books,Book_2) (shelf,Shelf_1) (shelf,Shelf_2)
+<end clause>
+
+<start clause>
+start env: 25
+end env: 26
+sent:  . Dump the bowl in the trash bag  
+[('verb', 'Dump'), ('obj1', 'bowl'), ('obj2', 'trash bag'), ('rel12', 'in')]
+words: Dump bowl trash bag in
+verb: Dump
+arg mapping: (bowl,Bowl_1) (trash bag,BagOfChips_1) (trash bag,GarbageBag_1)
+<end clause>
+
+<start clause>
+start env: 43
+end env: 46
+sent:  . Throw beer, coke and chips into the trash bag  
+[('verb', 'Throw'), ('obj1', 'beer'), ('obj2', 'coke chips'), ('obj3', 'trash bag'), ('rel12', ','), ('rel13', ','), ('rel23', 'and')]
+words: Throw beer coke chips trash bag , , and
+verb: Throw
+arg mapping: (beer,Beer_1) (coke chips,BagOfChips_1) (coke chips,Coke_1) (trash bag,BagOfChips_1) (trash bag,GarbageBag_1)
+<end clause>
+
+<start clause>
+start env: 45
+end env: 53
+sent:  . Dispose the trash bag  
+[('verb', 'Dispose'), ('obj1', 'trash bag'), ('rel12', 'Null')]
+words: Dispose trash bag
+verb: Dispose
+arg mapping: (trash bag,BagOfChips_1) (trash bag,GarbageBag_1)
+<end clause>

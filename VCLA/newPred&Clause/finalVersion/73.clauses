@@ -1,0 +1,11 @@
+entire sentence: , Put the pot in the sink, fill it up and boil the water on the stove   , , 
+
+<start clause>
+start env: 0
+end env: 3
+sent: Put the pot in the sink, fill it up and boil the water on the stove  
+[('verb', 'Put'), ('obj1', 'pot'), ('obj2', 'sink'), ('rel12', 'in')]
+words: Put pot sink in
+verb: Put
+arg mapping: (pot,Kettle) (sink,Sink)
+<end clause>

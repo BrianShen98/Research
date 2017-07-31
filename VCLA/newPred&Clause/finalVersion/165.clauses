@@ -1,0 +1,42 @@
+entire sentence: , Take the ramen   and remove the top,   and fill the cup with water   , , ,  Place the ramen in the microwave and heat   
+
+<start clause>
+start env: 0
+end env: 1
+sent: Take the ramen  
+[('verb', 'Take'), ('obj1', 'ramen'), ('rel12', 'Null')]
+words: Take ramen
+verb: Take
+arg mapping: (ramen,Ramen_1)
+<end clause>
+
+<start clause>
+start env: 2
+end env: 1
+sent:  and remove the top,  
+[('verb', 'and'), ('obj1', 'remove'), ('obj2', 'top'), ('rel12', ',')]
+words: and remove top ,
+verb: and
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 2
+end env: 7
+sent:  and fill the cup with water  
+[('verb', 'fill'), ('obj1', 'cup'), ('obj2', 'water'), ('rel12', 'with')]
+words: fill cup water with
+verb: fill
+arg mapping: (cup,LongCup_1) (cup,LongCup_2)
+<end clause>
+
+<start clause>
+start env: 13
+end env: 12
+sent:  . Place the ramen in the microwave and heat  
+[('verb', 'Place'), ('obj1', 'ramen'), ('obj2', 'microwave'), ('rel12', 'in')]
+[('verb', 'heat'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: Place ramen microwave in heat
+verb: Place heat
+arg mapping: (ramen,Ramen_1) (microwave,Microwave)
+<end clause>

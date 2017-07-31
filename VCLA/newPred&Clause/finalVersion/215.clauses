@@ -1,0 +1,21 @@
+entire sentence: , Pour the pot's contents into the trash   and place all glasses and mugs into the sink   , 
+
+<start clause>
+start env: 0
+end env: 1
+sent: Pour the pot's contents into the trash  
+[('verb', 'Pour'), ('obj1', 'pot'), ('obj2', 'contents'), ('obj3', 'trash'), ('rel12', 'into'), ('rel13', 'into'), ('rel23', 'into')]
+words: Pour pot contents trash into into into
+verb: Pour
+arg mapping: (pot,Kettle) (trash,Glass_1)
+<end clause>
+
+<start clause>
+start env: 6
+end env: 5
+sent:  and place all glasses and mugs into the sink  
+[('verb', 'place'), ('obj1', 'glasses'), ('obj2', 'mugs'), ('obj3', 'sink'), ('rel12', 'and'), ('rel13', 'into'), ('rel23', 'into')]
+words: place glasses mugs sink and into into
+verb: place
+arg mapping: (glasses,Glass_1) (mugs,Mug_1) (sink,Sink)
+<end clause>

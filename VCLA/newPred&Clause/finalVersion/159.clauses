@@ -1,0 +1,11 @@
+entire sentence: , Cook me hot ramen   
+
+<start clause>
+start env: 0
+end env: 35
+sent: Cook me hot ramen  
+[('verb', 'Cook'), ('obj1', 'ramen'), ('rel12', 'Null')]
+words: Cook ramen
+verb: Cook
+arg mapping: (ramen,Ramen_1)
+<end clause>

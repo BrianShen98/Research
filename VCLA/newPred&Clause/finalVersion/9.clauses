@@ -1,0 +1,41 @@
+entire sentence: , Grab plates and cups   and bring   to sink   , , ,  Put ice cream in freezer   
+
+<start clause>
+start env: 0
+end env: 3
+sent: Grab plates and cups  
+[('verb', 'Grab'), ('obj1', 'plates'), ('obj2', 'cups'), ('rel12', 'and')]
+words: Grab plates cups and
+verb: Grab
+arg mapping: (plates,Plate_1) (plates,Plate_2) (cups,LongCup_1) (cups,LongCup_2)
+<end clause>
+
+<start clause>
+start env: 4
+end env: 6
+sent:  and bring  
+[('verb', 'bring'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: bring
+verb: bring
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 6
+end env: 5
+sent:  to sink  
+[('verb', 'sink'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: sink
+verb: sink
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 6
+end env: 5
+sent:  . Put ice cream in freezer  
+[('verb', 'Put'), ('obj1', 'ice'), ('obj2', 'cream'), ('obj3', 'freezer'), ('rel12', 'in'), ('rel13', 'in'), ('rel23', 'in')]
+words: Put ice cream freezer in in in
+verb: Put
+arg mapping: (ice,IceCream_1) (ice,IceCreamScoop) (cream,IceCream_1) (cream,IceCreamScoop) (freezer,Fridge)
+<end clause>

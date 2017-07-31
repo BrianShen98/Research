@@ -1,0 +1,42 @@
+entire sentence: , Put the pot on the stove and boil the water   , ,  When boiling,   place in the cup with instant ramen   , , ,  Wait a few minutes   for it to cook   , 
+
+<start clause>
+start env: 0
+end env: 15
+sent: Put the pot on the stove and boil the water  
+[('verb', 'Put'), ('obj1', 'pot'), ('obj2', 'stove'), ('rel12', 'on')]
+[('verb', 'boil'), ('obj1', 'water'), ('rel12', 'Null')]
+words: Put pot stove on boil water
+verb: Put boil
+arg mapping: (pot,Kettle) (stove,Stove)
+<end clause>
+
+<start clause>
+start env: 24
+end env: 23
+sent:  place in the cup with instant ramen  
+[('verb', 'place'), ('obj1', 'cup'), ('obj2', 'ramen'), ('rel12', 'with')]
+words: place cup ramen with
+verb: place
+arg mapping: (cup,LongCup_1) (cup,LongCup_2) (ramen,Ramen_1)
+<end clause>
+
+<start clause>
+start env: 26
+end env: 25
+sent:  . Wait a few minutes  
+[('verb', 'Wait'), ('obj1', 'minutes'), ('rel12', 'Null')]
+words: Wait minutes
+verb: Wait
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 25
+end env: 24
+sent:  for it to cook  
+[('verb', 'cook'), ('obj1', 'it'), ('rel12', 'Null')]
+words: cook it
+verb: cook
+arg mapping: (it,Kettle) (it,Glass_1) (it,StoveKnob_1)
+<end clause>

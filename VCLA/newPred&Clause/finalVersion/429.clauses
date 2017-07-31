@@ -1,0 +1,61 @@
+entire sentence: , Take the mug out of the microwave   and pour it on the plate   , ,  Take ice cream out of the freezer   and scoop some onto the plate   , ,  Pick up the bottle of syrup   and squeeze some on the plate   , 
+
+<start clause>
+start env: 0
+end env: 4
+sent: Take the mug out of the microwave  
+[('verb', 'Take'), ('obj1', 'mug'), ('obj2', 'microwave'), ('rel12', 'of')]
+words: Take mug microwave of
+verb: Take
+arg mapping: (mug,Mug_1) (microwave,Microwave)
+<end clause>
+
+<start clause>
+start env: 5
+end env: 6
+sent:  and pour it on the plate  
+[('verb', 'pour'), ('obj1', 'it'), ('obj2', 'plate'), ('rel12', 'on')]
+words: pour it plate on
+verb: pour
+arg mapping: (it,Mug_1) (it,Microwave) (plate,Plate_1) (plate,Plate_2)
+<end clause>
+
+<start clause>
+start env: 7
+end env: 11
+sent:  . Take ice cream out of the freezer  
+[('verb', 'Take'), ('obj1', 'ice'), ('obj2', 'cream'), ('obj3', 'freezer'), ('rel12', 'of'), ('rel13', 'of'), ('rel23', 'of')]
+words: Take ice cream freezer of of of
+verb: Take
+arg mapping: (ice,IceCream_1) (ice,IceCreamScoop) (cream,IceCream_1) (cream,IceCreamScoop) (freezer,Fridge)
+<end clause>
+
+<start clause>
+start env: 12
+end env: 11
+sent:  and scoop some onto the plate  
+[('verb', 'scoop'), ('obj1', 'plate'), ('rel12', 'Null')]
+words: scoop plate
+verb: scoop
+arg mapping: (plate,Plate_1) (plate,Plate_2)
+<end clause>
+
+<start clause>
+start env: 19
+end env: 20
+sent:  . Pick up the bottle of syrup  
+[('verb', 'Pick'), ('obj1', 'bottle'), ('obj2', 'syrup'), ('rel12', 'of')]
+words: Pick bottle syrup of
+verb: Pick
+arg mapping: (syrup,Syrup_1) (syrup,Syrup_2)
+<end clause>
+
+<start clause>
+start env: 23
+end env: 22
+sent:  and squeeze some on the plate  
+[('verb', 'squeeze'), ('obj1', 'plate'), ('rel12', 'Null')]
+words: squeeze plate
+verb: squeeze
+arg mapping: (plate,Plate_1) (plate,Plate_2)
+<end clause>

@@ -1,0 +1,11 @@
+entire sentence: , Make Breakfast   
+
+<start clause>
+start env: 3
+end env: 2
+sent: Make Breakfast  
+[('verb', 'Make'), ('obj1', 'Breakfast'), ('rel12', 'Null')]
+words: Make Breakfast
+verb: Make
+arg mapping: 
+<end clause>

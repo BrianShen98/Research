@@ -1,0 +1,41 @@
+entire sentence: , Get the far cry game CD on the shelf   and insert it into the xbox   , ,  xbox is right in front of the TV so there is no need to change its place   ,  No need to arrange couch   , 
+
+<start clause>
+start env: 0
+end env: -1
+sent: Get the far cry game CD on the shelf  
+[('verb', 'Get'), ('obj1', 'game'), ('obj2', 'CD'), ('obj3', 'shelf'), ('rel12', 'on'), ('rel13', 'on'), ('rel23', 'on')]
+words: Get game CD shelf on on on
+verb: Get
+arg mapping: (CD,Cd_2) (CD,Cd_1) (shelf,Shelf_1) (shelf,Shelf_2)
+<end clause>
+
+<start clause>
+start env: 0
+end env: -1
+sent:  and insert it into the xbox  
+[('verb', 'insert'), ('obj1', 'it'), ('obj2', 'xbox'), ('rel12', 'into')]
+words: insert it xbox into
+verb: insert
+arg mapping: (xbox,Xbox_1)
+<end clause>
+
+<start clause>
+start env: 0
+end env: -1
+sent:  . xbox is right in front of the TV so there is no need to change its place  
+[('verb', 'change'), ('obj1', 'xbox'), ('obj2', 'front'), ('obj3', 'TV'), ('obj4', 'need place'), ('rel12', 'in'), ('rel13', 'in'), ('rel14', 'in'), ('rel23', 'of'), ('rel24', 'of'), ('rel34', 'so')]
+words: change xbox front TV need place in in in of of so
+verb: change
+arg mapping: (xbox,Xbox_1) (TV,Tv_1)
+<end clause>
+
+<start clause>
+start env: 0
+end env: 1
+sent:  . No need to arrange couch  
+[('verb', 'need'), ('obj1', 'No'), ('rel12', 'Null')]
+words: need No
+verb: need
+arg mapping: 
+<end clause>

@@ -1,0 +1,81 @@
+entire sentence: , Let   us play video game   , ,  Get the xbox and controller   ,  We can have bear or coke while playing   ,  Move the couch   to face the TV   so that we can sit on the couch   to play   , , , 
+
+<start clause>
+start env: 0
+end env: -1
+sent: Let  
+[('verb', 'Let'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: Let
+verb: Let
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 0
+end env: -1
+sent:  us play video game  
+[('verb', 'play'), ('obj1', 'game'), ('rel12', 'Null')]
+words: play game
+verb: play
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 0
+end env: 6
+sent:  . Get the xbox and controller  
+[('verb', 'Get'), ('obj1', 'xbox'), ('obj2', 'controller'), ('rel12', 'and')]
+words: Get xbox controller and
+verb: Get
+arg mapping: (xbox,Xbox_1) (controller,XboxController_1)
+<end clause>
+
+<start clause>
+start env: 7
+end env: 8
+sent:  . We can have bear or coke while playing  
+[('verb', 'have'), ('obj1', 'bear'), ('obj2', 'coke while playing'), ('rel12', 'or')]
+words: have bear coke while playing or
+verb: have
+arg mapping: (coke while playing,Coke_1)
+<end clause>
+
+<start clause>
+start env: 10
+end env: 9
+sent:  . Move the couch  
+[('verb', 'Move'), ('obj1', 'couch'), ('rel12', 'Null')]
+words: Move couch
+verb: Move
+arg mapping: (couch,Loveseat_1) (couch,Loveseat_2)
+<end clause>
+
+<start clause>
+start env: 10
+end env: 9
+sent:  to face the TV  
+[('verb', 'face'), ('obj1', 'TV'), ('rel12', 'Null')]
+words: face TV
+verb: face
+arg mapping: (TV,Tv_1)
+<end clause>
+
+<start clause>
+start env: 10
+end env: 9
+sent:  so that we can sit on the couch  
+[('verb', 'sit'), ('obj1', 'couch'), ('rel12', 'Null')]
+words: sit couch
+verb: sit
+arg mapping: (couch,Loveseat_1) (couch,Loveseat_2)
+<end clause>
+
+<start clause>
+start env: 10
+end env: 9
+sent:  to play  
+[('verb', 'play'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: play
+verb: play
+arg mapping: 
+<end clause>

@@ -1,0 +1,31 @@
+entire sentence: , Dump the coffee in the mug in the sink,   put all perishable items in the refrigerator,   put all the dishes, utensils, and pots in the sink   , , 
+
+<start clause>
+start env: 0
+end env: 3
+sent: Dump the coffee in the mug in the sink,  
+[('verb', 'Dump'), ('obj1', 'coffee'), ('obj2', 'mug'), ('obj3', 'sink'), ('rel12', 'in'), ('rel13', 'in'), ('rel23', 'in')]
+words: Dump coffee mug sink in in in
+verb: Dump
+arg mapping: (coffee,Mug_1) (mug,Mug_1) (sink,Sink)
+<end clause>
+
+<start clause>
+start env: 10
+end env: 9
+sent:  put all perishable items in the refrigerator,  
+[('verb', 'put'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: put
+verb: put
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 23
+end env: 22
+sent:  put all the dishes, utensils, and pots in the sink  
+[('verb', 'put'), ('obj1', 'dishes'), ('obj2', 'utensils'), ('obj3', 'pots'), ('obj4', 'sink'), ('rel12', ','), ('rel13', ','), ('rel14', ','), ('rel23', ','), ('rel24', ','), ('rel34', 'in')]
+words: put dishes utensils pots sink , , , , , in
+verb: put
+arg mapping: (dishes,Spoon_1) (dishes,Glass_1) (dishes,LongCup_1) (dishes,LongCup_2) (pots,Kettle) (sink,Sink)
+<end clause>

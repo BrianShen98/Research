@@ -1,0 +1,51 @@
+entire sentence: , Take ice cream from freezer   and scoop with spoon into the mug with coffee in it   , ,  Replace ice cream in freezer   ,  Take vanilla syrup   and pour over icecream   , 
+
+<start clause>
+start env: 0
+end env: 4
+sent: Take ice cream from freezer  
+[('verb', 'Take'), ('obj1', 'ice'), ('obj2', 'cream'), ('obj3', 'freezer'), ('rel12', 'from'), ('rel13', 'from'), ('rel23', 'from')]
+words: Take ice cream freezer from from from
+verb: Take
+arg mapping: (ice,IceCream_1) (ice,IceCreamScoop) (cream,IceCream_1) (cream,IceCreamScoop) (freezer,Fridge)
+<end clause>
+
+<start clause>
+start env: 5
+end env: 17
+sent:  and scoop with spoon into the mug with coffee in it  
+[('verb', 'scoop'), ('obj1', 'spoon'), ('obj2', 'mug'), ('obj3', 'coffee'), ('obj4', 'it'), ('rel12', 'into'), ('rel13', 'into'), ('rel14', 'into'), ('rel23', 'with'), ('rel24', 'with'), ('rel34', 'in')]
+words: scoop spoon mug coffee it into into into with with in
+verb: scoop
+arg mapping: (spoon,Spoon_1) (mug,Mug_1) (coffee,Mug_1) (it,Fridge) (it,FridgeLeftDoor) (it,FridgeRightDoor) (it,IceCream_1)
+<end clause>
+
+<start clause>
+start env: 32
+end env: 22
+sent:  . Replace ice cream in freezer  
+[('verb', 'Replace'), ('obj1', 'ice'), ('obj2', 'cream'), ('obj3', 'freezer'), ('rel12', 'in'), ('rel13', 'in'), ('rel23', 'in')]
+words: Replace ice cream freezer in in in
+verb: Replace
+arg mapping: (ice,IceCream_1) (ice,IceCreamScoop) (cream,IceCream_1) (cream,IceCreamScoop) (freezer,Fridge)
+<end clause>
+
+<start clause>
+start env: 23
+end env: 24
+sent:  . Take vanilla syrup  
+[('verb', 'Take'), ('obj1', 'vanilla syrup'), ('rel12', 'Null')]
+words: Take vanilla syrup
+verb: Take
+arg mapping: (vanilla syrup,Syrup_1) (vanilla syrup,Syrup_2)
+<end clause>
+
+<start clause>
+start env: 26
+end env: 25
+sent:  and pour over icecream  
+[('verb', 'pour'), ('obj1', 'icecream'), ('rel12', 'Null')]
+words: pour icecream
+verb: pour
+arg mapping: (icecream,Mug_1)
+<end clause>

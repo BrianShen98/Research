@@ -1,0 +1,61 @@
+entire sentence: , Put the pot in the sink   and then fill it up with water   , ,  Put the pot on the stove   and then turn on the stove   , ,  Get the ramen   and put it in pot   when the water in the pot is boiling   , , , 
+
+<start clause>
+start env: 0
+end env: -1
+sent: Put the pot in the sink  
+[('verb', 'Put'), ('obj1', 'pot'), ('obj2', 'sink'), ('rel12', 'in')]
+words: Put pot sink in
+verb: Put
+arg mapping: (pot,Kettle) (sink,Sink)
+<end clause>
+
+<start clause>
+start env: 5
+end env: 4
+sent:  and then fill it up with water  
+[('verb', 'fill'), ('obj1', 'it'), ('obj2', 'water'), ('rel12', 'with')]
+words: fill it water with
+verb: fill
+arg mapping: (it,Fridge) (it,FridgeRightDoor) (it,Plate_1)
+<end clause>
+
+<start clause>
+start env: 5
+end env: 4
+sent:  . Put the pot on the stove  
+[('verb', 'Put'), ('obj1', 'pot'), ('obj2', 'stove'), ('rel12', 'on')]
+words: Put pot stove on
+verb: Put
+arg mapping: (pot,Kettle) (stove,Stove)
+<end clause>
+
+<start clause>
+start env: 5
+end env: 4
+sent:  and then turn on the stove  
+[('verb', 'turn'), ('obj1', 'stove'), ('rel12', 'Null')]
+words: turn stove
+verb: turn
+arg mapping: (stove,Stove)
+<end clause>
+
+<start clause>
+start env: 5
+end env: 4
+sent:  . Get the ramen  
+[('verb', 'Get'), ('obj1', 'ramen'), ('rel12', 'Null')]
+words: Get ramen
+verb: Get
+arg mapping: (ramen,Ramen_1)
+<end clause>
+
+<start clause>
+start env: 5
+end env: 4
+sent:  and put it in pot  
+[('verb', 'put'), ('obj1', 'it'), ('obj2', 'pot'), ('rel12', 'in')]
+words: put it pot in
+verb: put
+arg mapping: (it,Fridge) (it,FridgeRightDoor) (it,Plate_1) (pot,Kettle)
+<end clause>

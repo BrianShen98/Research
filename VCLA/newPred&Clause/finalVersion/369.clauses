@@ -1,0 +1,22 @@
+entire sentence: , Turn off the TV   ,  Put food and drinks on the table   
+
+<start clause>
+start env: 0
+end env: 6
+sent: Put books on the table in front of the coaches .Turn off the TV  
+[('verb', 'Put'), ('obj1', 'books'), ('obj2', 'table'), ('obj3', 'coaches'), ('rel12', 'on'), ('rel13', 'on'), ('rel23', 'in front of')]
+[('verb', 'Turn'), ('obj1', 'TV'), ('rel12', 'Null')]
+words: Put books table coaches on on in front of Turn TV
+verb: Put Turn
+arg mapping: (books,Book_1) (books,Book_2) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1) (TV,Tv_1)
+<end clause>
+
+<start clause>
+start env: 7
+end env: 10
+sent:  . Put food and drinks on the table  
+[('verb', 'Put'), ('obj1', 'food'), ('obj2', 'drinks'), ('obj3', 'table'), ('rel12', 'and'), ('rel13', 'on'), ('rel23', 'on')]
+words: Put food drinks table and on on
+verb: Put
+arg mapping: (drinks,CoffeeTable_1) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1)
+<end clause>

@@ -1,0 +1,11 @@
+entire sentence: , Put a movie into the x box and bring some food to the table, ,  Set some pillows on the couch too
+
+<start clause>
+start env: 19
+end env: 18
+sent: Put a movie into the x box and bring some food to the table. Set some pillows on the couch too.
+[('verb', 'Put'), ('obj1', 'movie'), ('obj2', 'box'), ('rel12', 'into')]
+words: Put movie box into
+verb: Put
+arg mapping: (movie,Book_1) (movie,Book_2) (box,Xbox_1)
+<end clause>

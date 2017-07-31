@@ -1,0 +1,33 @@
+entire sentence: , Put the book on the table   , 
+Shut down the TV   , 
+Put away the coke and the beer   
+
+<start clause>
+start env: 0
+end env: 10
+sent: Put the book on the table  
+[('verb', 'Put'), ('obj1', 'book'), ('obj2', 'table'), ('rel12', 'on')]
+words: Put book table on
+verb: Put
+arg mapping: (book,Book_1) (book,Book_2) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1)
+<end clause>
+
+<start clause>
+start env: 11
+end env: 12
+sent:  .Shut down the TV  
+[('verb', 'Shut'), ('obj1', 'TV'), ('rel12', 'Null')]
+words: Shut TV
+verb: Shut
+arg mapping: (TV,Tv_1)
+<end clause>
+
+<start clause>
+start env: 13
+end env: 18
+sent:  .Put away the coke and the beer  
+[('verb', 'Put'), ('obj1', 'coke'), ('obj2', 'beer'), ('rel12', 'and')]
+words: Put coke beer and
+verb: Put
+arg mapping: (coke,Coke_1) (beer,Beer_1)
+<end clause>

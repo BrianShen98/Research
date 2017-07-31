@@ -1,0 +1,41 @@
+entire sentence: , Bring pot to sink   ,  Fill pot with water   ,  Put pot on stove   ,  Turn stove   on 
+
+<start clause>
+start env: 0
+end env: 3
+sent: Bring pot to sink  
+[('verb', 'sink'), ('obj1', 'Bring'), ('rel12', 'Null')]
+words: sink Bring
+verb: sink
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 4
+end env: 11
+sent:  . Fill pot with water  
+[('verb', 'Fill'), ('obj1', 'pot'), ('obj2', 'water'), ('rel12', 'with')]
+words: Fill pot water with
+verb: Fill
+arg mapping: (pot,Kettle)
+<end clause>
+
+<start clause>
+start env: 12
+end env: 14
+sent:  . Put pot on stove  
+[('verb', 'Put'), ('obj1', 'pot'), ('obj2', 'stove'), ('rel12', 'on')]
+words: Put pot stove on
+verb: Put
+arg mapping: (pot,Kettle) (stove,Stove)
+<end clause>
+
+<start clause>
+start env: 26
+end env: 25
+sent:  . Turn stove  
+[('verb', 'Turn'), ('obj1', 'stove'), ('rel12', 'Null')]
+words: Turn stove
+verb: Turn
+arg mapping: (stove,Stove)
+<end clause>

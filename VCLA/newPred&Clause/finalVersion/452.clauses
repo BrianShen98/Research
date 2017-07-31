@@ -1,0 +1,51 @@
+entire sentence: , Find kettle   ,  Fill kettle 2/3 full with water   ,  Place kettle on any stove burner   ,  Turn stove burner with kettle on it   on ,  Wait until water boils   , , 
+
+<start clause>
+start env: 0
+end env: 4
+sent: Find kettle  
+[('verb', 'Find'), ('obj1', 'kettle'), ('rel12', 'Null')]
+words: Find kettle
+verb: Find
+arg mapping: (kettle,Kettle)
+<end clause>
+
+<start clause>
+start env: 5
+end env: 7
+sent:  . Fill kettle 2/3 full with water  
+[('verb', 'Fill'), ('obj1', 'water'), ('rel12', 'Null')]
+words: Fill water
+verb: Fill
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 8
+end env: 19
+sent:  . Place kettle on any stove burner  
+[('verb', 'Place'), ('obj1', 'kettle'), ('obj2', 'stove burner'), ('rel12', 'on')]
+words: Place kettle stove burner on
+verb: Place
+arg mapping: (kettle,Kettle) (stove burner,Stove) (stove burner,StoveKnob_1) (stove burner,StoveKnob_2) (stove burner,StoveKnob_3) (stove burner,StoveKnob_4) (stove burner,StoveFire_1) (stove burner,StoveFire_2) (stove burner,StoveFire_3) (stove burner,StoveFire_4)
+<end clause>
+
+<start clause>
+start env: 20
+end env: 21
+sent:  . Turn stove burner with kettle on it  
+[('verb', 'Turn'), ('obj1', 'stove'), ('obj2', 'burner'), ('obj3', 'kettle'), ('obj4', 'it'), ('rel12', 'with'), ('rel13', 'with'), ('rel14', 'with'), ('rel23', 'with'), ('rel24', 'with'), ('rel34', 'on')]
+words: Turn stove burner kettle it with with with with with on
+verb: Turn
+arg mapping: (stove,Stove) (kettle,Kettle)
+<end clause>
+
+<start clause>
+start env: 21
+end env: 20
+sent: on . Wait until water boils
+[('verb', 'Wait'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: Wait
+verb: Wait
+arg mapping: 
+<end clause>

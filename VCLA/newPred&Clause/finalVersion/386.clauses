@@ -1,0 +1,21 @@
+entire sentence: , Put xboxcontroller   near xbox ,   Take trash bag outside of the room 
+
+<start clause>
+start env: 0
+end env: 3
+sent: Put xboxcontroller  
+[('verb', 'Put'), ('obj1', 'xboxcontroller'), ('rel12', 'Null')]
+words: Put xboxcontroller
+verb: Put
+arg mapping: (xboxcontroller,XboxController_1) (xboxcontroller,Xbox_1)
+<end clause>
+
+<start clause>
+start env: 0
+end env: -1
+sent:  Take trash bag outside of the room .
+[('verb', 'Take'), ('obj1', 'trash'), ('obj2', 'bag'), ('obj3', 'outside'), ('obj4', 'room'), ('rel12', 'of'), ('rel13', 'of'), ('rel14', 'of'), ('rel23', 'of'), ('rel24', 'of'), ('rel34', 'of')]
+words: Take trash bag outside room of of of of of of
+verb: Take
+arg mapping: (bag,BagOfChips_1) (bag,GarbageBag_1)
+<end clause>

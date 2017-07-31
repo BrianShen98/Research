@@ -1,0 +1,31 @@
+entire sentence: , Put all ramen in the kettle   ,  Add four cups of water   and put in the stove for 10 min   , 
+
+<start clause>
+start env: 0
+end env: 35
+sent: Put all ramen in the kettle  
+[('verb', 'Put'), ('obj1', 'ramen'), ('obj2', 'kettle'), ('rel12', 'in')]
+words: Put ramen kettle in
+verb: Put
+arg mapping: (ramen,Ramen_1) (kettle,Kettle)
+<end clause>
+
+<start clause>
+start env: 132
+end env: 137
+sent:  . Add four cups of water  
+[('verb', 'Add'), ('obj1', 'cups'), ('obj2', 'water'), ('rel12', 'of')]
+words: Add cups water of
+verb: Add
+arg mapping: (cups,LongCup_1) (cups,LongCup_2) (water,Kettle) (water,InstantRamen_1)
+<end clause>
+
+<start clause>
+start env: 192
+end env: 191
+sent:  and put in the stove for 10 min  
+[('verb', 'put'), ('obj1', 'stove'), ('obj2', 'min'), ('rel12', 'for')]
+words: put stove min for
+verb: put
+arg mapping: (stove,Stove)
+<end clause>

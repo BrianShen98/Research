@@ -1,0 +1,73 @@
+entire sentence: , Turn TV   on with remote and find movie (Lincoln)  on with remote and find movie (Lincoln) , , ,  Take bag of chips   and place on table   , ,  Take pillow from shelf and place on a sofa   ,  Throw away beer and soda,   and place Book of Records on shelf   with brown book , 
+
+<start clause>
+start env: 0
+end env: 1
+sent: Turn TV  
+[('verb', 'Turn'), ('obj1', 'TV'), ('rel12', 'Null')]
+words: Turn TV
+verb: Turn
+arg mapping: (TV,Tv_1)
+<end clause>
+
+<start clause>
+start env: 2
+end env: 1
+sent:  on with remote and find movie (Lincoln) 
+[('verb', 'find'), ('obj1', 'movie Lincoln'), ('rel12', 'Null')]
+words: find movie Lincoln
+verb: find
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 2
+end env: 1
+sent:  on with remote and find movie (Lincoln) . 
+[('verb', 'find'), ('obj1', 'movie Lincoln'), ('rel12', 'Null')]
+words: find movie Lincoln
+verb: find
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 2
+end env: 5
+sent: Take bag of chips and place on table
+[('verb', 'Take'), ('obj1', 'bag of chips'), ('rel12', 'Null')]
+[('verb', 'place'), ('obj1', 'table'), ('rel12', 'Null')]
+words: Take bag of chips place table
+verb: Take place
+arg mapping: (bag of chips, BagOfChips_1) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1)
+<end clause>
+
+<start clause>
+start env: 6
+end env: 9
+sent:  . Take pillow from shelf and place on a sofa  
+[('verb', 'Take'), ('obj1', 'pillow'), ('obj2', 'shelf'), ('rel12', 'from')]
+[('verb', 'place'), ('obj1', 'sofa'), ('rel12', 'Null')]
+words: Take pillow shelf from place sofa
+verb: Take place
+arg mapping: (pillow,Pillow_1) (pillow,Pillow_2) (pillow,Pillow_3) (shelf,Shelf_1) (shelf,Shelf_2) (sofa,Loveseat_1) (sofa,Loveseat_2)
+<end clause>
+
+<start clause>
+start env: 10
+end env: 13
+sent:  . Throw away beer and soda,  
+[('verb', 'Throw'), ('obj1', 'beer'), ('obj2', 'soda'), ('rel12', 'and')]
+words: Throw beer soda and
+verb: Throw
+arg mapping: (beer,Beer_1)
+<end clause>
+
+<start clause>
+start env: 15
+end env: 14
+sent:  and place Book of Records on shelf  
+[('verb', 'place'), ('obj1', 'Book'), ('obj2', 'shelf'), ('rel12', 'of')]
+words: place Book shelf of
+verb: place
+arg mapping: (Book,Book_1) (Book,Book_2) (shelf,Shelf_1) (shelf,Shelf_2)
+<end clause>

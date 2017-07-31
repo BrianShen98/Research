@@ -1,0 +1,61 @@
+entire sentence: , Fill the pot with water   and put it on the stove   , ,  Boil the water   ,  Put the instant ramen in the pot   ,  Cook for 3 minutes   ,  Wait   until it is cool , , 
+
+<start clause>
+start env: 0
+end env: 7
+sent: Fill the pot with water  
+[('verb', 'Fill'), ('obj1', 'pot'), ('obj2', 'water'), ('rel12', 'with')]
+words: Fill pot water with
+verb: Fill
+arg mapping: (pot,Kettle)
+<end clause>
+
+<start clause>
+start env: 10
+end env: 13
+sent:  and put it on the stove  
+[('verb', 'put'), ('obj1', 'it'), ('obj2', 'stove'), ('rel12', 'on')]
+words: put it stove on
+verb: put
+arg mapping: (it,Kettle) (it,LongCup_2) (it,StoveFire_4) (stove,Stove)
+<end clause>
+
+<start clause>
+start env: 15
+end env: 20
+sent:  . Boil the water  
+[('verb', 'Boil'), ('obj1', 'water'), ('rel12', 'Null')]
+words: Boil water
+verb: Boil
+arg mapping: (water,Kettle) (water,LongCup_2)
+<end clause>
+
+<start clause>
+start env: 41
+end env: 40
+sent:  . Put the instant ramen in the pot  
+[('verb', 'Put'), ('obj1', 'ramen'), ('obj2', 'pot'), ('rel12', 'in')]
+words: Put ramen pot in
+verb: Put
+arg mapping: (ramen,Ramen_1) (pot,Kettle)
+<end clause>
+
+<start clause>
+start env: 41
+end env: 40
+sent:  . Cook for 3 minutes  
+[('verb', 'Cook'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: Cook
+verb: Cook
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 41
+end env: 40
+sent:  . Wait  
+[('verb', 'Wait'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: Wait
+verb: Wait
+arg mapping: 
+<end clause>

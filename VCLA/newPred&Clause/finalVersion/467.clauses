@@ -1,0 +1,71 @@
+entire sentence: , Turn off the TV and the XBOX   if applicable ,   Move all controllers off of the coffee table   ,   Remove beer from the coffee table   ,  Bring all books to the coffee table   ,   Bring the bowl of chips to the coffee table   ,   Open the bag of chips,   and pour the contents into the bowl until it   is full , , , ,   Move all chairs around the coffee table   
+
+<start clause>
+start env: 0
+end env: -1
+sent: Turn off the TV and the XBOX  
+[('verb', 'Turn'), ('obj1', 'TV'), ('obj2', 'XBOX'), ('rel12', 'and')]
+words: Turn TV XBOX and
+verb: Turn
+arg mapping: (TV,Tv_1) (XBOX,Xbox_1)
+<end clause>
+
+<start clause>
+start env: 0
+end env: 3
+sent:  .  Remove beer from the coffee table  
+[('verb', 'Remove'), ('obj1', 'beer'), ('obj2', 'coffee table'), ('rel12', 'from')]
+words: Remove beer coffee table from
+verb: Remove
+arg mapping: (beer,Beer_1) (coffee table,CoffeeTable_1)
+<end clause>
+
+<start clause>
+start env: 4
+end env: 6
+sent:  . Bring all books to the coffee table  
+[('verb', 'Bring'), ('obj1', 'books'), ('obj2', 'coffee table'), ('rel12', 'to')]
+words: Bring books coffee table to
+verb: Bring
+arg mapping: (books,Book_1) (books,Book_2) (coffee table,CoffeeTable_1)
+<end clause>
+
+<start clause>
+start env: 7
+end env: 12
+sent:  .  Bring the bowl of chips to the coffee table  
+[('verb', 'Bring'), ('obj1', 'bowl'), ('obj2', 'chips'), ('obj3', 'coffee table'), ('rel12', 'of'), ('rel13', 'of'), ('rel23', 'to')]
+words: Bring bowl chips coffee table of of to
+verb: Bring
+arg mapping: (bowl,Bowl_1) (chips,BagOfChips_1) (coffee table,CoffeeTable_1)
+<end clause>
+
+<start clause>
+start env: 7
+end env: 6
+sent:  .  Open the bag of chips,  
+[('verb', 'Open'), ('obj1', 'bag'), ('obj2', 'chips'), ('rel12', 'of')]
+words: Open bag chips of
+verb: Open
+arg mapping: (bag,BagOfChips_1) (bag,GarbageBag_1) (chips,BagOfChips_1)
+<end clause>
+
+<start clause>
+start env: 9
+end env: 8
+sent: and pour the contents into the bowl until it is full .
+[('verb', 'pour'), ('obj1', 'contents'), ('obj2', 'bowl'), ('rel12', 'into')]
+words: pour contents bowl into
+verb: pour
+arg mapping: (bowl,Bowl_1)
+<end clause>
+
+<start clause>
+start env: 11
+end env: 10
+sent:  Move all chairs around the coffee table  
+[('verb', 'Move'), ('obj1', 'chairs'), ('obj2', 'coffee table'), ('rel12', 'around')]
+words: Move chairs coffee table around
+verb: Move
+arg mapping: (chairs,Armchair_1) (chairs,Armchair_2) (coffee table,CoffeeTable_1)
+<end clause>

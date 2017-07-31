@@ -1,0 +1,41 @@
+entire sentence: , First, you have to fill the kettle with water   , ,  Then, you put the kettle in the microwave and turn it   on , ,  Finally, wait   until the water is boiling,   and remove it from the microwave   , , , 
+
+<start clause>
+start env: 0
+end env: -1
+sent: First, you have to fill the kettle with water  
+[('verb', 'have'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: have
+verb: have
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 22
+end env: 26
+sent:  . Then, you put the kettle in the microwave and turn it  
+[('verb', 'put'), ('obj1', 'kettle'), ('obj2', 'microwave'), ('rel12', 'in')]
+words: put kettle microwave in
+verb: put
+arg mapping: (kettle,Kettle) (microwave,Microwave)
+<end clause>
+
+<start clause>
+start env: 27
+end env: 26
+sent:  on . Finally, wait  
+[('verb', 'wait'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: wait
+verb: wait
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 27
+end env: 29
+sent:  and remove it from the microwave  
+[('verb', 'remove'), ('obj1', 'it'), ('obj2', 'microwave'), ('rel12', 'from')]
+words: remove it microwave from
+verb: remove
+arg mapping: (it,Microwave) (it,Kettle) (it,MicrowaveButton) (it,SinkKnob) (microwave,Microwave)
+<end clause>

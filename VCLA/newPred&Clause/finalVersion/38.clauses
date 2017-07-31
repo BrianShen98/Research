@@ -1,0 +1,31 @@
+entire sentence: , Take   pot   , ,  Fill it with water from the sink   ,  Put it on the already lit   burner ,  Wait   until it boils , , 
+
+<start clause>
+start env: 0
+end env: 1
+sent: Take  
+[('verb', 'Take'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: Take
+verb: Take
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 2
+end env: 7
+sent:  . Fill it with water from the sink  
+[('verb', 'Fill'), ('obj1', 'it'), ('obj2', 'water'), ('obj3', 'sink'), ('rel12', 'with'), ('rel13', 'with'), ('rel23', 'from')]
+words: Fill it water sink with with from
+verb: Fill
+arg mapping: (it,Kettle) (sink,Sink)
+<end clause>
+
+<start clause>
+start env: 8
+end env: 7
+sent:  . Put it on the already lit  
+[('verb', 'Put'), ('obj1', 'it'), ('rel12', 'Null')]
+words: Put it
+verb: Put
+arg mapping: (it,Kettle)
+<end clause>

@@ -1,0 +1,14 @@
+entire sentence: , Select xBox game. Turn on xBox. Take food from kitchen counter to game room table. Place couch 4 feet in front of television 
+
+<start clause>
+start env: 12
+end env: 11
+sent: Select xBox game. Turn on xBox. Take food from kitchen counter to game room table. Place couch 4 feet in front of television .
+[('verb', 'Select'), ('obj1', 'xBox game'), ('rel12', 'Null')]
+[('verb', 'Turn'), ('obj1', 'xBox'), ('rel12', 'Null')]
+[('verb', 'Take'), ('obj1', 'food'), ('obj2', 'kitchen counter'), ('obj3', 'game room table'), ('rel12', 'from'), ('rel13', 'to'), ('rel23', 'to')]
+[('verb', 'Place'), ('obj1', 'couch'), ('obj2', 'television'), ('rel12', 'in front of')]
+words: Select xBox game Turn xBox Take food kitchen counter game room table from to to Place couch television in front of
+verb: Select Turn Take Place
+arg mapping: (xBox game,Xbox_1) (xBox,Xbox_1) (game room table,CoffeeTable_1) (game room table,TvTable_1) (game room table,SnackTable_1) (couch,Loveseat_1) (couch,Loveseat_2) (television,Tv_1)
+<end clause>

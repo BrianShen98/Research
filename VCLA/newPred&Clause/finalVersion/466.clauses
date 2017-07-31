@@ -1,0 +1,31 @@
+entire sentence: , Turn of TV   and select movie in Neflix   , ,  Put popcorn bag in the microwave for 3 min   
+
+<start clause>
+start env: 0
+end env: 1
+sent: Turn of TV  
+[('verb', 'Turn'), ('obj1', 'TV'), ('rel12', 'Null')]
+words: Turn TV
+verb: Turn
+arg mapping: (TV,Tv_1)
+<end clause>
+
+<start clause>
+start env: 2
+end env: 1
+sent:  and select movie in Neflix  
+[('verb', 'select'), ('obj1', 'movie'), ('obj2', 'Neflix'), ('rel12', 'in')]
+words: select movie Neflix in
+verb: select
+arg mapping: (movie,Book_1) (movie,Book_2)
+<end clause>
+
+<start clause>
+start env: 2
+end env: 1
+sent:  . Put popcorn bag in the microwave for 3 min  
+[('verb', 'Put'), ('obj1', 'popcorn'), ('obj2', 'bag'), ('obj3', 'microwave'), ('obj4', 'min'), ('rel12', 'in'), ('rel13', 'in'), ('rel14', 'in'), ('rel23', 'in'), ('rel24', 'in'), ('rel34', 'for')]
+words: Put popcorn bag microwave min in in in in in for
+verb: Put
+arg mapping: (bag,BagOfChips_1) (bag,GarbageBag_1)
+<end clause>

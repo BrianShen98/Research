@@ -1,0 +1,11 @@
+entire sentence: , Dave, take some coffee   and then mix in ice cream and syrup   , 
+
+<start clause>
+start env: 6
+end env: 7
+sent: Dave, take some coffee  
+[('verb', 'take'), ('obj1', 'Dave'), ('obj2', 'coffee'), ('rel12', ',')]
+words: take Dave coffee ,
+verb: take
+arg mapping: (coffee,Mug_1)
+<end clause>

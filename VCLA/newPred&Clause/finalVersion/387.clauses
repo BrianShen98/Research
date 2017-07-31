@@ -1,0 +1,33 @@
+entire sentence: , Turn on tv, Pick up pillow, Place   the pillow on the couch, Pick up bag of chips   and bowl ,put down bag of chips and bowl   on table , , , 
+
+<start clause>
+start env: 0
+end env: 3
+sent: Turn on tv, Pick up pillow
+[('verb', 'Turn'), ('obj1', 'tv'), ('rel12', 'Null')]
+[('verb', 'Pick'), ('obj1', 'pillow'), ('rel12', 'Null')]
+words: Turn tv Pick pillow
+verb: Turn Pick
+arg mapping: (tv,Tv_1) (pillow,Pillow_1) (pillow,Pillow_2) (pillow,Pillow_3)
+<end clause>
+
+<start clause>
+start env: 4
+end env: 12
+sent:  Place the pillow on the couch. Pick up bag of chips and bowl
+[('verb', 'Place'), ('obj1', 'pillow'), ('obj2', 'couch'), ('rel12', 'on')]
+[('verb', 'Pick'), ('obj1', 'bag'), ('obj2', 'chips'), ('obj3', 'bowl'), ('rel12', 'of'), ('rel13', 'of'), ('rel23', 'and')]
+words: Place pillow couch on Pick bag chips bowl of of and
+verb: Place Pick
+arg mapping: (pillow,Pillow_1) (pillow,Pillow_2) (pillow,Pillow_3) (couch,Loveseat_1) (bag,BagOfChips_1) (bag,GarbageBag_1) (chips,BagOfChips_1)
+<end clause>
+
+<start clause>
+start env: 13
+end env: 15
+sent:  put down bag of chips and bowl  
+[('verb', 'put'), ('obj1', 'bag'), ('obj2', 'chips'), ('obj3', 'bowl'), ('rel12', 'of'), ('rel13', 'of'), ('rel23', 'and')]
+words: put bag chips bowl of of and
+verb: put
+arg mapping: (bag,BagOfChips_1) (bag,GarbageBag_1) (chips,BagOfChips_1) (bowl,Bowl_1)
+<end clause>

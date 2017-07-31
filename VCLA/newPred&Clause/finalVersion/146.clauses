@@ -1,0 +1,11 @@
+entire sentence: , Put the chip bag, cock and bear into the garbage bin,  Put the xboxcontroller near TV remote,  Take the garbageBag out of the room, 
+
+<start clause>
+start env: 23
+end env: 22
+sent: Put the chip bag, cock and bear into the garbage bin. Put the xboxcontroller near TV remote. Take the garbageBag out of the room.
+[('verb', 'Put'), ('obj1', 'chip bag'), ('obj2', 'cock bear'), ('obj3', 'garbage bin'), ('rel12', ','), ('rel13', 'into'), ('rel23', 'into')]
+words: Put chip bag cock bear garbage bin , into into
+verb: Put
+arg mapping: (chip bag,BagOfChips_1) (chip bag,GarbageBag_1) (garbage bin,GarbageBin_1)
+<end clause>

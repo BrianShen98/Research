@@ -1,0 +1,83 @@
+entire sentence: , Throw out chips, coke and beer   ,  Take brown book and place on shelf with CD   ,  Take xbox game controller   and put with xbox   , ,  Take pillows from shelf   and put on couches   , ,  Take bowl from floor and place in kitchen   ,  Throw out the trash   
+
+<start clause>
+start env: 0
+end env: 10
+sent: Throw out chips, coke and beer  
+[('verb', 'Throw'), ('obj1', 'chips'), ('obj2', 'coke beer'), ('rel12', ',')]
+words: Throw chips coke beer ,
+verb: Throw
+arg mapping: (chips,BagOfChips_1) (coke beer,Coke_1) (coke beer,Beer_1)
+<end clause>
+
+<start clause>
+start env: 11
+end env: 13
+sent:  . Take brown book and place on shelf with CD  
+[('verb', 'Take'), ('obj1', 'book'), ('rel12', 'Null')]
+[('verb', 'place'), ('obj1', 'shelf'), ('obj2', 'CD'), ('rel12', 'with')]
+words: Take book place shelf CD with
+verb: Take place
+arg mapping: (book,Book_1) (book,Book_2) (shelf,Shelf_1) (shelf,Shelf_2) (CD,Cd_2) (CD,Cd_1)
+<end clause>
+
+<start clause>
+start env: 14
+end env: 16
+sent:  . Take xbox game controller  
+[('verb', 'Take'), ('obj1', 'game controller'), ('rel12', 'Null')]
+words: Take game controller
+verb: Take
+arg mapping: (game controller,XboxController_1)
+<end clause>
+
+<start clause>
+start env: 17
+end env: 16
+sent:  and put with xbox  
+[('verb', 'put'), ('obj1', 'xbox'), ('rel12', 'Null')]
+words: put xbox
+verb: put
+arg mapping: (xbox,Xbox_1)
+<end clause>
+
+<start clause>
+start env: 17
+end env: 20
+sent:  . Take pillows from shelf  
+[('verb', 'Take'), ('obj1', 'pillows'), ('obj2', 'shelf'), ('rel12', 'from')]
+words: Take pillows shelf from
+verb: Take
+arg mapping: (pillows,Pillow_1) (pillows,Pillow_2) (pillows,Pillow_3) (pillows,Pillow_4) (shelf,Shelf_1) (shelf,Shelf_2)
+<end clause>
+
+<start clause>
+start env: 21
+end env: 22
+sent:  and put on couches  
+[('verb', 'put'), ('obj1', 'couches'), ('rel12', 'Null')]
+words: put couches
+verb: put
+arg mapping: (couches,Loveseat_1)
+<end clause>
+
+<start clause>
+start env: 23
+end env: 24
+sent:  . Take bowl from floor and place in kitchen  
+[('verb', 'Take'), ('obj1', 'bowl'), ('obj2', 'floor'), ('rel12', 'from')]
+[('verb', 'place'), ('obj1', 'kitchen'), ('rel12', 'Null')]
+words: Take bowl floor from place kitchen
+verb: Take place
+arg mapping: (bowl,Bowl_1) (floor,Bowl_1)
+<end clause>
+
+<start clause>
+start env: 25
+end env: 24
+sent:  . Throw out the trash  
+[('verb', 'Throw'), ('obj1', 'trash'), ('rel12', 'Null')]
+words: Throw trash
+verb: Throw
+arg mapping: 
+<end clause>

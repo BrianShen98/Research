@@ -1,0 +1,61 @@
+entire sentence: , Place pot on top of the stove   and turn the stove   on , ,  wait for the water to boil   ,  Get the ramen   and empty contents into hot water into the pot   , ,  Cook   
+
+<start clause>
+start env: 0
+end env: 6
+sent: Place pot on top of the stove  
+[('verb', 'Place'), ('obj1', 'pot'), ('obj2', 'top'), ('obj3', 'stove'), ('rel12', 'on'), ('rel13', 'on'), ('rel23', 'of')]
+words: Place pot top stove on on of
+verb: Place
+arg mapping: (pot,Kettle) (stove,Stove)
+<end clause>
+
+<start clause>
+start env: 7
+end env: 11
+sent:  and turn the stove  
+[('verb', 'turn'), ('obj1', 'stove'), ('rel12', 'Null')]
+words: turn stove
+verb: turn
+arg mapping: (stove,Stove)
+<end clause>
+
+<start clause>
+start env: 12
+end env: 11
+sent:  on . wait for the water to boil  
+[('verb', 'wait'), ('obj1', 'water'), ('obj2', 'boil'), ('rel12', 'to')]
+words: wait water boil to
+verb: wait
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 12
+end env: 14
+sent:  . Get the ramen  
+[('verb', 'Get'), ('obj1', 'ramen'), ('rel12', 'Null')]
+words: Get ramen
+verb: Get
+arg mapping: (ramen,Ramen_1)
+<end clause>
+
+<start clause>
+start env: 14
+end env: 13
+sent:  and empty contents into hot water into the pot  
+[('verb', 'empty'), ('obj1', 'contents'), ('obj2', 'water'), ('obj3', 'pot'), ('rel12', 'into'), ('rel13', 'into'), ('rel23', 'into')]
+words: empty contents water pot into into into
+verb: empty
+arg mapping: (pot,Kettle)
+<end clause>
+
+<start clause>
+start env: 14
+end env: 13
+sent:  . Cook  
+[('verb', 'Cook'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: Cook
+verb: Cook
+arg mapping: 
+<end clause>

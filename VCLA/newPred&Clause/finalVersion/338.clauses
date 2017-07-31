@@ -1,0 +1,61 @@
+entire sentence: , Collect all books from the room   and place them on the coffee table   , ,  Turn off the TV   and put away the xbox   , ,  Place chips in the bowl   and put it on the coffee table   , 
+
+<start clause>
+start env: 0
+end env: -1
+sent: Collect all books from the room  
+[('verb', 'Collect'), ('obj1', 'books'), ('obj2', 'room'), ('rel12', 'from')]
+words: Collect books room from
+verb: Collect
+arg mapping: (books,Book_1) (books,Book_2) (books,Book_3)
+<end clause>
+
+<start clause>
+start env: 0
+end env: 10
+sent:  and place them on the coffee table  
+[('verb', 'place'), ('obj1', 'coffee table'), ('rel12', 'Null')]
+words: place coffee table
+verb: place
+arg mapping: (coffee table,CoffeeTable_1)
+<end clause>
+
+<start clause>
+start env: 14
+end env: 15
+sent:  . Turn off the TV  
+[('verb', 'Turn'), ('obj1', 'TV'), ('rel12', 'Null')]
+words: Turn TV
+verb: Turn
+arg mapping: (TV,Tv_1)
+<end clause>
+
+<start clause>
+start env: 16
+end env: 18
+sent:  and put away the xbox  
+[('verb', 'put'), ('obj1', 'xbox'), ('rel12', 'Null')]
+words: put xbox
+verb: put
+arg mapping: (xbox,Xbox_1)
+<end clause>
+
+<start clause>
+start env: 19
+end env: 25
+sent:  . Place chips in the bowl  
+[('verb', 'Place'), ('obj1', 'chips'), ('obj2', 'bowl'), ('rel12', 'in')]
+words: Place chips bowl in
+verb: Place
+arg mapping: (chips,BagOfChips_1) (bowl,Bowl_1)
+<end clause>
+
+<start clause>
+start env: 29
+end env: 31
+sent:  and put it on the coffee table  
+[('verb', 'put'), ('obj1', 'it'), ('obj2', 'coffee table'), ('rel12', 'on')]
+words: put it coffee table on
+verb: put
+arg mapping: (it,SnackTable_1) (it,BagOfChips_1) (it,Bowl_1) (coffee table,CoffeeTable_1)
+<end clause>

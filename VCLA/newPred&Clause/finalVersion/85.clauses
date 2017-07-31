@@ -1,0 +1,61 @@
+entire sentence: , Set up the xbox and tv   and turn   both on , ,  Put the movie   in ,  Put the chips on the table   and dump the bowl   , ,  Put the pillows on the couch   
+
+<start clause>
+start env: 0
+end env: 1
+sent: Set up the xbox and tv  
+[('verb', 'Set'), ('obj1', 'xbox'), ('obj2', 'tv'), ('rel12', 'and')]
+words: Set xbox tv and
+verb: Set
+arg mapping: (xbox,Xbox_1) (tv,Tv_1)
+<end clause>
+
+<start clause>
+start env: 2
+end env: 1
+sent:  and turn  
+[('verb', 'turn'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: turn
+verb: turn
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 2
+end env: 7
+sent:  both on . Put the movie  
+[('verb', 'Put'), ('obj1', 'movie'), ('rel12', 'Null')]
+words: Put movie
+verb: Put
+arg mapping: (movie,Book_1) (movie,Book_2)
+<end clause>
+
+<start clause>
+start env: 8
+end env: 11
+sent:  in . Put the chips on the table  
+[('verb', 'Put'), ('obj1', 'chips'), ('obj2', 'table'), ('rel12', 'on')]
+words: Put chips table on
+verb: Put
+arg mapping: (chips,BagOfChips_1) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1)
+<end clause>
+
+<start clause>
+start env: 12
+end env: 14
+sent:  and dump the bowl  
+[('verb', 'dump'), ('obj1', 'bowl'), ('rel12', 'Null')]
+words: dump bowl
+verb: dump
+arg mapping: (bowl,Bowl_1)
+<end clause>
+
+<start clause>
+start env: 14
+end env: 13
+sent:  . Put the pillows on the couch  
+[('verb', 'Put'), ('obj1', 'pillows'), ('obj2', 'couch'), ('rel12', 'on')]
+words: Put pillows couch on
+verb: Put
+arg mapping: (pillows,Pillow_1) (pillows,Pillow_2) (pillows,Pillow_3) (couch,Loveseat_1)
+<end clause>

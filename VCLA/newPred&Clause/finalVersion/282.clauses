@@ -1,0 +1,41 @@
+entire sentence: , If any of the pots or dishes have food on or in them, dump   them out in the garbage can, then put them in the sink   , If, If, ,  The syrups can go into the fridge,   and the instant ramen should go back into a cabinet   , If
+
+<start clause>
+start env: 27
+end env: 26
+sent: If any of the pots or dishes have food on or in them, dump  
+[('verb', 'dump'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: dump
+verb: dump
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 27
+end env: 26
+sent:  them out in the garbage can, then put them in the sink  
+[('verb', 'put'), ('obj1', 'garbage'), ('obj2', 'sink'), ('rel12', ',')]
+words: put garbage sink ,
+verb: put
+arg mapping: (garbage,Plate_1) (garbage,Plate_2) (sink,Sink)
+<end clause>
+
+<start clause>
+start env: 35
+end env: 34
+sent:  . The syrups can go into the fridge,  
+[('verb', 'go'), ('obj1', 'syrups'), ('obj2', 'fridge'), ('rel12', 'into')]
+words: go syrups fridge into
+verb: go
+arg mapping: (syrups,Syrup_1) (syrups,Syrup_2) (fridge,Fridge)
+<end clause>
+
+<start clause>
+start env: 51
+end env: 50
+sent:  and the instant ramen should go back into a cabinet  
+[('verb', 'go'), ('obj1', 'ramen'), ('obj2', 'cabinet'), ('rel12', 'into')]
+words: go ramen cabinet into
+verb: go
+arg mapping: (ramen,Ramen_1) (cabinet,Counter_1)
+<end clause>

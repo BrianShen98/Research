@@ -1,0 +1,21 @@
+entire sentence: , Get out drink and food for me from the fridge   ,  Bring   them to me by putting them in plates   and bowls , 
+
+<start clause>
+start env: 0
+end env: 6
+sent: Get out drink and food for me from the fridge  
+[('verb', 'Get'), ('obj1', 'drink'), ('obj2', 'food'), ('obj3', 'fridge'), ('rel12', 'and'), ('rel13', 'for'), ('rel23', 'for')]
+words: Get drink food fridge and for for
+verb: Get
+arg mapping: (drink,EnergyDrink_1) (fridge,Fridge)
+<end clause>
+
+<start clause>
+start env: 9
+end env: 8
+sent:  them to me by putting them in plates  
+[('verb', 'putting'), ('obj1', 'plates'), ('rel12', 'Null')]
+words: putting plates
+verb: putting
+arg mapping: (plates,Plate_1) (plates,Plate_2)
+<end clause>

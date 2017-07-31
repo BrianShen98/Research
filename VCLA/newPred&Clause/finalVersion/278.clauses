@@ -1,0 +1,52 @@
+entire sentence: , Open the gameCD with TV   ,  Put xbox and its controller in the shelf under the TV   ,  Pour chips into the bowl   and throw the container into the trash bag   , ,  Put pillows onto the coaches,   one for each ,  Put books on the study desk   
+
+<start clause>
+start env: 0
+end env: 1
+sent: Open the gameCD with TV  
+[('verb', 'Open'), ('obj1', 'gameCD'), ('obj2', 'TV'), ('rel12', 'with')]
+words: Open gameCD TV with
+verb: Open
+arg mapping: (gameCD,Cd_2) (gameCD,Cd_1) (TV,Tv_1)
+<end clause>
+
+<start clause>
+start env: 4
+end env: 9
+sent:  . Put xbox and its controller in the shelf under the TV  
+[('verb', 'Put'), ('obj1', 'xbox'), ('obj2', 'controller'), ('obj3', 'shelf'), ('obj4', 'TV'), ('rel12', 'and'), ('rel13', 'in'), ('rel14', 'in'), ('rel23', 'in'), ('rel24', 'in'), ('rel34', 'under')]
+words: Put xbox controller shelf TV and in in in in under
+verb: Put
+arg mapping: (xbox,Xbox_1) (controller,XboxController_1) (shelf,Shelf_1) (shelf,Shelf_2) (TV,Tv_1)
+<end clause>
+
+<start clause>
+start env: 10
+end env: 9
+sent:  and throw the container into the trash bag  
+[('verb', 'throw'), ('obj1', 'container'), ('obj2', 'trash bag'), ('rel12', 'into')]
+words: throw container trash bag into
+verb: throw
+arg mapping: (container,GarbageBag_1) (container,GarbageBin_1) (trash bag,BagOfChips_1) (trash bag,GarbageBag_1)
+<end clause>
+
+<start clause>
+start env: 17
+end env: 21
+sent:  . Put pillows onto the coaches, one for each .
+[('verb', 'Put'), ('obj1', 'pillows'), ('obj2', 'coaches'), ('rel12', 'onto')]
+words: Put pillows coaches onto
+verb: Put
+arg mapping: (pillows,Pillow_1) (pillows,Pillow_2) (pillows,Pillow_3) (pillows,Pillow_4)
+<end clause>
+
+<start clause>
+start env: 17
+end env: 16
+sent: Arrange coaches around the big table . Put books on the study desk  
+[('verb', 'Arrange'), ('obj1', 'coaches'), ('obj2', 'table'), ('rel12', 'around')]
+[('verb', 'Put'), ('obj1', 'books'), ('obj2', 'study desk'), ('rel12', 'on')]
+words: Arrange coaches table around Put books study desk on
+verb: Arrange Put
+arg mapping: (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1) (books,Book_1) (books,Book_2)
+<end clause>

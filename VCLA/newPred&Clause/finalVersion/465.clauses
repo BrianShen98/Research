@@ -1,0 +1,41 @@
+entire sentence: , Arrange couches in front of the TV,   put the Far Cry game inside the Xbox,   turn on the TV and the Xbox,   and put out Coke cans   and open the chips bag   , , , , 
+
+<start clause>
+start env: 0
+end env: -1
+sent:  put the Far Cry game inside the Xbox,  
+[('verb', 'put'), ('obj1', 'Far'), ('obj2', 'Cry'), ('obj3', 'game'), ('obj4', 'Xbox'), ('rel12', 'inside'), ('rel13', 'inside'), ('rel14', 'inside'), ('rel23', 'inside'), ('rel24', 'inside'), ('rel34', 'inside')]
+words: put Far Cry game Xbox inside inside inside inside inside inside
+verb: put
+arg mapping: (Xbox,Xbox_1)
+<end clause>
+
+<start clause>
+start env: 10
+end env: 14
+sent:  turn on the TV and the Xbox,  
+[('verb', 'turn'), ('obj1', 'TV'), ('obj2', 'Xbox'), ('rel12', 'and')]
+words: turn TV Xbox and
+verb: turn
+arg mapping: (TV,Tv_1) (Xbox,Xbox_1)
+<end clause>
+
+<start clause>
+start env: 4
+end env: 6
+sent:  and put out Coke cans  
+[('verb', 'put'), ('obj1', 'Coke cans'), ('rel12', 'Null')]
+words: put Coke cans
+verb: put
+arg mapping: (Coke cans,Coke_1)
+<end clause>
+
+<start clause>
+start env: 22
+end env: 21
+sent:  and open the chips bag  
+[('verb', 'open'), ('obj1', 'chips bag'), ('rel12', 'Null')]
+words: open chips bag
+verb: open
+arg mapping: (chips bag,BagOfChips_1) (chips bag,GarbageBag_1)
+<end clause>

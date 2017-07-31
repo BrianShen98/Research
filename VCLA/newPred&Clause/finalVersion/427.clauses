@@ -1,0 +1,51 @@
+entire sentence: , Turn on the television   and put on a movie   , ,  Pour the chips into a bowl   and put the bowl on the coffee table   , ,  Move all available pillows onto the couches   
+
+<start clause>
+start env: 0
+end env: 1
+sent: Turn on the television  
+[('verb', 'Turn'), ('obj1', 'television'), ('rel12', 'Null')]
+words: Turn television
+verb: Turn
+arg mapping: (television,Tv_1)
+<end clause>
+
+<start clause>
+start env: 3
+end env: 2
+sent:  and put on a movie  
+[('verb', 'put'), ('obj1', 'movie'), ('rel12', 'Null')]
+words: put movie
+verb: put
+arg mapping: (movie,Book_1) (movie,Book_2)
+<end clause>
+
+<start clause>
+start env: 3
+end env: 2
+sent:  . Pour the chips into a bowl  
+[('verb', 'Pour'), ('obj1', 'chips'), ('obj2', 'bowl'), ('rel12', 'into')]
+words: Pour chips bowl into
+verb: Pour
+arg mapping: (chips,BagOfChips_1) (bowl,Bowl_1)
+<end clause>
+
+<start clause>
+start env: 3
+end env: 2
+sent:  and put the bowl on the coffee table  
+[('verb', 'put'), ('obj1', 'bowl'), ('obj2', 'coffee table'), ('rel12', 'on')]
+words: put bowl coffee table on
+verb: put
+arg mapping: (bowl,Bowl_1) (coffee table,CoffeeTable_1)
+<end clause>
+
+<start clause>
+start env: 3
+end env: 2
+sent:  . Move all available pillows onto the couches  
+[('verb', 'Move'), ('obj1', 'pillows'), ('obj2', 'couches'), ('rel12', 'onto')]
+words: Move pillows couches onto
+verb: Move
+arg mapping: (pillows,Pillow_1) (pillows,Pillow_2) (pillows,Pillow_3) (couches,Loveseat_1) (couches,Loveseat_2)
+<end clause>

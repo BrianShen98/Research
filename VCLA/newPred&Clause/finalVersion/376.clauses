@@ -1,0 +1,143 @@
+entire sentence: , Turn on Television   ,  
+Pick up XBox   , 
+Turn on XBox   , 
+Put XBox on shelf   , 
+Pick up Instant Ramen   , 
+Put Instant Ramen in microwave   , 
+Turn on microwave   , 
+Remove Instant Ramen   , 
+Pick up couch   , 
+Move couch two feet closer to television   , 
+Sit on couch   , 
+Pick up XBox controller   , 
+Play game on XBox   
+
+<start clause>
+start env: 0
+end env: 1
+sent: Turn on Television  
+[('verb', 'Turn'), ('obj1', 'Television'), ('rel12', 'Null')]
+words: Turn Television
+verb: Turn
+arg mapping: (Television,Tv_1)
+<end clause>
+
+<start clause>
+start env: 2
+end env: 3
+sent:  . Pick up XBox  
+[('verb', 'Pick'), ('obj1', 'XBox'), ('rel12', 'Null')]
+words: Pick XBox
+verb: Pick
+arg mapping: (XBox,Xbox_1)
+<end clause>
+
+<start clause>
+start env: 4
+end env: 3
+sent:  .Turn on XBox  
+[('verb', 'Turn'), ('obj1', 'XBox'), ('rel12', 'Null')]
+words: Turn XBox
+verb: Turn
+arg mapping: (XBox,Xbox_1)
+<end clause>
+
+<start clause>
+start env: 12
+end env: 13
+sent:  .Put XBox on shelf  
+[('verb', 'Put'), ('obj1', 'XBox'), ('obj2', 'shelf'), ('rel12', 'on')]
+words: Put XBox shelf on
+verb: Put
+arg mapping: (XBox,Xbox_1) (shelf,Shelf_1) (shelf,Shelf_2)
+<end clause>
+
+<start clause>
+start env: 12
+end env: 11
+sent:  .Pick up Instant Ramen  
+[('verb', 'Pick'), ('obj1', 'Instant Ramen'), ('rel12', 'Null')]
+words: Pick Instant Ramen
+verb: Pick
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 15
+end env: 14
+sent:  .Put Instant Ramen in microwave  
+[('verb', 'Put'), ('obj1', 'Instant'), ('obj2', 'Ramen'), ('obj3', 'microwave'), ('rel12', 'in'), ('rel13', 'in'), ('rel23', 'in')]
+words: Put Instant Ramen microwave in in in
+verb: Put
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 15
+end env: 14
+sent:  .Turn on microwave  
+[('verb', 'Turn'), ('obj1', 'microwave'), ('rel12', 'Null')]
+words: Turn microwave
+verb: Turn
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 15
+end env: 14
+sent:  .Remove Instant Ramen  
+[('verb', 'Remove'), ('obj1', 'Instant Ramen'), ('rel12', 'Null')]
+words: Remove Instant Ramen
+verb: Remove
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 15
+end env: 14
+sent:  .Pick up couch  
+[('verb', 'Pick'), ('obj1', 'couch'), ('rel12', 'Null')]
+words: Pick couch
+verb: Pick
+arg mapping: (couch,Loveseat_1) (couch,Loveseat_2)
+<end clause>
+
+<start clause>
+start env: 15
+end env: 14
+sent:  .Move couch two feet closer to television  
+[('verb', 'Move'), ('obj1', 'couch'), ('obj2', 'feet'), ('obj3', 'television'), ('rel12', 'to'), ('rel13', 'to'), ('rel23', 'to')]
+words: Move couch feet television to to to
+verb: Move
+arg mapping: (couch,Loveseat_1) (couch,Loveseat_2) (feet,Shelf_1) (feet,Shelf_2) (television,Tv_1)
+<end clause>
+
+<start clause>
+start env: 15
+end env: 14
+sent:  .Sit on couch  
+[('verb', 'Sit'), ('obj1', 'couch'), ('rel12', 'Null')]
+words: Sit couch
+verb: Sit
+arg mapping: (couch,Loveseat_1) (couch,Loveseat_2)
+<end clause>
+
+<start clause>
+start env: 15
+end env: 16
+sent:  .Pick up XBox controller  
+[('verb', 'Pick'), ('obj1', 'XBox controller'), ('rel12', 'Null')]
+words: Pick XBox controller
+verb: Pick
+arg mapping: (XBox controller,XboxController_1)
+<end clause>
+
+<start clause>
+start env: 16
+end env: 15
+sent:  .Play game on XBox  
+[('verb', 'Play'), ('obj1', 'game'), ('obj2', 'XBox'), ('rel12', 'on')]
+words: Play game XBox on
+verb: Play
+arg mapping: (XBox,Xbox_1)
+<end clause>

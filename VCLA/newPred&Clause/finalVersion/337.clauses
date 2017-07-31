@@ -1,0 +1,51 @@
+entire sentence: , Get the pillows   and move them onto the couches   , ,  Then turn on the TV   and put a movie inside the xbox   , ,  Move the xbox remote to the table in front of the couches   
+
+<start clause>
+start env: 0
+end env: -1
+sent: Get the pillows  
+[('verb', 'Get'), ('obj1', 'pillows'), ('rel12', 'Null')]
+words: Get pillows
+verb: Get
+arg mapping: (pillows,Pillow_1) (pillows,Pillow_2) (pillows,Pillow_3) (pillows,Pillow_4)
+<end clause>
+
+<start clause>
+start env: 0
+end env: 10
+sent:  and move them onto the couches  
+[('verb', 'move'), ('obj1', 'couches'), ('rel12', 'Null')]
+words: move couches
+verb: move
+arg mapping: (couches,Loveseat_1)
+<end clause>
+
+<start clause>
+start env: 11
+end env: 12
+sent:  . Then turn on the TV  
+[('verb', 'turn'), ('obj1', 'TV'), ('rel12', 'Null')]
+words: turn TV
+verb: turn
+arg mapping: (TV,Tv_1)
+<end clause>
+
+<start clause>
+start env: 13
+end env: 17
+sent:  and put a movie inside the xbox  
+[('verb', 'put'), ('obj1', 'movie'), ('obj2', 'xbox'), ('rel12', 'inside')]
+words: put movie xbox inside
+verb: put
+arg mapping: (movie,Book_1) (movie,Book_2) (xbox,Xbox_1)
+<end clause>
+
+<start clause>
+start env: 23
+end env: 22
+sent:  . Move the xbox remote to the table in front of the couches  
+[('verb', 'Move'), ('obj1', 'table'), ('obj2', 'front'), ('obj3', 'couches'), ('rel12', 'in'), ('rel13', 'in'), ('rel23', 'of')]
+words: Move table front couches in in of
+verb: Move
+arg mapping: (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1) (couches,Loveseat_1)
+<end clause>

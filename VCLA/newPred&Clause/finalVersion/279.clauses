@@ -1,0 +1,32 @@
+entire sentence: , Boil water  Add ramen noodles   and cook   until tender  Add contents   of flavoring packet   , until, until, 
+
+<start clause>
+start env: 31
+end env: 30
+sent: Boil water. Add ramen noodles  
+[('verb', 'Boil'), ('obj1', 'water'), ('rel12', 'Null')]
+[('verb', 'Add'), ('obj1', 'ramen noodles'), ('rel12', 'Null')]
+words: Boil water Add ramen noodles
+verb: Boil Add
+arg mapping: (ramen noodles,Ramen_1) (ramen noodles,InstantRamen_1)
+<end clause>
+
+<start clause>
+start env: 30
+end env: 29
+sent:  and cook until tender  
+[('verb', 'cook'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: cook
+verb: cook
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 30
+end env: 29
+sent:  of flavoring packet  
+[('verb', 'flavoring'), ('obj1', 'packet'), ('rel12', 'Null')]
+words: flavoring packet
+verb: flavoring
+arg mapping: 
+<end clause>

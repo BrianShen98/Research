@@ -1,0 +1,47 @@
+entire sentence: , Pick up trash bag
+pick up coke
+put down coke
+turn off tv Pick   up trash bag
+pick up coke
+put   down coke
+turn off tv   , , , , 
+
+<start clause>
+start env: 0
+end env: 1
+sent: Pick up trash bag
+[('verb', 'Pick'), ('obj1', 'trash bag'), ('rel12', 'Null')]
+words: Pick trash bag
+verb: Pick
+arg mapping: (trash bag,BagOfChips_1) (trash bag,GarbageBag_1)
+<end clause>
+
+<start clause>
+start env: 2
+end env: 3
+sent: pick up coke
+[('verb', 'pick'), ('obj1', 'coke'), ('rel12', 'Null')]
+words: pick coke
+verb: pick
+arg mapping: (coke,Coke_1)
+<end clause>
+
+<start clause>
+start env: 4
+end env: 5
+sent: put down coke
+[('verb', 'put'), ('obj1', 'coke'), ('rel12', 'Null')]
+words: put coke
+verb: put
+arg mapping: (coke,Coke_1)
+<end clause>
+
+<start clause>
+start env: 6
+end env: 7
+sent: turn off tv
+[('verb', 'turn'), ('obj1', 'tv'), ('rel12', 'Null')]
+words: turn tv
+verb: turn
+arg mapping: (tv,Tv_1)
+<end clause>

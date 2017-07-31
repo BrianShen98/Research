@@ -1,0 +1,22 @@
+entire sentence: , Pick up bowl . dump   the bowl in trash. close the right fridge door   , , 
+
+<start clause>
+start env: 0
+end env: 1
+sent: Pick up bowl. dump the bowl in trash
+[('verb', 'Pick'), ('obj1', 'bowl'), ('rel12', 'Null')]
+[('verb', 'dump'), ('obj1', 'bowl'), ('obj2', 'trash'), ('rel12', 'in')]
+words: Pick bowl dump bowl trash in 
+verb: Pick dump
+arg mapping: (bowl ,Bowl_1) (bowl ,Bowl_1) (trash,Glass_1)
+<end clause>
+
+<start clause>
+start env: 4
+end env: 4
+sent:  close the right fridge door  
+[('verb', 'close'), ('obj1', 'fridge door'), ('rel12', 'Null')]
+words: close fridge door
+verb: close
+arg mapping: (fridge door,MicrowaveDoor) (fridge door,Fridge) (fridge door,FridgeLeftDoor) (fridge door,FridgeRightDoor) (fridge door,FridgeButton)
+<end clause>

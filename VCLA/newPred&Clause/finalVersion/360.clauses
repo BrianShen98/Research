@@ -1,0 +1,61 @@
+entire sentence: , Put all the cds on the table in front of the couch   ,  Pour some chips   ,  Put soda on the table   ,  Put the pillows on the couch   turn the tv   on and put the xbox controller on the table   , , 
+
+<start clause>
+start env: 0
+end env: 6
+sent: Put all the cds on the table in front of the couch  
+[('verb', 'Put'), ('obj1', 'cds'), ('obj2', 'table'), ('obj3', 'front'), ('obj4', 'couch'), ('rel12', 'on'), ('rel13', 'on'), ('rel14', 'on'), ('rel23', 'in'), ('rel24', 'in'), ('rel34', 'of')]
+words: Put cds table front couch on on on in in of
+verb: Put
+arg mapping: (cds,Cd_2) (cds,Cd_1) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1) (couch,Loveseat_1)
+<end clause>
+
+<start clause>
+start env: 10
+end env: 11
+sent:  . Pour some chips  
+[('verb', 'Pour'), ('obj1', 'chips'), ('rel12', 'Null')]
+words: Pour chips
+verb: Pour
+arg mapping: (chips,BagOfChips_1)
+<end clause>
+
+<start clause>
+start env: 7
+end env: 6
+sent:  . Put soda on the table  
+[('verb', 'Put'), ('obj1', 'soda'), ('obj2', 'table'), ('rel12', 'on')]
+words: Put soda table on
+verb: Put
+arg mapping: (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1)
+<end clause>
+
+<start clause>
+start env: 7
+end env: 6
+sent:  . Put the pillows on the couch  
+[('verb', 'Put'), ('obj1', 'pillows'), ('obj2', 'couch'), ('rel12', 'on')]
+words: Put pillows couch on
+verb: Put
+arg mapping: (pillows,Pillow_1) (pillows,Pillow_2) (pillows,Pillow_3) (couch,Loveseat_1)
+<end clause>
+
+<start clause>
+start env: 7
+end env: 9
+sent:  turn the tv  
+[('verb', 'turn'), ('obj1', 'tv'), ('rel12', 'Null')]
+words: turn tv
+verb: turn
+arg mapping: (tv,Tv_1)
+<end clause>
+
+<start clause>
+start env: 19
+end env: 18
+sent:  on and put the xbox controller on the table  
+[('verb', 'put'), ('obj1', 'and'), ('obj2', 'xbox'), ('obj3', 'controller'), ('obj4', 'table'), ('rel12', 'on'), ('rel13', 'on'), ('rel14', 'on'), ('rel23', 'on'), ('rel24', 'on'), ('rel34', 'on')]
+words: put and xbox controller table on on on on on on
+verb: put
+arg mapping: (xbox,Xbox_1) (controller,XboxController_1) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1)
+<end clause>

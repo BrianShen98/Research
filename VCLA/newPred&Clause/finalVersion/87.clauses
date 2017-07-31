@@ -1,0 +1,41 @@
+entire sentence: , Put the brown book on the coffee table   ,  Turn off TV   ,  Pour the bag of chip into the bowl   and place it on the coffee table   , 
+
+<start clause>
+start env: 0
+end env: 7
+sent: Put the brown book on the coffee table  
+[('verb', 'Put'), ('obj1', 'book'), ('obj2', 'coffee table'), ('rel12', 'on')]
+words: Put book coffee table on
+verb: Put
+arg mapping: (book,Book_1) (book,Book_2) (coffee table,CoffeeTable_1)
+<end clause>
+
+<start clause>
+start env: 8
+end env: 9
+sent:  . Turn off TV  
+[('verb', 'Turn'), ('obj1', 'TV'), ('rel12', 'Null')]
+words: Turn TV
+verb: Turn
+arg mapping: (TV,Tv_1)
+<end clause>
+
+<start clause>
+start env: 10
+end env: 11
+sent:  . Pour the bag of chip into the bowl  
+[('verb', 'Pour'), ('obj1', 'bag'), ('obj2', 'chip'), ('obj3', 'bowl'), ('rel12', 'of'), ('rel13', 'of'), ('rel23', 'into')]
+words: Pour bag chip bowl of of into
+verb: Pour
+arg mapping: (bag,BagOfChips_1) (bag,GarbageBag_1) (chip,BagOfChips_1) (bowl,Bowl_1)
+<end clause>
+
+<start clause>
+start env: 12
+end env: 14
+sent:  and place it on the coffee table  
+[('verb', 'place'), ('obj1', 'it'), ('obj2', 'coffee table'), ('rel12', 'on')]
+words: place it coffee table on
+verb: place
+arg mapping: (it,Tv_1) (it,BagOfChips_1) (it,Bowl_1) (it,Tv_1PowerButton) (coffee table,CoffeeTable_1)
+<end clause>

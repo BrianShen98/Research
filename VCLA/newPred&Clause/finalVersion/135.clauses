@@ -1,0 +1,11 @@
+entire sentence: , Gather all cups, plates, mugs, and utensils   and put them in the sink one at a time   , 
+
+<start clause>
+start env: 0
+end env: 21
+sent:  and put them in the sink one at a time  
+[('verb', 'put'), ('obj1', 'sink'), ('obj2', 'one'), ('obj3', 'time'), ('rel12', 'at'), ('rel13', 'at'), ('rel23', 'at')]
+words: put sink one time at at at
+verb: put
+arg mapping: (sink,Sink)
+<end clause>

@@ -1,0 +1,41 @@
+entire sentence: , Put   all books required for our study night on the table   ,  Turn off the TV   ,  Put enough food for us on the table   
+
+<start clause>
+start env: 10
+end env: 9
+sent: Put  
+[('verb', 'Put'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: Put
+verb: Put
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 10
+end env: 9
+sent:  all books required for our study night on the table  
+[('verb', 'required'), ('obj1', 'books'), ('obj2', 'study'), ('obj3', 'night'), ('obj4', 'table'), ('rel12', 'for'), ('rel13', 'for'), ('rel14', 'for'), ('rel23', 'on'), ('rel24', 'on'), ('rel34', 'on')]
+words: required books study night table for for for on on on
+verb: required
+arg mapping: (books,Book_1) (books,Book_2) (study,Studytable_1) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1)
+<end clause>
+
+<start clause>
+start env: 4
+end env: 5
+sent:  . Turn off the TV  
+[('verb', 'Turn'), ('obj1', 'TV'), ('rel12', 'Null')]
+words: Turn TV
+verb: Turn
+arg mapping: (TV,Tv_1)
+<end clause>
+
+<start clause>
+start env: 6
+end env: 11
+sent:  . Put enough food for us on the table  
+[('verb', 'Put'), ('obj1', 'food'), ('obj2', 'table'), ('rel12', 'for')]
+words: Put food table for
+verb: Put
+arg mapping: (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1)
+<end clause>

@@ -1,0 +1,21 @@
+entire sentence: , Stare at the empty dished   , Arrange all the things   
+
+<start clause>
+start env: 0
+end env: -1
+sent: Stare at the empty dished  
+[('verb', 'Stare'), ('obj1', 'dished'), ('rel12', 'Null')]
+words: Stare dished
+verb: Stare
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 0
+end env: -1
+sent:  .Arrange all the things  
+[('verb', 'Arrange'), ('obj1', 'things'), ('rel12', 'Null')]
+words: Arrange things
+verb: Arrange
+arg mapping: 
+<end clause>

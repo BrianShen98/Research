@@ -1,0 +1,71 @@
+entire sentence: , Turn off the TV   ,  Place anything related to the xbox in the cabinet under the TV   ,  Dump the bowl into the trash   and take the bowl   and place it in the sink in the kitchen   , , ,  Place all cans, bottles, and garbage in the trash   ,  Take the trash bag   outside 
+
+<start clause>
+start env: 0
+end env: 6
+sent: Turn off the TV  
+[('verb', 'Turn'), ('obj1', 'TV'), ('rel12', 'Null')]
+words: Turn TV
+verb: Turn
+arg mapping: (TV,Tv_1)
+<end clause>
+
+<start clause>
+start env: 7
+end env: 20
+sent:  . Place anything related to the xbox in the cabinet under the TV  
+[('verb', 'related'), ('obj1', 'Place anything'), ('obj2', 'xbox'), ('obj3', 'cabinet'), ('obj4', 'TV'), ('rel12', 'to'), ('rel13', 'to'), ('rel14', 'to'), ('rel23', 'in'), ('rel24', 'in'), ('rel34', 'under')]
+words: related Place anything xbox cabinet TV to to to in in under
+verb: related
+arg mapping: (xbox,Xbox_1) (TV,Tv_1)
+<end clause>
+
+<start clause>
+start env: 21
+end env: 24
+sent:  . Dump the bowl into the trash  
+[('verb', 'Dump'), ('obj1', 'bowl'), ('obj2', 'trash'), ('rel12', 'into')]
+words: Dump bowl trash into
+verb: Dump
+arg mapping: (bowl,Bowl_1)
+<end clause>
+
+<start clause>
+start env: 25
+end env: 26
+sent:  and take the bowl  
+[('verb', 'take'), ('obj1', 'bowl'), ('rel12', 'Null')]
+words: take bowl
+verb: take
+arg mapping: (bowl,Bowl_1)
+<end clause>
+
+<start clause>
+start env: 27
+end env: 26
+sent:  and place it in the sink in the kitchen  
+[('verb', 'place'), ('obj1', 'it'), ('obj2', 'sink'), ('obj3', 'kitchen'), ('rel12', 'in'), ('rel13', 'in'), ('rel23', 'in')]
+words: place it sink kitchen in in in
+verb: place
+arg mapping: (it,Bowl_1) (it,GarbageBin_1)
+<end clause>
+
+<start clause>
+start env: 32
+end env: 37
+sent:  . Place all cans, bottles, and garbage in the trash  
+[('verb', 'Place'), ('obj1', 'cans'), ('obj2', 'bottles'), ('obj3', 'garbage'), ('obj4', 'trash'), ('rel12', ','), ('rel13', ','), ('rel14', ','), ('rel23', ','), ('rel24', ','), ('rel34', 'in')]
+words: Place cans bottles garbage trash , , , , , in
+verb: Place
+arg mapping: (cans,Bowl_1) (bottles,Bowl_1) (garbage,GarbageBag_1) (garbage,GarbageBin_1)
+<end clause>
+
+<start clause>
+start env: 38
+end env: 39
+sent:  . Take the trash bag  
+[('verb', 'Take'), ('obj1', 'trash bag'), ('rel12', 'Null')]
+words: Take trash bag
+verb: Take
+arg mapping: (trash bag,BagOfChips_1) (trash bag,GarbageBag_1)
+<end clause>

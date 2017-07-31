@@ -1,0 +1,12 @@
+entire sentence: , Fill cup with water and boil in the microwave   
+
+<start clause>
+start env: 0
+end env: 13
+sent: Fill cup with water and boil in the microwave  
+[('verb', 'Fill'), ('obj1', 'cup'), ('obj2', 'water'), ('rel12', 'with')]
+[('verb', 'boil'), ('obj1', 'microwave'), ('rel12', 'Null')]
+words: Fill cup water with boil microwave
+verb: Fill boil
+arg mapping: (cup,LongCup_1) (cup,LongCup_2) (water,Mug_1) (microwave,Microwave)
+<end clause>

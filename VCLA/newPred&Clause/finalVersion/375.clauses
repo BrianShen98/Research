@@ -1,0 +1,31 @@
+entire sentence: , Open refrigerator   ,  Grab food and drink   ,  Grab cups and plates   
+
+<start clause>
+start env: 0
+end env: 2
+sent: Open refrigerator  
+[('verb', 'Open'), ('obj1', 'refrigerator'), ('rel12', 'Null')]
+words: Open refrigerator
+verb: Open
+arg mapping: (refrigerator,Fridge)
+<end clause>
+
+<start clause>
+start env: 3
+end env: 6
+sent:  . Grab food and drink  
+[('verb', 'Grab'), ('obj1', 'food'), ('obj2', 'drink'), ('rel12', 'and')]
+words: Grab food drink and
+verb: Grab
+arg mapping: (drink,EnergyDrink_1)
+<end clause>
+
+<start clause>
+start env: 12
+end env: 15
+sent:  . Grab cups and plates  
+[('verb', 'Grab'), ('obj1', 'cups'), ('obj2', 'plates'), ('rel12', 'and')]
+words: Grab cups plates and
+verb: Grab
+arg mapping: (cups,LongCup_1) (cups,LongCup_2) (plates,Plate_1) (plates,Plate_2)
+<end clause>

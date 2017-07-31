@@ -1,0 +1,71 @@
+entire sentence: , Put the game in the xbox,   turn on the TV,   arrange the couches around the TV,   take the chips   and pour its content in the bowl,   take the bowl   and place it on the table by the couches   , , , , , , 
+
+<start clause>
+start env: 13
+end env: 12
+sent: Put the game in the xbox,  
+[('verb', 'Put'), ('obj1', 'game'), ('obj2', 'xbox'), ('rel12', 'in')]
+words: Put game xbox in
+verb: Put
+arg mapping: (xbox,Xbox_1)
+<end clause>
+
+<start clause>
+start env: 13
+end env: 12
+sent:  turn on the TV,  
+[('verb', 'turn'), ('obj1', 'TV'), ('rel12', 'Null')]
+words: turn TV
+verb: turn
+arg mapping: (TV,Tv_1)
+<end clause>
+
+<start clause>
+start env: 13
+end env: 12
+sent:  arrange the couches around the TV,  
+[('verb', 'arrange'), ('obj1', 'couches'), ('obj2', 'TV'), ('rel12', 'around')]
+words: arrange couches TV around
+verb: arrange
+arg mapping: (couches,Loveseat_1) (couches,Loveseat_2) (TV,Tv_1)
+<end clause>
+
+<start clause>
+start env: 13
+end env: 14
+sent:  take the chips  
+[('verb', 'take'), ('obj1', 'chips'), ('rel12', 'Null')]
+words: take chips
+verb: take
+arg mapping: (chips,BagOfChips_1)
+<end clause>
+
+<start clause>
+start env: 13
+end env: 12
+sent:  and pour its content in the bowl,  
+[('verb', 'pour'), ('obj1', 'content'), ('obj2', 'bowl'), ('rel12', 'in')]
+words: pour content bowl in
+verb: pour
+arg mapping: (bowl,Bowl_1)
+<end clause>
+
+<start clause>
+start env: 15
+end env: 16
+sent:  take the bowl  
+[('verb', 'take'), ('obj1', 'bowl'), ('rel12', 'Null')]
+words: take bowl
+verb: take
+arg mapping: (bowl,Bowl_1)
+<end clause>
+
+<start clause>
+start env: 13
+end env: 12
+sent:  and place it on the table by the couches  
+[('verb', 'place'), ('obj1', 'it'), ('obj2', 'table'), ('obj3', 'couches'), ('rel12', 'on'), ('rel13', 'on'), ('rel23', 'by')]
+words: place it table couches on on by
+verb: place
+arg mapping: (it,Loveseat_1) (it,CoffeeTable_1) (it,Tv_1Remote_1) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1) (couches,Loveseat_1) (couches,Loveseat_2)
+<end clause>

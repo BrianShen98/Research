@@ -1,0 +1,42 @@
+entire sentence: , Plug the xbox into the TV   ,  Turn on the Xbox and the TV   ,  Put the bowl of chips and bag of chips on the table   Put the bowl of chips and bag of chips on the table , ,  Put the xbox controller on table   
+
+<start clause>
+start env: 0
+end env: 3
+sent: Plug the xbox into the TV  
+[('verb', 'Plug'), ('obj1', 'xbox'), ('obj2', 'TV'), ('rel12', 'into')]
+words: Plug xbox TV into
+verb: Plug
+arg mapping: (xbox,Xbox_1) (TV,Tv_1)
+<end clause>
+
+<start clause>
+start env: 6
+end env: 7
+sent:  . Turn on the Xbox and the TV  
+[('verb', 'Turn'), ('obj1', 'Xbox'), ('obj2', 'TV'), ('rel12', 'and')]
+words: Turn Xbox TV and
+verb: Turn
+arg mapping: (Xbox,Xbox_1) (TV,Tv_1)
+<end clause>
+
+<start clause>
+start env: 14
+end env: 20
+sent:  . Put the bowl of chips and bag of chips on the table 
+[('verb', 'Put'), ('obj1', 'bowl'), ('obj2', 'bag'), ('obj3', 'chips'), ('obj4', 'table'), ('rel12', 'of'), ('rel13', 'of'), ('rel14', 'of'), ('rel23', 'of'), ('rel24', 'and'), ('rel34', 'of')]
+words: Put bowl chips bag chips table of of of of and of of of of on
+verb: Put
+arg mapping: (bowl,Bowl_1) (chips,BagOfChips_1) (bag,BagOfChips_1) (bag,GarbageBag_1) (chips,BagOfChips_1) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1)
+<end clause>
+
+<start clause>
+start env: 20
+end env: 19
+sent:   Put the bowl of chips and bag of chips on the table . Put the xbox controller on table  
+[('verb', 'Put'), ('obj1', 'bowl'), ('obj2', 'chips'), ('obj3', 'bag'), ('obj4', 'chips'), ('obj5', 'table'), ('rel12', 'of'), ('rel13', 'of'), ('rel14', 'of'), ('rel15', 'of'), ('rel23', 'and'), ('rel24', 'of'), ('rel25', 'of'), ('rel34', 'of'), ('rel35', 'of'), ('rel45', 'on')]
+[('verb', 'Put'), ('obj1', 'xbox controller'), ('obj2', 'table'), ('rel12', 'on')]
+words: Put bowl chips bag chips table of of of of and of of of of on Put xbox controller table on
+verb: Put Put
+arg mapping: (bowl,Bowl_1) (chips,BagOfChips_1) (bag,BagOfChips_1) (bag,GarbageBag_1) (chips,BagOfChips_1) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1) (xbox controller,XboxController_1) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1)
+<end clause>

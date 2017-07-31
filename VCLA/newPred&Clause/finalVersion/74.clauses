@@ -1,0 +1,11 @@
+entire sentence: , Boil the water   
+
+<start clause>
+start env: 4
+end env: 3
+sent: Boil the water  
+[('verb', 'Boil'), ('obj1', 'water'), ('rel12', 'Null')]
+words: Boil water
+verb: Boil
+arg mapping: 
+<end clause>

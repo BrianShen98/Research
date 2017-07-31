@@ -1,0 +1,32 @@
+entire sentence: , Put the utensils, cups, pots, plates into the sink   ,  Put the frozen foods into the freezer   , 
+Place everything else onto one single counter   
+
+<start clause>
+start env: 0
+end env: 21
+sent: Put the utensils, cups, pots, plates into the sink  
+[('verb', 'Put'), ('obj1', 'utensils'), ('obj2', 'cups'), ('obj3', 'pots'), ('obj4', 'sink'), ('rel12', ','), ('rel13', ','), ('rel14', ','), ('rel23', ','), ('rel24', ','), ('rel34', ',')]
+words: Put utensils cups pots sink , , , , , ,
+verb: Put
+arg mapping: (cups,LongCup_1) (cups,LongCup_2) (pots,Kettle) (sink,Sink)
+<end clause>
+
+<start clause>
+start env: 22
+end env: 29
+sent:  . Put the frozen foods into the freezer  
+[('verb', 'Put'), ('obj1', 'foods'), ('obj2', 'freezer'), ('rel12', 'into')]
+words: Put foods freezer into
+verb: Put
+arg mapping: (freezer,Fridge)
+<end clause>
+
+<start clause>
+start env: 33
+end env: 32
+sent:  .Place everything else onto one single counter  
+[('verb', 'Place'), ('obj1', 'everything'), ('obj2', 'counter'), ('rel12', 'onto')]
+words: Place everything counter onto
+verb: Place
+arg mapping: (counter,Counter_1)
+<end clause>

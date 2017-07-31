@@ -1,0 +1,43 @@
+entire sentence: , Turn on TV   and make sure the volume is up for music   , ,  Pour the chips into the bowl and place on coffee table   ,  Take the xbox off the floor and place on shelf   
+
+<start clause>
+start env: 0
+end env: 1
+sent: Turn on TV  
+[('verb', 'Turn'), ('obj1', 'TV'), ('rel12', 'Null')]
+words: Turn TV
+verb: Turn
+arg mapping: (TV,Tv_1)
+<end clause>
+
+<start clause>
+start env: 2
+end env: 2
+sent:  and make sure the volume is up for music  
+[('verb', 'make'), ('obj1', 'volume'), ('obj2', 'music'), ('rel12', 'for')]
+words: make volume music for
+verb: make
+arg mapping: (volume,Tv_1VolumeUpButton) (volume,Tv_1VolumeDownButton) (volume,Tv_1Remote_1VolumeUpButton) (volume,Tv_1Remote_1VolumeDownButton)
+<end clause>
+
+<start clause>
+start env: 3
+end env: 17
+sent:  . Pour the chips into the bowl and place on coffee table  
+[('verb', 'Pour'), ('obj1', 'chips'), ('obj2', 'bowl'), ('rel12', 'into')]
+[('verb', 'place'), ('obj1', 'coffee table'), ('rel12', 'Null')]
+words: Pour chips bowl into place coffee table
+verb: Pour place
+arg mapping: (chips,BagOfChips_1) (bowl,Bowl_1) (coffee table,CoffeeTable_1)
+<end clause>
+
+<start clause>
+start env: 19
+end env: 20
+sent:  . Take the xbox off the floor and place on shelf  
+[('verb', 'Take'), ('obj1', 'xbox'), ('obj2', 'floor'), ('rel12', 'off')]
+[('verb', 'place'), ('obj1', 'shelf'), ('rel12', 'Null')]
+words: Take xbox floor off place shelf 
+verb: Take place
+arg mapping: (xbox,Xbox_1) (floor,Bowl_1) (shelf,Shelf_1) (shelf,Shelf_2)
+<end clause>

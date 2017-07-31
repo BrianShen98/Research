@@ -1,0 +1,21 @@
+entire sentence: , Put all the bowls, cups, pots, and utensils in the sink   ,  Put perishable items in the refrigerator   
+
+<start clause>
+start env: 43
+end env: 42
+sent: Put all the bowls, cups, pots, and utensils in the sink  
+[('verb', 'Put'), ('obj1', 'bowls'), ('obj2', 'cups'), ('obj3', 'pots'), ('obj4', 'utensils'), ('obj5', 'sink'), ('rel12', ','), ('rel13', ','), ('rel14', ','), ('rel15', ','), ('rel23', ','), ('rel24', ','), ('rel25', ','), ('rel34', ','), ('rel35', ','), ('rel45', 'in')]
+words: Put bowls cups pots utensils sink , , , , , , , , , in
+verb: Put
+arg mapping: (bowls,Bowl_1) (cups,LongCup_1) (cups,LongCup_2) (pots,Kettle) (sink,Sink)
+<end clause>
+
+<start clause>
+start env: 52
+end env: 51
+sent:  . Put perishable items in the refrigerator  
+[('verb', 'Put'), ('obj1', 'items'), ('obj2', 'refrigerator'), ('rel12', 'in')]
+words: Put items refrigerator in
+verb: Put
+arg mapping: (refrigerator,Fridge)
+<end clause>

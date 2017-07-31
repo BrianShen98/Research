@@ -1,0 +1,31 @@
+entire sentence: , Set up the Xbox with the TV   and put the music CD into the XBox   , ,  Put all books and other CDs on the shelve   
+
+<start clause>
+start env: 0
+end env: 6
+sent: Set up the Xbox with the TV  
+[('verb', 'Set'), ('obj1', 'Xbox'), ('obj2', 'TV'), ('rel12', 'with')]
+words: Set Xbox TV with
+verb: Set
+arg mapping: (Xbox,Xbox_1) (TV,Tv_1)
+<end clause>
+
+<start clause>
+start env: 7
+end env: 15
+sent:  and put the music CD into the XBox  
+[('verb', 'put'), ('obj1', 'music'), ('obj2', 'CD'), ('obj3', 'XBox'), ('rel12', 'into'), ('rel13', 'into'), ('rel23', 'into')]
+words: put music CD XBox into into into
+verb: put
+arg mapping: (CD,Cd_2) (CD,Cd_1) (XBox,Xbox_1)
+<end clause>
+
+<start clause>
+start env: 15
+end env: 14
+sent:  . Put all books and other CDs on the shelve  
+[('verb', 'Put'), ('obj1', 'books'), ('obj2', 'CDs'), ('obj3', 'shelve'), ('rel12', 'and'), ('rel13', 'on'), ('rel23', 'on')]
+words: Put books CDs shelve and on on
+verb: Put
+arg mapping: (books,Book_1) (books,Book_2) (CDs,Cd_2) (CDs,Cd_1)
+<end clause>

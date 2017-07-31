@@ -1,0 +1,52 @@
+entire sentence: , Find the videogame   and put it inside the Xbox   , ,  Set up the Xbox with the TV   ,  Put the drinks on the table with the bag of chips   , 
+Arrange the couches so 3 are near the table with food a pillow on each 
+
+<start clause>
+start env: 0
+end env: 3
+sent: Find the videogame  
+[('verb', 'Find'), ('obj1', 'videogame'), ('rel12', 'Null')]
+words: Find videogame
+verb: Find
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 4
+end env: 3
+sent:  and put it inside the Xbox  
+[('verb', 'put'), ('obj1', 'it'), ('obj2', 'Xbox'), ('rel12', 'inside')]
+words: put it Xbox inside
+verb: put
+arg mapping: (it,Cd_2) (it,Cd_1) (Xbox,Xbox_1)
+<end clause>
+
+<start clause>
+start env: 6
+end env: 10
+sent:  . Set up the Xbox with the TV  
+[('verb', 'Set'), ('obj1', 'Xbox'), ('obj2', 'TV'), ('rel12', 'with')]
+words: Set Xbox TV with
+verb: Set
+arg mapping: (Xbox,Xbox_1) (TV,Tv_1)
+<end clause>
+
+<start clause>
+start env: 14
+end env: 13
+sent:  . Put the drinks on the table with the bag of chips  
+[('verb', 'Put'), ('obj1', 'drinks'), ('obj2', 'table'), ('obj3', 'bag'), ('obj4', 'chips'), ('rel12', 'on'), ('rel13', 'on'), ('rel14', 'on'), ('rel23', 'with'), ('rel24', 'with'), ('rel34', 'of')]
+words: Put drinks table bag chips on on on with with of
+verb: Put
+arg mapping: (drinks,CoffeeTable_1) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1) (bag,BagOfChips_1) (bag,GarbageBag_1) (chips,BagOfChips_1)
+<end clause>
+
+<start clause>
+start env: 14
+end env: 13
+sent:  .Arrange the couches so 3 are near the table with food a pillow on each .
+[('verb', 'are'), ('obj1', 'Arrange'), ('obj2', 'couches'), ('obj3', 'table'), ('obj4', 'food'), ('obj5', 'pillow'), ('rel12', 'with'), ('rel13', 'with'), ('rel14', 'with'), ('rel15', 'with'), ('rel23', 'with'), ('rel24', 'with'), ('rel25', 'with'), ('rel34', 'with'), ('rel35', 'with'), ('rel45', 'on')]
+words: are Arrange couches table food pillow with with with with with with with with with on
+verb: are
+arg mapping: (couches,Loveseat_1) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1) (pillow,Pillow_1) (pillow,Pillow_2) (pillow,Pillow_3) (pillow,Pillow_4)
+<end clause>

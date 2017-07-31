@@ -1,0 +1,31 @@
+entire sentence: , Put all dirty dishes into the sink, cups, plates, forks, the pot   and all ,  Put ramen into the refrigerator   ,  Put flavors in the cupboard   
+
+<start clause>
+start env: 0
+end env: 24
+sent: Put all dirty dishes into the sink, cups, plates, forks, the pot  
+[('verb', 'Put'), ('obj1', 'dishes'), ('obj2', 'sink'), ('obj3', 'cups'), ('obj4', 'plates'), ('obj5', 'forks'), ('obj6', 'pot'), ('rel12', 'into'), ('rel13', 'into'), ('rel14', 'into'), ('rel15', 'into'), ('rel16', 'into'), ('rel23', ','), ('rel24', ','), ('rel25', ','), ('rel26', ','), ('rel34', ','), ('rel35', ','), ('rel36', ','), ('rel45', ','), ('rel46', ','), ('rel56', ',')]
+words: Put dishes sink cups plates forks pot into into into into into , , , , , , , , , ,
+verb: Put
+arg mapping: (dishes,Spoon_1) (dishes,Glass_1) (dishes,LongCup_1) (dishes,LongCup_2) (sink,Sink) (cups,LongCup_1) (cups,LongCup_2) (plates,Plate_1) (plates,Plate_2) (forks,Fork_1) (pot,Kettle)
+<end clause>
+
+<start clause>
+start env: 25
+end env: 29
+sent:  and all . Put ramen into the refrigerator  
+[('verb', 'Put'), ('obj1', 'ramen'), ('obj2', 'refrigerator'), ('rel12', 'into')]
+words: Put ramen refrigerator into
+verb: Put
+arg mapping: (ramen,Ramen_1) (refrigerator,Fridge)
+<end clause>
+
+<start clause>
+start env: 31
+end env: 32
+sent:  . Put flavors in the cupboard  
+[('verb', 'Put'), ('obj1', 'flavors'), ('obj2', 'cupboard'), ('rel12', 'in')]
+words: Put flavors cupboard in
+verb: Put
+arg mapping: (flavors,Salt_1) (cupboard,LongCup_1) (cupboard,LongCup_2)
+<end clause>

@@ -1,0 +1,20 @@
+entire sentence: , Make   coffee. Add ice cream and syrup   to the coffee , 
+<start clause>
+start env: 18
+end env: 17
+sent: Make coffee
+[('verb', 'Make'), ('obj1', 'coffee'), ('rel12', 'Null')]
+words: Make coffee
+verb: Make
+arg mapping: (coffee,Mug_1)  
+<end clause>
+
+<start clause>
+start env: 34
+end env: 33
+sent: Add ice cream and syrup to the coffee
+[('verb', 'Add'), ('obj1', 'ice cream'), ('obj2', 'syrup'), ('obj3', 'coffee'), ('rel12', 'and'), ('rel13', 'to'), ('rel23', 'to')]
+words: Add ice cream syrup coffee and to to
+verb: Add
+arg mapping: (ice cream,IceCream_1) (syrup,Syrup_1) (syrup,Syrup_2) (coffee,Mug_1)
+<end clause>

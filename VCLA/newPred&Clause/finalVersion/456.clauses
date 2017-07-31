@@ -1,0 +1,61 @@
+entire sentence: , Put the Xbox and controller inside the cupboard under the TV   ,  Place all edibles on the table   ,  Put all CDs and books on the shelves   ,  Put the pillows on the shelves   as well ,  Put the trash bag in the trash pin   Put the trash bag in the trash pin , 
+
+<start clause>
+start env: 0
+end env: -1
+sent: Put the Xbox and controller inside the cupboard under the TV  
+[('verb', 'Put'), ('obj1', 'Xbox'), ('obj2', 'controller'), ('obj3', 'cupboard'), ('obj4', 'TV'), ('rel12', 'and'), ('rel13', 'inside'), ('rel14', 'inside'), ('rel23', 'inside'), ('rel24', 'inside'), ('rel34', 'under')]
+words: Put Xbox controller cupboard TV and inside inside inside inside under
+verb: Put
+arg mapping: (Xbox,Xbox_1) (controller,XboxController_1) (cupboard,Cd_2) (cupboard,Cd_1) (TV,Tv_1)
+<end clause>
+
+<start clause>
+start env: 0
+end env: -1
+sent:  . Place all edibles on the table  
+[('verb', 'Place'), ('obj1', 'edibles'), ('obj2', 'table'), ('rel12', 'on')]
+words: Place edibles table on
+verb: Place
+arg mapping: (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1)
+<end clause>
+
+<start clause>
+start env: 0
+end env: -1
+sent:  . Put all CDs and books on the shelves  
+[('verb', 'Put'), ('obj1', 'CDs'), ('obj2', 'books'), ('obj3', 'shelves'), ('rel12', 'and'), ('rel13', 'on'), ('rel23', 'on')]
+words: Put CDs books shelves and on on
+verb: Put
+arg mapping: (CDs,Cd_2) (CDs,Cd_1) (books,Book_1) (books,Book_2) (shelves,Shelf_1) (shelves,Shelf_2)
+<end clause>
+
+<start clause>
+start env: 0
+end env: -1
+sent:  . Put the pillows on the shelves  
+[('verb', 'Put'), ('obj1', 'pillows'), ('obj2', 'shelves'), ('rel12', 'on')]
+words: Put pillows shelves on
+verb: Put
+arg mapping: (pillows,Pillow_1) (pillows,Pillow_2) (pillows,Pillow_3) (shelves,Shelf_1) (shelves,Shelf_2)
+<end clause>
+
+<start clause>
+start env: 13
+end env: 12
+sent:  as well . Put the trash bag in the trash pin 
+[('verb', 'Put'), ('obj1', 'trash'), ('obj2', 'bag'), ('obj3', 'trash pin'), ('rel12', 'in'), ('rel13', 'in'), ('rel23', 'in')]
+words: Put trash bag trash pin in in in
+verb: Put
+arg mapping: (bag,BagOfChips_1) (bag,GarbageBag_1) (trash pin,GarbageBin_1)
+<end clause>
+
+<start clause>
+start env: 13
+end env: 12
+sent:   Put the trash bag in the trash pin .
+[('verb', 'Put'), ('obj1', 'trash'), ('obj2', 'bag'), ('obj3', 'trash pin'), ('rel12', 'in'), ('rel13', 'in'), ('rel23', 'in')]
+words: Put trash bag trash pin in in in
+verb: Put
+arg mapping: (bag,BagOfChips_1) (bag,GarbageBag_1) (trash pin,GarbageBin_1)
+<end clause>

@@ -1,0 +1,21 @@
+entire sentence: , Put chips in a bowl   and put music   , 
+
+<start clause>
+start env: 0
+end env: 5
+sent: Put chips in a bowl  
+[('verb', 'Put'), ('obj1', 'chips'), ('obj2', 'bowl'), ('rel12', 'in')]
+words: Put chips bowl in
+verb: Put
+arg mapping: (chips,BagOfChips_1) (bowl,Bowl_1)
+<end clause>
+
+<start clause>
+start env: 9
+end env: 8
+sent:  and put music  
+[('verb', 'put'), ('obj1', 'music'), ('rel12', 'Null')]
+words: put music
+verb: put
+arg mapping: 
+<end clause>

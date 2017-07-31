@@ -1,0 +1,21 @@
+entire sentence: , Put the used dishes and cups in the sink   and place all the items neatly on the counter and place all the items neatly on the counter   , , 
+
+<start clause>
+start env: 5
+end env: 4
+sent: Put the used dishes and cups in the sink  
+[('verb', 'Put'), ('obj1', 'dishes'), ('obj2', 'cups'), ('obj3', 'sink'), ('rel12', 'and'), ('rel13', 'in'), ('rel23', 'in')]
+words: Put dishes cups sink and in in
+verb: Put
+arg mapping: (dishes,Spoon_1) (dishes,Glass_1) (dishes,LongCup_1) (dishes,LongCup_2) (cups,LongCup_1) (cups,LongCup_2) (sink,Sink)
+<end clause>
+
+<start clause>
+start env: 14
+end env: 13
+sent:  and place all the items neatly on the counter and place all the items neatly on the counter  
+[('verb', 'place'), ('obj1', 'items'), ('obj2', 'counter'), ('rel12', 'on')]
+words: place items counter on
+verb: place
+arg mapping: (counter,Counter_1) (counter,Counter1_1)
+<end clause>

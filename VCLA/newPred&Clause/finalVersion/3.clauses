@@ -1,0 +1,61 @@
+entire sentence: , If anything is disposable and used, put it in the trash bag   , If, ,   If it is not disposable and on the floor, put it on the table nearest any items associated with it   If it is not disposable and on the floor, put it on the table nearest any items associated with it    If it is not disposable and on the floor, put it on the table nearest any items associated with it , If it is not disposable and on the floor , If it is not disposable and on the floor , If, , , ,   If a not disposable item contains only disposable objects, dump them into the trash bag,   and treat the object   like it was on the floor   , If, If, If, ,   Remove the trash bag from the scenario   
+
+<start clause>
+start env: 0
+end env: -1
+sent: If anything is disposable and used, put it in the trash bag  
+[('verb', 'put'), ('obj1', 'it'), ('obj2', 'trash bag'), ('rel12', 'in')]
+words: put it trash bag in
+verb: put
+arg mapping: (trash bag,BagOfChips_1) (trash bag,GarbageBag_1)
+<end clause>
+
+<start clause>
+start env: 12
+end env: 11
+sent: If it is not disposable and on the floor 
+[('verb', 'put'), ('obj1', 'it'), ('obj2', 'table'), ('obj3', 'items'), ('rel12', 'on'), ('rel13', 'on'), ('rel23', 'nearest')]
+words: put it table items on on nearest
+verb: put
+arg mapping: (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1)
+<end clause>
+
+<start clause>
+start env: 12
+end env: 11
+sent: If a not disposable item contains only disposable objects , dump them into the trash bag , 
+[('verb', 'put'), ('obj1', 'it'), ('obj2', 'table'), ('obj3', 'items'), ('rel12', 'on'), ('rel13', 'on'), ('rel23', 'nearest')]
+words: put it table items on on nearest
+verb: put
+arg mapping: (it,Loveseat_1) (it,CoffeeTable_1) (it,GarbageBag_1) (it,Beer_1) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1)
+<end clause>
+
+<start clause>
+start env: 12
+end env: 11
+sent:  and treat the object  
+[('verb', 'treat'), ('obj1', 'object'), ('rel12', 'Null')]
+words: treat object
+verb: treat
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 12
+end env: 11
+sent:  like it was on the floor  
+[('verb', 'like'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: like
+verb: like
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 12
+end env: 11
+sent:  .  Remove the trash bag from the scenario  
+[('verb', 'Remove'), ('obj1', 'trash'), ('obj2', 'bag'), ('obj3', 'scenario'), ('rel12', 'from'), ('rel13', 'from'), ('rel23', 'from')]
+words: Remove trash bag scenario from from from
+verb: Remove
+arg mapping: (bag,BagOfChips_1) (bag,GarbageBag_1) (scenario,Book_1) (scenario,Book_2)
+<end clause>

@@ -1,0 +1,91 @@
+entire sentence: , First find a food   and make it   , ,  After making food,   bring the food within sight of the television   , , ,  Next, insert the movie media into a playback device   ,  Ensure that the device   is connected   and properly configured   to show video on the screen   , ,  Start the video   ,  Lastly, gather and arrange pillows around self   until optimal temperature is obtained until optimal temperature is obtained   , until optimal temperature is obtained , , , , 
+
+<start clause>
+start env: 0
+end env: 1
+sent: First find a food  
+[('verb', 'find'), ('obj1', 'food'), ('rel12', 'Null')]
+words: find food
+verb: find
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 2
+end env: 1
+sent:  and make it  
+[('verb', 'make'), ('obj1', 'it'), ('rel12', 'Null')]
+words: make it
+verb: make
+arg mapping: (it,BagOfChips_1)
+<end clause>
+
+<start clause>
+start env: 4
+end env: 3
+sent:  bring the food within sight of the television  
+[('verb', 'bring'), ('obj1', 'food'), ('obj2', 'sight'), ('obj3', 'television'), ('rel12', 'within'), ('rel13', 'within'), ('rel23', 'of')]
+words: bring food sight television within within of
+verb: bring
+arg mapping: (television,Tv_1)
+<end clause>
+
+<start clause>
+start env: 13
+end env: 19
+sent:  . Next, insert the movie media into a playback device  
+[('verb', 'insert'), ('obj1', 'movie'), ('obj2', 'media'), ('obj3', 'playback device'), ('rel12', 'into'), ('rel13', 'into'), ('rel23', 'into')]
+words: insert movie media playback device into into into
+verb: insert
+arg mapping: (movie,Book_1) (movie,Book_2) (movie,Book_3) (playback device,Tv_1Remote_1MuteButton)
+<end clause>
+
+<start clause>
+start env: 13
+end env: 12
+sent:  . Ensure that the device  
+[('verb', 'Ensure'), ('obj1', 'device'), ('rel12', 'Null')]
+words: Ensure device
+verb: Ensure
+arg mapping: (device,Robot) (device,Shelf_1) (device,Shelf_2)
+<end clause>
+
+<start clause>
+start env: 13
+end env: 12
+sent:  and properly configured  
+[('verb', 'configured'), ('obj1', 'and'), ('rel12', 'Null')]
+words: configured and
+verb: configured
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 20
+end env: 19
+sent:  to show video on the screen  
+[('verb', 'show'), ('obj1', 'video'), ('obj2', 'screen'), ('rel12', 'on')]
+words: show video screen on
+verb: show
+arg mapping: (video,Tv_1)
+<end clause>
+
+<start clause>
+start env: 20
+end env: 19
+sent:  . Start the video  
+[('verb', 'Start'), ('obj1', 'video'), ('rel12', 'Null')]
+words: Start video
+verb: Start
+arg mapping: (video,Tv_1)
+<end clause>
+
+<start clause>
+start env: 22
+end env: 23
+sent:  . Lastly, gather and arrange pillows around self  
+[('verb', 'gather'), ('obj1', 'pillows'), ('obj2', 'self'), ('rel12', 'around')]
+words: gather pillows self around
+verb: gather
+arg mapping: (pillows,Pillow_1) (pillows,Pillow_2) (pillows,Pillow_3) (self,Shelf_1) (self,Shelf_2)
+<end clause>

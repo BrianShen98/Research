@@ -1,0 +1,31 @@
+entire sentence: , Put everything on the table onto the shelves   ,  Place chip bag in garbage   bag ,  Take out garbage   
+
+<start clause>
+start env: 0
+end env: 12
+sent: Put everything on the table onto the shelves  
+[('verb', 'Put'), ('obj1', 'everything'), ('obj2', 'table'), ('obj3', 'shelves'), ('rel12', 'on'), ('rel13', 'on'), ('rel23', 'onto')]
+words: Put everything table shelves on on onto
+verb: Put
+arg mapping: (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1) (shelves,Shelf_1) (shelves,Shelf_2)
+<end clause>
+
+<start clause>
+start env: 13
+end env: 16
+sent:  . Place chip bag in garbage bag .
+[('verb', 'Place'), ('obj1', 'chip bag'), ('obj2', 'garbage bag'), ('rel12', 'in')]
+words: Place chip bag garbage bag in
+verb: Place
+arg mapping: (chip bag,BagOfChips_1) (chip bag,GarbageBag_1) (garbage bag,GarbageBag_1)
+<end clause>
+
+<start clause>
+start env: 19
+end env: 18
+sent:  Take out garbage  
+[('verb', 'Take'), ('obj1', 'garbage'), ('rel12', 'Null')]
+words: Take garbage
+verb: Take
+arg mapping: (garbage,GarbageBag_1) (garbage,GarbageBin_1)
+<end clause>

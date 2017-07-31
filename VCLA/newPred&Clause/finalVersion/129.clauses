@@ -1,0 +1,21 @@
+entire sentence: , Get the egg from the fridge   and put it on the plate   , 
+
+<start clause>
+start env: 0
+end env: 4
+sent: Get the egg from the fridge  
+[('verb', 'Get'), ('obj1', 'egg'), ('obj2', 'fridge'), ('rel12', 'from')]
+words: Get egg fridge from
+verb: Get
+arg mapping: (egg,BoiledEgg_1) (fridge,Fridge)
+<end clause>
+
+<start clause>
+start env: 5
+end env: 7
+sent:  and put it on the plate  
+[('verb', 'put'), ('obj1', 'it'), ('obj2', 'plate'), ('rel12', 'on')]
+words: put it plate on
+verb: put
+arg mapping: (it,Fridge) (it,FridgeRightDoor) (it,Plate_1) (it,BoiledEgg_1) (plate,Plate_1) (plate,Plate_2)
+<end clause>

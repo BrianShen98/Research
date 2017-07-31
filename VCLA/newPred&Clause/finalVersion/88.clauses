@@ -1,0 +1,63 @@
+entire sentence: , Turn on the television   to channel   three , , 
+put the coke and the bag of chips on the table   ,  Put beer_1 under the table   , 
+Move each table to a corner of the room   ,  Move all the sofas or chairs next to the wall   
+
+<start clause>
+start env: 0
+end env: 1
+sent: Turn on the television  
+[('verb', 'Turn'), ('obj1', 'television'), ('rel12', 'Null')]
+words: Turn television
+verb: Turn
+arg mapping: (television,Tv_1)
+<end clause>
+
+<start clause>
+start env: 2
+end env: 1
+sent:  to channel three . 
+[('verb', 'channel'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: channel
+verb: channel
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 3
+end env: 6
+sent:  put the coke and the bag of chips on the table  
+[('verb', 'put'), ('obj1', 'coke'), ('obj2', 'bag'), ('obj3', 'chips'), ('obj4', 'table'), ('rel12', 'and'), ('rel13', 'of'), ('rel14', 'of'), ('rel23', 'of'), ('rel24', 'of'), ('rel34', 'on')]
+words: put coke bag chips table and of of of of on
+verb: put
+arg mapping: (coke,Coke_1) (bag,BagOfChips_1) (bag,GarbageBag_1) (chips,BagOfChips_1) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1)
+<end clause>
+
+<start clause>
+start env: 7
+end env: 13
+sent:  . Put beer_1 under the table  
+[('verb', 'Put'), ('obj1', 'table'), ('rel12', 'Null')]
+words: Put table
+verb: Put
+arg mapping: (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1)
+<end clause>
+
+<start clause>
+start env: 16
+end env: 15
+sent:  .Move each table to a corner of the room  
+[('verb', 'Move'), ('obj1', 'table'), ('obj2', 'corner'), ('obj3', 'room'), ('rel12', 'to'), ('rel13', 'to'), ('rel23', 'of')]
+words: Move table corner room to to of
+verb: Move
+arg mapping: (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1)
+<end clause>
+
+<start clause>
+start env: 16
+end env: 15
+sent:  . Move all the sofas or chairs next to the wall  
+[('verb', 'Move'), ('obj1', 'sofas'), ('obj2', 'chairs'), ('obj3', 'wall'), ('rel12', 'or'), ('rel13', 'or'), ('rel23', 'to')]
+words: Move sofas chairs wall or or to
+verb: Move
+arg mapping: (sofas,Loveseat_1) (chairs,Armchair_1) (chairs,Armchair_2) (chairs,Armchair_3) (chairs,Armchair_4)
+<end clause>

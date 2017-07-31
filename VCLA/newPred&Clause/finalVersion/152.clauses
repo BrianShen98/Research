@@ -1,0 +1,31 @@
+entire sentence: , grasp soda,  grasp chips,  grasp beer ,  grasp trash bag   
+
+<start clause>
+start env: 0
+end env: 3
+sent: grasp soda, 
+[('verb', 'grasp'), ('obj1', 'soda'), ('rel12', 'Null')]
+words: grasp soda
+verb: grasp
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 6
+end env: 9
+sent:  grasp beer 
+[('verb', 'grasp'), ('obj1', 'beer'), ('rel12', 'Null')]
+words: grasp beer
+verb: grasp
+arg mapping: (beer,Beer_1)
+<end clause>
+
+<start clause>
+start env: 10
+end env: 13
+sent: . grasp trash bag  
+[('verb', 'grasp'), ('obj1', 'trash bag'), ('rel12', 'Null')]
+words: grasp trash bag
+verb: grasp
+arg mapping: (trash bag,BagOfChips_1) (trash bag,GarbageBag_1)
+<end clause>

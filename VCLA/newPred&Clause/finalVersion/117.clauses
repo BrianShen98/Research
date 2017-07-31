@@ -1,0 +1,12 @@
+entire sentence: ,   Put the spoon and plate into the sink   
+
+<start clause>
+start env: 12
+end env: 11
+sent: place glass1, long cup2, long cup1, mug and canada dry on the table against the wall .  Put the spoon and plate into the sink  
+[('verb', 'place'), ('obj1', 'glass1'), ('obj2', 'cup2'), ('obj3', 'cup1'), ('obj4', 'mug'), ('obj5', 'canada dry'), ('obj6', 'table'), ('rel12', ','), ('rel13', ','), ('rel14', ','), ('rel15', ','), ('rel16', 'on'), ('rel23', ','), ('rel24', ','), ('rel25', ','), ('rel26', 'on'), ('rel34', ','), ('rel35', ','), ('rel36', 'on'), ('rel45', 'and'), ('rel46', 'on'), ('rel56', 'on')]
+[('verb', 'Put'), ('obj1', 'spoon'), ('obj2', 'plate'), ('obj3', 'sink'), ('rel12', 'and'), ('rel13', 'into'), ('rel23', 'into')]
+words: place glass1 cup2 cup1 mug canada dry table , , , , on , , , on , , on and on on Put spoon plate sink and into into
+verb: place Put
+arg mapping: (glass1,Glass_1) (cup2,LongCup_1) (cup2,LongCup_2) (cup1,LongCup_1) (cup1,LongCup_2) (mug,Mug_1) (canada dry,CanadaDry_1) (spoon,Spoon_1) (plate,Plate_1) (plate,Plate_2) (sink,Sink)
+<end clause>

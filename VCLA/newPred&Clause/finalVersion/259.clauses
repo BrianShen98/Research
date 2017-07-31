@@ -1,0 +1,31 @@
+entire sentence: , Cook the ramen in the pot with water   ,  Serve the food on the plates   and pour a drink into the long cups   , 
+
+<start clause>
+start env: 14
+end env: 13
+sent: Cook the ramen in the pot with water  
+[('verb', 'Cook'), ('obj1', 'ramen'), ('obj2', 'pot'), ('obj3', 'water'), ('rel12', 'in'), ('rel13', 'in'), ('rel23', 'with')]
+words: Cook ramen pot water in in with
+verb: Cook
+arg mapping: (ramen,Ramen_1) (pot,Kettle)
+<end clause>
+
+<start clause>
+start env: 14
+end env: 13
+sent:  . Serve the food on the plates  
+[('verb', 'Serve'), ('obj1', 'food'), ('obj2', 'plates'), ('rel12', 'on')]
+words: Serve food plates on
+verb: Serve
+arg mapping: (plates,Plate_1) (plates,Plate_2)
+<end clause>
+
+<start clause>
+start env: 22
+end env: 21
+sent:  and pour a drink into the long cups  
+[('verb', 'pour'), ('obj1', 'drink'), ('obj2', 'cups'), ('rel12', 'into')]
+words: pour drink cups into
+verb: pour
+arg mapping: (drink,EnergyDrink_1) (cups,LongCup_1) (cups,LongCup_2)
+<end clause>

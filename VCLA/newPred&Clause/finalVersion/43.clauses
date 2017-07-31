@@ -1,0 +1,51 @@
+entire sentence: , Open fridge and freezer   and pick a drink   , ,  Remove boiled egg   as well and place on plate   , ,  Pour said drink in a long cup or mug   ,  Bring cup, plate, and possibly salt to whomever is eating, with plate   in one hand and drink in the other 
+
+<start clause>
+start env: 0
+end env: 2
+sent: Open fridge and freezer  
+[('verb', 'Open'), ('obj1', 'fridge'), ('obj2', 'freezer'), ('rel12', 'and')]
+words: Open fridge freezer and
+verb: Open
+arg mapping: (fridge,Fridge) (freezer,Fridge)
+<end clause>
+
+<start clause>
+start env: 3
+end env: 4
+sent:  and pick a drink  
+[('verb', 'pick'), ('obj1', 'drink'), ('rel12', 'Null')]
+words: pick drink
+verb: pick
+arg mapping: (drink,EnergyDrink_1)
+<end clause>
+
+<start clause>
+start env: 5
+end env: 6
+sent:  . Remove boiled egg  
+[('verb', 'Remove'), ('obj1', 'egg'), ('rel12', 'Null')]
+words: Remove egg
+verb: Remove
+arg mapping: (egg,BoiledEgg_1)
+<end clause>
+
+<start clause>
+start env: 11
+end env: 10
+sent:  . Pour said drink in a long cup or mug  
+[('verb', 'said'), ('obj1', 'Pour'), ('obj2', 'drink'), ('obj3', 'cup'), ('obj4', 'mug'), ('rel12', 'in'), ('rel13', 'in'), ('rel14', 'in'), ('rel23', 'in'), ('rel24', 'in'), ('rel34', 'or')]
+words: said Pour drink cup mug in in in in in or
+verb: said
+arg mapping: (drink,EnergyDrink_1) (cup,LongCup_1) (cup,LongCup_2) (mug,Mug_1)
+<end clause>
+
+<start clause>
+start env: 25
+end env: 24
+sent:  . Bring cup, plate, and possibly salt to whomever is eating, with plate  
+[('verb', 'eating'), ('obj1', 'cup'), ('obj2', 'plate'), ('obj3', 'salt whomever'), ('obj4', 'plate'), ('rel12', ','), ('rel13', ','), ('rel14', ','), ('rel23', ','), ('rel24', ','), ('rel34', ',')]
+words: eating cup plate salt whomever plate , , , , , ,
+verb: eating
+arg mapping: (cup,LongCup_1) (cup,LongCup_2) (plate,Plate_1) (plate,Plate_2) (salt whomever,Salt_1) (plate,Plate_1) (plate,Plate_2)
+<end clause>

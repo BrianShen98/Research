@@ -1,0 +1,31 @@
+entire sentence: , Put away the chocolate syrup   ,  Place the glassware and mugs into the sink   ,  Put the pots   away 
+
+<start clause>
+start env: 0
+end env: 2
+sent: Put away the chocolate syrup  
+[('verb', 'Put'), ('obj1', 'chocolate syrup'), ('rel12', 'Null')]
+words: Put chocolate syrup
+verb: Put
+arg mapping: (chocolate syrup,Syrup_1) (chocolate syrup,Syrup_2)
+<end clause>
+
+<start clause>
+start env: 3
+end env: 15
+sent:  . Place the glassware and mugs into the sink  
+[('verb', 'Place'), ('obj1', 'glassware'), ('obj2', 'mugs'), ('obj3', 'sink'), ('rel12', 'and'), ('rel13', 'into'), ('rel23', 'into')]
+words: Place glassware mugs sink and into into
+verb: Place
+arg mapping: (glassware,Glass_1) (mugs,Mug_1) (sink,Sink)
+<end clause>
+
+<start clause>
+start env: 16
+end env: 18
+sent:  . Put the pots  
+[('verb', 'Put'), ('obj1', 'pots'), ('rel12', 'Null')]
+words: Put pots
+verb: Put
+arg mapping: (pots,Kettle)
+<end clause>

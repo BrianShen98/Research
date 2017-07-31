@@ -1,0 +1,11 @@
+entire sentence: , Fill the pot with water up to tow thirds and boil it on the stove for 10 minutes   , 
+
+<start clause>
+start env: 0
+end env: 4
+sent: Fill the pot with water up to tow thirds and boil it on the stove for 10 minutes  
+[('verb', 'Fill'), ('obj1', 'pot'), ('obj2', 'water'), ('obj3', 'thirds'), ('rel12', 'with'), ('rel13', 'with'), ('rel23', 'to')]
+words: Fill pot water thirds with with to
+verb: Fill
+arg mapping: (pot,Kettle) (water,Kettle) (thirds,Plate_1) (thirds,Plate_2)
+<end clause>

@@ -1,0 +1,55 @@
+entire sentence: , Pick up coffee mug   , 
+Pick up ice cream   , 
+Put ice cream in coffee mug   , 
+Pick up syrup   , 
+Put syrup in coffee mug   
+
+<start clause>
+start env: 0
+end env: 1
+sent: Pick up coffee mug  
+[('verb', 'Pick'), ('obj1', 'coffee mug'), ('rel12', 'Null')]
+words: Pick coffee mug
+verb: Pick
+arg mapping: (coffee mug,Mug_1)
+<end clause>
+
+<start clause>
+start env: 2
+end env: 5
+sent:  .Pick up ice cream  
+[('verb', 'Pick'), ('obj1', 'ice cream'), ('rel12', 'Null')]
+words: Pick ice cream
+verb: Pick
+arg mapping: (ice cream,IceCream_1)
+<end clause>
+
+<start clause>
+start env: 8
+end env: 19
+sent:  .Put ice cream in coffee mug  
+[('verb', 'Put'), ('obj1', 'ice'), ('obj2', 'cream'), ('obj3', 'coffee mug'), ('rel12', 'in'), ('rel13', 'in'), ('rel23', 'in')]
+words: Put ice cream coffee mug in in in
+verb: Put
+arg mapping: (ice,IceCream_1) (ice,IceCreamScoop) (cream,IceCream_1) (cream,IceCreamScoop) (coffee mug,Mug_1)
+<end clause>
+
+<start clause>
+start env: 21
+end env: 22
+sent:  .Pick up syrup  
+[('verb', 'Pick'), ('obj1', 'syrup'), ('rel12', 'Null')]
+words: Pick syrup
+verb: Pick
+arg mapping: (syrup,Syrup_1) (syrup,Syrup_2)
+<end clause>
+
+<start clause>
+start env: 23
+end env: 23
+sent:  .Put syrup in coffee mug  
+[('verb', 'Put'), ('obj1', 'syrup'), ('obj2', 'coffee mug'), ('rel12', 'in')]
+words: Put syrup coffee mug in
+verb: Put
+arg mapping: (syrup,Syrup_1) (syrup,Syrup_2) (coffee mug,Mug_1)
+<end clause>

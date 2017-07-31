@@ -1,0 +1,132 @@
+entire sentence: , Open freezer,   remove icecream,   close freezer   , , ,  Get spoon and plate,   open ice cream,   scoop   and place on plate,   close ice cream,   replace in fridge   , , , , , ,  Get mug with coffee   and pour over ice cream   , ,  Place mug in sink ,  Get chocolate syrup   and pump over ice cream   , 
+
+<start clause>
+start env: 0
+end env: 2
+sent: Open freezer,  
+[('verb', 'Open'), ('obj1', 'freezer'), ('rel12', 'Null')]
+words: Open freezer
+verb: Open
+arg mapping: (freezer,Fridge)
+<end clause>
+
+<start clause>
+start env: 3
+end env: 4
+sent:  remove icecream,  
+[('verb', 'remove'), ('obj1', 'icecream'), ('rel12', 'Null')]
+words: remove icecream
+verb: remove
+arg mapping: (icecream,IceCream_1)
+<end clause>
+
+<start clause>
+start env: 5
+end env: 6
+sent:  close freezer  
+[('verb', 'close'), ('obj1', 'freezer'), ('rel12', 'Null')]
+words: close freezer
+verb: close
+arg mapping: (freezer,Fridge)
+<end clause>
+
+<start clause>
+start env: 7
+end env: 12
+sent:  . Get spoon and plate,  
+[('verb', 'Get'), ('obj1', 'spoon'), ('obj2', 'plate'), ('rel12', 'and')]
+words: Get spoon plate and
+verb: Get
+arg mapping: (spoon,Spoon_1) (plate,Plate_1) (plate,Plate_2)
+<end clause>
+
+<start clause>
+start env: 13
+end env: 12
+sent:  open ice cream,  
+[('verb', 'open'), ('obj1', 'ice cream'), ('rel12', 'Null')]
+words: open ice cream
+verb: open
+arg mapping: (ice cream,IceCream_1)
+<end clause>
+
+<start clause>
+start env: 13
+end env: 12
+sent:  scoop  
+[('verb', 'scoop'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: scoop
+verb: scoop
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 13
+end env: 13
+sent:  and place on plate,  
+[('verb', 'place'), ('obj1', 'plate'), ('rel12', 'Null')]
+words: place plate
+verb: place
+arg mapping: (plate,Plate_1) (plate,Plate_2)
+<end clause>
+
+<start clause>
+start env: 14
+end env: 13
+sent:  close ice cream,  
+[('verb', 'close'), ('obj1', 'ice cream'), ('rel12', 'Null')]
+words: close ice cream
+verb: close
+arg mapping: (ice cream,IceCream_1)
+<end clause>
+
+<start clause>
+start env: 14
+end env: 13
+sent:  replace in fridge  
+[('verb', 'replace'), ('obj1', 'fridge'), ('rel12', 'Null')]
+words: replace fridge
+verb: replace
+arg mapping: (fridge,Fridge)
+<end clause>
+
+<start clause>
+start env: 14
+end env: 15
+sent:  . Get mug with coffee  
+[('verb', 'Get'), ('obj1', 'mug'), ('obj2', 'coffee'), ('rel12', 'with')]
+words: Get mug coffee with
+verb: Get
+arg mapping: (mug,Mug_1) (coffee,Mug_1)
+<end clause>
+
+<start clause>
+start env: 16
+end env: 17
+sent:  and pour over ice cream  
+[('verb', 'pour'), ('obj1', 'ice cream'), ('rel12', 'Null')]
+words: pour ice cream
+verb: pour
+arg mapping: (ice cream,IceCream_1)
+<end clause>
+
+<start clause>
+start env: 18
+end env: 25
+sent:  . Place mug in sink . Get chocolate syrup  
+[('verb', 'Place'), ('obj1', 'mug'), ('obj2', 'sink'), ('rel12', 'in')]
+[('verb', 'Get'), ('obj1', 'chocolate syrup'), ('rel12', 'Null')]
+words: Place mug sink in Get chocolate syrup 
+verb: Place Get
+arg mapping: (mug,Mug_1) (sink,Sink) (chocolate syrup,Syrup_1) (chocolate syrup,Syrup_2)
+<end clause>
+
+<start clause>
+start env: 29
+end env: 28
+sent:  and pump over ice cream  
+[('verb', 'pump'), ('obj1', 'ice cream'), ('rel12', 'Null')]
+words: pump ice cream
+verb: pump
+arg mapping: (ice cream,IceCream_1)
+<end clause>

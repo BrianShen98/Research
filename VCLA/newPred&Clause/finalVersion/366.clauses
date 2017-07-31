@@ -1,0 +1,31 @@
+entire sentence: , Make some coffee   ,  Make an egg on the stove   and then bring it   to me , 
+
+<start clause>
+start env: 0
+end env: -1
+sent: Make some coffee  
+[('verb', 'Make'), ('obj1', 'coffee'), ('rel12', 'Null')]
+words: Make coffee
+verb: Make
+arg mapping: (coffee,Mug_1)
+<end clause>
+
+<start clause>
+start env: 0
+end env: -1
+sent:  . Make an egg on the stove  
+[('verb', 'Make'), ('obj1', 'egg'), ('obj2', 'stove'), ('rel12', 'on')]
+words: Make egg stove on
+verb: Make
+arg mapping: (egg,BoiledEgg_1) (stove,Stove)
+<end clause>
+
+<start clause>
+start env: 13
+end env: 12
+sent:  and then bring it  
+[('verb', 'bring'), ('obj1', 'it'), ('rel12', 'Null')]
+words: bring it
+verb: bring
+arg mapping: (it,Fridge) (it,FridgeLeftDoor) (it,FridgeRightDoor) (it,LongCup_1) (it,BoiledEgg_1)
+<end clause>

@@ -1,0 +1,31 @@
+entire sentence: , Take the pot on the counter   and fill it with water   , ,  Boil it   
+
+<start clause>
+start env: 0
+end env: 3
+sent: Take the pot on the counter  
+[('verb', 'Take'), ('obj1', 'pot'), ('obj2', 'counter'), ('rel12', 'on')]
+words: Take pot counter on
+verb: Take
+arg mapping: (pot,Kettle) (counter,Counter_1)
+<end clause>
+
+<start clause>
+start env: 4
+end env: 10
+sent:  and fill it with water  
+[('verb', 'fill'), ('obj1', 'it'), ('obj2', 'water'), ('rel12', 'with')]
+words: fill it water with
+verb: fill
+arg mapping: (it,Kettle) (it,StoveFire_4)
+<end clause>
+
+<start clause>
+start env: 16
+end env: 15
+sent:  . Boil it  
+[('verb', 'Boil'), ('obj1', 'it'), ('rel12', 'Null')]
+words: Boil it
+verb: Boil
+arg mapping: (it,Stove) (it,Kettle) (it,StoveKnob_1)
+<end clause>

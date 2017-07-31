@@ -1,0 +1,41 @@
+entire sentence: , Put the game into the Xbox,   connect xbox to television   , ,  Turn on the television   ,  Move the couch so that it's in front of the Xbox   
+
+<start clause>
+start env: 0
+end env: 4
+sent: Put the game into the Xbox,  
+[('verb', 'Put'), ('obj1', 'game'), ('obj2', 'Xbox'), ('rel12', 'into')]
+words: Put game Xbox into
+verb: Put
+arg mapping: (Xbox,Xbox_1)
+<end clause>
+
+<start clause>
+start env: 7
+end env: 6
+sent:  connect xbox to television  
+[('verb', 'connect'), ('obj1', 'xbox'), ('obj2', 'television'), ('rel12', 'to')]
+words: connect xbox television to
+verb: connect
+arg mapping: (xbox,Xbox_1) (television,Tv_1)
+<end clause>
+
+<start clause>
+start env: 5
+end env: 6
+sent:  . Turn on the television  
+[('verb', 'Turn'), ('obj1', 'television'), ('rel12', 'Null')]
+words: Turn television
+verb: Turn
+arg mapping: (television,Tv_1)
+<end clause>
+
+<start clause>
+start env: 8
+end env: 7
+sent:  . Move the couch so that it's in front of the Xbox  
+[('verb', 'Move'), ('obj1', 'couch'), ('obj2', 'it'), ('obj3', 'front'), ('obj4', 'Xbox'), ('rel12', 'that'), ('rel13', 'that'), ('rel14', 'that'), ('rel23', 'in'), ('rel24', 'in'), ('rel34', 'of')]
+words: Move couch it front Xbox that that that in in of
+verb: Move
+arg mapping: (couch,Loveseat_1) (it,Loveseat_1) (it,Tv_1) (it,Xbox_1) (it,Cd_1) (it,Tv_1PowerButton) (Xbox,Xbox_1)
+<end clause>

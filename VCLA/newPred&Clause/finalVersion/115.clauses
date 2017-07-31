@@ -1,0 +1,31 @@
+entire sentence: , Take the CD   and put it in the xbox   , ,  Place the bowl and the chips on the table in front of the couch   
+
+<start clause>
+start env: 0
+end env: 1
+sent: Take the CD  
+[('verb', 'Take'), ('obj1', 'CD'), ('rel12', 'Null')]
+words: Take CD
+verb: Take
+arg mapping: (CD,Cd_2) (CD,Cd_1)
+<end clause>
+
+<start clause>
+start env: 2
+end env: 11
+sent:  and put it in the xbox  
+[('verb', 'put'), ('obj1', 'it'), ('obj2', 'xbox'), ('rel12', 'in')]
+words: put it xbox in
+verb: put
+arg mapping: (it,Loveseat_1) (it,Xbox_1) (it,Cd_1) (xbox,Xbox_1)
+<end clause>
+
+<start clause>
+start env: 13
+end env: 19
+sent:  . Place the bowl and the chips on the table in front of the couch  
+[('verb', 'Place'), ('obj1', 'bowl'), ('obj2', 'chips'), ('obj3', 'table'), ('obj4', 'front'), ('obj5', 'couch'), ('rel12', 'and'), ('rel13', 'on'), ('rel14', 'on'), ('rel15', 'on'), ('rel23', 'on'), ('rel24', 'on'), ('rel25', 'on'), ('rel34', 'in'), ('rel35', 'in'), ('rel45', 'of')]
+words: Place bowl chips table front couch and on on on on on on in in of
+verb: Place
+arg mapping: (bowl,Bowl_1) (chips,BagOfChips_1) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1) (couch,Loveseat_1) (couch,Loveseat_2)
+<end clause>

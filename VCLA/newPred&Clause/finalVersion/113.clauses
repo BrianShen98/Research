@@ -1,0 +1,31 @@
+entire sentence: , Put   all the school books on the table turn off the tv   and get chips and soda on the table   , , 
+
+<start clause>
+start env: 0
+end env: 3
+sent: Put all the school books on the table  
+[('verb', 'Put'), ('obj1', 'school books'), ('obj2', 'table'), ('rel12', 'on')]
+words: Put school books table on
+verb: Put
+arg mapping: (school books,Book_1) (school books,Book_2) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1) 
+<end clause>
+
+<start clause>
+start env: 4
+end env: 5
+sent:   turn off the tv  
+[('verb', 'turn'), ('obj1', 'tv'), ('rel12', 'Null')]
+words: turn tv
+verb: turn
+arg mapping: (tv,Tv_1)
+<end clause>
+
+<start clause>
+start env: 6
+end env: 14
+sent:  and get chips and soda on the table  
+[('verb', 'get'), ('obj1', 'chips'), ('obj2', 'soda'), ('obj3', 'table'), ('rel12', 'and'), ('rel13', 'on'), ('rel23', 'on')]
+words: get chips soda table and on on
+verb: get
+arg mapping: (chips,BagOfChips_1) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1)
+<end clause>

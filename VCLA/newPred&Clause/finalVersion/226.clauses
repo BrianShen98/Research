@@ -1,0 +1,31 @@
+entire sentence: , take the kettle to the sink   and fill it with water   , ,  then place it on the stove   
+
+<start clause>
+start env: 0
+end env: 3
+sent: take the kettle to the sink  
+[('verb', 'take'), ('obj1', 'kettle'), ('obj2', 'sink'), ('rel12', 'to')]
+words: take kettle sink to
+verb: take
+arg mapping: (kettle,Kettle) (sink,Sink)
+<end clause>
+
+<start clause>
+start env: 4
+end env: 4
+sent:  and fill it with water  
+[('verb', 'fill'), ('obj1', 'it'), ('obj2', 'water'), ('rel12', 'with')]
+words: fill it water with
+verb: fill
+arg mapping: (it,Kettle)
+<end clause>
+
+<start clause>
+start env: 5
+end env: 8
+sent:  . then place it on the stove  
+[('verb', 'place'), ('obj1', 'it'), ('obj2', 'stove'), ('rel12', 'on')]
+words: place it stove on
+verb: place
+arg mapping: (it,Sink) (it,Kettle) (it,SinkKnob) (stove,Stove)
+<end clause>

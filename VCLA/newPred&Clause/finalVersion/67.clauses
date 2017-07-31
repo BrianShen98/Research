@@ -1,0 +1,71 @@
+entire sentence: , Take a cup   and fill it with water from the sink   , ,  Make ramen   and put it in a plate   , ,  Take both items   and serve   them to whomever   it is meant   for , , 
+
+<start clause>
+start env: 0
+end env: 1
+sent: Take a cup  
+[('verb', 'Take'), ('obj1', 'cup'), ('rel12', 'Null')]
+words: Take cup
+verb: Take
+arg mapping: (cup,LongCup_1) (cup,LongCup_2)
+<end clause>
+
+<start clause>
+start env: 2
+end env: 4
+sent:  and fill it with water from the sink  
+[('verb', 'fill'), ('obj1', 'it'), ('obj2', 'water'), ('obj3', 'sink'), ('rel12', 'with'), ('rel13', 'with'), ('rel23', 'from')]
+words: fill it water sink with with from
+verb: fill
+arg mapping: (it,Sink) (it,Glass_1) (it,SinkKnob) (water,Glass_1) (sink,Sink)
+<end clause>
+
+<start clause>
+start env: 7
+end env: 19
+sent:  . Make ramen  
+[('verb', 'Make'), ('obj1', 'ramen'), ('rel12', 'Null')]
+words: Make ramen
+verb: Make
+arg mapping: (ramen,Ramen_1)
+<end clause>
+
+<start clause>
+start env: 22
+end env: 25
+sent:  and put it in a plate  
+[('verb', 'put'), ('obj1', 'it'), ('obj2', 'plate'), ('rel12', 'in')]
+words: put it plate in
+verb: put
+arg mapping: (it,Kettle) (it,Plate_2) (it,InstantRamen_1) (plate,Plate_1) (plate,Plate_2)
+<end clause>
+
+<start clause>
+start env: 25
+end env: 24
+sent:  . Take both items  
+[('verb', 'Take'), ('obj1', 'items'), ('rel12', 'Null')]
+words: Take items
+verb: Take
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 25
+end env: 24
+sent:  and serve  
+[('verb', 'serve'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: serve
+verb: serve
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 25
+end env: 24
+sent:  them to whomever  
+[('verb', 'whomever'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: whomever
+verb: whomever
+arg mapping: 
+<end clause>

@@ -1,0 +1,61 @@
+entire sentence: , Put the xbox in front of the TV   and hook up the wires   and plug it into an outlet   , , ,  Plug the controller into the xbox   and put it on the table in front of the couch   , ,  Change the input   of the TV to display the xbox   , 
+
+<start clause>
+start env: 0
+end env: 3
+sent: Put the xbox in front of the TV  
+[('verb', 'Put'), ('obj1', 'xbox'), ('obj2', 'front'), ('obj3', 'TV'), ('rel12', 'in'), ('rel13', 'in'), ('rel23', 'of')]
+words: Put xbox front TV in in of
+verb: Put
+arg mapping: (xbox,Xbox_1) (TV,Tv_1)
+<end clause>
+
+<start clause>
+start env: 4
+end env: 9
+sent:  and hook up the wires  
+[('verb', 'hook'), ('obj1', 'wires'), ('rel12', 'Null')]
+words: hook wires
+verb: hook
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 10
+end env: 9
+sent:  and plug it into an outlet  
+[('verb', 'plug'), ('obj1', 'it'), ('obj2', 'outlet'), ('rel12', 'into')]
+words: plug it outlet into
+verb: plug
+arg mapping: (it,Loveseat_1) (it,XboxController_1) (it,Xbox_1)
+<end clause>
+
+<start clause>
+start env: 10
+end env: 12
+sent:  . Plug the controller into the xbox  
+[('verb', 'Plug'), ('obj1', 'controller'), ('obj2', 'xbox'), ('rel12', 'into')]
+words: Plug controller xbox into
+verb: Plug
+arg mapping: (controller,XboxController_1) (xbox,Xbox_1)
+<end clause>
+
+<start clause>
+start env: 13
+end env: 12
+sent:  and put it on the table in front of the couch  
+[('verb', 'put'), ('obj1', 'it'), ('obj2', 'table'), ('obj3', 'front'), ('obj4', 'couch'), ('rel12', 'on'), ('rel13', 'on'), ('rel14', 'on'), ('rel23', 'in'), ('rel24', 'in'), ('rel34', 'of')]
+words: put it table front couch on on on in in of
+verb: put
+arg mapping: (it,Loveseat_1) (it,XboxController_1) (it,Xbox_1) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1) (couch,Loveseat_1)
+<end clause>
+
+<start clause>
+start env: 13
+end env: 12
+sent:  of the TV to display the xbox  
+[('verb', 'display'), ('obj1', 'TV xbox'), ('rel12', 'Null')]
+words: display TV xbox
+verb: display
+arg mapping: (TV xbox,TvTable_1) (TV xbox,Tv_1) (TV xbox,Tv_1Remote_1) (TV xbox,XboxController_1) (TV xbox,Xbox_1) (TV xbox,Tv_1PowerButton) (TV xbox,Tv_1ChannelUpButton) (TV xbox,Tv_1ChannelDownButton) (TV xbox,Tv_1VolumeUpButton) (TV xbox,Tv_1VolumeDownButton) (TV xbox,Tv_1Remote_1PowerButton) (TV xbox,Tv_1Remote_1ChannelUpButton) (TV xbox,Tv_1Remote_1ChannelDownButton) (TV xbox,Tv_1Remote_1VolumeUpButton) (TV xbox,Tv_1Remote_1VolumeDownButton) (TV xbox,Tv_1Remote_1MuteButton)
+<end clause>

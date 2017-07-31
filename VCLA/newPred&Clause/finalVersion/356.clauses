@@ -1,0 +1,51 @@
+entire sentence: , Mix syrup and water to make a drink   ,  You can get water   by rotating the tab near sink   , ,  Use kettle to boil water   and mix heated water with instantRamen   , 
+
+<start clause>
+start env: 0
+end env: 3
+sent: Mix syrup and water to make a drink  
+[('verb', 'make'), ('obj1', 'Mix syrup'), ('obj2', 'water'), ('obj3', 'drink'), ('rel12', 'and'), ('rel13', 'to'), ('rel23', 'to')]
+words: make Mix syrup water drink and to to
+verb: make
+arg mapping: (Mix syrup,Syrup_1) (Mix syrup,Syrup_2) (drink,EnergyDrink_1)
+<end clause>
+
+<start clause>
+start env: 3
+end env: 2
+sent:  . You can get water  
+[('verb', 'get'), ('obj1', 'water'), ('rel12', 'Null')]
+words: get water
+verb: get
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 3
+end env: 2
+sent:  by rotating the tab near sink  
+[('verb', 'rotating'), ('obj1', 'tab'), ('obj2', 'sink'), ('rel12', 'near')]
+words: rotating tab sink near
+verb: rotating
+arg mapping: (sink,Sink)
+<end clause>
+
+<start clause>
+start env: 3
+end env: 2
+sent:  . Use kettle to boil water  
+[('verb', 'Use'), ('obj1', 'kettle'), ('obj2', 'boil water'), ('rel12', 'to')]
+words: Use kettle boil water to
+verb: Use
+arg mapping: (kettle,Kettle) (boil water,BoiledEgg_1)
+<end clause>
+
+<start clause>
+start env: 3
+end env: 2
+sent:  and mix heated water with instantRamen  
+[('verb', 'mix'), ('obj1', 'water'), ('obj2', 'instantRamen'), ('rel12', 'with')]
+words: mix water instantRamen with
+verb: mix
+arg mapping: (instantRamen,InstantRamen_1)
+<end clause>

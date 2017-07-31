@@ -1,0 +1,61 @@
+entire sentence: , Take coffee from the container   ,  Pour coffee to the mug   ,  Take   the spoon scoop the ice cream   , ,  Put the ice cream in the mug   ,  Pour syrup on the ice cream   
+
+<start clause>
+start env: 0
+end env: -1
+sent: Take coffee from the container  
+[('verb', 'Take'), ('obj1', 'coffee'), ('obj2', 'container'), ('rel12', 'from')]
+words: Take coffee container from
+verb: Take
+arg mapping: (coffee,Mug_1) (coffee,LongCup_1) (container,Spoon_1) (container,Glass_1) (container,LongCup_1) (container,LongCup_2)
+<end clause>
+
+<start clause>
+start env: 2
+end env: 1
+sent:  . Pour coffee to the mug  
+[('verb', 'Pour'), ('obj1', 'coffee'), ('obj2', 'mug'), ('rel12', 'to')]
+words: Pour coffee mug to
+verb: Pour
+arg mapping: (coffee,Mug_1) (coffee,LongCup_1) (mug,Mug_1)
+<end clause>
+
+<start clause>
+start env: 3
+end env: 4
+sent:  . Take the spoon
+[('verb', 'Take'), ('obj1', 'spoon'), ('rel12', 'Null')]
+words: Take spoon
+verb: Take
+arg mapping: (spoon,Spoon_1)
+<end clause>
+
+<start clause>
+start env: 5
+end env: 9
+sent:  scoop the ice cream  
+[('verb', 'scoop'), ('obj1', 'ice cream'), ('rel12', 'Null')]
+words: scoop ice cream
+verb: scoop
+arg mapping:  (ice cream,IceCream_1)
+<end clause>
+
+<start clause>
+start env: 10
+end env: 14
+sent:  . Put the ice cream in the mug  
+[('verb', 'Put'), ('obj1', 'ice cream'), ('obj2', 'mug'), ('rel12', 'in')]
+words: Put ice cream mug in
+verb: Put
+arg mapping: (ice cream,IceCream_1) (mug,Mug_1)
+<end clause>
+
+<start clause>
+start env: 15
+end env: 21
+sent:  . Pour syrup on the ice cream  
+[('verb', 'Pour'), ('obj1', 'syrup'), ('obj2', 'ice cream'), ('rel12', 'on')]
+words: Pour syrup ice cream on
+verb: Pour
+arg mapping: (syrup,Syrup_1) (syrup,Syrup_2) (ice cream,IceCream_1)
+<end clause>

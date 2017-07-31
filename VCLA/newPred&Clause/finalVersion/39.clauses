@@ -1,0 +1,21 @@
+entire sentence: , Prepare drinks and food   , Serve the people   when they come in , , 
+
+<start clause>
+start env: 0
+end env: 25
+sent: Prepare drinks and food  
+[('verb', 'Prepare'), ('obj1', 'drinks'), ('obj2', 'food'), ('rel12', 'and')]
+words: Prepare drinks food and
+verb: Prepare
+arg mapping: (drinks,EnergyDrink_1)
+<end clause>
+
+<start clause>
+start env: 25
+end env: 24
+sent:  .Serve the people  
+[('verb', 'Serve'), ('obj1', 'people'), ('rel12', 'Null')]
+words: Serve people
+verb: Serve
+arg mapping: 
+<end clause>

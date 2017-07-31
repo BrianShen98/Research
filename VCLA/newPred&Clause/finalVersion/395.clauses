@@ -1,0 +1,13 @@
+entire sentence: , put coffee in cup, open the freezer and put ice cream in it then add   chocolate syrup , 
+
+<start clause>
+start env: 11
+end env: 10
+sent: put coffee in cup, open the freezer and put ice cream in it then add
+[('verb', 'put'), ('obj1', 'coffee'), ('obj2', 'cup'), ('rel12', 'in')]
+[('verb', 'open'), ('obj1', 'freezer'), ('rel12', 'Null')]
+[('verb', 'put'), ('obj1', 'ice cream'), ('obj2', 'it'), ('rel12', 'in')]
+words: put coffee cup in open freezer put ice cream it in
+verb: put open put
+arg mapping: (coffee,Mug_1) (cup,LongCup_1) (cup,LongCup_2) (freezer,Fridge) (ice cream,IceCream_1) (it,Fridge)
+<end clause>

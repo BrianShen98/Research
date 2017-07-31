@@ -1,0 +1,71 @@
+entire sentence: , Turn off right back burner   ,  Take ice cream from freezer   and scoop with spoon   and put in mug with coffee   , , ,  Replace ice cream in freezer   ,  Take vanilla syrup   and pour over ice cream   , 
+
+<start clause>
+start env: 0
+end env: 1
+sent: Turn off right back burner  
+[('verb', 'Turn'), ('obj1', 'burner'), ('rel12', 'Null')]
+words: Turn burner
+verb: Turn
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 2
+end env: 6
+sent:  . Take ice cream from freezer  
+[('verb', 'Take'), ('obj1', 'ice'), ('obj2', 'cream'), ('obj3', 'freezer'), ('rel12', 'from'), ('rel13', 'from'), ('rel23', 'from')]
+words: Take ice cream freezer from from from
+verb: Take
+arg mapping: (ice,IceCream_1) (ice,IceCreamScoop) (cream,IceCream_1) (cream,IceCreamScoop) (freezer,Fridge)
+<end clause>
+
+<start clause>
+start env: 8
+end env: 12
+sent:  and scoop with spoon  
+[('verb', 'scoop'), ('obj1', 'spoon'), ('rel12', 'Null')]
+words: scoop spoon
+verb: scoop
+arg mapping: (spoon,Spoon_1)
+<end clause>
+
+<start clause>
+start env: 14
+end env: 16
+sent:  and put in mug with coffee  
+[('verb', 'put'), ('obj1', 'mug'), ('obj2', 'coffee'), ('rel12', 'with')]
+words: put mug coffee with
+verb: put
+arg mapping: (mug,Mug_1) (coffee,Mug_1)
+<end clause>
+
+<start clause>
+start env: 27
+end env: 26
+sent:  . Replace ice cream in freezer  
+[('verb', 'Replace'), ('obj1', 'ice'), ('obj2', 'cream'), ('obj3', 'freezer'), ('rel12', 'in'), ('rel13', 'in'), ('rel23', 'in')]
+words: Replace ice cream freezer in in in
+verb: Replace
+arg mapping: (ice,IceCream_1) (ice,IceCreamScoop) (cream,IceCream_1) (cream,IceCreamScoop) (freezer,Fridge)
+<end clause>
+
+<start clause>
+start env: 26
+end env: 25
+sent:  . Take vanilla syrup  
+[('verb', 'Take'), ('obj1', 'vanilla syrup'), ('rel12', 'Null')]
+words: Take vanilla syrup
+verb: Take
+arg mapping: (vanilla syrup,Syrup_1) (vanilla syrup,Syrup_2)
+<end clause>
+
+<start clause>
+start env: 26
+end env: 25
+sent:  and pour over ice cream  
+[('verb', 'pour'), ('obj1', 'ice cream'), ('rel12', 'Null')]
+words: pour ice cream
+verb: pour
+arg mapping: (ice cream,IceCream_1)
+<end clause>

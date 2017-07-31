@@ -1,0 +1,61 @@
+entire sentence: , Take   pot,   fill it with water from the sink,   and put in on the burner   , , , ,  Turn the burner   on, and wait until the water   boils , , , 
+
+<start clause>
+start env: 0
+end env: 1
+sent: Take  
+[('verb', 'Take'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: Take
+verb: Take
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 7
+end env: 6
+sent:  pot,  
+[('verb', 'pot'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: pot
+verb: pot
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 2
+end env: 4
+sent:  fill it with water from the sink,  
+[('verb', 'fill'), ('obj1', 'it'), ('obj2', 'water'), ('obj3', 'sink'), ('rel12', 'with'), ('rel13', 'with'), ('rel23', 'from')]
+words: fill it water sink with with from
+verb: fill
+arg mapping: (it,Sink) (it,Kettle) (it,SinkKnob) (water,Kettle) (sink,Sink)
+<end clause>
+
+<start clause>
+start env: 5
+end env: 8
+sent:  and put in on the burner  
+[('verb', 'put'), ('obj1', 'burner'), ('rel12', 'Null')]
+words: put burner
+verb: put
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 9
+end env: 10
+sent:  . Turn the burner  
+[('verb', 'Turn'), ('obj1', 'burner'), ('rel12', 'Null')]
+words: Turn burner
+verb: Turn
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 8
+end env: 7
+sent: on, and wait until the water  
+[('verb', 'wait'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: wait
+verb: wait
+arg mapping: 
+<end clause>

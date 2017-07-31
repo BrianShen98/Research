@@ -1,0 +1,63 @@
+entire sentence: , Fill the pot with water,   put it on the stove,   and turn on the stove   , , ,  When the water is boiling,   put in the instant ramen   , , ,  Fill a glass with water from the sink   ,  
+
+Place everything onto the table   
+
+<start clause>
+start env: 0
+end env: 4
+sent: Fill the pot with water,  
+[('verb', 'Fill'), ('obj1', 'pot'), ('obj2', 'water'), ('rel12', 'with')]
+words: Fill pot water with
+verb: Fill
+arg mapping: (pot,Kettle)
+<end clause>
+
+<start clause>
+start env: 5
+end env: 9
+sent:  put it on the stove,  
+[('verb', 'put'), ('obj1', 'it'), ('obj2', 'stove'), ('rel12', 'on')]
+words: put it stove on
+verb: put
+arg mapping: (it,Sink) (it,Kettle) (it,SinkKnob) (stove,Stove)
+<end clause>
+
+<start clause>
+start env: 10
+end env: 16
+sent:  and turn on the stove  
+[('verb', 'turn'), ('obj1', 'stove'), ('rel12', 'Null')]
+words: turn stove
+verb: turn
+arg mapping: (stove,Stove)
+<end clause>
+
+<start clause>
+start env: 17
+end env: 16
+sent:  put in the instant ramen  
+[('verb', 'put'), ('obj1', 'ramen'), ('rel12', 'Null')]
+words: put ramen
+verb: put
+arg mapping: (ramen,Ramen_1)
+<end clause>
+
+<start clause>
+start env: 17
+end env: 36
+sent:  . Fill a glass with water from the sink  
+[('verb', 'Fill'), ('obj1', 'glass'), ('obj2', 'water'), ('obj3', 'sink'), ('rel12', 'with'), ('rel13', 'with'), ('rel23', 'from')]
+words: Fill glass water sink with with from
+verb: Fill
+arg mapping: (glass,Glass_1) (water,Kettle) (sink,Sink)
+<end clause>
+
+<start clause>
+start env: 47
+end env: 46
+sent:  . Place everything onto the table  
+[('verb', 'Place'), ('obj1', 'everything'), ('obj2', 'table'), ('rel12', 'onto')]
+words: Place everything table onto
+verb: Place
+arg mapping: (table,Counter_1)
+<end clause>

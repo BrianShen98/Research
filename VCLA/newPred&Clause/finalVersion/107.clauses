@@ -1,0 +1,33 @@
+entire sentence: , grasp far cry and xbox   ,  drop near tv   ,  grasp bowl and place on table , ,  move couch near tv   
+
+<start clause>
+start env: 0
+end env: 1
+sent: grasp far cry and xbox  
+[('verb', 'grasp'), ('obj1', 'cry'), ('obj2', 'xbox'), ('rel12', 'and')]
+words: grasp cry xbox and
+verb: grasp
+arg mapping: (xbox,Xbox_1)
+<end clause>
+
+<start clause>
+start env: 2
+end env: 3
+sent:  . drop near tv  
+[('verb', 'drop'), ('obj1', 'tv'), ('rel12', 'Null')]
+words: drop tv
+verb: drop
+arg mapping: (tv,Tv_1)
+<end clause>
+
+<start clause>
+start env: 3
+end env: 2
+sent:  . grasp bowl and place on table . move couch near tv  
+[('verb', 'grasp'), ('obj1', 'bowl'), ('rel12', 'Null')]
+[('verb', 'place'), ('obj1', 'table'), ('rel12', 'Null')]
+[('verb', 'move'), ('obj1', 'couch'), ('obj2', 'tv'), ('rel12', 'near')]
+words: grasp bowl place table move couch tv near
+verb: grasp place move
+arg mapping: (bowl,Bowl_1) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1) (couch,Loveseat_1) (tv,Tv_1)
+<end clause>

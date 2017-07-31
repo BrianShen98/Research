@@ -1,0 +1,21 @@
+entire sentence: , empty mug, cup and glass in the sink,   and then place them in cupboards   , 
+
+<start clause>
+start env: 0
+end env: -1
+sent: empty mug, cup and glass in the sink,  
+[('verb', 'empty'), ('obj1', 'mug'), ('obj2', 'cup'), ('obj3', 'glass'), ('obj4', 'sink'), ('rel12', ','), ('rel13', ','), ('rel14', ','), ('rel23', 'and'), ('rel24', 'in'), ('rel34', 'in')]
+words: empty mug cup glass sink , , , and in in
+verb: empty
+arg mapping: (mug,Mug_1) (cup,LongCup_1) (cup,LongCup_2) (glass,Glass_1) (sink,Sink)
+<end clause>
+
+<start clause>
+start env: 5
+end env: 4
+sent:  and then place them in cupboards  
+[('verb', 'place'), ('obj1', 'cupboards'), ('rel12', 'Null')]
+words: place cupboards
+verb: place
+arg mapping: (cupboards,LongCup_1) (cupboards,LongCup_2)
+<end clause>

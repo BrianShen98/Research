@@ -1,0 +1,51 @@
+entire sentence: , Turn off the television   ,  Place the food into the trash bag   and place trash bag into the bin   , ,  Place the pillows on the couch   ,  Put the xbox and controllers   away 
+
+<start clause>
+start env: 0
+end env: 1
+sent: Turn off the television  
+[('verb', 'Turn'), ('obj1', 'television'), ('rel12', 'Null')]
+words: Turn television
+verb: Turn
+arg mapping: (television,Tv_1)
+<end clause>
+
+<start clause>
+start env: 8
+end env: 7
+sent:  . Place the food into the trash bag  
+[('verb', 'Place'), ('obj1', 'food'), ('obj2', 'trash bag'), ('rel12', 'into')]
+words: Place food trash bag into
+verb: Place
+arg mapping: (trash bag,BagOfChips_1) (trash bag,GarbageBag_1)
+<end clause>
+
+<start clause>
+start env: 10
+end env: 12
+sent:  and place trash bag into the bin  
+[('verb', 'place'), ('obj1', 'trash'), ('obj2', 'bag'), ('obj3', 'bin'), ('rel12', 'into'), ('rel13', 'into'), ('rel23', 'into')]
+words: place trash bag bin into into into
+verb: place
+arg mapping: (bag,BagOfChips_1) (bag,GarbageBag_1) (bin,GarbageBin_1)
+<end clause>
+
+<start clause>
+start env: 13
+end env: 16
+sent:  . Place the pillows on the couch  
+[('verb', 'Place'), ('obj1', 'pillows'), ('obj2', 'couch'), ('rel12', 'on')]
+words: Place pillows couch on
+verb: Place
+arg mapping: (pillows,Pillow_1) (pillows,Pillow_2) (pillows,Pillow_3) (couch,Loveseat_1) (couch,Loveseat_2)
+<end clause>
+
+<start clause>
+start env: 17
+end env: 25
+sent:  . Put the xbox and controllers  
+[('verb', 'Put'), ('obj1', 'xbox'), ('obj2', 'controllers'), ('rel12', 'and')]
+words: Put xbox controllers and
+verb: Put
+arg mapping: (xbox,Xbox_1) (controllers,XboxController_1)
+<end clause>

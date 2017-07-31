@@ -1,0 +1,31 @@
+entire sentence: , Dave, place the Xbox controller on the table,   put the Cola can and the bottle into the trash  put the Cola can and the bottle into the trash , 
+
+<start clause>
+start env: 0
+end env: 3
+sent: Dave, place the Xbox controller on the table,  
+[('verb', 'place'), ('obj1', 'Dave'), ('obj2', 'Xbox'), ('obj3', 'controller'), ('obj4', 'table'), ('rel12', ','), ('rel13', ','), ('rel14', ','), ('rel23', 'on'), ('rel24', 'on'), ('rel34', 'on')]
+words: place Dave Xbox controller table , , , on on on
+verb: place
+arg mapping: (Xbox,Xbox_1) (controller,XboxController_1) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1)
+<end clause>
+
+<start clause>
+start env: 9
+end env: 8
+sent:  put the Cola can and the bottle into the trash 
+[('verb', 'put'), ('obj1', 'Cola can'), ('obj2', 'bottle'), ('obj3', 'trash'), ('rel12', 'and'), ('rel13', 'into'), ('rel23', 'into')]
+words: put Cola can bottle trash and into into
+verb: put
+arg mapping: (Cola can,Coke_1) (bottle,Bowl_1)
+<end clause>
+
+<start clause>
+start env: 9
+end env: 8
+sent:  put the Cola can and the bottle into the trash .
+[('verb', 'put'), ('obj1', 'Cola can'), ('obj2', 'bottle'), ('obj3', 'trash'), ('rel12', 'and'), ('rel13', 'into'), ('rel23', 'into')]
+words: put Cola can bottle trash and into into
+verb: put
+arg mapping: (Cola can,Coke_1) (bottle,Bowl_1)
+<end clause>

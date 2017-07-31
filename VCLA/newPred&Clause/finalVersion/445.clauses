@@ -1,0 +1,11 @@
+entire sentence: , Put everything on the floor to the tables   
+
+<start clause>
+start env: 0
+end env: 3
+sent: Put everything on the floor to the tables  
+[('verb', 'Put'), ('obj1', 'everything'), ('obj2', 'floor'), ('obj3', 'tables'), ('rel12', 'on'), ('rel13', 'on'), ('rel23', 'to')]
+words: Put everything floor tables on on to
+verb: Put
+arg mapping: (floor,Bowl_1) (tables,CoffeeTable_1) (tables,TvTable_1) (tables,SnackTable_1)
+<end clause>

@@ -1,0 +1,81 @@
+entire sentence: , Make coffee   ,   Take a bowl, ice cream scoop,   and ice cream ,   Use   the ice cream scoop   to add ice cream to the bowl   twice , , ,   Slowly pour the finished coffee into the bowl   ,   Get the syrup   and squirt two tablespoons on top   , ,   serve with a spoon   
+
+<start clause>
+start env: 0
+end env: 6
+sent: Make coffee  
+[('verb', 'Make'), ('obj1', 'coffee'), ('rel12', 'Null')]
+words: Make coffee
+verb: Make
+arg mapping: (coffee,Mug_1)
+<end clause>
+
+<start clause>
+start env: 9
+end env: 15
+sent:  .  Take a bowl, ice cream scoop,  
+[('verb', 'Take'), ('obj1', 'bowl'), ('obj2', 'ice cream scoop'), ('rel12', ',')]
+words: Take bowl ice cream scoop ,
+verb: Take
+arg mapping: (bowl,Spoon_1) (bowl,Glass_1) (bowl,LongCup_1) (bowl,LongCup_2) (ice cream scoop,IceCreamScoop)
+<end clause>
+
+<start clause>
+start env: 11
+end env: 10
+sent:  and ice cream .  Use  
+[('verb', 'Use'), ('obj1', 'ice cream'), ('rel12', 'Null')]
+words: Use ice cream
+verb: Use
+arg mapping: (ice cream,IceCream_1)
+<end clause>
+
+<start clause>
+start env: 11
+end env: 10
+sent:  to add ice cream to the bowl  
+[('verb', 'add'), ('obj1', 'ice'), ('obj2', 'cream'), ('obj3', 'bowl'), ('rel12', 'to'), ('rel13', 'to'), ('rel23', 'to')]
+words: add ice cream bowl to to to
+verb: add
+arg mapping: (ice,IceCream_1) (ice,IceCreamScoop) (cream,IceCream_1) (cream,IceCreamScoop) (bowl,Spoon_1) (bowl,Glass_1) (bowl,LongCup_1) (bowl,LongCup_2)
+<end clause>
+
+<start clause>
+start env: 32
+end env: 31
+sent:  twice .  Slowly pour the finished coffee into the bowl  
+[('verb', 'pour'), ('obj1', 'coffee'), ('obj2', 'bowl'), ('rel12', 'into')]
+words: pour coffee bowl into
+verb: pour
+arg mapping: (coffee,Mug_1) (bowl,Spoon_1) (bowl,Glass_1) (bowl,LongCup_1) (bowl,LongCup_2)
+<end clause>
+
+<start clause>
+start env: 40
+end env: 41
+sent:  .  Get the syrup  
+[('verb', 'Get'), ('obj1', 'syrup'), ('rel12', 'Null')]
+words: Get syrup
+verb: Get
+arg mapping: (syrup,Syrup_1) (syrup,Syrup_2)
+<end clause>
+
+<start clause>
+start env: 42
+end env: 42
+sent:  and squirt two tablespoons on top  
+[('verb', 'squirt'), ('obj1', 'tablespoons'), ('obj2', 'top'), ('rel12', 'on')]
+words: squirt tablespoons top on
+verb: squirt
+arg mapping: (tablespoons,Spoon_1)
+<end clause>
+
+<start clause>
+start env: 43
+end env: 42
+sent:  .  serve with a spoon  
+[('verb', 'serve'), ('obj1', 'spoon'), ('rel12', 'Null')]
+words: serve spoon
+verb: serve
+arg mapping: (spoon,Spoon_1)
+<end clause>

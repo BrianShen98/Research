@@ -1,0 +1,61 @@
+entire sentence: , grasp the pot,   put it in the sink   , ,  open the faucet   ,  grasp the pot   and put it on the left stove   , ,  turn on the left stove   
+
+<start clause>
+start env: 0
+end env: 4
+sent: grasp the pot,  
+[('verb', 'grasp'), ('obj1', 'pot'), ('rel12', 'Null')]
+words: grasp pot
+verb: grasp
+arg mapping: (pot,Kettle)
+<end clause>
+
+<start clause>
+start env: 5
+end env: 7
+sent:  put it in the sink  
+[('verb', 'put'), ('obj1', 'it'), ('obj2', 'sink'), ('rel12', 'in')]
+words: put it sink in
+verb: put
+arg mapping: (it,Fridge) (it,FridgeLeftDoor) (it,FridgeRightDoor) (it,Kettle) (sink,Sink)
+<end clause>
+
+<start clause>
+start env: 8
+end env: 7
+sent:  . open the faucet  
+[('verb', 'open'), ('obj1', 'faucet'), ('rel12', 'Null')]
+words: open faucet
+verb: open
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 8
+end env: 9
+sent:  . grasp the pot  
+[('verb', 'grasp'), ('obj1', 'pot'), ('rel12', 'Null')]
+words: grasp pot
+verb: grasp
+arg mapping: (pot,Kettle)
+<end clause>
+
+<start clause>
+start env: 10
+end env: 9
+sent:  and put it on the left stove  
+[('verb', 'put'), ('obj1', 'it'), ('obj2', 'stove'), ('rel12', 'on')]
+words: put it stove on
+verb: put
+arg mapping: (it,Sink) (it,Kettle) (it,SinkKnob) (stove,Stove)
+<end clause>
+
+<start clause>
+start env: 11
+end env: 12
+sent:  . turn on the left stove  
+[('verb', 'turn'), ('obj1', 'stove'), ('rel12', 'Null')]
+words: turn stove
+verb: turn
+arg mapping: (stove,Stove)
+<end clause>

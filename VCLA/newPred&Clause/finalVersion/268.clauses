@@ -1,0 +1,25 @@
+entire sentence: , Get cups and drinks out. Make food for breakfast. Serve food for everyone  Get cups and drinks out. Make food for breakfast. Serve food for everyone , 
+
+<start clause>
+start env: 18
+end env: 17
+sent: Get cups and drinks out. Make food for breakfast. Serve food for everyone 
+[('verb', 'Get'), ('obj1', 'cups'), ('obj2', 'drinks'), ('rel12', 'and')]
+[('verb', 'Make'), ('obj1', 'food'), ('obj2', 'breakfast'), ('rel12', 'for')]
+[('verb', 'Serve'), ('obj1', 'food'), ('obj2', 'everyone'), ('rel12', 'for')]
+words: Get cups drinks and Make food breakfast for Serve food everyone for
+verb: Get Make Serve
+arg mapping: (cups,LongCup_1) (cups,LongCup_2) (drinks,EnergyDrink_1)
+<end clause>
+
+<start clause>
+start env: 18
+end env: 17
+sent: Get cups and drinks out. Make food for breakfast. Serve food for everyone 
+[('verb', 'Get'), ('obj1', 'cups'), ('obj2', 'drinks'), ('rel12', 'and')]
+[('verb', 'Make'), ('obj1', 'food'), ('obj2', 'breakfast'), ('rel12', 'for')]
+[('verb', 'Serve'), ('obj1', 'food'), ('obj2', 'everyone'), ('rel12', 'for')]
+words: Get cups drinks and Make food breakfast for Serve food everyone for
+verb: Get Make Serve
+arg mapping: (cups,LongCup_1) (cups,LongCup_2) (drinks,EnergyDrink_1)
+<end clause>

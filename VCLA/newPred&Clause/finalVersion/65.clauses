@@ -1,0 +1,31 @@
+entire sentence: , Take the mug   and add coffee   , ,  Place a scoop of icecream from the freezer and syrup into it   
+
+<start clause>
+start env: 0
+end env: 3
+sent: Take the mug  
+[('verb', 'Take'), ('obj1', 'mug'), ('rel12', 'Null')]
+words: Take mug
+verb: Take
+arg mapping: (mug,Mug_1)
+<end clause>
+
+<start clause>
+start env: 5
+end env: 4
+sent:  and add coffee  
+[('verb', 'add'), ('obj1', 'coffee'), ('rel12', 'Null')]
+words: add coffee
+verb: add
+arg mapping: (coffee,Mug_1)
+<end clause>
+
+<start clause>
+start env: 24
+end env: 23
+sent:  . Place a scoop of icecream from the freezer and syrup into it  
+[('verb', 'Place'), ('obj1', 'scoop'), ('obj2', 'icecream'), ('obj3', 'freezer'), ('obj4', 'syrup'), ('obj5', 'it'), ('rel12', 'of'), ('rel13', 'of'), ('rel14', 'of'), ('rel15', 'of'), ('rel23', 'from'), ('rel24', 'from'), ('rel25', 'from'), ('rel34', 'and'), ('rel35', 'into'), ('rel45', 'into')]
+words: Place scoop icecream freezer syrup it of of of of from from from and into into
+verb: Place
+arg mapping: (scoop,IceCreamScoop) (icecream,IceCream_1) (freezer,Fridge) (syrup,Syrup_1) (syrup,Syrup_2) (it,Spoon_1) (it,IceCream_1) (it,Syrup_1)
+<end clause>

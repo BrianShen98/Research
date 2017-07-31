@@ -1,0 +1,71 @@
+entire sentence: , Arrange the couch in front of the tv   ,  Put some snacks and drinks on the table   ,  Make   sure the xbox and the tv are connected   , ,  Place the controllers on the table   ,  Check the dvd boxes   if the right dvd is in the right box, and place all boxes on the table   , , , 
+
+<start clause>
+start env: 0
+end env: 9
+sent: Arrange the couch in front of the tv  
+[('verb', 'Arrange'), ('obj1', 'couch'), ('obj2', 'front'), ('obj3', 'tv'), ('rel12', 'in'), ('rel13', 'in'), ('rel23', 'of')]
+words: Arrange couch front tv in in of
+verb: Arrange
+arg mapping: (couch,Loveseat_1) (tv,Tv_1)
+<end clause>
+
+<start clause>
+start env: 10
+end env: 13
+sent:  . Put some snacks and drinks on the table  
+[('verb', 'Put'), ('obj1', 'snacks'), ('obj2', 'drinks'), ('obj3', 'table'), ('rel12', 'and'), ('rel13', 'on'), ('rel23', 'on')]
+words: Put snacks drinks table and on on
+verb: Put
+arg mapping: (snacks,SnackTable_1) (drinks,CoffeeTable_1) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1)
+<end clause>
+
+<start clause>
+start env: 14
+end env: 13
+sent:  . Make  
+[('verb', 'Make'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: Make
+verb: Make
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 14
+end env: 24
+sent:  sure the xbox and the tv are connected  
+[('verb', 'are'), ('obj1', 'xbox'), ('obj2', 'tv'), ('rel12', 'and')]
+words: are xbox tv and
+verb: are
+arg mapping: (xbox,Xbox_1) (tv,Tv_1)
+<end clause>
+
+<start clause>
+start env: 25
+end env: 27
+sent:  . Place the controllers on the table  
+[('verb', 'Place'), ('obj1', 'controllers'), ('obj2', 'table'), ('rel12', 'on')]
+words: Place controllers table on
+verb: Place
+arg mapping: (controllers,XboxController_1) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1)
+<end clause>
+
+<start clause>
+start env: 28
+end env: 29
+sent:  . Check the dvd boxes  
+[('verb', 'Check'), ('obj1', 'dvd boxes'), ('rel12', 'Null')]
+words: Check dvd boxes
+verb: Check
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 30
+end env: 33
+sent: if the right dvd is in the right box, and place all boxes on the table  
+[('verb', 'place'), ('obj1', 'boxes'), ('obj2', 'table'), ('rel12', 'on')]
+words: place boxes table on
+verb: place
+arg mapping: (boxes,Bowl_1) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1)
+<end clause>

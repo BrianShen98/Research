@@ -1,0 +1,82 @@
+entire sentence: , Grasp the vanilla syrup bottle   ,  Open the fridge door   and place the bottle inside the fridge   , ,  Close the fridge door   ,  Empty the contents of the mug into the sink   and clean the sink with the running water   , ,  Place the instant ramen, ramen,   and salt bottle into their designated pantries   
+
+<start clause>
+start env: 3
+end env: 2
+sent: Grasp the vanilla syrup bottle  
+[('verb', 'Grasp'), ('obj1', 'vanilla syrup bottle'), ('rel12', 'Null')]
+words: Grasp vanilla syrup bottle
+verb: Grasp
+arg mapping: (vanilla syrup bottle,Syrup_1) (vanilla syrup bottle,Syrup_2)
+<end clause>
+
+<start clause>
+start env: 0
+end env: 1
+sent:  . Open the fridge door  
+[('verb', 'Open'), ('obj1', 'door'), ('rel12', 'Null')]
+words: Open door
+verb: Open
+arg mapping: (door,MicrowaveDoor) (door,FridgeLeftDoor) (door,FridgeRightDoor)
+<end clause>
+
+<start clause>
+start env: 3
+end env: 2
+sent:  and place the bottle inside the fridge  
+[('verb', 'place'), ('obj1', 'bottle'), ('obj2', 'fridge'), ('rel12', 'inside')]
+words: place bottle fridge inside
+verb: place
+arg mapping: (fridge,Fridge)
+<end clause>
+
+<start clause>
+start env: 2
+end env: 2
+sent:  . Close the fridge door  
+[('verb', 'Close'), ('obj1', 'door'), ('rel12', 'Null')]
+words: Close door
+verb: Close
+arg mapping: (door,MicrowaveDoor) (door,FridgeLeftDoor) (door,FridgeRightDoor)
+<end clause>
+
+<start clause>
+start env: 3
+end env: 28
+sent:  . Carry Glass1, long cup1, Mug, Long Cup2, pot, and spoon near the sink . Empty the contents of the mug into the sink  
+[('verb', 'Carry'), ('obj1', 'Glass1'), ('obj2', 'cup1'), ('obj3', 'Mug'), ('obj4', 'Cup2'), ('obj5', 'pot'), ('obj6', 'spoon'), ('obj7', 'sink'), ('rel12', ','), ('rel13', ','), ('rel14', ','), ('rel15', ','), ('rel16', ','), ('rel17', 'near'), ('rel23', ','), ('rel24', ','), ('rel25', ','), ('rel26', ','), ('rel27', 'near'), ('rel34', ','), ('rel35', ','), ('rel36', ','), ('rel37', 'near'), ('rel45', ','), ('rel46', ','), ('rel47', 'near'), ('rel56', ','), ('rel57', 'near'), ('rel67', 'near')]
+[('verb', 'Empty'), ('obj1', 'contents'), ('obj2', 'mug'), ('obj3', 'sink'), ('rel12', 'of'), ('rel13', ','), ('rel23', 'into')]
+words: Carry Glass1 cup1 Mug Cup2 pot spoon sink , , , , , near , , , , near , , , near , , near , near near Empty contents mug sink of , into
+verb: Carry Empty
+arg mapping: (Glass1,Glass_1) (cup1,LongCup_1) (cup1,LongCup_2) (Mug,Mug_1) (Cup2,LongCup_1) (Cup2,LongCup_2) (pot,Kettle) (spoon,Spoon_1) (sink,Sink) (mug,Mug_1) (sink,Sink)
+<end clause>
+
+<start clause>
+start env: 29
+end env: 28
+sent:  and clean the sink with the running water  
+[('verb', 'clean'), ('obj1', 'sink'), ('obj2', 'water'), ('rel12', 'with')]
+words: clean sink water with
+verb: clean
+arg mapping: (sink,Sink) (water,Mug_1) (water,Kettle) (water,Glass_1) (water,LongCup_1) (water,LongCup_2)
+<end clause>
+
+<start clause>
+start env: 32
+end env: 31
+sent:  . Place the instant ramen, ramen,  
+[('verb', 'Place'), ('obj1', 'ramen'), ('obj2', 'ramen'), ('rel12', ',')]
+words: Place ramen ramen ,
+verb: Place
+arg mapping: (ramen,Ramen_1) (ramen,Ramen_1)
+<end clause>
+
+<start clause>
+start env: 31
+end env: 30
+sent:  and salt bottle into their designated pantries  
+[('verb', 'bottle'), ('obj1', 'salt'), ('obj2', 'pantries'), ('rel12', 'into')]
+words: bottle salt pantries into
+verb: bottle
+arg mapping: (salt,Salt_1)
+<end clause>

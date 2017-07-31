@@ -1,0 +1,31 @@
+entire sentence: , Take the ice cream out of the freezer   and put several scoops into the cup with the coffee in it   , ,  Pour chocolate and vanilla syrup on top   
+
+<start clause>
+start env: 0
+end env: 6
+sent: Take the ice cream out of the freezer  
+[('verb', 'Take'), ('obj1', 'ice'), ('obj2', 'cream'), ('obj3', 'freezer'), ('rel12', 'of'), ('rel13', 'of'), ('rel23', 'of')]
+words: Take ice cream freezer of of of
+verb: Take
+arg mapping: (ice,IceCream_1) (ice,IceCreamScoop) (cream,IceCream_1) (cream,IceCreamScoop) (freezer,Fridge)
+<end clause>
+
+<start clause>
+start env: 8
+end env: 7
+sent:  and put several scoops into the cup with the coffee in it  
+[('verb', 'put'), ('obj1', 'scoops'), ('obj2', 'cup'), ('obj3', 'coffee'), ('obj4', 'it'), ('rel12', 'into'), ('rel13', 'into'), ('rel14', 'into'), ('rel23', 'with'), ('rel24', 'with'), ('rel34', 'in')]
+words: put scoops cup coffee it into into into with with in
+verb: put
+arg mapping: (scoops,IceCreamScoop) (cup,LongCup_1) (cup,LongCup_2) (coffee,Mug_1) (it,FridgeLeftDoor) (it,FridgeRightDoor) (it,IceCream_1)
+<end clause>
+
+<start clause>
+start env: 8
+end env: 9
+sent:  . Pour chocolate and vanilla syrup on top  
+[('verb', 'Pour'), ('obj1', 'chocolate'), ('obj2', 'vanilla syrup'), ('obj3', 'top'), ('rel12', 'and'), ('rel13', 'on'), ('rel23', 'on')]
+words: Pour chocolate vanilla syrup top and on on
+verb: Pour
+arg mapping: (chocolate,Syrup_2) (vanilla syrup,Syrup_1) (vanilla syrup,Syrup_2)
+<end clause>

@@ -1,0 +1,31 @@
+entire sentence: , Take the dishes   and stack   neatly , ,  Put the bottles in the appropriate cabinet   
+
+<start clause>
+start env: 0
+end env: -1
+sent: Take the dishes  
+[('verb', 'Take'), ('obj1', 'dishes'), ('rel12', 'Null')]
+words: Take dishes
+verb: Take
+arg mapping: (dishes,Spoon_1) (dishes,Glass_1) (dishes,LongCup_1) (dishes,LongCup_2)
+<end clause>
+
+<start clause>
+start env: 0
+end env: -1
+sent:  and stack  
+[('verb', 'stack'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: stack
+verb: stack
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 23
+end env: 22
+sent:  neatly . Put the bottles in the appropriate cabinet  
+[('verb', 'Put'), ('obj1', 'bottles'), ('obj2', 'cabinet'), ('rel12', 'in')]
+words: Put bottles cabinet in
+verb: Put
+arg mapping: (cabinet,Counter_1)
+<end clause>

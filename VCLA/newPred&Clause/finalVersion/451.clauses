@@ -1,0 +1,21 @@
+entire sentence: , Take out coffee, ice cream and syrup   ,  Mix   the together and pour it in a empty cup   , 
+
+<start clause>
+start env: 0
+end env: 7
+sent: Take out coffee, ice cream and syrup  
+[('verb', 'Take'), ('obj1', 'coffee'), ('obj2', 'ice cream'), ('obj3', 'syrup'), ('rel12', ','), ('rel13', ','), ('rel23', 'and')]
+words: Take coffee ice cream syrup , , and
+verb: Take
+arg mapping: (coffee,Mug_1) (ice cream,IceCream_1) (syrup,Syrup_1) (syrup,Syrup_2)
+<end clause>
+
+<start clause>
+start env: 9
+end env: 45
+sent:  the together and pour it in a empty cup  
+[('verb', 'pour'), ('obj1', 'it'), ('obj2', 'cup'), ('rel12', 'in')]
+words: pour it cup in
+verb: pour
+arg mapping: (it,FridgeLeftDoor) (it,FridgeRightDoor) (it,IceCream_1) (it,Syrup_2) (cup,LongCup_1) (cup,LongCup_2)
+<end clause>

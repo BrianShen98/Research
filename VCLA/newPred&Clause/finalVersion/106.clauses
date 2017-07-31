@@ -1,0 +1,52 @@
+entire sentence: , Grab a cup,   and fill the cup with milk   , ,   Next grab a bowl ,   Fill the bowl with cereal   ,   Slowly add milk to the same bowl   ,  Put the cup and bowl next to each other, along with a spoon   
+
+<start clause>
+start env: 0
+end env: 1
+sent: Grab a cup,  
+[('verb', 'Grab'), ('obj1', 'cup'), ('rel12', 'Null')]
+words: Grab cup
+verb: Grab
+arg mapping: (cup,LongCup_1) (cup,LongCup_2)
+<end clause>
+
+<start clause>
+start env: 5
+end env: 4
+sent:  and fill the cup with milk  
+[('verb', 'fill'), ('obj1', 'cup'), ('obj2', 'milk'), ('rel12', 'with')]
+words: fill cup milk with
+verb: fill
+arg mapping: (cup,LongCup_1) (cup,LongCup_2)
+<end clause>
+
+<start clause>
+start env: 5
+end env: 4
+sent:  .  Next grab a bowl .  Fill the bowl with cereal  
+[('verb', 'grab'), ('obj1', 'bowl'), ('rel12', 'Null')]
+[('verb', 'Fill'), ('obj1', 'bowl'), ('obj2', 'cereal'), ('rel12', 'with')]
+words: grab bowl Fill bowl cereal with
+verb: grab Fill
+arg mapping: (bowl,Spoon_1) (bowl,Glass_1) (bowl,LongCup_1) (bowl,LongCup_2)
+<end clause>
+
+<start clause>
+start env: 5
+end env: 4
+sent:  .  Slowly add milk to the same bowl  
+[('verb', 'add'), ('obj1', 'milk'), ('obj2', 'bowl'), ('rel12', 'to')]
+words: add milk bowl to
+verb: add
+arg mapping: (bowl,Spoon_1) (bowl,Glass_1) (bowl,LongCup_1) (bowl,LongCup_2)
+<end clause>
+
+<start clause>
+start env: 5
+end env: 4
+sent:  . Put the cup and bowl next to each other, along with a spoon  
+[('verb', 'Put'), ('obj1', 'cup'), ('obj2', 'bowl'), ('obj3', 'spoon'), ('rel12', 'and'), ('rel13', 'to'), ('rel23', 'to')]
+words: Put cup bowl spoon and to to
+verb: Put
+arg mapping: (cup,LongCup_1) (cup,LongCup_2) (bowl,Spoon_1) (bowl,Glass_1) (bowl,LongCup_1) (bowl,LongCup_2) (spoon,Spoon_1)
+<end clause>

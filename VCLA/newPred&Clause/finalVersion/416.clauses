@@ -1,0 +1,31 @@
+entire sentence: , Put egg on plate   ,  Bring me plate with egg on it   ,  Bring me a coke   
+
+<start clause>
+start env: 0
+end env: 9
+sent: Put egg on plate  
+[('verb', 'Put'), ('obj1', 'egg'), ('obj2', 'plate'), ('rel12', 'on')]
+words: Put egg plate on
+verb: Put
+arg mapping: (egg,BoiledEgg_1) (plate,Plate_1) (plate,Plate_2)
+<end clause>
+
+<start clause>
+start env: 10
+end env: 9
+sent:  . Bring me plate with egg on it  
+[('verb', 'Bring'), ('obj1', 'plate'), ('obj2', 'egg'), ('obj3', 'it'), ('rel12', 'with'), ('rel13', 'with'), ('rel23', 'on')]
+words: Bring plate egg it with with on
+verb: Bring
+arg mapping: (plate,Plate_1) (plate,Plate_2) (egg,BoiledEgg_1) (it,FridgeLeftDoor) (it,FridgeRightDoor) (it,Plate_2) (it,BoiledEgg_1)
+<end clause>
+
+<start clause>
+start env: 11
+end env: 14
+sent:  . Bring me a coke  
+[('verb', 'Bring'), ('obj1', 'coke'), ('rel12', 'Null')]
+words: Bring coke
+verb: Bring
+arg mapping: (coke,Coke_1)
+<end clause>

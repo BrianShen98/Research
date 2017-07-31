@@ -1,0 +1,61 @@
+entire sentence: , Pick up the mug of coffee   and pour it on a plate   , ,  Open the refrigerator   and scoop some ice cream onto the plate   , ,  Take the syrup bottle   and squeeze some on the plate   , 
+
+<start clause>
+start env: 0
+end env: 1
+sent: Pick up the mug of coffee  
+[('verb', 'Pick'), ('obj1', 'mug'), ('obj2', 'coffee'), ('rel12', 'of')]
+words: Pick mug coffee of
+verb: Pick
+arg mapping: (mug,Mug_1) (coffee,Mug_1)
+<end clause>
+
+<start clause>
+start env: 2
+end env: 1
+sent:  and pour it on a plate  
+[('verb', 'pour'), ('obj1', 'it'), ('obj2', 'plate'), ('rel12', 'on')]
+words: pour it plate on
+verb: pour
+arg mapping: (it,Mug_1) (plate,Plate_1) (plate,Plate_2)
+<end clause>
+
+<start clause>
+start env: 3
+end env: 6
+sent:  . Open the refrigerator  
+[('verb', 'Open'), ('obj1', 'refrigerator'), ('rel12', 'Null')]
+words: Open refrigerator
+verb: Open
+arg mapping: (refrigerator,Fridge)
+<end clause>
+
+<start clause>
+start env: 7
+end env: 15
+sent:  and scoop some ice cream onto the plate  
+[('verb', 'scoop'), ('obj1', 'ice'), ('obj2', 'cream'), ('obj3', 'plate'), ('rel12', 'onto'), ('rel13', 'onto'), ('rel23', 'onto')]
+words: scoop ice cream plate onto onto onto
+verb: scoop
+arg mapping: (ice,IceCream_1) (ice,IceCreamScoop) (cream,IceCream_1) (cream,IceCreamScoop) (plate,Plate_1) (plate,Plate_2)
+<end clause>
+
+<start clause>
+start env: 21
+end env: 22
+sent:  . Take the syrup bottle  
+[('verb', 'Take'), ('obj1', 'syrup bottle'), ('rel12', 'Null')]
+words: Take syrup bottle
+verb: Take
+arg mapping: (syrup bottle,Syrup_1) (syrup bottle,Syrup_2)
+<end clause>
+
+<start clause>
+start env: 24
+end env: 23
+sent:  and squeeze some on the plate  
+[('verb', 'squeeze'), ('obj1', 'plate'), ('rel12', 'Null')]
+words: squeeze plate
+verb: squeeze
+arg mapping: (plate,Plate_1) (plate,Plate_2)
+<end clause>

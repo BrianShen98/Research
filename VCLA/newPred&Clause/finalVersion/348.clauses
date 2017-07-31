@@ -1,0 +1,72 @@
+entire sentence: , Boil water   ,  Add egg   and wait 12 minutes   , ,  Remove egg from water and place on plate   ,  Make coffee   and pour coffee into mug   , ,  Place Spoon, coffee, and plate together on table   
+
+<start clause>
+start env: 0
+end env: -1
+sent: Boil water  
+[('verb', 'Boil'), ('obj1', 'water'), ('rel12', 'Null')]
+words: Boil water
+verb: Boil
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 0
+end env: -1
+sent:  . Add egg  
+[('verb', 'Add'), ('obj1', 'egg'), ('rel12', 'Null')]
+words: Add egg
+verb: Add
+arg mapping: (egg,BoiledEgg_1)
+<end clause>
+
+<start clause>
+start env: 0
+end env: -1
+sent:  and wait 12 minutes  
+[('verb', 'wait'), ('obj1', 'minutes'), ('rel12', 'Null')]
+words: wait minutes
+verb: wait
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 0
+end env: -1
+sent:  . Remove egg from water and place on plate  
+[('verb', 'Remove'), ('obj1', 'egg'), ('obj2', 'water'), ('rel12', 'from')]
+[('verb', 'place'), ('obj1', 'plate'), ('rel12', 'Null')]
+words: Remove egg water from place plate
+verb: Remove place
+arg mapping: (egg,BoiledEgg_1) (plate,Plate_1) (plate,Plate_2)
+<end clause>
+
+<start clause>
+start env: 15
+end env: 14
+sent:  . Make coffee  
+[('verb', 'Make'), ('obj1', 'coffee'), ('rel12', 'Null')]
+words: Make coffee
+verb: Make
+arg mapping: (coffee,Mug_1) (coffee,LongCup_1)
+<end clause>
+
+<start clause>
+start env: 15
+end env: 14
+sent:  and pour coffee into mug  
+[('verb', 'pour'), ('obj1', 'coffee'), ('obj2', 'mug'), ('rel12', 'into')]
+words: pour coffee mug into
+verb: pour
+arg mapping: (coffee,Mug_1) (coffee,LongCup_1) (mug,Mug_1)
+<end clause>
+
+<start clause>
+start env: 18
+end env: 17
+sent:  . Place Spoon, coffee, and plate together on table  
+[('verb', 'Place'), ('obj1', 'Spoon'), ('obj2', 'coffee plate'), ('obj3', 'table'), ('rel12', ','), ('rel13', ','), ('rel23', ',')]
+words: Place Spoon coffee plate table , , ,
+verb: Place
+arg mapping: (Spoon,Spoon_1) (coffee plate,Plate_1) (coffee plate,Plate_2) (table,Counter_1)
+<end clause>

@@ -1,0 +1,31 @@
+entire sentence: , Put xbox controller and game CD on the shelf   ,  And remember   to take care of the bear bottle and coke can   , 
+
+<start clause>
+start env: 0
+end env: 10
+sent: Put xbox controller and game CD on the shelf  
+[('verb', 'Put'), ('obj1', 'xbox controller'), ('obj2', 'game CD'), ('obj3', 'shelf'), ('rel12', 'and'), ('rel13', 'on'), ('rel23', 'on')]
+words: Put xbox controller game CD shelf and on on
+verb: Put
+arg mapping: (xbox controller,XboxController_1) (game CD,Cd_2) (game CD,Cd_1) (shelf,Shelf_1) (shelf,Shelf_2)
+<end clause>
+
+<start clause>
+start env: 8
+end env: 7
+sent:  . And remember  
+[('verb', 'remember'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: remember
+verb: remember
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 16
+end env: 15
+sent:  to take care of the bear bottle and coke can  
+[('verb', 'take'), ('obj1', 'care'), ('obj2', 'bear bottle'), ('obj3', 'coke'), ('rel12', 'of'), ('rel13', 'of'), ('rel23', 'and')]
+words: take care bear bottle coke of of and
+verb: take
+arg mapping: (coke,Coke_1)
+<end clause>

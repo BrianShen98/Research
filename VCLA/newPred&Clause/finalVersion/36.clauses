@@ -1,0 +1,71 @@
+entire sentence: , Grasp the pot   and walk to the sink   , ,  Toggle the tap   to fill the pot   , ,  Put the pot on the stove   ,  Turn on the burner   ,  Turn off the burner   when the water is boiling   , , 
+
+<start clause>
+start env: 0
+end env: 1
+sent: Grasp the pot  
+[('verb', 'Grasp'), ('obj1', 'pot'), ('rel12', 'Null')]
+words: Grasp pot
+verb: Grasp
+arg mapping: (pot,Kettle)
+<end clause>
+
+<start clause>
+start env: 4
+end env: 4
+sent:  and walk to the sink  
+[('verb', 'walk'), ('obj1', 'sink'), ('rel12', 'Null')]
+words: walk sink
+verb: walk
+arg mapping: (sink,Sink)
+<end clause>
+
+<start clause>
+start env: 7
+end env: 10
+sent:  . Toggle the tap  
+[('verb', 'Toggle'), ('obj1', 'tap'), ('rel12', 'Null')]
+words: Toggle tap
+verb: Toggle
+arg mapping: (tap,Plate_1) (tap,Plate_2)
+<end clause>
+
+<start clause>
+start env: 11
+end env: 13
+sent:  to fill the pot  
+[('verb', 'fill'), ('obj1', 'pot'), ('rel12', 'Null')]
+words: fill pot
+verb: fill
+arg mapping: (pot,Kettle)
+<end clause>
+
+<start clause>
+start env: 12
+end env: 15
+sent:  . Put the pot on the stove  
+[('verb', 'Put'), ('obj1', 'pot'), ('obj2', 'stove'), ('rel12', 'on')]
+words: Put pot stove on
+verb: Put
+arg mapping: (pot,Kettle) (stove,Stove)
+<end clause>
+
+<start clause>
+start env: 16
+end env: 17
+sent:  . Turn on the burner  
+[('verb', 'Turn'), ('obj1', 'burner'), ('rel12', 'Null')]
+words: Turn burner
+verb: Turn
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 18
+end env: 17
+sent:  . Turn off the burner  
+[('verb', 'Turn'), ('obj1', 'burner'), ('rel12', 'Null')]
+words: Turn burner
+verb: Turn
+arg mapping: 
+<end clause>

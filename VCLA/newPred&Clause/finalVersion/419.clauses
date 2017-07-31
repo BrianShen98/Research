@@ -1,0 +1,51 @@
+entire sentence: , make the room   really cozy and place pillows and blankets in front of the tv and on the couch   , ,  give us a selection of romantic comedy   and prepare   some healthy snacks please   , , 
+
+<start clause>
+start env: 11
+end env: 10
+sent: make the room  
+[('verb', 'make'), ('obj1', 'room'), ('rel12', 'Null')]
+words: make room
+verb: make
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 11
+end env: 28
+sent:  really cozy and place pillows and blankets in front of the tv and on the couch  
+[('verb', 'cozy'), ('obj1', 'pillows'), ('obj2', 'blankets'), ('obj3', 'front'), ('obj4', 'tv'), ('obj5', 'couch'), ('rel12', 'and'), ('rel13', 'in'), ('rel14', 'in'), ('rel15', 'in'), ('rel23', 'in'), ('rel24', 'in'), ('rel25', 'in'), ('rel34', 'of'), ('rel35', 'of'), ('rel45', 'and')]
+words: cozy pillows blankets front tv couch and in in in in in in of of and
+verb: cozy
+arg mapping: (pillows,Pillow_1) (pillows,Pillow_2) (pillows,Pillow_3) (tv,Tv_1) (couch,Loveseat_1)
+<end clause>
+
+<start clause>
+start env: 35
+end env: 40
+sent:  . give us a selection of romantic comedy  
+[('verb', 'give'), ('obj1', 'selection'), ('obj2', 'comedy'), ('rel12', 'of')]
+words: give selection comedy of
+verb: give
+arg mapping: (comedy,Cd_2) (comedy,Cd_1)
+<end clause>
+
+<start clause>
+start env: 51
+end env: 50
+sent:  and prepare  
+[('verb', 'prepare'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: prepare
+verb: prepare
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 61
+end env: 60
+sent:  some healthy snacks please  
+[('verb', 'please'), ('obj1', 'snacks'), ('rel12', 'Null')]
+words: please snacks
+verb: please
+arg mapping: (snacks,SnackTable_1)
+<end clause>

@@ -1,0 +1,41 @@
+entire sentence: , Pour the pot   and wash it in the sink   , ,  Fill the pot with water up to two thirds   ,  Heat it on the stove for 10 minutes   
+
+<start clause>
+start env: 0
+end env: -1
+sent: Pour the pot  
+[('verb', 'Pour'), ('obj1', 'pot'), ('rel12', 'Null')]
+words: Pour pot
+verb: Pour
+arg mapping: (pot,Kettle)
+<end clause>
+
+<start clause>
+start env: 0
+end env: 5
+sent:  and wash it in the sink  
+[('verb', 'wash'), ('obj1', 'it'), ('obj2', 'sink'), ('rel12', 'in')]
+words: wash it sink in
+verb: wash
+arg mapping: (sink,Sink)
+<end clause>
+
+<start clause>
+start env: 3
+end env: 5
+sent:  . Fill the pot with water up to two thirds  
+[('verb', 'Fill'), ('obj1', 'pot'), ('obj2', 'water'), ('rel12', 'with')]
+words: Fill pot water with
+verb: Fill
+arg mapping: (pot,Kettle) (water,Kettle)
+<end clause>
+
+<start clause>
+start env: 13
+end env: 12
+sent:  . Heat it on the stove for 10 minutes  
+[('verb', 'Heat'), ('obj1', 'it'), ('obj2', 'stove'), ('rel12', 'on')]
+words: Heat it stove on
+verb: Heat
+arg mapping: (it,Stove) (it,Kettle) (it,StoveKnob_2) (it,StoveFire_1) (stove,Stove)
+<end clause>

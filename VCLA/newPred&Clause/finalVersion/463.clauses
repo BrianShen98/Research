@@ -1,0 +1,11 @@
+entire sentence: , Put the mug in the sink   
+
+<start clause>
+start env: 0
+end env: 3
+sent: Put the mug in the sink  
+[('verb', 'Put'), ('obj1', 'mug'), ('obj2', 'sink'), ('rel12', 'in')]
+words: Put mug sink in
+verb: Put
+arg mapping: (mug,Mug_1) (sink,Sink)
+<end clause>

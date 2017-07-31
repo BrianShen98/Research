@@ -1,0 +1,41 @@
+entire sentence: , Prepare the drink   by pouring the drink in the yellow bottle into an empty cup on the table   , ,  Prepare the food   and take   them to me , 
+
+<start clause>
+start env: 0
+end env: 3
+sent: Prepare the drink  
+[('verb', 'Prepare'), ('obj1', 'drink'), ('rel12', 'Null')]
+words: Prepare drink
+verb: Prepare
+arg mapping: (drink,EnergyDrink_1)
+<end clause>
+
+<start clause>
+start env: 25
+end env: 24
+sent:  by pouring the drink in the yellow bottle into an empty cup on the table  
+[('verb', 'pouring'), ('obj1', 'drink'), ('obj2', 'bottle'), ('obj3', 'cup'), ('obj4', 'table'), ('rel12', 'in'), ('rel13', 'in'), ('rel14', 'in'), ('rel23', 'into'), ('rel24', 'into'), ('rel34', 'on')]
+words: pouring drink bottle cup table in in in into into on
+verb: pouring
+arg mapping: (drink,EnergyDrink_1) (cup,LongCup_1) (cup,LongCup_2) (table,Counter_1) (table,Counter1_1)
+<end clause>
+
+<start clause>
+start env: 25
+end env: 24
+sent:  . Prepare the food  
+[('verb', 'Prepare'), ('obj1', 'food'), ('rel12', 'Null')]
+words: Prepare food
+verb: Prepare
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 25
+end env: 24
+sent:  and take  
+[('verb', 'take'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: take
+verb: take
+arg mapping: 
+<end clause>

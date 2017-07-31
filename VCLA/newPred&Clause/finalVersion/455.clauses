@@ -1,0 +1,41 @@
+entire sentence: , place xbox games and food on a table in front of the couch   ,  turn on the tv   and learn   how to play   with us! , , 
+
+<start clause>
+start env: 0
+end env: 9
+sent: place xbox games and food on a table in front of the couch  
+[('verb', 'place'), ('obj1', 'games'), ('obj2', 'food'), ('obj3', 'table'), ('obj4', 'front'), ('obj5', 'couch'), ('rel12', 'and'), ('rel13', 'on'), ('rel14', 'on'), ('rel15', 'on'), ('rel23', 'on'), ('rel24', 'on'), ('rel25', 'on'), ('rel34', 'in'), ('rel35', 'in'), ('rel45', 'of')]
+words: place games food table front couch and on on on on on on in in of
+verb: place
+arg mapping: (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1) (couch,Loveseat_1)
+<end clause>
+
+<start clause>
+start env: 10
+end env: 11
+sent:  . turn on the tv  
+[('verb', 'turn'), ('obj1', 'tv'), ('rel12', 'Null')]
+words: turn tv
+verb: turn
+arg mapping: (tv,Tv_1)
+<end clause>
+
+<start clause>
+start env: 0
+end env: -1
+sent:  and learn  
+[('verb', 'learn'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: learn
+verb: learn
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 10
+end env: 9
+sent:  how to play  
+[('verb', 'play'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: play
+verb: play
+arg mapping: 
+<end clause>

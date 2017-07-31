@@ -1,0 +1,11 @@
+entire sentence: , Mix a cup of coffee with a tablespoon of ice cream   and then add just a bit of syrup   , 
+
+<start clause>
+start env: 0
+end env: -1
+sent:  and then add just a bit of syrup  
+[('verb', 'add'), ('obj1', 'bit'), ('obj2', 'syrup'), ('rel12', 'of')]
+words: add bit syrup of
+verb: add
+arg mapping: (syrup,Syrup_1) (syrup,Syrup_2)
+<end clause>

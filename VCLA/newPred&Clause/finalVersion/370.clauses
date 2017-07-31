@@ -1,0 +1,21 @@
+entire sentence: , Get music and food ready for the party   ,  Clear the middle of the room   
+
+<start clause>
+start env: 0
+end env: 15
+sent: Get music and food ready for the party  
+[('verb', 'Get'), ('obj1', 'music'), ('obj2', 'food'), ('obj3', 'party'), ('rel12', 'and'), ('rel13', 'for'), ('rel23', 'for')]
+words: Get music food party and for for
+verb: Get
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 18
+end env: 17
+sent:  . Clear the middle of the room  
+[('verb', 'Clear'), ('obj1', 'middle'), ('obj2', 'room'), ('rel12', 'of')]
+words: Clear middle room of
+verb: Clear
+arg mapping: 
+<end clause>

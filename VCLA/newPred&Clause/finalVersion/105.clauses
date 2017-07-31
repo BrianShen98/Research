@@ -1,0 +1,51 @@
+entire sentence: , Take all silverware, plates, cups, and pots   and place them in the sink   , ,  Empty the contents of the cups and pot   ,  Place the syrup bottles in the refrigerator   ,  Put the ramen in the cabinet   
+
+<start clause>
+start env: 0
+end env: 28
+sent: Take all silverware, plates, cups, and pots  
+[('verb', 'Take'), ('obj1', 'silverware'), ('obj2', 'plates'), ('obj3', 'cups'), ('obj4', 'pots'), ('rel12', ','), ('rel13', ','), ('rel14', ','), ('rel23', ','), ('rel24', ','), ('rel34', ',')]
+words: Take silverware plates cups pots , , , , , ,
+verb: Take
+arg mapping: (plates,Plate_1) (plates,Plate_2) (cups,LongCup_1) (cups,LongCup_2) (pots,Kettle)
+<end clause>
+
+<start clause>
+start env: 41
+end env: 40
+sent:  and place them in the sink  
+[('verb', 'place'), ('obj1', 'sink'), ('rel12', 'Null')]
+words: place sink
+verb: place
+arg mapping: (sink,Sink)
+<end clause>
+
+<start clause>
+start env: 51
+end env: 50
+sent:  . Empty the contents of the cups and pot  
+[('verb', 'Empty'), ('obj1', 'contents'), ('obj2', 'cups'), ('obj3', 'pot'), ('rel12', 'of'), ('rel13', 'of'), ('rel23', 'and')]
+words: Empty contents cups pot of of and
+verb: Empty
+arg mapping: (cups,LongCup_1) (cups,LongCup_2) (pot,Kettle)
+<end clause>
+
+<start clause>
+start env: 51
+end env: 61
+sent:  . Place the syrup bottles in the refrigerator  
+[('verb', 'Place'), ('obj1', 'syrup'), ('obj2', 'bottles'), ('obj3', 'refrigerator'), ('rel12', 'in'), ('rel13', 'in'), ('rel23', 'in')]
+words: Place syrup bottles refrigerator in in in
+verb: Place
+arg mapping: (syrup,Syrup_1) (syrup,Syrup_2) (refrigerator,Fridge)
+<end clause>
+
+<start clause>
+start env: 68
+end env: 67
+sent:  . Put the ramen in the cabinet  
+[('verb', 'Put'), ('obj1', 'ramen'), ('obj2', 'cabinet'), ('rel12', 'in')]
+words: Put ramen cabinet in
+verb: Put
+arg mapping: (ramen,Ramen_1) (cabinet,Counter_1)
+<end clause>

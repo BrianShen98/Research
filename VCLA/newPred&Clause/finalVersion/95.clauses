@@ -1,0 +1,52 @@
+entire sentence: , Prepare   the coffee using hot water   , ,  Take the coffee   and pour the coffee over the ice cream in the mug   , ,  Drizzle with syrup   
+
+<start clause>
+start env: 0
+end env: -1
+sent: Prepare  
+[('verb', 'Prepare'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: Prepare
+verb: Prepare
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 21
+end env: 20
+sent:  the coffee using hot water  
+[('verb', 'using'), ('obj1', 'coffee water'), ('rel12', 'Null')]
+words: using coffee water
+verb: using
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 15
+end env: 28
+sent:  . Place two scoops of ice cream into the mug . 
+[('verb', 'Place'), ('obj1', 'ice cream'), ('obj2', 'mug'), ('rel12', 'into')]
+words: Place ice cream mug into
+verb: Place
+arg mapping: (ice cream,IceCream_1) (mug,Mug_1)
+<end clause>
+
+<start clause>
+start env: 29
+end env: 33
+sent: Take the coffee and pour the coffee over the ice cream in the mug
+[('verb', 'Take'), ('obj1', 'coffee'), ('rel12', 'Null')]
+[('verb', 'pour'), ('obj1', 'coffee'), ('obj2', 'ice cream'), ('obj3', 'mug'), ('rel12', 'over'), ('rel13', 'over'), ('rel23', 'in')]
+words: Take coffee pour coffee ice cream mug over over in
+verb: Take pour
+arg mapping: (coffee,Mug_1) (coffee,Mug_1) (ice cream,IceCream_1) (mug,Mug_1)
+<end clause>
+
+<start clause>
+start env: 34
+end env: 36
+sent:  . Drizzle with syrup  
+[('verb', 'Drizzle'), ('obj1', 'syrup'), ('rel12', 'Null')]
+words: Drizzle syrup
+verb: Drizzle
+arg mapping: (syrup,Syrup_1) (syrup,Syrup_2)
+<end clause>

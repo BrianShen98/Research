@@ -1,0 +1,91 @@
+entire sentence: , Look   to see where things   are dirty , , ,  Look   to see where things are out of place,   which need washing   or putting   away , , , , , ,  Vacuum the carpet,   straighten any cushions,   pick up litter   , , 
+
+<start clause>
+start env: 0
+end env: -1
+sent: Look  
+[('verb', 'Look'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: Look
+verb: Look
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 0
+end env: -1
+sent:  to see where things  
+[('verb', 'see'), ('obj1', 'things'), ('rel12', 'Null')]
+words: see things
+verb: see
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 0
+end env: -1
+sent:  are dirty . Look  
+[('verb', 'are'), ('obj1', 'Look'), ('rel12', 'Null')]
+words: are Look
+verb: are
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 0
+end env: -1
+sent:  to see where things are out of place,  
+[('verb', 'see'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: see
+verb: see
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 0
+end env: -1
+sent:  which need washing  
+[('verb', 'need'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: need
+verb: need
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 0
+end env: -1
+sent:  or putting  
+[('verb', 'putting'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: putting
+verb: putting
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 0
+end env: -1
+sent:  away . Vacuum the carpet,  
+[('verb', 'Vacuum'), ('obj1', 'carpet'), ('rel12', 'Null')]
+words: Vacuum carpet
+verb: Vacuum
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 0
+end env: 9
+sent:  straighten any cushions,  
+[('verb', 'straighten'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: straighten
+verb: straighten
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 28
+end env: 27
+sent:  pick up litter  
+[('verb', 'pick'), ('obj1', 'litter'), ('rel12', 'Null')]
+words: pick litter
+verb: pick
+arg mapping: 
+<end clause>

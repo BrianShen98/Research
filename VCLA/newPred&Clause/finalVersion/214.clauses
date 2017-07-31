@@ -1,0 +1,31 @@
+entire sentence: , Get some water in the cups   and pour it in the pan   , ,  boil it for 5 minutes 
+
+<start clause>
+start env: 0
+end env: 4
+sent: Get some water in the cups  
+[('verb', 'Get'), ('obj1', 'water'), ('obj2', 'cups'), ('rel12', 'in')]
+words: Get water cups in
+verb: Get
+arg mapping: (cups,LongCup_1) (cups,LongCup_2)
+<end clause>
+
+<start clause>
+start env: 7
+end env: 6
+sent:  and pour it in the pan  
+[('verb', 'pour'), ('obj1', 'it'), ('obj2', 'pan'), ('rel12', 'in')]
+words: pour it pan in
+verb: pour
+arg mapping: (it,Sink) (it,Glass_1) (it,SinkKnob) (pan,Spoon_1) (pan,Glass_1) (pan,LongCup_1) (pan,LongCup_2)
+<end clause>
+
+<start clause>
+start env: 7
+end env: 6
+sent:  . boil it for 5 minutes .
+[('verb', 'boil'), ('obj1', 'it'), ('rel12', 'Null')]
+words: boil it
+verb: boil
+arg mapping: (it,Sink) (it,Glass_1) (it,SinkKnob)
+<end clause>

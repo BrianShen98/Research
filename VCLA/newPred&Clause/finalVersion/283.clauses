@@ -1,0 +1,71 @@
+entire sentence: , Collect all plates, cups, mugs, pot, and silverware   and place them in the sink   , ,  Empty all cups, mugs, and the pot into the sink   ,  Take the syrup bottles   and place them in the refrigerator   , ,  Take the ramen   and place it in the cabinet   , 
+
+<start clause>
+start env: 28
+end env: 27
+sent: Collect all plates, cups, mugs, pot, and silverware  
+[('verb', 'Collect'), ('obj1', 'plates'), ('obj2', 'cups'), ('obj3', 'mugs'), ('obj4', 'pot'), ('obj5', 'silverware'), ('rel12', ','), ('rel13', ','), ('rel14', ','), ('rel15', ','), ('rel23', ','), ('rel24', ','), ('rel25', ','), ('rel34', ','), ('rel35', ','), ('rel45', ',')]
+words: Collect plates cups mugs pot silverware , , , , , , , , , ,
+verb: Collect
+arg mapping: (plates,Plate_1) (plates,Plate_2) (cups,LongCup_1) (cups,LongCup_2) (mugs,Mug_1) (pot,Kettle)
+<end clause>
+
+<start clause>
+start env: 33
+end env: 32
+sent:  and place them in the sink  
+[('verb', 'place'), ('obj1', 'sink'), ('rel12', 'Null')]
+words: place sink
+verb: place
+arg mapping: (sink,Sink)
+<end clause>
+
+<start clause>
+start env: 59
+end env: 58
+sent:  . Empty all cups, mugs, and the pot into the sink  
+[('verb', 'Empty'), ('obj1', 'cups'), ('obj2', 'mugs'), ('obj3', 'pot'), ('obj4', 'sink'), ('rel12', ','), ('rel13', ','), ('rel14', ','), ('rel23', ','), ('rel24', ','), ('rel34', 'into')]
+words: Empty cups mugs pot sink , , , , , into
+verb: Empty
+arg mapping: (cups,LongCup_1) (cups,LongCup_2) (mugs,Mug_1) (pot,Kettle) (sink,Sink)
+<end clause>
+
+<start clause>
+start env: 59
+end env: 62
+sent:  . Take the syrup bottles  
+[('verb', 'Take'), ('obj1', 'syrup bottles'), ('rel12', 'Null')]
+words: Take syrup bottles
+verb: Take
+arg mapping: (syrup bottles,Syrup_1) (syrup bottles,Syrup_2)
+<end clause>
+
+<start clause>
+start env: 59
+end env: 58
+sent:  and place them in the refrigerator  
+[('verb', 'place'), ('obj1', 'refrigerator'), ('rel12', 'Null')]
+words: place refrigerator
+verb: place
+arg mapping: (refrigerator,Fridge)
+<end clause>
+
+<start clause>
+start env: 59
+end env: 58
+sent:  . Take the ramen  
+[('verb', 'Take'), ('obj1', 'ramen'), ('rel12', 'Null')]
+words: Take ramen
+verb: Take
+arg mapping: (ramen,Ramen_1)
+<end clause>
+
+<start clause>
+start env: 66
+end env: 65
+sent:  and place it in the cabinet  
+[('verb', 'place'), ('obj1', 'it'), ('obj2', 'cabinet'), ('rel12', 'in')]
+words: place it cabinet in
+verb: place
+arg mapping: (it,Fridge) (it,Syrup_1) (it,Syrup_2) (cabinet,Counter_1) (cabinet,Counter1_1)
+<end clause>

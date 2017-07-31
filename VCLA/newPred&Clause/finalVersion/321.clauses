@@ -1,0 +1,111 @@
+entire sentence: , turn on TV and XBOX   ,   Remove CD from case   and insert it into disk tray of XBOX   , ,   Turn the TV volume   up to full ,   Remove all non-food and drink items   and put them on shelves   , ,   Bring all drinks to the coffee table   ,  Bring the bowl to the coffee table   ,   Open the chips   and pour them into the bowl until it   is full , , , ,  Move all chairs and tables so that they're against the walls   , 
+
+<start clause>
+start env: 0
+end env: 8
+sent: turn on TV and XBOX  
+[('verb', 'turn'), ('obj1', 'TV'), ('obj2', 'XBOX'), ('rel12', 'and')]
+words: turn TV XBOX and
+verb: turn
+arg mapping: (TV,Tv_1) (XBOX,Xbox_1)
+<end clause>
+
+<start clause>
+start env: 9
+end env: 8
+sent:  .  Remove CD from case  
+[('verb', 'Remove'), ('obj1', 'CD'), ('obj2', 'case'), ('rel12', 'from')]
+words: Remove CD case from
+verb: Remove
+arg mapping: (CD,Cd_2) (CD,Cd_1) (case,GarbageBag_1) (case,GarbageBin_1)
+<end clause>
+
+<start clause>
+start env: 9
+end env: 8
+sent:  and insert it into disk tray of XBOX  
+[('verb', 'insert'), ('obj1', 'it'), ('obj2', 'disk'), ('obj3', 'tray'), ('obj4', 'XBOX'), ('rel12', 'into'), ('rel13', 'into'), ('rel14', 'into'), ('rel23', 'of'), ('rel24', 'of'), ('rel34', 'of')]
+words: insert it disk tray XBOX into into into of of of
+verb: insert
+arg mapping: (it,Loveseat_1) (it,Xbox_1) (tray,GarbageBag_1) (tray,GarbageBin_1) (XBOX,Xbox_1)
+<end clause>
+
+<start clause>
+start env: 9
+end env: 8
+sent:  .  Turn the TV volume  
+[('verb', 'Turn'), ('obj1', 'TV volume'), ('rel12', 'Null')]
+words: Turn TV volume
+verb: Turn
+arg mapping: (TV volume,TvTable_1) (TV volume,Tv_1) (TV volume,Tv_1Remote_1) (TV volume,Tv_1PowerButton) (TV volume,Tv_1ChannelUpButton) (TV volume,Tv_1ChannelDownButton) (TV volume,Tv_1VolumeUpButton) (TV volume,Tv_1VolumeDownButton) (TV volume,Tv_1Remote_1PowerButton) (TV volume,Tv_1Remote_1ChannelUpButton) (TV volume,Tv_1Remote_1ChannelDownButton) (TV volume,Tv_1Remote_1VolumeUpButton) (TV volume,Tv_1Remote_1VolumeDownButton) (TV volume,Tv_1Remote_1MuteButton)
+<end clause>
+
+<start clause>
+start env: 9
+end env: 8
+sent:  up to full .  Remove all non-food and drink items  
+[('verb', 'Remove'), ('obj1', 'drink items'), ('rel12', 'Null')]
+words: Remove drink items
+verb: Remove
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 23
+end env: 22
+sent:  and put them on shelves  
+[('verb', 'put'), ('obj1', 'shelves'), ('rel12', 'Null')]
+words: put shelves
+verb: put
+arg mapping: (shelves,Shelf_1) (shelves,Shelf_2)
+<end clause>
+
+<start clause>
+start env: 23
+end env: 22
+sent:  .  Bring all drinks to the coffee table  
+[('verb', 'Bring'), ('obj1', 'drinks'), ('obj2', 'coffee table'), ('rel12', 'to')]
+words: Bring drinks coffee table to
+verb: Bring
+arg mapping: (drinks,CoffeeTable_1) (coffee table,CoffeeTable_1)
+<end clause>
+
+<start clause>
+start env: 23
+end env: 22
+sent:  . Bring the bowl to the coffee table  
+[('verb', 'Bring'), ('obj1', 'bowl'), ('obj2', 'coffee table'), ('rel12', 'to')]
+words: Bring bowl coffee table to
+verb: Bring
+arg mapping: (bowl,Bowl_1) (coffee table,CoffeeTable_1)
+<end clause>
+
+<start clause>
+start env: 23
+end env: 22
+sent:  .  Open the chips  
+[('verb', 'Open'), ('obj1', 'chips'), ('rel12', 'Null')]
+words: Open chips
+verb: Open
+arg mapping: (chips,BagOfChips_1)
+<end clause>
+
+<start clause>
+start env: 23
+end env: 22
+sent: and pour them into the bowl until it  
+[('verb', 'pour'), ('obj1', 'bowl'), ('rel12', 'Null')]
+words: pour bowl
+verb: pour
+arg mapping: (bowl,Bowl_1)
+<end clause>
+
+<start clause>
+start env: 33
+end env: 32
+sent:  is full . Move all chairs and tables so that they're against the walls  
+[('verb', 'Move'), ('obj1', 'chairs'), ('obj2', 'tables'), ('rel12', 'and')]
+words: Move chairs tables and
+verb: Move
+arg mapping: (chairs,Armchair_1) (chairs,Armchair_2) (tables,CoffeeTable_1) (tables,TvTable_1) (tables,SnackTable_1)
+<end clause>

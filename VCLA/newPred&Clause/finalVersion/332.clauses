@@ -1,0 +1,21 @@
+entire sentence: , Get coke and boiled egg out of the fridge   ,  Serve it   
+
+<start clause>
+start env: 0
+end env: 6
+sent: Get coke and boiled egg out of the fridge  
+[('verb', 'Get'), ('obj1', 'coke'), ('obj2', 'egg'), ('obj3', 'fridge'), ('rel12', 'and'), ('rel13', 'of'), ('rel23', 'of')]
+words: Get coke egg fridge and of of
+verb: Get
+arg mapping: (coke,Coke_1) (egg,BoiledEgg_1) (fridge,Fridge)
+<end clause>
+
+<start clause>
+start env: 18
+end env: 17
+sent:  . Serve it  
+[('verb', 'Serve'), ('obj1', 'it'), ('rel12', 'Null')]
+words: Serve it
+verb: Serve
+arg mapping: (it,FridgeLeftDoor) (it,FridgeRightDoor) (it,Coke_1) (it,BoiledEgg_1)
+<end clause>

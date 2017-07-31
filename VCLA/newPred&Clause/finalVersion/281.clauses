@@ -1,0 +1,51 @@
+entire sentence: , Take   pot,   fill with water,   put on burner,   and turn burner   on, wait until water boils   , until, until, until, until, until, until, 
+
+<start clause>
+start env: 3
+end env: 2
+sent: Take  
+[('verb', 'Take'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: Take
+verb: Take
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 3
+end env: 2
+sent:  pot,  
+[('verb', 'pot'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: pot
+verb: pot
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 8
+end env: 10
+sent:  fill with water,  
+[('verb', 'fill'), ('obj1', 'water'), ('rel12', 'Null')]
+words: fill water
+verb: fill
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 16
+end env: 17
+sent:  and turn burner  
+[('verb', 'turn'), ('obj1', 'burner'), ('rel12', 'Null')]
+words: turn burner
+verb: turn
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 17
+end env: 16
+sent: on, wait until water boils  
+[('verb', 'wait'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: wait
+verb: wait
+arg mapping: 
+<end clause>

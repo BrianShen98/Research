@@ -1,0 +1,12 @@
+entire sentence: , Pick up the coffee, put a little bit of ice cream and syrup   in it  in it , 
+
+<start clause>
+start env: 0
+end env: 25
+sent: Pick up the coffee, put a little bit of ice cream and syrup in it
+[('verb', 'Pick'), ('obj1', 'coffee'), ('rel12', 'Null')]
+[('verb', 'put'), ('obj1', 'ice cream'), ('obj2', 'syrup'), ('obj3', 'it'), ('rel12', 'and'), ('rel13', 'in'), ('rel23', 'in')]
+words: Pick coffee put ice cream syrup it and in in
+verb: Pick put
+arg mapping: (coffee,Mug_1) (ice cream,IceCream_1) (syrup,Syrup_1) (syrup,Syrup_2)
+<end clause>

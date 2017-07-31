@@ -1,0 +1,31 @@
+entire sentence: , Put all books of the shelf   ,  Put the garbage bag in the garbage bin   Put the garbage bag in the garbage bin , , Place the CD on the shelf   
+
+<start clause>
+start env: 4
+end env: 7
+sent: Put all books of the shelf  
+[('verb', 'Put'), ('obj1', 'books'), ('obj2', 'shelf'), ('rel12', 'of')]
+words: Put books shelf of
+verb: Put
+arg mapping: (books,Book_1) (books,Book_2) (shelf,Shelf_1) (shelf,Shelf_2)
+<end clause>
+
+<start clause>
+start env: 0
+end env: 3
+sent:  . Put the garbage bag in the garbage bin 
+[('verb', 'Put'), ('obj1', 'garbage'), ('obj2', 'bag'), ('obj3', 'garbage bin'), ('rel12', 'in'), ('rel13', 'in'), ('rel23', 'in')]
+words: Put garbage bag garbage bin in in in
+verb: Put
+arg mapping: (garbage,GarbageBag_1) (garbage,GarbageBin_1) (bag,BagOfChips_1) (bag,GarbageBag_1) (garbage bin,GarbageBin_1)
+<end clause>
+
+<start clause>
+start env: 5
+end env: 4
+sent:   Put the garbage bag in the garbage bin . Place the CD on the shelf  
+[('verb', 'Place'), ('obj1', 'CD'), ('obj2', 'shelf'), ('rel12', 'on')]
+words: Place CD shelf on
+verb: Place
+arg mapping: (CD,Cd_2) (CD,Cd_1) (shelf,Shelf_1) (shelf,Shelf_2)
+<end clause>

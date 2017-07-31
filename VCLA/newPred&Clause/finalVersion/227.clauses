@@ -1,0 +1,62 @@
+entire sentence: , Take glass out of cupboard   ,  Put orange juice in to the glass   ,  Take bowl out of cupboard ,  Add corn flakes   ,  Pour milk into bowl   ,  Put glass and bowl on tray   ,  Take tray to user   
+
+<start clause>
+start env: 0
+end env: -1
+sent: Take glass out of cupboard  
+[('verb', 'Take'), ('obj1', 'glass'), ('obj2', 'cupboard'), ('rel12', 'of')]
+words: Take glass cupboard of
+verb: Take
+arg mapping: (glass,Glass_1) (cupboard,LongCup_1) (cupboard,LongCup_2)
+<end clause>
+
+<start clause>
+start env: 0
+end env: -1
+sent:  . Put orange juice in to the glass  
+[('verb', 'Put'), ('obj1', 'juice'), ('obj2', 'glass'), ('rel12', 'in')]
+words: Put juice glass in
+verb: Put
+arg mapping: (juice,EnergyDrink_1) (glass,Glass_1)
+<end clause>
+
+<start clause>
+start env: 4
+end env: 3
+sent:  . Take bowl out of cupboard . Add corn flakes  
+[('verb', 'Take'), ('obj1', 'bowl'), ('obj2', 'cupboard'), ('rel12', 'out of')]
+[('verb', 'Add'), ('obj1', 'corn flakes'), ('rel12', 'Null')]
+words: Take bowl cupboard out of Add corn flakes
+verb: Take Add
+arg mapping: (bowl,Spoon_1) (bowl,Glass_1) (bowl,LongCup_1) (bowl,LongCup_2) (cupboard,LongCup_1) (cupboard,LongCup_2)
+<end clause>
+
+<start clause>
+start env: 4
+end env: 3
+sent:  . Pour milk into bowl  
+[('verb', 'Pour'), ('obj1', 'milk'), ('obj2', 'bowl'), ('rel12', 'into')]
+words: Pour milk bowl into
+verb: Pour
+arg mapping: (bowl,Spoon_1) (bowl,Glass_1) (bowl,LongCup_1) (bowl,LongCup_2)
+<end clause>
+
+<start clause>
+start env: 4
+end env: 3
+sent:  . Put glass and bowl on tray  
+[('verb', 'Put'), ('obj1', 'glass'), ('obj2', 'bowl'), ('obj3', 'tray'), ('rel12', 'and'), ('rel13', 'on'), ('rel23', 'on')]
+words: Put glass bowl tray and on on
+verb: Put
+arg mapping: (glass,Glass_1) (bowl,Spoon_1) (bowl,Glass_1) (bowl,LongCup_1) (bowl,LongCup_2) (tray,Plate_1) (tray,Plate_2)
+<end clause>
+
+<start clause>
+start env: 4
+end env: 3
+sent:  . Take tray to user  
+[('verb', 'Take'), ('obj1', 'user'), ('rel12', 'Null')]
+words: Take user
+verb: Take
+arg mapping: 
+<end clause>

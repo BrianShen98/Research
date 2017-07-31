@@ -1,0 +1,51 @@
+entire sentence: , Open the cup of instant ramen   halfway and fill it up with water from the sink   , ,  Flatten the cover   and put the instant ramen into the microwave   and cook it   for the specified time on the cup   , , 
+
+<start clause>
+start env: 0
+end env: 1
+sent: Open the cup of instant ramen  
+[('verb', 'Open'), ('obj1', 'cup'), ('obj2', 'ramen'), ('rel12', 'of')]
+words: Open cup ramen of
+verb: Open
+arg mapping: (cup,LongCup_1) (cup,LongCup_2) (ramen,Ramen_1)
+<end clause>
+
+<start clause>
+start env: 13
+end env: 12
+sent:  halfway and fill it up with water from the sink  
+[('verb', 'halfway'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: halfway
+verb: halfway
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 13
+end env: 14
+sent:  . Flatten the cover  
+[('verb', 'Flatten'), ('obj1', 'cover'), ('rel12', 'Null')]
+words: Flatten cover
+verb: Flatten
+arg mapping: (cover,StoveFire_1) (cover,StoveFire_2) (cover,StoveFire_3) (cover,StoveFire_4)
+<end clause>
+
+<start clause>
+start env: 15
+end env: 14
+sent:  and put the instant ramen into the microwave  
+[('verb', 'put'), ('obj1', 'ramen'), ('obj2', 'microwave'), ('rel12', 'into')]
+words: put ramen microwave into
+verb: put
+arg mapping: (ramen,Ramen_1) (microwave,Microwave)
+<end clause>
+
+<start clause>
+start env: 15
+end env: 18
+sent:  and cook it  
+[('verb', 'cook'), ('obj1', 'it'), ('rel12', 'Null')]
+words: cook it
+verb: cook
+arg mapping: (it,LongCup_2) (it,InstantRamen_1) (it,Bowl_1)
+<end clause>

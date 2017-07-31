@@ -1,0 +1,41 @@
+entire sentence: , Fill the long cup with ramen   ,  Read the instructions on the ramen container   to find out the necessary amount of water and microwaving time   , ,  Add the water to the long cup and microwave   
+
+<start clause>
+start env: 0
+end env: 3
+sent: Fill the long cup with ramen  
+[('verb', 'Fill'), ('obj1', 'cup'), ('obj2', 'ramen'), ('rel12', 'with')]
+words: Fill cup ramen with
+verb: Fill
+arg mapping: (cup,LongCup_1) (cup,LongCup_2) (ramen,Ramen_1)
+<end clause>
+
+<start clause>
+start env: 5
+end env: 15
+sent:  . Read the instructions on the ramen container  
+[('verb', 'Read'), ('obj1', 'instructions'), ('obj2', 'ramen container'), ('rel12', 'on')]
+words: Read instructions ramen container on
+verb: Read
+arg mapping: (ramen container,Ramen_1) (ramen container,InstantRamen_1)
+<end clause>
+
+<start clause>
+start env: 16
+end env: 15
+sent:  to find out the necessary amount of water and microwaving time  
+[('verb', 'find'), ('obj1', 'amount'), ('obj2', 'water'), ('rel12', 'of')]
+words: find amount water of
+verb: find
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 22
+end env: 21
+sent:  . Add the water to the long cup and microwave  
+[('verb', 'Add'), ('obj1', 'water'), ('obj2', 'cup'), ('obj3', 'microwave'), ('rel12', 'to'), ('rel13', 'to'), ('rel23', 'and')]
+words: Add water cup microwave to to and
+verb: Add
+arg mapping: (cup,LongCup_1) (cup,LongCup_2) (microwave,Microwave)
+<end clause>

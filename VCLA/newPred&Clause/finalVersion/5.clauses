@@ -1,0 +1,32 @@
+entire sentence: , Turn on the music   ,  Place beer and chips onto the table   ,  Move all furniture to the sides of the room   
+
+<start clause>
+start env: 0
+end env: -1
+sent: Turn on the music  
+[('verb', 'Turn'), ('obj1', 'music'), ('rel12', 'Null')]
+words: Turn music
+verb: Turn
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 0
+end env: 3
+sent:  . Place beer and chips onto the table  
+[('verb', 'Place'), ('obj1', 'beer'), ('obj2', 'chips'), ('obj3', 'table'), ('rel12', 'and'), ('rel13', 'onto'), ('rel23', 'onto')]
+words: Place beer chips table and onto onto
+verb: Place
+arg mapping: (beer,Beer_1) (chips,BagOfChips_1) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1)
+<end clause>
+
+<start clause>
+start env: 3
+end env: 2
+sent:  . Pour chips into the bowl . Move all furniture to the sides of the room
+[('verb', 'Pour'), ('obj1', 'chips'), ('obj2', 'bowl'), ('rel12', 'into')]
+[('verb', 'Move'), ('obj1', 'furniture'), ('obj2', 'sides'), ('obj3', 'room'), ('rel12', 'to'), ('rel13', 'to'), ('rel23', 'of')]
+words: Pour chips bowl into Move furniture sides room to to of
+verb: Pour Move
+arg mapping: (chips,BagOfChips_1) (bowl,Bowl_1) (furniture,TvTable_1)
+<end clause>

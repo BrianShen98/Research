@@ -1,0 +1,111 @@
+entire sentence: , Place the Xbox and Xbox controller   underneath the television console ,  Place   all of the couches on one side of the wall, preferably facing the television   , ,  Place all of the beer and bags of chips on the white counter   ,  Place the garbage bin near the white counter   ,  Place the trash bag inside the garbage bin   ,  Turn on the television   to channel   3 and increase the volume   to 50 , , ,  Place the CD's on a shelf   ,  Place   the coke can on the counter along with the beer and chips   , 
+
+<start clause>
+start env: 0
+end env: 5
+sent: Place the Xbox and Xbox controller  
+[('verb', 'Place'), ('obj1', 'Xbox'), ('obj2', 'Xbox controller'), ('rel12', 'and')]
+words: Place Xbox Xbox controller and
+verb: Place
+arg mapping: (Xbox,Xbox_1) (Xbox controller,XboxController_1)
+<end clause>
+
+<start clause>
+start env: 6
+end env: 5
+sent:  underneath the television console . Place  
+[('verb', 'underneath'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: underneath
+verb: underneath
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 6
+end env: 5
+sent:  all of the couches on one side of the wall, preferably facing the television  
+[('verb', 'facing'), ('obj1', 'couches'), ('obj2', 'side'), ('obj3', 'wall'), ('obj4', 'television'), ('rel12', 'on'), ('rel13', 'on'), ('rel14', 'on'), ('rel23', 'of'), ('rel24', 'of'), ('rel34', ',')]
+words: facing couches side wall television on on on of of ,
+verb: facing
+arg mapping: (couches,Loveseat_1) (television,Tv_1)
+<end clause>
+
+<start clause>
+start env: 6
+end env: 11
+sent:  . Place all of the beer and bags of chips on the white counter  
+[('verb', 'Place'), ('obj1', 'beer'), ('obj2', 'bags'), ('obj3', 'chips'), ('obj4', 'counter'), ('rel12', 'and'), ('rel13', 'of'), ('rel14', 'of'), ('rel23', 'of'), ('rel24', 'of'), ('rel34', 'on')]
+words: Place beer bags chips counter and of of of of on
+verb: Place
+arg mapping: (beer,Beer_1) (bags,BagOfChips_1) (bags,GarbageBag_1) (chips,BagOfChips_1) (counter,TvTable_1)
+<end clause>
+
+<start clause>
+start env: 12
+end env: 11
+sent:  . Place the garbage bin near the white counter  
+[('verb', 'Place'), ('obj1', 'garbage'), ('obj2', 'bin'), ('obj3', 'counter'), ('rel12', 'near'), ('rel13', 'near'), ('rel23', 'near')]
+words: Place garbage bin counter near near near
+verb: Place
+arg mapping: (garbage,GarbageBag_1) (garbage,GarbageBin_1) (bin,GarbageBin_1) (counter,TvTable_1)
+<end clause>
+
+<start clause>
+start env: 12
+end env: 15
+sent:  . Place the trash bag inside the garbage bin  
+[('verb', 'Place'), ('obj1', 'trash'), ('obj2', 'bag'), ('obj3', 'garbage bin'), ('rel12', 'inside'), ('rel13', 'inside'), ('rel23', 'inside')]
+words: Place trash bag garbage bin inside inside inside
+verb: Place
+arg mapping: (bag,BagOfChips_1) (bag,GarbageBag_1) (garbage bin,GarbageBin_1)
+<end clause>
+
+<start clause>
+start env: 16
+end env: 19
+sent:  . Turn on the television  
+[('verb', 'Turn'), ('obj1', 'television'), ('rel12', 'Null')]
+words: Turn television
+verb: Turn
+arg mapping: (television,Tv_1)
+<end clause>
+
+<start clause>
+start env: 18
+end env: 17
+sent:  to channel 3 
+[('verb', 'channel'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: channel
+verb: channel
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 25
+end env: 24
+sent:   and increase the volume  
+[('verb', 'increase'), ('obj1', 'volume'), ('rel12', 'Null')]
+words: increase volume
+verb: increase
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 28
+end env: 27
+sent:  . Place  
+[('verb', 'Place'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: Place
+verb: Place
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 28
+end env: 27
+sent:  the coke can on the counter along with the beer and chips  
+[('verb', 'counter'), ('obj1', 'coke'), ('obj2', 'beer'), ('obj3', 'chips'), ('rel12', 'on'), ('rel13', 'on'), ('rel23', 'and')]
+words: counter coke beer chips on on and
+verb: counter
+arg mapping: (coke,Coke_1) (beer,Beer_1) (chips,BagOfChips_1)
+<end clause>

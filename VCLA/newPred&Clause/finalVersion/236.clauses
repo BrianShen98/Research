@@ -1,0 +1,41 @@
+entire sentence: , Gather all the cups, plates, mugs, pots, and utensils   and put them in the sink one at a time   , ,  Gather the mustard and chocolate syrup   and put it in the fridge   , 
+
+<start clause>
+start env: 0
+end env: 25
+sent: Gather all the cups, plates, mugs, pots, and utensils  
+[('verb', 'Gather'), ('obj1', 'cups'), ('obj2', 'plates'), ('obj3', 'mugs'), ('obj4', 'pots'), ('obj5', 'utensils'), ('rel12', ','), ('rel13', ','), ('rel14', ','), ('rel15', ','), ('rel23', ','), ('rel24', ','), ('rel25', ','), ('rel34', ','), ('rel35', ','), ('rel45', ',')]
+words: Gather cups plates mugs pots utensils , , , , , , , , , ,
+verb: Gather
+arg mapping: (cups,LongCup_1) (cups,LongCup_2) (plates,Plate_1) (plates,Plate_2) (mugs,Mug_1) (pots,Kettle)
+<end clause>
+
+<start clause>
+start env: 26
+end env: 49
+sent:  and put them in the sink one at a time  
+[('verb', 'put'), ('obj1', 'sink'), ('obj2', 'one'), ('obj3', 'time'), ('rel12', 'at'), ('rel13', 'at'), ('rel23', 'at')]
+words: put sink one time at at at
+verb: put
+arg mapping: (sink,Sink)
+<end clause>
+
+<start clause>
+start env: 50
+end env: 49
+sent:  . Gather the mustard and chocolate syrup  
+[('verb', 'Gather'), ('obj1', 'mustard'), ('obj2', 'chocolate syrup'), ('rel12', 'and')]
+words: Gather mustard chocolate syrup and
+verb: Gather
+arg mapping: (chocolate syrup,Syrup_1) (chocolate syrup,Syrup_2)
+<end clause>
+
+<start clause>
+start env: 55
+end env: 54
+sent:  and put it in the fridge  
+[('verb', 'put'), ('obj1', 'it'), ('obj2', 'fridge'), ('rel12', 'in')]
+words: put it fridge in
+verb: put
+arg mapping: (it,Sink) (it,Fridge) (it,FridgeLeftDoor) (it,Syrup_1) (it,LongCup_2) (fridge,Fridge)
+<end clause>

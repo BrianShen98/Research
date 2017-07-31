@@ -1,0 +1,31 @@
+entire sentence: , Take the mug of coffee   and add ice cream to it   , ,  Then, add chocolate syrup to the mug   
+
+<start clause>
+start env: 0
+end env: 1
+sent: Take the mug of coffee  
+[('verb', 'Take'), ('obj1', 'mug'), ('obj2', 'coffee'), ('rel12', 'of')]
+words: Take mug coffee of
+verb: Take
+arg mapping: (mug,Mug_1) (coffee,Mug_1)
+<end clause>
+
+<start clause>
+start env: 2
+end env: 14
+sent:  and add ice cream to it  
+[('verb', 'add'), ('obj1', 'ice'), ('obj2', 'cream'), ('obj3', 'it'), ('rel12', 'to'), ('rel13', 'to'), ('rel23', 'to')]
+words: add ice cream it to to to
+verb: add
+arg mapping: (ice,IceCream_1) (ice,IceCreamScoop) (cream,IceCream_1) (cream,IceCreamScoop) (it,Mug_1)
+<end clause>
+
+<start clause>
+start env: 19
+end env: 21
+sent:  . Then, add chocolate syrup to the mug  
+[('verb', 'add'), ('obj1', 'chocolate'), ('obj2', 'syrup'), ('obj3', 'mug'), ('rel12', 'to'), ('rel13', 'to'), ('rel23', 'to')]
+words: add chocolate syrup mug to to to
+verb: add
+arg mapping: (chocolate,Syrup_2) (syrup,Syrup_1) (syrup,Syrup_2) (mug,Mug_1)
+<end clause>

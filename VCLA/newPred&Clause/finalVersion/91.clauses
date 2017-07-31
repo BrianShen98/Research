@@ -1,0 +1,51 @@
+entire sentence: , Organize the chairs so that they face the TV   , ,  Put the pillows on the chairs   ,  Put the chips in the bowl   ,  Turn   to channel 3 on the TV   , 
+
+<start clause>
+start env: 0
+end env: -1
+sent: Organize the chairs so that they face the TV  
+[('verb', 'Organize'), ('obj1', 'chairs'), ('rel12', 'Null')]
+words: Organize chairs
+verb: Organize
+arg mapping: (chairs,Armchair_1) (chairs,Armchair_2) (chairs,Armchair_3) (chairs,Armchair_4)
+<end clause>
+
+<start clause>
+start env: 0
+end env: 13
+sent:  . Put the pillows on the chairs  
+[('verb', 'Put'), ('obj1', 'pillows'), ('obj2', 'chairs'), ('rel12', 'on')]
+words: Put pillows chairs on
+verb: Put
+arg mapping: (pillows,Pillow_1) (pillows,Pillow_2) (pillows,Pillow_3) (pillows,Pillow_4) (chairs,Armchair_1) (chairs,Armchair_2) (chairs,Armchair_3) (chairs,Armchair_4)
+<end clause>
+
+<start clause>
+start env: 14
+end env: 19
+sent:  . Put the chips in the bowl  
+[('verb', 'Put'), ('obj1', 'chips'), ('obj2', 'bowl'), ('rel12', 'in')]
+words: Put chips bowl in
+verb: Put
+arg mapping: (chips,BagOfChips_1) (bowl,Bowl_1)
+<end clause>
+
+<start clause>
+start env: 20
+end env: 19
+sent:  . Turn  
+[('verb', 'Turn'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: Turn
+verb: Turn
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 21
+end env: 22
+sent:  to channel 3 on the TV  
+[('verb', 'channel'), ('obj1', 'TV'), ('rel12', 'Null')]
+words: channel TV
+verb: channel
+arg mapping: (TV,Tv_1)
+<end clause>

@@ -1,0 +1,11 @@
+entire sentence: , Have   some drink and food being   served   , 
+
+<start clause>
+start env: 0
+end env: -1
+sent:   some drink and food being  
+[('verb', 'being'), ('obj1', 'drink'), ('obj2', 'food'), ('rel12', 'and')]
+words: being drink food and
+verb: being
+arg mapping: (drink,EnergyDrink_1)
+<end clause>

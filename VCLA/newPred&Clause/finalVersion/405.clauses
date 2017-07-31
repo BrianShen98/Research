@@ -1,0 +1,31 @@
+entire sentence: , Take the icecream out of the freezer   and put several scoops in the cup with the coffee in it   , ,  Put chocolate and vanilla syrup on top   
+
+<start clause>
+start env: 0
+end env: 3
+sent: Take the icecream out of the freezer  
+[('verb', 'Take'), ('obj1', 'icecream'), ('obj2', 'freezer'), ('rel12', 'of')]
+words: Take icecream freezer of
+verb: Take
+arg mapping: (icecream,IceCream_1) (freezer,Fridge)
+<end clause>
+
+<start clause>
+start env: 4
+end env: 12
+sent:  and put several scoops in the cup with the coffee in it  
+[('verb', 'put'), ('obj1', 'scoops'), ('obj2', 'cup'), ('obj3', 'coffee'), ('obj4', 'it'), ('rel12', 'in'), ('rel13', 'in'), ('rel14', 'in'), ('rel23', 'with'), ('rel24', 'with'), ('rel34', 'in')]
+words: put scoops cup coffee it in in in with with in
+verb: put
+arg mapping: (scoops,IceCreamScoop) (cup,LongCup_1) (cup,LongCup_2) (coffee,Mug_1) (it,Fridge) (it,FridgeLeftDoor) (it,IceCream_1)
+<end clause>
+
+<start clause>
+start env: 13
+end env: 19
+sent:  . Put chocolate and vanilla syrup on top  
+[('verb', 'Put'), ('obj1', 'chocolate'), ('obj2', 'vanilla syrup'), ('obj3', 'top'), ('rel12', 'and'), ('rel13', 'on'), ('rel23', 'on')]
+words: Put chocolate vanilla syrup top and on on
+verb: Put
+arg mapping: (chocolate,Syrup_2) (vanilla syrup,Syrup_1) (vanilla syrup,Syrup_2)
+<end clause>

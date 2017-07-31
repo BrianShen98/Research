@@ -1,0 +1,21 @@
+entire sentence: , Fill the pot with water from the sink   ,  Boil the pot on the stove   
+
+<start clause>
+start env: 0
+end env: 4
+sent: Fill the pot with water from the sink  
+[('verb', 'Fill'), ('obj1', 'pot'), ('obj2', 'water'), ('obj3', 'sink'), ('rel12', 'with'), ('rel13', 'with'), ('rel23', 'from')]
+words: Fill pot water sink with with from
+verb: Fill
+arg mapping: (pot,Kettle) (sink,Sink)
+<end clause>
+
+<start clause>
+start env: 20
+end env: 26
+sent:  . Boil the pot on the stove  
+[('verb', 'Boil'), ('obj1', 'pot'), ('obj2', 'stove'), ('rel12', 'on')]
+words: Boil pot stove on
+verb: Boil
+arg mapping: (pot,Kettle) (stove,Stove)
+<end clause>

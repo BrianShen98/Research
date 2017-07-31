@@ -1,12 +1,13 @@
 #!/usr/bin/python
 import sys,string,re
-
+from collections import OrderedDict
 def formatRel():
     for i in range(469):
         with open("./{}.clauses".format(i)) as inFile:
-            for line in inFile:
+            with open ("../finalVersion/{}.clauses".format(i),"w+") as outFile:
+                for line in inFile:
                     if "clause dscr:" in line:
-                        clause = {}
+                        clause = OrderedDict()
                         #delete "clause dscr" and ']'
                         str0 = re.sub(r"clause dscr:\s*",'',line).strip(']\n')
                         #extract verb
@@ -43,11 +44,12 @@ def formatRel():
                                     for l in range (k,objLength):
                                         clause["rel{}{}".format(k,l+1)] = re.match(r"^{.*->(.*)}$",rel[index]).group(1).strip()
                                         index +=1
-
-                                    
+                        outFile.write(str(clause.items())+'\n')
+                    else:
+                        outFile.write(line)
                         
                                     
-                        print("File{}\n{}".format(i,clause))
+                        #print("File{}\n{}".format(i,clause))
                         
                         
                     

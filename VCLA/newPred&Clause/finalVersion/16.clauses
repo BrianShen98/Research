@@ -1,0 +1,53 @@
+entire sentence: , Turn off the TV   , 
+Put the Bag of Chips on the shelf   ,  Also, put the beer, the coke and the bowl on the shelf   , 
+Look for books   and if you find any put them on the table   , , 
+
+<start clause>
+start env: 0
+end env: 1
+sent: Turn off the TV  
+[('verb', 'Turn'), ('obj1', 'TV'), ('rel12', 'Null')]
+words: Turn TV
+verb: Turn
+arg mapping: (TV,Tv_1)
+<end clause>
+
+<start clause>
+start env: 2
+end env: 5
+sent:  .Put the Bag of Chips on the shelf  
+[('verb', 'Put'), ('obj1', 'Bag'), ('obj2', 'Chips'), ('obj3', 'shelf'), ('rel12', 'of'), ('rel13', 'of'), ('rel23', 'on')]
+words: Put Bag Chips shelf of of on
+verb: Put
+arg mapping: (Bag,BagOfChips_1) (Bag,GarbageBag_1) (Chips,BagOfChips_1) (shelf,Shelf_1) (shelf,Shelf_2)
+<end clause>
+
+<start clause>
+start env: 6
+end env: 15
+sent:  . Also, put the beer, the coke and the bowl on the shelf  
+[('verb', 'put'), ('obj1', 'beer'), ('obj2', 'coke'), ('obj3', 'bowl'), ('obj4', 'shelf'), ('rel12', ','), ('rel13', ','), ('rel14', ','), ('rel23', 'and'), ('rel24', 'on'), ('rel34', 'on')]
+words: put beer coke bowl shelf , , , and on on
+verb: put
+arg mapping: (beer,Beer_1) (coke,Coke_1) (bowl,Bowl_1) (shelf,Shelf_1) (shelf,Shelf_2)
+<end clause>
+
+<start clause>
+start env: 15
+end env: 14
+sent:  .Look for books  
+[('verb', 'Look'), ('obj1', 'books'), ('rel12', 'Null')]
+words: Look books
+verb: Look
+arg mapping: (books,Book_1) (books,Book_2)
+<end clause>
+
+<start clause>
+start env: 15
+end env: 14
+sent: and if you find any put them on the table  
+[('verb', 'put'), ('obj1', 'table'), ('rel12', 'Null')]
+words: put table
+verb: put
+arg mapping: (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1)
+<end clause>

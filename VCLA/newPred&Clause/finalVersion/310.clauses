@@ -1,0 +1,31 @@
+entire sentence: , get the books   and close the tv   and prepare food   , , 
+
+<start clause>
+start env: 0
+end env: 3
+sent: get the books  
+[('verb', 'get'), ('obj1', 'books'), ('rel12', 'Null')]
+words: get books
+verb: get
+arg mapping: (books,Book_1) (books,Book_2)
+<end clause>
+
+<start clause>
+start env: 4
+end env: 7
+sent:  and close the tv  
+[('verb', 'close'), ('obj1', 'tv'), ('rel12', 'Null')]
+words: close tv
+verb: close
+arg mapping: (tv,Tv_1)
+<end clause>
+
+<start clause>
+start env: 7
+end env: 6
+sent:  and prepare food  
+[('verb', 'prepare'), ('obj1', 'food'), ('rel12', 'Null')]
+words: prepare food
+verb: prepare
+arg mapping: 
+<end clause>

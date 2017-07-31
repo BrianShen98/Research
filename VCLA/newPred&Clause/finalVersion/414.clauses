@@ -1,0 +1,33 @@
+entire sentence: , Pick up kettle, put   down kettle on the burner, turn on burner  down kettle on the burner, turn on burner , 
+
+<start clause>
+start env: 0
+end env: 1
+sent: Pick up kettle  
+[('verb', 'Pick'), ('obj1', 'kettle'), ('rel12', 'Null')]
+words: Pick kettle
+verb: Pick
+arg mapping: (kettle,Kettle)
+<end clause>
+
+<start clause>
+start env: 2
+end env: 5
+sent: put down kettle on the burner, turn on burner 
+[('verb', 'put'), ('obj1', 'kettle'), ('obj2', 'burner'), ('rel12', 'on')]
+[('verb', 'turn'), ('obj1', 'burner'), ('rel12', 'Null')]
+words: put kettle burner on turn burner
+verb: put turn
+arg mapping: (kettle,Kettle)
+<end clause>
+
+<start clause>
+start env: 4
+end env: 3
+sent: put down kettle on the burner, turn on burner .
+[('verb', 'put'), ('obj1', 'kettle'), ('obj2', 'burner'), ('rel12', 'on')]
+[('verb', 'turn'), ('obj1', 'burner'), ('rel12', 'Null')]
+words: put kettle burner on turn burner
+verb: put turn
+arg mapping: (kettle,Kettle)
+<end clause>

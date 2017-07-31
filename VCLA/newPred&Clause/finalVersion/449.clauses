@@ -1,0 +1,61 @@
+entire sentence: , Open the freezer,   grab the ice cream   inside , ,  Prepare a mug with coffee,   then pour the coffee into the white bowl on the counter   , ,  Put two scoops of ice cream into this white bowl,   then put vanilla and chocolate syrup over it   , 
+
+<start clause>
+start env: 0
+end env: 1
+sent: Open the freezer,  
+[('verb', 'Open'), ('obj1', 'freezer'), ('rel12', 'Null')]
+words: Open freezer
+verb: Open
+arg mapping: (freezer,Fridge)
+<end clause>
+
+<start clause>
+start env: 2
+end env: 3
+sent:  grab the ice cream  
+[('verb', 'grab'), ('obj1', 'ice cream'), ('rel12', 'Null')]
+words: grab ice cream
+verb: grab
+arg mapping: (ice cream,IceCream_1)
+<end clause>
+
+<start clause>
+start env: 4
+end env: 8
+sent:  inside . Prepare a mug with coffee,  
+[('verb', 'Prepare'), ('obj1', 'mug'), ('obj2', 'coffee'), ('rel12', 'with')]
+words: Prepare mug coffee with
+verb: Prepare
+arg mapping: (mug,Mug_1) (coffee,Mug_1)
+<end clause>
+
+<start clause>
+start env: 9
+end env: 10
+sent:  then pour the coffee into the white bowl on the counter  
+[('verb', 'pour'), ('obj1', 'coffee'), ('obj2', 'bowl'), ('obj3', 'counter'), ('rel12', 'into'), ('rel13', 'into'), ('rel23', 'on')]
+words: pour coffee bowl counter into into on
+verb: pour
+arg mapping: (coffee,Mug_1) (bowl,Bowl_1) (counter,Counter_1)
+<end clause>
+
+<start clause>
+start env: 11
+end env: 15
+sent:  . Put two scoops of ice cream into this white bowl,  
+[('verb', 'Put'), ('obj1', 'scoops'), ('obj2', 'ice cream'), ('obj3', 'bowl'), ('rel12', 'of'), ('rel13', 'of'), ('rel23', 'into')]
+words: Put scoops ice cream bowl of of into
+verb: Put
+arg mapping: (scoops,IceCreamScoop) (ice cream,IceCream_1) (bowl,Bowl_1)
+<end clause>
+
+<start clause>
+start env: 26
+end env: 25
+sent:  then put vanilla and chocolate syrup over it  
+[('verb', 'put'), ('obj1', 'vanilla'), ('obj2', 'chocolate syrup'), ('obj3', 'it'), ('rel12', 'and'), ('rel13', 'over'), ('rel23', 'over')]
+words: put vanilla chocolate syrup it and over over
+verb: put
+arg mapping: (vanilla,Syrup_1) (chocolate syrup,Syrup_1) (chocolate syrup,Syrup_2) (it,IceCream_1) (it,Syrup_2) (it,Bowl_1)
+<end clause>

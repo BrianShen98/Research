@@ -1,0 +1,81 @@
+entire sentence: , Place the TV remote on the center table   ,  Bring the xBox and Xbox controllers   in front of the television ,  Plug in the Xbox to the television   and activate all game controllers   , ,  Place the controllers on the center table   ,  Place the bowl of food, beer, and coke on the center table   ,  Fix the pillows on the couch   ,  Put the garbage bag inside the garbage bin and place the bin near the two seater couch  Put the garbage bag inside the garbage bin and place the bin near the two seater   couch , , , 
+
+<start clause>
+start env: 0
+end env: 3
+sent: Place the TV remote on the center table  
+[('verb', 'Place'), ('obj1', 'TV remote'), ('obj2', 'center table'), ('rel12', 'on')]
+words: Place TV remote center table on
+verb: Place
+arg mapping: (TV remote,Tv_1Remote_1) (TV remote,Tv_1Remote_1PowerButton) (TV remote,Tv_1Remote_1ChannelUpButton) (TV remote,Tv_1Remote_1ChannelDownButton) (TV remote,Tv_1Remote_1VolumeUpButton) (TV remote,Tv_1Remote_1VolumeDownButton) (TV remote,Tv_1Remote_1MuteButton) (center table,CoffeeTable_1) (center table,TvTable_1) (center table,SnackTable_1)
+<end clause>
+
+<start clause>
+start env: 6
+end env: 11
+sent:  . Bring the xBox and Xbox controllers in front of the television . 
+[('verb', 'Bring'), ('obj1', 'xBox'), ('obj2', 'Xbox controllers'), ('obj3', 'television'), ('rel12', 'and'), ('rel13', 'in front of'), ('rel23', 'in front of')]
+words: Bring xBox Xbox controllers television and in front of in front of
+verb: Bring
+arg mapping: (xBox,Xbox_1) (Xbox controllers,XboxController_1) (television,Tv_1)
+<end clause>
+
+<start clause>
+start env: 12
+end env: 11
+sent:   Plug in the Xbox to the television  
+[('verb', 'Plug'), ('obj1', 'Xbox'), ('obj2', 'television'), ('rel12', 'to')]
+words: Plug Xbox television to
+verb: Plug
+arg mapping:(xBox,Xbox_1) (television,Tv_1)
+<end clause>
+
+<start clause>
+start env: 12
+end env: 11
+sent:  and activate all game controllers  
+[('verb', 'activate'), ('obj1', 'game controllers'), ('rel12', 'Null')]
+words: activate game controllers
+verb: activate
+arg mapping: (game controllers,XboxController_1)
+<end clause>
+
+<start clause>
+start env: 12
+end env: 12
+sent:  . Place the controllers on the center table  
+[('verb', 'Place'), ('obj1', 'controllers'), ('obj2', 'center table'), ('rel12', 'on')]
+words: Place controllers center table on
+verb: Place
+arg mapping: (controllers,XboxController_1) (center table,CoffeeTable_1) (center table,TvTable_1) (center table,SnackTable_1)
+<end clause>
+
+<start clause>
+start env: 13
+end env: 21
+sent:  . Place the bowl of food, beer, and coke on the center table  
+[('verb', 'Place'), ('obj1', 'bowl'), ('obj2', 'food'), ('obj3', 'beer coke'), ('obj4', 'center table'), ('rel12', 'of'), ('rel13', 'of'), ('rel14', 'of'), ('rel23', ','), ('rel24', ','), ('rel34', ',')]
+words: Place bowl food beer coke center table of of of , , ,
+verb: Place
+arg mapping: (bowl,Bowl_1) (beer coke,Coke_1) (beer coke,Beer_1) (center table,CoffeeTable_1) (center table,TvTable_1) (center table,SnackTable_1)
+<end clause>
+
+<start clause>
+start env: 22
+end env: 27
+sent:  . Fix the pillows on the couch  
+[('verb', 'Fix'), ('obj1', 'pillows'), ('obj2', 'couch'), ('rel12', 'on')]
+words: Fix pillows couch on
+verb: Fix
+arg mapping: (pillows,Pillow_1) (pillows,Pillow_2) (pillows,Pillow_3) (couch,Loveseat_1)
+<end clause>
+
+<start clause>
+start env: 30
+end env: 29
+sent:  . Put the garbage bag inside the garbage bin and place the bin near the two seater couch  Put the garbage bag inside the garbage bin and place the bin near the two seater  
+[('verb', 'Put'), ('obj1', 'garbage bag'), ('obj2', 'garbage bin'), ('rel12', 'inside')]
+words: Put garbage bag garbage bin inside 
+verb: Put
+arg mapping: (garbage bag,GarbageBag_1) (garbage bin,GarbageBin_1)
+<end clause>

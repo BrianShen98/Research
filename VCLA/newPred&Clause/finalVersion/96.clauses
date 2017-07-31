@@ -1,0 +1,33 @@
+entire sentence: , Prepare ramen and place in the mug   ,  Place the mug next to the plate on the kitchen table   , 
+Put food on the plate   
+
+<start clause>
+start env: 0
+end env: 12
+sent: Prepare ramen and place in the mug  
+[('verb', 'Prepare'), ('obj1', 'ramen'), ('rel12', 'Null')]
+[('verb', 'place'), ('obj1', 'mug'), ('rel12', 'Null')]
+words: Prepare ramen place mug
+verb: Prepare place
+arg mapping: (ramen,Ramen_1) (mug,Mug_1)
+<end clause>
+
+<start clause>
+start env: 22
+end env: 21
+sent:  . Place the mug next to the plate on the kitchen table  
+[('verb', 'Place'), ('obj1', 'mug'), ('obj2', 'plate'), ('obj3', 'kitchen table'), ('rel12', 'to'), ('rel13', 'to'), ('rel23', 'on')]
+words: Place mug plate kitchen table to to on
+verb: Place
+arg mapping: (mug,Mug_1) (plate,Plate_1) (plate,Plate_2)
+<end clause>
+
+<start clause>
+start env: 21
+end env: 20
+sent:  .Put food on the plate  
+[('verb', 'Put'), ('obj1', 'food'), ('obj2', 'plate'), ('rel12', 'on')]
+words: Put food plate on
+verb: Put
+arg mapping: (plate,Plate_1) (plate,Plate_2)
+<end clause>

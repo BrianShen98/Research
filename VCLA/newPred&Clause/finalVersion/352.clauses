@@ -1,0 +1,41 @@
+entire sentence: , Add coffee to the mug   and microwave it for 120 seconds   , ,   Using a spoon add two cups of ice cream carefully to the mug   , ,   Add one squirt of each chocolate and vanilla syrup to the mug   
+
+<start clause>
+start env: 0
+end env: 4
+sent: Add coffee to the mug  
+[('verb', 'Add'), ('obj1', 'coffee'), ('obj2', 'mug'), ('rel12', 'to')]
+words: Add coffee mug to
+verb: Add
+arg mapping: (coffee,Mug_1) (mug,Mug_1)
+<end clause>
+
+<start clause>
+start env: 5
+end env: 10
+sent:  and microwave it for 120 seconds  
+[('verb', 'microwave'), ('obj1', 'it'), ('rel12', 'Null')]
+words: microwave it
+verb: microwave
+arg mapping: (it,Mug_1) (it,Kettle)
+<end clause>
+
+<start clause>
+start env: 11
+end env: 16
+sent:  .  Using a spoon add two cups of ice cream carefully to the mug  
+[('verb', 'Using'), ('obj1', 'spoon'), ('rel12', 'Null')]
+words: Using spoon
+verb: Using
+arg mapping: (spoon,Spoon_1)
+<end clause>
+
+<start clause>
+start env: 16
+end env: 15
+sent:  .  Add one squirt of each chocolate and vanilla syrup to the mug  
+[('verb', 'Add'), ('obj1', 'squirt'), ('obj2', 'chocolate'), ('obj3', 'vanilla syrup'), ('obj4', 'mug'), ('rel12', 'of'), ('rel13', 'of'), ('rel14', 'of'), ('rel23', 'and'), ('rel24', 'to'), ('rel34', 'to')]
+words: Add squirt chocolate vanilla syrup mug of of of and to to
+verb: Add
+arg mapping: (chocolate,Syrup_2) (vanilla syrup,Syrup_1) (vanilla syrup,Syrup_2) (mug,Mug_1)
+<end clause>

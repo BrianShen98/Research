@@ -1,0 +1,63 @@
+entire sentence: , Pick   up xbox, put   down xbox, pick up chips   and dip, pick   up pillows, put down pillows on couch,  up pillows, put down pillows on couch,  up pillows, put down pillows on couch , , , , 
+
+<start clause>
+start env: 0
+end env: 1
+sent: Pick up xbox 
+[('verb', 'Pick'), ('obj1', 'xbox'), ('rel12', 'Null')]
+words: Pick xbox
+verb: Pick
+arg mapping: (xbox,Xbox_1)
+<end clause>
+
+<start clause>
+start env: 2
+end env: 3
+sent: put down xbox 
+[('verb', 'put'), ('obj1', 'xbox'), ('rel12', 'Null')]
+words: put xbox
+verb: put
+arg mapping: (xbox,Xbox_1)
+<end clause>
+
+<start clause>
+start env: 4
+end env: 5
+sent: pick up chips  
+[('verb', 'pick'), ('obj1', 'chips'), ('rel12', 'Null')]
+words: pick chips
+verb: pick
+arg mapping: (chips,BagOfChips_1)
+<end clause>
+
+<start clause>
+start env: 10
+end env: 9
+sent:  and dip  
+[('verb', 'dip'), ('obj1', 'Null'), ('rel12', 'Null')]
+words: dip
+verb: dip
+arg mapping:
+<end clause>
+
+<start clause>
+start env: 25
+end env: 24
+sent: pick up pillows, put down pillows on couch, pick up pillows, put down pillows on couch
+[('verb', 'pick'), ('obj1', 'pillows'), ('rel12', 'Null')]
+[('verb', 'put'), ('obj1', 'pillows'), ('obj2', 'couch'), ('rel12', 'on')]
+words: pick pillows put pillows couch on
+verb: pick put
+arg mapping: (pillows,Pillow_1) (pillows,Pillow_2) (pillows,Pillow_3) (pillows,Pillow_4) (pillows,Pillow_1) (pillows,Pillow_2) (pillows,Pillow_3) (pillows,Pillow_4) (couch,Loveseat_1)
+<end clause>
+
+<start clause>
+start env: 25
+end env: 24
+sent: pick up pillows, put down pillows on couch .
+[('verb', 'pick'), ('obj1', 'pillows'), ('rel12', 'Null')]
+[('verb', 'put'), ('obj1', 'pillows'), ('obj2', 'couch'), ('rel12', 'on')]
+words: pick pillows put pillows couch on
+verb: pick put
+arg mapping: (pillows,Pillow_1) (pillows,Pillow_2) (pillows,Pillow_3) (pillows,Pillow_4) (pillows,Pillow_1) (pillows,Pillow_2) (pillows,Pillow_3) (pillows,Pillow_4) (couch,Loveseat_1)
+<end clause>

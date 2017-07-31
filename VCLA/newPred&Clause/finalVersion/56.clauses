@@ -1,0 +1,92 @@
+entire sentence: , Place both books on the center table   ,  Hold the trash bag in one hand   and place the plate inside the bag   , ,  Place the empty coke can, beer, and bag of chips into the trash   bag ,  Arrange the couches   in the correct locations in the living room   , ,  Pick up Guiness book from the floor and place on desk   ,  turn off the lamp   ,  Place the three pillows on the couches   
+
+<start clause>
+start env: 0
+end env: 3
+sent: Place both books on the center table  
+[('verb', 'Place'), ('obj1', 'books'), ('obj2', 'center table'), ('rel12', 'on')]
+words: Place books center table on
+verb: Place
+arg mapping: (books,Book_1) (books,Book_2) (center table,CoffeeTable_1) (center table,TvTable_1) (center table,SnackTable_1)
+<end clause>
+
+<start clause>
+start env: 4
+end env: 5
+sent:  . Hold the trash bag in one hand  
+[('verb', 'Hold'), ('obj1', 'trash  bag'), ('obj2', 'hand'), ('rel12', 'in')]
+words: Hold trash bag hand in
+verb: Hold
+arg mapping: (trash bag,BagOfChips_1) (trash bag,GarbageBag_1)
+<end clause>
+
+<start clause>
+start env: 8
+end env: 7
+sent:  and place the plate inside the bag  
+[('verb', 'place'), ('obj1', 'plate'), ('obj2', 'bag'), ('rel12', 'inside')]
+words: place plate bag inside
+verb: place
+arg mapping: (plate,Plate_1) (bag,BagOfChips_1) (bag,GarbageBag_1)
+<end clause>
+
+<start clause>
+start env: 8
+end env: 17
+sent:  . Place the empty coke can, beer, and bag of chips into the trash bag . 
+[('verb', 'Place'), ('obj1', 'coke can'), ('obj2', 'beer'), ('obj3', 'bag'), ('obj4', 'chips'), ('obj5', 'trash bag'), ('rel12', ','), ('rel13', ','), ('rel14', ','), ('rel15', 'into'), ('rel23', ','), ('rel24', ','), ('rel25', 'into'), ('rel34', 'of'), ('rel35', ','), ('rel45', 'into')]
+words: Place coke can beer bag chips trash bag , , , into , , into of , into
+verb: Place
+arg mapping: (coke can,Coke_1) (beer,Beer_1) (bag,BagOfChips_1) (bag,GarbageBag_1) (chips,BagOfChips_1) (trash bag,BagOfChips_1) (trash bag,GarbageBag_1)
+<end clause>
+
+<start clause>
+start env: 18
+end env: 17
+sent: Arrange the couches  
+[('verb', 'Arrange'), ('obj1', 'couches'), ('rel12', 'Null')]
+words: Arrange couches
+verb: Arrange
+arg mapping: (couches,Loveseat_1)
+<end clause>
+
+<start clause>
+start env: 18
+end env: 17
+sent:  in the correct locations in the living room  
+[('verb', 'living'), ('obj1', 'locations'), ('obj2', 'room'), ('rel12', 'in')]
+words: living locations room in
+verb: living
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 18
+end env: 17
+sent:  . Pick up Guiness book from the floor and place on desk  
+[('verb', 'Pick'), ('obj1', 'Guiness book'), ('obj2', 'floor'), ('rel12', 'from')]
+[('verb', 'place'), ('obj1', 'desk'), ('rel12', 'Null')]
+words: Pick Guiness book floor from place desk
+verb: Pick place
+arg mapping: (GUiness book,Book_1) (Guiness book,Book_2)
+<end clause>
+
+<start clause>
+start env: 18
+end env: 17
+sent:  . turn off the lamp  
+[('verb', 'turn'), ('obj1', 'lamp'), ('rel12', 'Null')]
+words: turn lamp
+verb: turn
+arg mapping: (lamp,Lamp_1)
+<end clause>
+
+<start clause>
+start env: 18
+end env: 20
+sent:  . Place the three pillows on the couches  
+[('verb', 'Place'), ('obj1', 'pillows'), ('obj2', 'couches'), ('rel12', 'on')]
+words: Place pillows couches on
+verb: Place
+arg mapping: (pillows,Pillow_1) (pillows,Pillow_2) (pillows,Pillow_3) (pillows,Pillow_4) (couches,Loveseat_1)
+<end clause>

@@ -1,0 +1,41 @@
+entire sentence: , Go to the game system   and go to the xbox,   get the food   and arrange couch   , , , 
+
+<start clause>
+start env: 0
+end env: -1
+sent: Go to the game system  
+[('verb', 'Go'), ('obj1', 'game system'), ('rel12', 'Null')]
+words: Go game system
+verb: Go
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 0
+end env: 1
+sent:  and go to the xbox,  
+[('verb', 'go'), ('obj1', 'xbox'), ('rel12', 'Null')]
+words: go xbox
+verb: go
+arg mapping: (xbox,Xbox_1)
+<end clause>
+
+<start clause>
+start env: 4
+end env: 3
+sent:  get the food  
+[('verb', 'get'), ('obj1', 'food'), ('rel12', 'Null')]
+words: get food
+verb: get
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 3
+end env: 2
+sent:  and arrange couch  
+[('verb', 'arrange'), ('obj1', 'couch'), ('rel12', 'Null')]
+words: arrange couch
+verb: arrange
+arg mapping: (couch,Loveseat_1)
+<end clause>

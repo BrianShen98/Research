@@ -1,0 +1,44 @@
+entire sentence: , Put the game in the xbox   , 
+Place the xbox in front of the television   , 
+Place the bottle on the table   , 
+Move the couch in front of the television   
+
+<start clause>
+start env: 0
+end env: 4
+sent: Put the game in the xbox  
+[('verb', 'Put'), ('obj1', 'game'), ('obj2', 'xbox'), ('rel12', 'in')]
+words: Put game xbox in
+verb: Put
+arg mapping: (xbox,Xbox_1)
+<end clause>
+
+<start clause>
+start env: 5
+end env: 6
+sent:  .Place the xbox in front of the television  
+[('verb', 'Place'), ('obj1', 'xbox'), ('obj2', 'front'), ('obj3', 'television'), ('rel12', 'in'), ('rel13', 'in'), ('rel23', 'of')]
+words: Place xbox front television in in of
+verb: Place
+arg mapping: (xbox,Xbox_1) (television,Tv_1)
+<end clause>
+
+<start clause>
+start env: 7
+end env: 10
+sent:  .Place the bottle on the table  
+[('verb', 'Place'), ('obj1', 'bottle'), ('obj2', 'table'), ('rel12', 'on')]
+words: Place bottle table on
+verb: Place
+arg mapping: (bottle,Bowl_1) (table,CoffeeTable_1) (table,TvTable_1) (table,SnackTable_1)
+<end clause>
+
+<start clause>
+start env: 10
+end env: 9
+sent:  .Move the couch in front of the television  
+[('verb', 'Move'), ('obj1', 'couch'), ('obj2', 'front'), ('obj3', 'television'), ('rel12', 'in'), ('rel13', 'in'), ('rel23', 'of')]
+words: Move couch front television in in of
+verb: Move
+arg mapping: (couch,Loveseat_1) (television,Tv_1)
+<end clause>

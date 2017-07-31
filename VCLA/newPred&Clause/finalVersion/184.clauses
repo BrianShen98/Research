@@ -1,0 +1,11 @@
+entire sentence: , give me a cup of tea   
+
+<start clause>
+start env: 1
+end env: 0
+sent: give me a cup of tea  
+[('verb', 'give'), ('obj1', 'cup'), ('obj2', 'tea'), ('rel12', 'of')]
+words: give cup tea of
+verb: give
+arg mapping: (cup,Bowl_1)
+<end clause>

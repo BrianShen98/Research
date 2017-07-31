@@ -1,0 +1,25 @@
+entire sentence: , Bring all the textbooks. Turn off the TV. Bring food.  Bring all the textbooks. Turn off the TV. Bring food , , 
+
+<start clause>
+start env: 14
+end env: 13
+sent: Bring all the textbooks. Turn off the TV. Bring food 
+[('verb', 'Bring'), ('obj1', 'textbooks'), ('rel12', 'Null')]
+[('verb', 'Turn'), ('obj1', 'TV'), ('rel12', 'Null')]
+[('verb', 'Bring'), ('obj1', 'food'), ('rel12', 'Null')]
+words: Bring textbooks Turn TV Bring food 
+verb: Bring Turn Bring
+arg mapping: (textbooks,Book_1) (textbooks,Book_2) (TV ,TvTable_1) (TV,Tv_1) (TV ,Tv_1Remote_1) (TV ,Tv_1PowerButton) (TV ,Tv_1ChannelUpButton) (TV ,Tv_1ChannelDownButton) (TV ,Tv_1VolumeUpButton) (TV ,Tv_1VolumeDownButton) (TV ,Tv_1Remote_1PowerButton) (TV ,Tv_1Remote_1ChannelUpButton) (TV ,Tv_1Remote_1ChannelDownButton) (TV ,Tv_1Remote_1VolumeUpButton) (TV ,Tv_1Remote_1VolumeDownButton) (TV ,Tv_1Remote_1MuteButton)
+<end clause>
+
+<start clause>
+start env: 14
+end env: 13
+sent: Bring all the textbooks. Turn off the TV. Bring food 
+[('verb', 'Bring'), ('obj1', 'textbooks'), ('rel12', 'Null')]
+[('verb', 'Turn'), ('obj1', 'TV'), ('rel12', 'Null')]
+[('verb', 'Bring'), ('obj1', 'food'), ('rel12', 'Null')]
+words: Bring textbooks Turn TV Bring food 
+verb: Bring Turn Bring
+arg mapping: (textbooks,Book_1) (textbooks,Book_2) (TV ,TvTable_1) (TV,Tv_1) (TV ,Tv_1Remote_1) (TV ,Tv_1PowerButton) (TV ,Tv_1ChannelUpButton) (TV ,Tv_1ChannelDownButton) (TV ,Tv_1VolumeUpButton) (TV ,Tv_1VolumeDownButton) (TV ,Tv_1Remote_1PowerButton) (TV ,Tv_1Remote_1ChannelUpButton) (TV ,Tv_1Remote_1ChannelDownButton) (TV ,Tv_1Remote_1VolumeUpButton) (TV ,Tv_1Remote_1VolumeDownButton) (TV ,Tv_1Remote_1MuteButton)
+<end clause>

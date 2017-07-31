@@ -1,0 +1,31 @@
+entire sentence: , Take the coffee   ,  Pour it to the mug   ,  Put ice cream and the syrup to the mug   
+
+<start clause>
+start env: 0
+end env: -1
+sent: Take the coffee  
+[('verb', 'Take'), ('obj1', 'coffee'), ('rel12', 'Null')]
+words: Take coffee
+verb: Take
+arg mapping: (coffee,Mug_1)
+<end clause>
+
+<start clause>
+start env: 0
+end env: -1
+sent:  . Pour it to the mug  
+[('verb', 'Pour'), ('obj1', 'it'), ('obj2', 'mug'), ('rel12', 'to')]
+words: Pour it mug to
+verb: Pour
+arg mapping: (mug,Mug_1)
+<end clause>
+
+<start clause>
+start env: 9
+end env: 13
+sent:  . Put ice cream and the syrup to the mug  
+[('verb', 'Put'), ('obj1', 'ice cream'), ('obj2', 'syrup'), ('obj3', 'mug'), ('rel12', 'and'), ('rel13', 'to'), ('rel23', 'to')]
+words: Put ice cream syrup mug and to to
+verb: Put
+arg mapping: (ice cream,IceCream_1) (syrup,Syrup_1) (syrup,Syrup_2) (mug,Mug_1)
+<end clause>

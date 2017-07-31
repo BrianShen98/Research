@@ -1,0 +1,22 @@
+entire sentence: , grasp plate   1 and plate 2 ,  Place   plate1 and plate2 together and place the cups   together , 
+
+<start clause>
+start env: 0
+end env: 3
+sent: grasp plate1 and plate2
+[('verb', 'grasp'), ('obj1', 'plate 1'), ('obj2', 'plate 2'), ('rel12', 'and')]
+words: grasp plate 1 plate 2 and
+verb: grasp
+arg mapping: (plate 1,Plate_1) (plate 1,Plate_2) (plate 2,Plate_1) (plate 2,Plate_2)
+<end clause>
+
+<start clause>
+start env: 4
+end env: 11
+sent:  place plate1 and plate2 together and place the cups together  
+[('verb', 'place'), ('obj1', 'plate1'), ('obj2', 'plate2'), ('rel12', 'and')]
+[('verb', 'place'), ('obj1', 'cups'), ('rel12', 'Null')]
+words: place plate1 plate2 and place cups
+verb: place place
+arg mapping: (plate1,Plate_1) (plate1,Plate_2) (plate2,Plate_1) (plate2,Plate_2) (cups,LongCup_1) (cups,LongCup_2)
+<end clause>

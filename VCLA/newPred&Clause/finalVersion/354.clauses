@@ -1,0 +1,41 @@
+entire sentence: , Fill the kettle with water,   place it on the stove,   then turn on the burner   the kettle is on , , ,  When the water is done   boiling,   turn the burner   off , , 
+
+<start clause>
+start env: 0
+end env: -1
+sent: Fill the kettle with water,  
+[('verb', 'Fill'), ('obj1', 'kettle'), ('obj2', 'water'), ('rel12', 'with')]
+words: Fill kettle water with
+verb: Fill
+arg mapping: (kettle,Kettle)
+<end clause>
+
+<start clause>
+start env: 0
+end env: 5
+sent:  place it on the stove,  
+[('verb', 'place'), ('obj1', 'it'), ('obj2', 'stove'), ('rel12', 'on')]
+words: place it stove on
+verb: place
+arg mapping: (stove,Stove)
+<end clause>
+
+<start clause>
+start env: 6
+end env: 6
+sent:  then turn on the burner  
+[('verb', 'turn'), ('obj1', 'burner'), ('rel12', 'Null')]
+words: turn burner
+verb: turn
+arg mapping: 
+<end clause>
+
+<start clause>
+start env: 0
+end env: -1
+sent:  turn the burner  
+[('verb', 'turn'), ('obj1', 'burner'), ('rel12', 'Null')]
+words: turn burner
+verb: turn
+arg mapping: 
+<end clause>

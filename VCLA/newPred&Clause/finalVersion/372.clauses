@@ -1,0 +1,42 @@
+entire sentence: , Put coffee in the tall glass   ,  Take out the ice cream and using a spoon, scoop some into the cup   , ,  Take the chocolate syrup   and drizzle some on top   , 
+
+<start clause>
+start env: 0
+end env: 16
+sent: Put coffee in the tall glass  
+[('verb', 'Put'), ('obj1', 'coffee'), ('obj2', 'glass'), ('rel12', 'in')]
+words: Put coffee glass in
+verb: Put
+arg mapping: (coffee,Mug_1) (glass,Glass_1)
+<end clause>
+
+<start clause>
+start env: 17
+end env: 28
+sent:  . Take out the ice cream and using a spoon, scoop some into the cup  
+[('verb', 'Take'), ('obj1', 'ice cream'), ('rel12', 'Null')]
+[('verb', 'scoop'), ('obj1', 'some'), ('obj2', 'cup'), ('rel12', 'into')]
+words: Take ice cream scoop some cup into
+verb: Take scoop
+arg mapping: (ice cream,IceCream_1) (cup,LongCup_1) (cup,LongCup_2)
+<end clause>
+
+<start clause>
+start env: 29
+end env: 31
+sent:  . Take the chocolate syrup  
+[('verb', 'Take'), ('obj1', 'chocolate syrup'), ('rel12', 'Null')]
+words: Take chocolate syrup
+verb: Take
+arg mapping: (chocolate syrup,Syrup_1) (chocolate syrup,Syrup_2)
+<end clause>
+
+<start clause>
+start env: 32
+end env: 32
+sent:  and drizzle some on top  
+[('verb', 'drizzle'), ('obj1', 'top'), ('rel12', 'Null')]
+words: drizzle top
+verb: drizzle
+arg mapping: 
+<end clause>

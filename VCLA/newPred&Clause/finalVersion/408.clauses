@@ -1,0 +1,11 @@
+entire sentence: , Get drinks ready for everyone, Make breakfast, Put everything on the table   , 
+
+<start clause>
+start env: 0
+end env: 5
+sent: Get drinks ready for everyone,  Make breakfast, Put everything on the table  
+[('verb', 'Get'), ('obj1', 'drinks'), ('obj2', 'everyone'), ('rel12', 'for')]
+words: Get drinks everyone for
+verb: Get
+arg mapping: (drinks,EnergyDrink_1)
+<end clause>
