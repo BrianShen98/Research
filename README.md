@@ -4,6 +4,9 @@
 
 1. A formatted VEIL dataset
 2. all the programs wrote to format the dataset
+3. The final dataset is in "finalVersion" directory, which is obtained from the programs and files in "progRefined" directory.
+   "progRefined" made some changes on "progRefinedCopy", which is the backup for the original "progRefined" directory.  
+
 
 ## Things Accomplished
 
