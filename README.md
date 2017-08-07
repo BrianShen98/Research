@@ -1,3 +1,17 @@
+# Selective Naive Bayes Classifier with feature selection process(wrapper approach)
+
+## Introduction
+
+An implementation of Gaussian Naive Bayes classifier with a wrapper approach feature selection process proposed by Marc Boulle 
+in the paper "compression-based averaging of selective Naive Bayes Classifier" 
+
+## Notice
+
+Currently, I did not implement the discretization process to discretize the data, but use Gaussian Bayesian Classifier in sklearn module to process the data. The accuracy on the cloth-folding dataset using 5-fold cross validation is 85%. I think there is still space to
+further improve it and that's what I am gonna do in the following few days. I will do it ASAP
+
+
+
 # VEIL Dataset
 
 ## Content
