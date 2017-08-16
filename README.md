@@ -13,8 +13,10 @@ Methods   | Description
 -----------|----------------------------------------------
 train(X,Y) | select feature subsets using MS(FFWBW) algorithm and fit Gaussian Naive Bayes classifier according to X,Y
 predict(X) | Perform classification on an array of test vector X
+predict_proba(X) | Return probability estimates for the test vector X.
+predict_log_proba(X) | Return log-probability estimates for the test vector X.
 score(X,Y) | Returns the mean accuracy on the given test data and labels.
-SNB()
+
 
 
 ## Notice
