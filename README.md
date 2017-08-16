@@ -5,6 +5,18 @@
 An implementation of Gaussian Naive Bayes classifier with a wrapper approach feature selection process proposed by Marc Boulle 
 in the paper "compression-based averaging of selective Naive Bayes Classifier" 
 
+
+## Methods
+
+
+Methods   | Description
+-----------|----------------------------------------------
+train(X,Y) | select feature subsets using MS(FFWBW) algorithm and fit Gaussian Naive Bayes classifier according to X,Y
+predict(X) | Perform classification on an array of test vector X
+score(X,Y) | Returns the mean accuracy on the given test data and labels.
+SNB()
+
+
 ## Notice
 
 Currently, I did not implement the discretization process to discretize the data, but use Gaussian Bayesian Classifier in sklearn module to process the data. The accuracy on the cloth-folding dataset using 5-fold cross validation is 85%. I think there is still space to
