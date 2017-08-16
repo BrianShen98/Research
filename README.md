@@ -11,7 +11,7 @@ in the paper "compression-based averaging of selective Naive Bayes Classifier"
 
 Methods   | Description
 -----------|----------------------------------------------
-train(X,Y) | select feature subsets using [MS(FFWBW)](## Multi-start fast forward backward selection) algorithm and fit Gaussian Naive Bayes classifier according to X,Y
+train(X,Y) | select feature subsets using [MS(FFWBW)](#Multi-start fast forward backward selection) algorithm and fit Gaussian Naive Bayes classifier according to X,Y
 predict(X) | Perform classification on an array of test vector X
 predict_proba(X) | Return probability estimates for the test vector X.
 predict_log_proba(X) | Return log-probability estimates for the test vector X.
