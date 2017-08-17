@@ -24,32 +24,32 @@ score(X,Y) | Returns the mean accuracy on the given test data and labels.
 
 B <- ∅ {Start with an empty subset of variables}  
 **for** Step = 1 to log<sub>2</sub><sup>KN</sup> **do**  
- 	{Fast forward backward selection}  
-   	S <- ∅ {Initialize an empty subset of variables}  
-   	Iter <- 0  
+    {Fast forward backward selection}  
+    S <- ∅ {Initialize an empty subset of variables}  
+    Iter <- 0  
    	**repeat**  
 		Iter <- Iter + 1  
       	X' <- Shuffle(X){Randomly reorder the variables to add}  
-      
+        
       	{Fast forward selection}  
       	**for** X<sub>k</sub> ∈ X' **do**  
          	**if** cost(S ∪ {X<sub>k</sub>}) < cost(S) **then**  
             	S <- S ∪ {X<sub>k</sub>}  
          	**end if**  
       	**end for**  
-      X' <- Shuffle(X) {Randomly reorder the variables to remove}  
+        X' <- Shuffle(X) {Randomly reorder the variables to remove}  
       
-      {Fast backward selection}  
-      **for** X<sub>k</sub> ∈ X' **do**  
-         **if** cost(S - X<sub>k</sub>) < cost(S) **then**  
+        {Fast backward selection}  
+        **for** X<sub>k</sub> ∈ X' **do**  
+            **if** cost(S - X<sub>k</sub>) < cost(S) **then**  
             S <- S - {X<sub>k</sub>}  
-         **end if**  
-      **end for**  
-   **until** no improvement or Iter > MaxIter  
-   {Update best subset of variables}  
-   **if** cost(S) < cost(B) **then**  
-      B <- S  
-   **end if**  
+            **end if**  
+        **end for**  
+    **until** no improvement or Iter > MaxIter  
+    {Update best subset of variables}  
+    **if** cost(S) < cost(B) **then**  
+        B <- S  
+    **end if**  
 **end for**  
       
 ## Notice
