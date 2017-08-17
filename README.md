@@ -20,9 +20,8 @@ score(X,Y) | Returns the mean accuracy on the given test data and labels.
 
 ## Multi-start fast forward backward selection
 
-**Require:** X<-(X<sub>1</sub>,X,<sub>2</sub>,...,X<sub>k</sub>){Set of input variables}
-**Ensure:** B{Best subset of variables}
-
+**Require:** X<-(X<sub>1</sub>,X,<sub>2</sub>,...,X<sub>k</sub>) {Set of input variables}
+**Ensure:** B\{Best subset of variables\}
 B <- ∅ {Start with an empty subset of variables}
 **for** Step = 1 to log<sub>2</sub><sup>KN</sup> **do**
    
