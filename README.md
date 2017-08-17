@@ -20,6 +20,18 @@ score(X,Y) | Returns the mean accuracy on the given test data and labels.
 
 ## Multi-start fast forward backward selection
 
+**Require:** X<-(X<sub>1</sub>,X,<sub>2</sub>,...,X<sub>k</sub>){Set of input variables}
+**Ensure:** B{Best subset of variables}
+
+B <- ∅ {Start with an empty subset of variables}
+**for** Step = 1 to log<sub>2</sub><sup>KN</sup> **do**
+   {Fast forward backward selection}
+   S <- ∅ {Initialize an empty subset of variables}
+   Iter <- 0
+   **repeat**
+   Iter <- Iter + 1
+   X' <- Shuffle(X)
+
 ## Notice
 
 Currently, I did not implement the discretization process to discretize the data, but use Gaussian Bayesian Classifier in sklearn module to process the data. The accuracy on the cloth-folding dataset using 5-fold cross validation is 85%. I think there is still space to
