@@ -23,14 +23,13 @@ score(X,Y) | Returns the mean accuracy on the given test data and labels.
 >**Ensure:** B {Best subset of variables}  
 
 >B <- ∅ {Start with an empty subset of variables}  
->**for** Step = 1 to log<sub>2</sub><sup>KN</sup> **do**  
->>{Fast forward backward selection}  
+>**for** Step = 1 to log<sub>2</sub><sup>KN</sup> **do**    
 >>S <- ∅ {Initialize an empty subset of variables}  
 >>Iter <- 0  
 >>**repeat**  
 >>>Iter <- Iter + 1  
 >>>X' <- Shuffle(X){Randomly reorder the variables to add}  
-        
+
 >>>{Fast forward selection}  
 >>>**for** X<sub>k</sub> ∈ X' **do**  
 >>>>**if** cost(S ∪ {X<sub>k</sub>}) < cost(S) **then**  
