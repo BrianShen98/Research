@@ -29,7 +29,6 @@ score(X,Y) | Returns the mean accuracy on the given test data and labels.
 >>**repeat**  
 >>>Iter <- Iter + 1  
 >>>X' <- Shuffle(X){Randomly reorder the variables to add}  
-
 >>>{Fast forward selection}  
 >>>**for** X<sub>k</sub> ∈ X' **do**  
 >>>>**if** cost(S ∪ {X<sub>k</sub>}) < cost(S) **then**  
