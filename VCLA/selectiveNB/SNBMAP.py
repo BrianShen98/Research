@@ -41,7 +41,7 @@ class SNBMAP:
         self.N = self.fVals.shape[0]
         self.fIndex = np.arange(self.fNum)
 
-    def train(self,data,cls):
+    def train(self,data,cls,sample_weight = None):
         self.load(data,cls)
         upperBd = int(math.ceil(math.log(self.fNum * self.N,2)))
         print(upperBd)
@@ -65,7 +65,7 @@ class SNBMAP:
                 print(varPool)
 
                 #fast forward
-                result = self.fast_forward(S,varPool,Scost,localBestNB)
+                result = self.fast_forward(S,varPool,Scost,localBestNB,sample_weight)
                 S = result["S"]
                 varPool = S
                 Scost = result["Scost"]
@@ -75,7 +75,7 @@ class SNBMAP:
 
                 #fast backward
                 np.random.shuffle(varPool)
-                result = self.fast_backward(S,varPool,Scost,localBestNB)
+                result = self.fast_backward(S,varPool,Scost,localBestNB,sample_weight)
                 S = np.sort(result["S"])
                 Scost = result["Scost"]
                 localBestNB = result["bestNB"]
@@ -104,7 +104,7 @@ class SNBMAP:
         self.NB = bestNB
         print(self.bestSet)
     
-    def fast_forward(self, S, varPool, Scost,bestNB):
+    def fast_forward(self, S, varPool, Scost,bestNB,sample_weight):
         print("fast forward begins!")
         for each in varPool:
             clf = GaussianNB()
@@ -112,7 +112,7 @@ class SNBMAP:
             testSet = np.sort(np.append(S,each))
             print(testSet)
             testX = self.fVals[:,testSet]
-            clf.fit(testX,self.Y)
+            clf.fit(testX,self.Y,sample_weight)
             testCost = self.cost(clf,testX)
 
             #compute the cost for empty feature set
@@ -136,7 +136,7 @@ class SNBMAP:
 
         return {"S": S, "Scost": Scost,"bestNB":bestNB}
 
-    def fast_backward(self,S,varPool,Scost,bestNB):        
+    def fast_backward(self,S,varPool,Scost,bestNB,sample_weight):        
         print("fast backward begins!")
         offset = 0
         for i in range(len(varPool)):
@@ -145,7 +145,7 @@ class SNBMAP:
             testSet = np.sort(np.delete(S,i-offset))
             print (testSet)
             testX = self.fVals[:,testSet]
-            clf.fit(testX,self.Y)
+            clf.fit(testX,self.Y,sample_weight)
             testCost = self.cost(clf,testX)
 
             if testCost < Scost:
@@ -173,17 +173,35 @@ class SNBMAP:
         return modelLH + prior
 
     
-    def predict(self,data,cls):
+    #Returns the mean accuracy on the given test data and labels.
+    def score(self,data,cls,sample_weight = None):
         X = pd.DataFrame.as_matrix(pd.read_csv(data,header=None))
         Y = np.ravel(pd.DataFrame.as_matrix(pd.read_csv(cls,header=None)))
        
         print(self.bestSet)
-        return self.NB.score(X[:,self.bestSet],Y)
+        return self.NB.score(X[:,self.bestSet],Y,sample_weight)
+
+    #Perform classification on an array of test vector X
+    def predict(self,data):
+        X = pd.DataFrame.as_matrix(pd.read_csv(data,header=None))
+        return self.NB.predict(X[:,self.bestSet])
+
+    def predict_log_proba(self,data):
+        X = pd.DataFrame.as_matrix(pd.read_csv(data,header=None))
+        return self.NB.predict_log_proba(X[:,self.bestSet])
+
+    def predict_proba(self,data):
+        X = pd.DataFrame.as_matrix(pd.read_csv(data,header=None))
+        return self.NB.predict_proba(X[:,self.bestSet])
 
 def main():
     SNB = SNBMAP()
     SNB.train('value_train_refined.csv','value_label.txt')
-    print(SNB.predict('value_train_refined.csv','value_label.txt'))
+    print(SNB.score('value_train_refined.csv','value_label.txt'))
+    print(SNB.predict('value_train_refined.csv'))
+    print(SNB.predict_log_proba('value_train_refined.csv'))
+    print(SNB.predict_proba('value_train_refined.csv'))
+
 if __name__ == "__main__":
     main()
         
