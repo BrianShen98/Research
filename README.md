@@ -19,37 +19,41 @@ score(X,Y) | Returns the mean accuracy on the given test data and labels.
 
 
 ## Multi-start fast forward backward selection
->**Require:** X<-(X<sub>1</sub>,X,<sub>2</sub>,...,X<sub>k</sub>) {Set of input variables}  
->**Ensure:** B {Best subset of variables}  
+```
+**Require:** X<-(X<sub>1</sub>,X,<sub>2</sub>,...,X<sub>k</sub>) {Set of input variables}  
+**Ensure:** B {Best subset of variables}  
 
->B <- ∅ {Start with an empty subset of variables}  
->**for** Step = 1 to log<sub>2</sub><sup>KN</sup> **do**    
->>S <- ∅ {Initialize an empty subset of variables}  
->>Iter <- 0  
->>**repeat**  
->>>Iter <- Iter + 1  
->>>X' <- Shuffle(X){Randomly reorder the variables to add}  
->>>{Fast forward selection}  
->>>**for** X<sub>k</sub> ∈ X' **do**  
->>>>**if** cost(S ∪ {X<sub>k</sub>}) < cost(S) **then**  
->>>>>S <- S ∪ {X<sub>k</sub>}  
->>>>**end if**  
->>>**end for**  
->>>X' <- Shuffle(X) {Randomly reorder the variables to remove}  
+	B <- ∅ {Start with an empty subset of variables}  
+	**for** Step = 1 to log<sub>2</sub><sup>KN</sup> **do**    
+		S <- ∅ {Initialize an empty subset of variables}  
+		Iter <- 0  
+		**repeat**  
+			Iter <- Iter + 1  
+			X' <- Shuffle(X){Randomly reorder the variables to add}  
+			
+			{Fast forward selection}  
+			**for** X<sub>k</sub> ∈ X' **do**  
+				**if** cost(S ∪ {X<sub>k</sub>}) < cost(S) **then**  
+					S <- S ∪ {X<sub>k</sub>}  
+				**end if**  
+			**end for**  
+			X' <- Shuffle(X) {Randomly reorder the variables to remove}  
       
->>>{Fast backward selection}  
->>>**for** X<sub>k</sub> ∈ X' **do**  
->>>>**if** cost(S - X<sub>k</sub>) < cost(S) **then**  
->>>>>S <- S - {X<sub>k</sub>}  
->>>>**end if**  
->>>**end for**  
->>**until** no improvement or Iter > MaxIter  
->>{Update best subset of variables}  
->>**if** cost(S) < cost(B) **then**  
->>>B <- S  
->>**end if**  
->**end for**  
-      
+			{Fast backward selection}  
+			**for** X<sub>k</sub> ∈ X' **do**  
+				**if** cost(S - X<sub>k</sub>) < cost(S) **then**  
+					S <- S - {X<sub>k</sub>}  
+				**end if**  
+			**end for**  
+		**until** no improvement or Iter > MaxIter  
+		
+		{Update best subset of variables}  
+		**if** cost(S) < cost(B) **then**  
+			B <- S  
+		**end if**  
+	**end for**  
+```
+
 ## Notice
 
 Currently, I did not implement the discretization process to discretize the data, but use Gaussian Bayesian Classifier  
